@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "upstream_files_verified": 599,
+  "no_new_fitting": true,
+  "no_parameter_or_feature_changes": true,
+  "missing_classification_values_not_fabricated": true,
+  "feature_sets_reused_from_step8": true,
+  "delta_h_unique_benefit_only_three_single_conditions": true,
+  "all_vmd_bands_below_inherited_coverage_gate": true,
+  "recorded_runtime_scope_checked_against_source": true,
+  "best_classifier_reused_from_step9": true,
+  "checks": 9
+}

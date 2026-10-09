@@ -1,0 +1,25 @@
+{
+  "frequency_center_ratio_limit": 1.5,
+  "representative": "largest energy in fixed Step 4 band BEFORE QC",
+  "complete_cell": "two independent acquisitions; no substitute for invalid/missing",
+  "relative_difference": "2*abs(a-b)/(abs(a)+abs(b))",
+  "CV": "sample std / abs(mean), only if abs(mean)>1e-8",
+  "bootstrap_draws": 1999,
+  "seed": 6509,
+  "primary_channel": "output_voltage",
+  "robustness_verdict": "main raw/sum: evaluable complete-cell coverage>=75%; ROBUST if >=2 features have disjoint pair fraction>=75% and fault/operating SD ratio>=1; NOT ROBUST if >=2 features have pair fraction<=25% and fault/operating ratio<1; otherwise CONDITION-DEPENDENT; inadequate coverage = NOT EVALUABLE",
+  "states": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "expected_cells": 80,
+  "expected_pair_conditions": 280,
+  "direction_baseline": "50 Hz/High, unchanged from Step 6; NE if baseline invalid",
+  "topology_comparison": "after independent Spur analysis; no pooled or mapped classes"
+}

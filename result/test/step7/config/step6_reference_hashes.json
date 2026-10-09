@@ -1,0 +1,58 @@
+[
+  {
+    "path": "result/test/step6/REPORT.md",
+    "sha256": "c366752fdbca2d45d398f951f48fceecaea89279b1a278c7fec40a780599533f"
+  },
+  {
+    "path": "result/test/step6/config/locked_step4_configuration.json",
+    "sha256": "fe4c21c0e76a819f301a5e3d7b51adb6b33b479a05a28f3d5de928267a73da91"
+  },
+  {
+    "path": "result/test/step6/config/current_source_hashes.json",
+    "sha256": "cd0c8406095bb48e7435e0c1794069e6633413d4bf67999d0d5da878ab59fc82"
+  },
+  {
+    "path": "result/test/step6/summaries/factorial_effects.csv",
+    "sha256": "57a1e99a258ce026e95ea5a9d056815c9b2dc8e3eb73b355ee094a36b08f9f85"
+  },
+  {
+    "path": "result/test/step6/summaries/raw_vmd_matched_effects.csv",
+    "sha256": "2755f801e7dcb02074162a26b0b65ca4db3072d8383196e672cfcdba7ba7aba9"
+  },
+  {
+    "path": "result/test/step6/summaries/paired_raw_vmd_summary.csv",
+    "sha256": "c42d5ba5fdb4797db12cced1b0dc042cf474a3430babf7dc2fa2999dc143ed3c"
+  },
+  {
+    "path": "result/test/step6/summaries/cell_feature_summary.csv",
+    "sha256": "6bdc2d54a29251dc11b5121450298cea47925094ba6dbf27968ac0b4d477695c"
+  },
+  {
+    "path": "result/test/step6/summaries/within_condition_separation.csv",
+    "sha256": "a324812ac8521d2939d696a54fd0685d28fa45865b1cece0dc1fecb45e6152dd"
+  },
+  {
+    "path": "result/test/step6/summaries/speed_robustness.csv",
+    "sha256": "b0cb25f19e83c86a5913636eba15b4ed575ab3b8760eaf61b938ea1b6d4ac04c"
+  },
+  {
+    "path": "result/test/step6/summaries/load_robustness.csv",
+    "sha256": "ca70ee120bd3eefb73db201c9fb3a328fac3da8f7d3dc9f1e29e8bf26650f995"
+  },
+  {
+    "path": "result/test/step6/scripts/pipeline.py",
+    "sha256": "bdb765396cb5bc3924aefdf8ea38543618ece76c4412055c308e5780fc9375bc"
+  },
+  {
+    "path": "result/test/step6/scripts/analysis.py",
+    "sha256": "3aa57174489a33dbf15df8341c6984f34d0c8cfd26bc15204006969ff2378795"
+  },
+  {
+    "path": "result/test/step6/scripts/factorial_model.py",
+    "sha256": "5929393c612de5f2e053f85eacdeb9a0fcb42883994b8e00db5eef742b762dc1"
+  },
+  {
+    "path": "result/test/step6/scripts/accelerator.py",
+    "sha256": "a3815e79c727e8409db42cff14366cfb93a389107919bb36341645b9c24fffd6"
+  }
+]

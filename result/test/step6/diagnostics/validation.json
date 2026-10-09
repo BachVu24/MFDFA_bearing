@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "recordings": 120,
+  "channel_signals": 240,
+  "analyses": 4320,
+  "valid_analyses": 970,
+  "full_lengths_preserved": true,
+  "no_windows": true,
+  "no_classifier": true,
+  "no_parameter_tuning": true,
+  "all_feature_arrays_rechecked": true,
+  "source_hashes_unchanged": true,
+  "tests": {
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  }
+}

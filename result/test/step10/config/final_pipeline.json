@@ -1,0 +1,205 @@
+{
+  "status": "FINAL_LOCKED",
+  "plan": "Plan 1",
+  "pipeline": "Full RAW recording -> locked MF-DFA -> unchanged QC -> [delta_alpha, alpha0] -> fixed Random Forest reference",
+  "representation": "RAW",
+  "features": [
+    "delta_alpha",
+    "alpha0"
+  ],
+  "feature_order": [
+    "delta_alpha",
+    "alpha0"
+  ],
+  "processing": {
+    "q": [
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ],
+    "scales": [
+      64,
+      72,
+      82,
+      93,
+      105,
+      119,
+      135,
+      153,
+      173,
+      196,
+      222,
+      251,
+      285,
+      323,
+      365,
+      414,
+      468,
+      531,
+      601,
+      680,
+      771,
+      873,
+      988,
+      1119,
+      1267,
+      1435,
+      1625,
+      1841,
+      2085,
+      2361,
+      2674,
+      3028,
+      3429,
+      3883,
+      4398,
+      4980,
+      5640,
+      6387,
+      7234,
+      8192
+    ],
+    "m": 2,
+    "fit_interval": [
+      64,
+      512
+    ],
+    "qc_rule": {
+      "min_scale_points": 8,
+      "min_r2_floor": 0.9,
+      "r2_threshold": 0.95,
+      "min_good_r2_fraction": 0.8,
+      "max_local_slope_cv": 0.5,
+      "min_stable_q_fraction": 0.8,
+      "min_hq_exclusive": 0.05
+    },
+    "bands_hz": [
+      [
+        0,
+        1000
+      ],
+      [
+        1000,
+        4000
+      ],
+      [
+        4000,
+        10000
+      ],
+      [
+        10000,
+        20000
+      ],
+      [
+        20000,
+        33334
+      ]
+    ],
+    "fs": 66666.7,
+    "vmd": {
+      "K": 7,
+      "alpha": 500,
+      "tau": 0.0,
+      "DC": false,
+      "init": 1,
+      "tol": 1e-07,
+      "max_iter": 2000
+    },
+    "emd": {
+      "max_imfs": 6,
+      "max_siftings": 200,
+      "sd_threshold": 0.2,
+      "envelope_tol": 0.05,
+      "extrema_relative_tolerance": 0.005
+    },
+    "channels": [
+      [
+        1,
+        "output_voltage",
+        "primary"
+      ],
+      [
+        0,
+        "input_voltage",
+        "secondary"
+      ]
+    ],
+    "preprocessing": "Full original lengths. Raw: only internal MF-DFA mean removal; EMD/VMD: global mean removed. No windows/resampling."
+  },
+  "keep": [
+    "Full recording unit",
+    "RAW MF-DFA",
+    "unchanged QC",
+    "delta_alpha",
+    "alpha0",
+    "original compound labels",
+    "separate topology/channel analyses",
+    "fixed Random Forest reference"
+  ],
+  "remove_from_operational_path": [
+    "VMD_SUM",
+    "individual VMD modes",
+    "EMD",
+    "delta_h as classifier input"
+  ],
+  "comparator_outputs_preserved": true,
+  "feature_reselection_allowed": false,
+  "hyperparameter_retuning_allowed": false,
+  "classifier": {
+    "name": "Random Forest",
+    "parameters": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 9609,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "role": "Reference model; no new final fit or deployment"
+  },
+  "channel_policy": "Separate analyses with the identical locked feature list; channels share recording groups.",
+  "class_policy": "Retain original compound configurations. Analyze Helical and Spur separately. Report unavailable classes; no forced full S1-S8 claim.",
+  "evaluation_protocol": "Configuration-stratified, channel-eligibility-balanced recording groups; saved before fitting. Same recording fold across channels.",
+  "caveats": [
+    "Step8 selection used these labels; Step9 is exploratory conditional CV",
+    "Poor load transfer",
+    "Full Spur unavailable after QC",
+    "No cross-topology prediction experiment; class definitions not aligned",
+    "No causal localization"
+  ],
+  "step8_feature_lock_path": "result/test/step8/config/locked_feature_set.json",
+  "step8_feature_lock_sha256": "7931d257877836d889b655b942998b3db7adc8bedd150bcf40619683df19c93b",
+  "step9_protocol_path": "result/test/step9/config/evaluation_protocol.json",
+  "step9_protocol_sha256": "a13dd7361fdb2b94cea93269c886b926ca41a9b328d2a98dd428d4c63868d7b5"
+}

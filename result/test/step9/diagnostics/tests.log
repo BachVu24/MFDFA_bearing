@@ -1,0 +1,11 @@
+test_feature_lock_and_parameters (__main__.ClassificationTests.test_feature_lock_and_parameters) ... ok
+test_metrics_and_confusion_are_oof (__main__.ClassificationTests.test_metrics_and_confusion_are_oof) ... ok
+test_recording_disjoint_and_common_splits (__main__.ClassificationTests.test_recording_disjoint_and_common_splits) ... ok
+test_scaler_means_from_train_only (__main__.ClassificationTests.test_scaler_means_from_train_only) ... ok
+test_split_allocation_does_not_use_features (__main__.ClassificationTests.test_split_allocation_does_not_use_features) ... ok
+test_transfer_missing_training_classes_not_dropped (__main__.ClassificationTests.test_transfer_missing_training_classes_not_dropped) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.316s
+
+OK

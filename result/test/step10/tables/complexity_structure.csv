@@ -1,0 +1,5 @@
+representation,decomposition,mfdfa_calls_operational,mfdfa_calls_upstream_audit,time_structure,memory_structure,runtime_comparison
+RAW,None,1,1,"O(S*N*(m+1) + Q*sum(N/s)); fixed m,Q,S",O(N + N*(m+1) + Q*S),RAW extraction was not separately timed
+VMD_SUM,VMD K=7,1,9,O(I*K*N + K*N*log(N)) spectral recurrence/FFT + one MF-DFA,O(K*N) plus MF-DFA,Measured decomposition+mode diagnostics overhead; no total speedup ratio
+Individual VMD modes,VMD K=7,7,9,Same VMD + up to 7 MF-DFA calls and fixed band matching,O(K*N) plus per-component extraction,No band passed inherited coverage gate
+EMD_SUM,Practical EMD max6 modes,1,8,Approximately O(N*sum(siftings)) for extrema/spline passes + MF-DFA,O(J*N) modes plus envelopes,Approximate bound; knot evaluation/stopping data dependent

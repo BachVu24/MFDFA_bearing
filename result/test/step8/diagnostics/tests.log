@@ -1,0 +1,12 @@
+test_both_channels_use_same_features_without_extra_samples (__main__.FeatureLockTests.test_both_channels_use_same_features_without_extra_samples) ... ok
+test_config_tampering_rejected (__main__.FeatureLockTests.test_config_tampering_rejected) ... ok
+test_coverage_and_complementarity_accounting (__main__.FeatureLockTests.test_coverage_and_complementarity_accounting) ... ok
+test_duplicate_recording_rejected (__main__.FeatureLockTests.test_duplicate_recording_rejected) ... ok
+test_fixed_columns_and_qc_exclusion (__main__.FeatureLockTests.test_fixed_columns_and_qc_exclusion) ... ok
+test_nonfinite_valid_feature_excluded (__main__.FeatureLockTests.test_nonfinite_valid_feature_excluded) ... ok
+test_string_false_cannot_bypass_qc (__main__.FeatureLockTests.test_string_false_cannot_bypass_qc) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.216s
+
+OK

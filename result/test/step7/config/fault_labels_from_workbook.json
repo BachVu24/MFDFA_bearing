@@ -1,0 +1,199 @@
+[
+  {
+    "state": "S1",
+    "sheet": "Sheet1",
+    "sheet_row": 6,
+    "label": "Healthy",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Good",
+      "Gear 80T": "Good",
+      "Bearing IS:IS": "Good",
+      "Bearing ID:IS": "Good",
+      "Bearing OS:IS": "Good",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {}
+  },
+  {
+    "state": "S2",
+    "sheet": "Sheet1",
+    "sheet_row": 7,
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "components": {
+      "Gear 32T": "Chipped",
+      "Gear 96T": "Good",
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Good",
+      "Bearing IS:IS": "Good",
+      "Bearing ID:IS": "Good",
+      "Bearing OS:IS": "Good",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Gear 32T": "Chipped",
+      "Gear 48T": "Eccentric"
+    }
+  },
+  {
+    "state": "S3",
+    "sheet": "Sheet1",
+    "sheet_row": 8,
+    "label": "Gear 48T=Eccentric",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Good",
+      "Bearing IS:IS": "Good",
+      "Bearing ID:IS": "Good",
+      "Bearing OS:IS": "Good",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Gear 48T": "Eccentric"
+    }
+  },
+  {
+    "state": "S4",
+    "sheet": "Sheet1",
+    "sheet_row": 9,
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Ball",
+      "Bearing ID:IS": "Good",
+      "Bearing OS:IS": "Good",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Ball"
+    }
+  },
+  {
+    "state": "S5",
+    "sheet": "Sheet1",
+    "sheet_row": 10,
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "components": {
+      "Gear 32T": "Chipped",
+      "Gear 96T": "Good",
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Inner",
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Gear 32T": "Chipped",
+      "Gear 48T": "Eccentric",
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Inner",
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer"
+    }
+  },
+  {
+    "state": "S6",
+    "sheet": "Sheet1",
+    "sheet_row": 11,
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Good",
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Inner",
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Imbalance",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Gear 80T": "Broken",
+      "Bearing IS:IS": "Inner",
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer",
+      "Shaft Input": "Imbalance"
+    }
+  },
+  {
+    "state": "S7",
+    "sheet": "Sheet1",
+    "sheet_row": 12,
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Good",
+      "Gear 80T": "Good",
+      "Bearing IS:IS": "Inner",
+      "Bearing ID:IS": "Good",
+      "Bearing OS:IS": "Good",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Good",
+      "Shaft Output": "Keyway Sheared"
+    },
+    "non_good_components": {
+      "Bearing IS:IS": "Inner",
+      "Shaft Output": "Keyway Sheared"
+    }
+  },
+  {
+    "state": "S8",
+    "sheet": "Sheet1",
+    "sheet_row": 13,
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "components": {
+      "Gear 32T": "Good",
+      "Gear 96T": "Good",
+      "Gear 48T": "Good",
+      "Gear 80T": "Good",
+      "Bearing IS:IS": "Good",
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer",
+      "Bearing IS:OS": "Good",
+      "Bearing ID:OS": "Good",
+      "Bearing OS:OS": "Good",
+      "Shaft Input": "Imbalance",
+      "Shaft Output": "Good"
+    },
+    "non_good_components": {
+      "Bearing ID:IS": "Ball",
+      "Bearing OS:IS": "Outer",
+      "Shaft Input": "Imbalance"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "result/test/step6/features/analysis_representatives.csv",
+    "sha256": "593639fa3a7cf67b4b941b0b2686b5672986681f6e14ecd0b2301244d0ffedd0"
+  },
+  {
+    "path": "result/test/step7/features/analysis_representatives.csv",
+    "sha256": "40f4c5c24cb73e5fe3537682f4df508ad111d2feaee1981a300bb052871b6fa7"
+  },
+  {
+    "path": "code/core/classifier/knn.py",
+    "sha256": "4585b8c9a5ac8abe12ae652f6eb19c5f108bfc7a2b5b6d74ef3be6349e304d73"
+  },
+  {
+    "path": "code/core/classifier/svm.py",
+    "sha256": "05eb0cf7ef99347ccda1a996649a1e3a95524681b60ce25eac84df2493ee3de3"
+  },
+  {
+    "path": "code/core/classifier/lda.py",
+    "sha256": "75cea18b6d0b007f9d5ee1a980eed0da82ce536ec044b73037c20a2528b1613a"
+  },
+  {
+    "path": "code/core/classifier/random_forest.py",
+    "sha256": "f8df5071a1098550640597cfac343d8926c074dcfe7e7c49f24331c48b0a938e"
+  }
+]

@@ -1,0 +1,29 @@
+dataset,channel,state,label,expected_recordings,valid_recordings,excluded_recordings,qc_coverage,status
+Helical,output_voltage,H1,Healthy,20,20,0,1.0,AVAILABLE
+Helical,output_voltage,H2,24T chipped gear,20,20,0,1.0,AVAILABLE
+Helical,output_voltage,H3,24T broken gear + bearing Combination (IS:OS) / Inner (ID:OS) + Bent Shaft (Input),20,16,4,0.8,AVAILABLE
+Helical,output_voltage,H4,bearing Combination (IS:OS) / ball (ID:OS) + Imbalnce (Input),20,18,2,0.9,AVAILABLE
+Helical,output_voltage,H5,24T broken gear + bearing inner-race fault,20,17,3,0.85,AVAILABLE
+Helical,output_voltage,H6,bent input shaft,20,18,2,0.9,AVAILABLE
+Helical,input_voltage,H1,Healthy,20,16,4,0.8,AVAILABLE
+Helical,input_voltage,H2,24T chipped gear,20,20,0,1.0,AVAILABLE
+Helical,input_voltage,H3,24T broken gear + bearing Combination (IS:OS) / Inner (ID:OS) + Bent Shaft (Input),20,20,0,1.0,AVAILABLE
+Helical,input_voltage,H4,bearing Combination (IS:OS) / ball (ID:OS) + Imbalnce (Input),20,19,1,0.95,AVAILABLE
+Helical,input_voltage,H5,24T broken gear + bearing inner-race fault,20,20,0,1.0,AVAILABLE
+Helical,input_voltage,H6,bent input shaft,20,20,0,1.0,AVAILABLE
+Spur,output_voltage,S1,Healthy,20,8,12,0.4,AVAILABLE
+Spur,output_voltage,S2,Gear 32T=Chipped; Gear 48T=Eccentric,20,2,18,0.1,AVAILABLE
+Spur,output_voltage,S3,Gear 48T=Eccentric,20,0,20,0.0,NOT EVALUABLE - no QC-valid sample
+Spur,output_voltage,S4,Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball,20,0,20,0.0,NOT EVALUABLE - no QC-valid sample
+Spur,output_voltage,S5,Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer,20,2,18,0.1,AVAILABLE
+Spur,output_voltage,S6,Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance,20,6,14,0.3,AVAILABLE
+Spur,output_voltage,S7,Bearing IS:IS=Inner; Shaft Output=Keyway Sheared,20,16,4,0.8,AVAILABLE
+Spur,output_voltage,S8,Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance,20,14,6,0.7,AVAILABLE
+Spur,input_voltage,S1,Healthy,20,17,3,0.85,AVAILABLE
+Spur,input_voltage,S2,Gear 32T=Chipped; Gear 48T=Eccentric,20,2,18,0.1,AVAILABLE
+Spur,input_voltage,S3,Gear 48T=Eccentric,20,3,17,0.15,AVAILABLE
+Spur,input_voltage,S4,Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball,20,0,20,0.0,NOT EVALUABLE - no QC-valid sample
+Spur,input_voltage,S5,Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer,20,3,17,0.15,AVAILABLE
+Spur,input_voltage,S6,Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance,20,18,2,0.9,AVAILABLE
+Spur,input_voltage,S7,Bearing IS:IS=Inner; Shaft Output=Keyway Sheared,20,18,2,0.9,AVAILABLE
+Spur,input_voltage,S8,Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance,20,15,5,0.75,AVAILABLE

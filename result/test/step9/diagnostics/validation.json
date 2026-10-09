@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "locked_features_unchanged": true,
+  "one_oof_prediction_per_recording_channel_classifier": true,
+  "recording_train_test_overlap": false,
+  "same_folds_all_classifiers": true,
+  "same_recording_fold_across_channels": true,
+  "scalers_verified_training_mean_only": true,
+  "missing_classes_reported_not_imputed": true,
+  "hyperparameter_search": false,
+  "classification_contexts": 4,
+  "classifier_evaluations": 16
+}

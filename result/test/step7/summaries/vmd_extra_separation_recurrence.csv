@@ -1,0 +1,4 @@
+﻿channel,category,pair,feature,extra_conditions,speeds,loads,frequency_compatible_across_extra_conditions,center_min_hz,center_max_hz,repeated_compatible_evidence,conditions,source_recordings
+input_voltage,band_0_1000_Hz,S1-S6,delta_alpha,1,1,1,True,609.3490037664614,747.7612670850136,False,35/High,spur_1_35hz_High_1;spur_1_35hz_High_2;spur_6_35hz_High_1;spur_6_35hz_High_2
+input_voltage,band_0_1000_Hz,S1-S6,delta_h,1,1,1,True,609.3490037664614,747.7612670850136,False,35/High,spur_1_35hz_High_1;spur_1_35hz_High_2;spur_6_35hz_High_1;spur_6_35hz_High_2
+output_voltage,band_0_1000_Hz,S6-S8,alpha0,1,1,1,True,366.5438915460394,485.6316408867469,False,45/High,spur_6_45hz_High_1;spur_6_45hz_High_2;spur_8_45hz_High_1;spur_8_45hz_High_2

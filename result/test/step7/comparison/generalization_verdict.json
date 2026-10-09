@@ -1,0 +1,33 @@
+{
+  "question": "Do Helical MF-DFA conclusions transfer unchanged to Spur?",
+  "answer": "Chưa thể xác nhận toàn bộ kết luận Helical trên Spur: chỉ 0/6 feature/channel association patterns evaluable, trong đó 0 giữ pattern Helical; 6 chưa đánh giá được. NOT EVALUABLE không có nghĩa fault effect bằng zero. Ít nhất một channel không đạt 75% complete RAW cells theo rule Step 6; coverage không hỗ trợ full-dataset transfer.",
+  "raw_pattern_retained_count": 0,
+  "raw_evaluable_patterns": 0,
+  "expected_patterns": 6,
+  "raw_complete_cell_coverage_adequate": {
+    "output_voltage": false,
+    "input_voltage": false
+  },
+  "pattern_by_channel_feature": {
+    "output_voltage/delta_alpha": false,
+    "output_voltage/alpha0": false,
+    "output_voltage/delta_h": false,
+    "input_voltage/delta_alpha": false,
+    "input_voltage/alpha0": false,
+    "input_voltage/delta_h": false
+  },
+  "pattern_evaluable_by_channel_feature": {
+    "output_voltage/delta_alpha": false,
+    "output_voltage/alpha0": false,
+    "output_voltage/delta_h": false,
+    "input_voltage/delta_alpha": false,
+    "input_voltage/alpha0": false,
+    "input_voltage/delta_h": false
+  },
+  "vmd_verdicts": {
+    "output_voltage": "gần như giữ nguyên RAW; không có cải thiện nhất quán",
+    "input_voltage": "gần như giữ nguyên RAW; không có cải thiện nhất quán"
+  },
+  "no_topology_class_pooling": true,
+  "no_equivalent_physical_fault_claim": true
+}

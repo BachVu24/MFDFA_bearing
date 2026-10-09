@@ -1,0 +1,1393 @@
+dataset,channel,classifier,recording,state,predicted_state,speed,load,repeat,fold
+Helical,output_voltage,KNN,helical_1_30hz_High_1,H1,H6,30,High,1,4
+Helical,output_voltage,KNN,helical_1_30hz_High_2,H1,H6,30,High,2,1
+Helical,output_voltage,KNN,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,output_voltage,KNN,helical_1_30hz_Low_2,H1,H1,30,Low,2,0
+Helical,output_voltage,KNN,helical_1_35hz_High_1,H1,H1,35,High,1,3
+Helical,output_voltage,KNN,helical_1_35hz_High_2,H1,H1,35,High,2,4
+Helical,output_voltage,KNN,helical_1_35hz_Low_1,H1,H6,35,Low,1,2
+Helical,output_voltage,KNN,helical_1_35hz_Low_2,H1,H2,35,Low,2,1
+Helical,output_voltage,KNN,helical_1_40hz_High_1,H1,H1,40,High,1,2
+Helical,output_voltage,KNN,helical_1_40hz_High_2,H1,H1,40,High,2,4
+Helical,output_voltage,KNN,helical_1_40hz_Low_1,H1,H1,40,Low,1,0
+Helical,output_voltage,KNN,helical_1_40hz_Low_2,H1,H1,40,Low,2,4
+Helical,output_voltage,KNN,helical_1_45hz_High_1,H1,H2,45,High,1,3
+Helical,output_voltage,KNN,helical_1_45hz_High_2,H1,H5,45,High,2,3
+Helical,output_voltage,KNN,helical_1_45hz_Low_1,H1,H1,45,Low,1,1
+Helical,output_voltage,KNN,helical_1_45hz_Low_2,H1,H1,45,Low,2,2
+Helical,output_voltage,KNN,helical_1_50hz_High_1,H1,H1,50,High,1,2
+Helical,output_voltage,KNN,helical_1_50hz_High_2,H1,H1,50,High,2,1
+Helical,output_voltage,KNN,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,output_voltage,KNN,helical_1_50hz_Low_2,H1,H1,50,Low,2,0
+Helical,output_voltage,KNN,helical_2_30hz_High_1,H2,H1,30,High,1,1
+Helical,output_voltage,KNN,helical_2_30hz_High_2,H2,H1,30,High,2,3
+Helical,output_voltage,KNN,helical_2_30hz_Low_1,H2,H5,30,Low,1,0
+Helical,output_voltage,KNN,helical_2_30hz_Low_2,H2,H5,30,Low,2,2
+Helical,output_voltage,KNN,helical_2_35hz_High_1,H2,H4,35,High,1,2
+Helical,output_voltage,KNN,helical_2_35hz_High_2,H2,H4,35,High,2,0
+Helical,output_voltage,KNN,helical_2_35hz_Low_1,H2,H4,35,Low,1,2
+Helical,output_voltage,KNN,helical_2_35hz_Low_2,H2,H6,35,Low,2,3
+Helical,output_voltage,KNN,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,output_voltage,KNN,helical_2_40hz_High_2,H2,H6,40,High,2,2
+Helical,output_voltage,KNN,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,output_voltage,KNN,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,output_voltage,KNN,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,output_voltage,KNN,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,output_voltage,KNN,helical_2_45hz_Low_1,H2,H2,45,Low,1,4
+Helical,output_voltage,KNN,helical_2_45hz_Low_2,H2,H2,45,Low,2,3
+Helical,output_voltage,KNN,helical_2_50hz_High_1,H2,H2,50,High,1,4
+Helical,output_voltage,KNN,helical_2_50hz_High_2,H2,H2,50,High,2,4
+Helical,output_voltage,KNN,helical_2_50hz_Low_1,H2,H3,50,Low,1,1
+Helical,output_voltage,KNN,helical_2_50hz_Low_2,H2,H6,50,Low,2,1
+Helical,output_voltage,KNN,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,output_voltage,KNN,helical_3_30hz_High_2,H3,H5,30,High,2,2
+Helical,output_voltage,KNN,helical_3_30hz_Low_1,H3,H2,30,Low,1,3
+Helical,output_voltage,KNN,helical_3_35hz_High_1,H3,H5,35,High,1,0
+Helical,output_voltage,KNN,helical_3_35hz_High_2,H3,H5,35,High,2,4
+Helical,output_voltage,KNN,helical_3_35hz_Low_1,H3,H6,35,Low,1,0
+Helical,output_voltage,KNN,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,output_voltage,KNN,helical_3_40hz_High_1,H3,H3,40,High,1,4
+Helical,output_voltage,KNN,helical_3_40hz_High_2,H3,H3,40,High,2,2
+Helical,output_voltage,KNN,helical_3_40hz_Low_1,H3,H3,40,Low,1,4
+Helical,output_voltage,KNN,helical_3_40hz_Low_2,H3,H5,40,Low,2,3
+Helical,output_voltage,KNN,helical_3_45hz_High_2,H3,H3,45,High,2,3
+Helical,output_voltage,KNN,helical_3_45hz_Low_1,H3,H5,45,Low,1,2
+Helical,output_voltage,KNN,helical_3_45hz_Low_2,H3,H5,45,Low,2,0
+Helical,output_voltage,KNN,helical_3_50hz_Low_1,H3,H3,50,Low,1,1
+Helical,output_voltage,KNN,helical_3_50hz_Low_2,H3,H3,50,Low,2,1
+Helical,output_voltage,KNN,helical_4_30hz_High_1,H4,H4,30,High,1,3
+Helical,output_voltage,KNN,helical_4_30hz_High_2,H4,H4,30,High,2,0
+Helical,output_voltage,KNN,helical_4_35hz_High_1,H4,H2,35,High,1,0
+Helical,output_voltage,KNN,helical_4_35hz_High_2,H4,H4,35,High,2,3
+Helical,output_voltage,KNN,helical_4_35hz_Low_1,H4,H4,35,Low,1,1
+Helical,output_voltage,KNN,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,output_voltage,KNN,helical_4_40hz_High_1,H4,H1,40,High,1,4
+Helical,output_voltage,KNN,helical_4_40hz_High_2,H4,H1,40,High,2,4
+Helical,output_voltage,KNN,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,output_voltage,KNN,helical_4_40hz_Low_2,H4,H4,40,Low,2,1
+Helical,output_voltage,KNN,helical_4_45hz_High_1,H4,H4,45,High,1,0
+Helical,output_voltage,KNN,helical_4_45hz_High_2,H4,H1,45,High,2,2
+Helical,output_voltage,KNN,helical_4_45hz_Low_1,H4,H4,45,Low,1,2
+Helical,output_voltage,KNN,helical_4_45hz_Low_2,H4,H2,45,Low,2,0
+Helical,output_voltage,KNN,helical_4_50hz_High_1,H4,H2,50,High,1,4
+Helical,output_voltage,KNN,helical_4_50hz_High_2,H4,H4,50,High,2,2
+Helical,output_voltage,KNN,helical_4_50hz_Low_1,H4,H2,50,Low,1,1
+Helical,output_voltage,KNN,helical_4_50hz_Low_2,H4,H2,50,Low,2,4
+Helical,output_voltage,KNN,helical_5_30hz_High_1,H5,H3,30,High,1,2
+Helical,output_voltage,KNN,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,output_voltage,KNN,helical_5_30hz_Low_1,H5,H2,30,Low,1,3
+Helical,output_voltage,KNN,helical_5_35hz_High_1,H5,H3,35,High,1,2
+Helical,output_voltage,KNN,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,output_voltage,KNN,helical_5_35hz_Low_1,H5,H6,35,Low,1,1
+Helical,output_voltage,KNN,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,output_voltage,KNN,helical_5_40hz_High_1,H5,H3,40,High,1,0
+Helical,output_voltage,KNN,helical_5_40hz_High_2,H5,H3,40,High,2,0
+Helical,output_voltage,KNN,helical_5_40hz_Low_1,H5,H3,40,Low,1,1
+Helical,output_voltage,KNN,helical_5_40hz_Low_2,H5,H3,40,Low,2,1
+Helical,output_voltage,KNN,helical_5_45hz_Low_1,H5,H3,45,Low,1,3
+Helical,output_voltage,KNN,helical_5_45hz_Low_2,H5,H5,45,Low,2,4
+Helical,output_voltage,KNN,helical_5_50hz_High_1,H5,H2,50,High,1,3
+Helical,output_voltage,KNN,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,output_voltage,KNN,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,output_voltage,KNN,helical_5_50hz_Low_2,H5,H3,50,Low,2,1
+Helical,output_voltage,KNN,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,output_voltage,KNN,helical_6_30hz_High_2,H6,H1,30,High,2,1
+Helical,output_voltage,KNN,helical_6_35hz_High_1,H6,H1,35,High,1,3
+Helical,output_voltage,KNN,helical_6_35hz_High_2,H6,H4,35,High,2,4
+Helical,output_voltage,KNN,helical_6_35hz_Low_1,H6,H6,35,Low,1,2
+Helical,output_voltage,KNN,helical_6_35hz_Low_2,H6,H4,35,Low,2,2
+Helical,output_voltage,KNN,helical_6_40hz_High_1,H6,H1,40,High,1,1
+Helical,output_voltage,KNN,helical_6_40hz_High_2,H6,H1,40,High,2,0
+Helical,output_voltage,KNN,helical_6_40hz_Low_1,H6,H3,40,Low,1,3
+Helical,output_voltage,KNN,helical_6_40hz_Low_2,H6,H3,40,Low,2,2
+Helical,output_voltage,KNN,helical_6_45hz_High_1,H6,H2,45,High,1,1
+Helical,output_voltage,KNN,helical_6_45hz_High_2,H6,H1,45,High,2,3
+Helical,output_voltage,KNN,helical_6_45hz_Low_1,H6,H2,45,Low,1,4
+Helical,output_voltage,KNN,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,output_voltage,KNN,helical_6_50hz_High_1,H6,H2,50,High,1,0
+Helical,output_voltage,KNN,helical_6_50hz_High_2,H6,H2,50,High,2,0
+Helical,output_voltage,KNN,helical_6_50hz_Low_1,H6,H2,50,Low,1,2
+Helical,output_voltage,KNN,helical_6_50hz_Low_2,H6,H2,50,Low,2,0
+Helical,output_voltage,SVM,helical_1_30hz_High_1,H1,H6,30,High,1,4
+Helical,output_voltage,SVM,helical_1_30hz_High_2,H1,H6,30,High,2,1
+Helical,output_voltage,SVM,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,output_voltage,SVM,helical_1_30hz_Low_2,H1,H1,30,Low,2,0
+Helical,output_voltage,SVM,helical_1_35hz_High_1,H1,H1,35,High,1,3
+Helical,output_voltage,SVM,helical_1_35hz_High_2,H1,H1,35,High,2,4
+Helical,output_voltage,SVM,helical_1_35hz_Low_1,H1,H2,35,Low,1,2
+Helical,output_voltage,SVM,helical_1_35hz_Low_2,H1,H2,35,Low,2,1
+Helical,output_voltage,SVM,helical_1_40hz_High_1,H1,H1,40,High,1,2
+Helical,output_voltage,SVM,helical_1_40hz_High_2,H1,H1,40,High,2,4
+Helical,output_voltage,SVM,helical_1_40hz_Low_1,H1,H1,40,Low,1,0
+Helical,output_voltage,SVM,helical_1_40hz_Low_2,H1,H1,40,Low,2,4
+Helical,output_voltage,SVM,helical_1_45hz_High_1,H1,H5,45,High,1,3
+Helical,output_voltage,SVM,helical_1_45hz_High_2,H1,H5,45,High,2,3
+Helical,output_voltage,SVM,helical_1_45hz_Low_1,H1,H1,45,Low,1,1
+Helical,output_voltage,SVM,helical_1_45hz_Low_2,H1,H1,45,Low,2,2
+Helical,output_voltage,SVM,helical_1_50hz_High_1,H1,H6,50,High,1,2
+Helical,output_voltage,SVM,helical_1_50hz_High_2,H1,H1,50,High,2,1
+Helical,output_voltage,SVM,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,output_voltage,SVM,helical_1_50hz_Low_2,H1,H1,50,Low,2,0
+Helical,output_voltage,SVM,helical_2_30hz_High_1,H2,H2,30,High,1,1
+Helical,output_voltage,SVM,helical_2_30hz_High_2,H2,H2,30,High,2,3
+Helical,output_voltage,SVM,helical_2_30hz_Low_1,H2,H5,30,Low,1,0
+Helical,output_voltage,SVM,helical_2_30hz_Low_2,H2,H5,30,Low,2,2
+Helical,output_voltage,SVM,helical_2_35hz_High_1,H2,H4,35,High,1,2
+Helical,output_voltage,SVM,helical_2_35hz_High_2,H2,H2,35,High,2,0
+Helical,output_voltage,SVM,helical_2_35hz_Low_1,H2,H4,35,Low,1,2
+Helical,output_voltage,SVM,helical_2_35hz_Low_2,H2,H4,35,Low,2,3
+Helical,output_voltage,SVM,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,output_voltage,SVM,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,output_voltage,SVM,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,output_voltage,SVM,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,output_voltage,SVM,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,output_voltage,SVM,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,output_voltage,SVM,helical_2_45hz_Low_1,H2,H2,45,Low,1,4
+Helical,output_voltage,SVM,helical_2_45hz_Low_2,H2,H4,45,Low,2,3
+Helical,output_voltage,SVM,helical_2_50hz_High_1,H2,H2,50,High,1,4
+Helical,output_voltage,SVM,helical_2_50hz_High_2,H2,H2,50,High,2,4
+Helical,output_voltage,SVM,helical_2_50hz_Low_1,H2,H3,50,Low,1,1
+Helical,output_voltage,SVM,helical_2_50hz_Low_2,H2,H3,50,Low,2,1
+Helical,output_voltage,SVM,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,output_voltage,SVM,helical_3_30hz_High_2,H3,H3,30,High,2,2
+Helical,output_voltage,SVM,helical_3_30hz_Low_1,H3,H5,30,Low,1,3
+Helical,output_voltage,SVM,helical_3_35hz_High_1,H3,H5,35,High,1,0
+Helical,output_voltage,SVM,helical_3_35hz_High_2,H3,H5,35,High,2,4
+Helical,output_voltage,SVM,helical_3_35hz_Low_1,H3,H2,35,Low,1,0
+Helical,output_voltage,SVM,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,output_voltage,SVM,helical_3_40hz_High_1,H3,H5,40,High,1,4
+Helical,output_voltage,SVM,helical_3_40hz_High_2,H3,H5,40,High,2,2
+Helical,output_voltage,SVM,helical_3_40hz_Low_1,H3,H5,40,Low,1,4
+Helical,output_voltage,SVM,helical_3_40hz_Low_2,H3,H5,40,Low,2,3
+Helical,output_voltage,SVM,helical_3_45hz_High_2,H3,H5,45,High,2,3
+Helical,output_voltage,SVM,helical_3_45hz_Low_1,H3,H3,45,Low,1,2
+Helical,output_voltage,SVM,helical_3_45hz_Low_2,H3,H5,45,Low,2,0
+Helical,output_voltage,SVM,helical_3_50hz_Low_1,H3,H3,50,Low,1,1
+Helical,output_voltage,SVM,helical_3_50hz_Low_2,H3,H3,50,Low,2,1
+Helical,output_voltage,SVM,helical_4_30hz_High_1,H4,H4,30,High,1,3
+Helical,output_voltage,SVM,helical_4_30hz_High_2,H4,H4,30,High,2,0
+Helical,output_voltage,SVM,helical_4_35hz_High_1,H4,H6,35,High,1,0
+Helical,output_voltage,SVM,helical_4_35hz_High_2,H4,H4,35,High,2,3
+Helical,output_voltage,SVM,helical_4_35hz_Low_1,H4,H2,35,Low,1,1
+Helical,output_voltage,SVM,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,output_voltage,SVM,helical_4_40hz_High_1,H4,H1,40,High,1,4
+Helical,output_voltage,SVM,helical_4_40hz_High_2,H4,H1,40,High,2,4
+Helical,output_voltage,SVM,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,output_voltage,SVM,helical_4_40hz_Low_2,H4,H4,40,Low,2,1
+Helical,output_voltage,SVM,helical_4_45hz_High_1,H4,H2,45,High,1,0
+Helical,output_voltage,SVM,helical_4_45hz_High_2,H4,H6,45,High,2,2
+Helical,output_voltage,SVM,helical_4_45hz_Low_1,H4,H4,45,Low,1,2
+Helical,output_voltage,SVM,helical_4_45hz_Low_2,H4,H4,45,Low,2,0
+Helical,output_voltage,SVM,helical_4_50hz_High_1,H4,H2,50,High,1,4
+Helical,output_voltage,SVM,helical_4_50hz_High_2,H4,H4,50,High,2,2
+Helical,output_voltage,SVM,helical_4_50hz_Low_1,H4,H2,50,Low,1,1
+Helical,output_voltage,SVM,helical_4_50hz_Low_2,H4,H2,50,Low,2,4
+Helical,output_voltage,SVM,helical_5_30hz_High_1,H5,H3,30,High,1,2
+Helical,output_voltage,SVM,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,output_voltage,SVM,helical_5_30hz_Low_1,H5,H5,30,Low,1,3
+Helical,output_voltage,SVM,helical_5_35hz_High_1,H5,H3,35,High,1,2
+Helical,output_voltage,SVM,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,output_voltage,SVM,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,output_voltage,SVM,helical_5_35hz_Low_2,H5,H1,35,Low,2,0
+Helical,output_voltage,SVM,helical_5_40hz_High_1,H5,H5,40,High,1,0
+Helical,output_voltage,SVM,helical_5_40hz_High_2,H5,H5,40,High,2,0
+Helical,output_voltage,SVM,helical_5_40hz_Low_1,H5,H3,40,Low,1,1
+Helical,output_voltage,SVM,helical_5_40hz_Low_2,H5,H3,40,Low,2,1
+Helical,output_voltage,SVM,helical_5_45hz_Low_1,H5,H5,45,Low,1,3
+Helical,output_voltage,SVM,helical_5_45hz_Low_2,H5,H5,45,Low,2,4
+Helical,output_voltage,SVM,helical_5_50hz_High_1,H5,H5,50,High,1,3
+Helical,output_voltage,SVM,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,output_voltage,SVM,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,output_voltage,SVM,helical_5_50hz_Low_2,H5,H3,50,Low,2,1
+Helical,output_voltage,SVM,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,output_voltage,SVM,helical_6_30hz_High_2,H6,H6,30,High,2,1
+Helical,output_voltage,SVM,helical_6_35hz_High_1,H6,H6,35,High,1,3
+Helical,output_voltage,SVM,helical_6_35hz_High_2,H6,H2,35,High,2,4
+Helical,output_voltage,SVM,helical_6_35hz_Low_1,H6,H4,35,Low,1,2
+Helical,output_voltage,SVM,helical_6_35hz_Low_2,H6,H4,35,Low,2,2
+Helical,output_voltage,SVM,helical_6_40hz_High_1,H6,H6,40,High,1,1
+Helical,output_voltage,SVM,helical_6_40hz_High_2,H6,H1,40,High,2,0
+Helical,output_voltage,SVM,helical_6_40hz_Low_1,H6,H2,40,Low,1,3
+Helical,output_voltage,SVM,helical_6_40hz_Low_2,H6,H5,40,Low,2,2
+Helical,output_voltage,SVM,helical_6_45hz_High_1,H6,H2,45,High,1,1
+Helical,output_voltage,SVM,helical_6_45hz_High_2,H6,H2,45,High,2,3
+Helical,output_voltage,SVM,helical_6_45hz_Low_1,H6,H2,45,Low,1,4
+Helical,output_voltage,SVM,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,output_voltage,SVM,helical_6_50hz_High_1,H6,H2,50,High,1,0
+Helical,output_voltage,SVM,helical_6_50hz_High_2,H6,H2,50,High,2,0
+Helical,output_voltage,SVM,helical_6_50hz_Low_1,H6,H5,50,Low,1,2
+Helical,output_voltage,SVM,helical_6_50hz_Low_2,H6,H5,50,Low,2,0
+Helical,output_voltage,LDA,helical_1_30hz_High_1,H1,H2,30,High,1,4
+Helical,output_voltage,LDA,helical_1_30hz_High_2,H1,H4,30,High,2,1
+Helical,output_voltage,LDA,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,output_voltage,LDA,helical_1_30hz_Low_2,H1,H2,30,Low,2,0
+Helical,output_voltage,LDA,helical_1_35hz_High_1,H1,H6,35,High,1,3
+Helical,output_voltage,LDA,helical_1_35hz_High_2,H1,H6,35,High,2,4
+Helical,output_voltage,LDA,helical_1_35hz_Low_1,H1,H1,35,Low,1,2
+Helical,output_voltage,LDA,helical_1_35hz_Low_2,H1,H4,35,Low,2,1
+Helical,output_voltage,LDA,helical_1_40hz_High_1,H1,H4,40,High,1,2
+Helical,output_voltage,LDA,helical_1_40hz_High_2,H1,H6,40,High,2,4
+Helical,output_voltage,LDA,helical_1_40hz_Low_1,H1,H2,40,Low,1,0
+Helical,output_voltage,LDA,helical_1_40hz_Low_2,H1,H1,40,Low,2,4
+Helical,output_voltage,LDA,helical_1_45hz_High_1,H1,H5,45,High,1,3
+Helical,output_voltage,LDA,helical_1_45hz_High_2,H1,H5,45,High,2,3
+Helical,output_voltage,LDA,helical_1_45hz_Low_1,H1,H1,45,Low,1,1
+Helical,output_voltage,LDA,helical_1_45hz_Low_2,H1,H1,45,Low,2,2
+Helical,output_voltage,LDA,helical_1_50hz_High_1,H1,H2,50,High,1,2
+Helical,output_voltage,LDA,helical_1_50hz_High_2,H1,H6,50,High,2,1
+Helical,output_voltage,LDA,helical_1_50hz_Low_1,H1,H2,50,Low,1,0
+Helical,output_voltage,LDA,helical_1_50hz_Low_2,H1,H2,50,Low,2,0
+Helical,output_voltage,LDA,helical_2_30hz_High_1,H2,H4,30,High,1,1
+Helical,output_voltage,LDA,helical_2_30hz_High_2,H2,H1,30,High,2,3
+Helical,output_voltage,LDA,helical_2_30hz_Low_1,H2,H5,30,Low,1,0
+Helical,output_voltage,LDA,helical_2_30hz_Low_2,H2,H5,30,Low,2,2
+Helical,output_voltage,LDA,helical_2_35hz_High_1,H2,H1,35,High,1,2
+Helical,output_voltage,LDA,helical_2_35hz_High_2,H2,H1,35,High,2,0
+Helical,output_voltage,LDA,helical_2_35hz_Low_1,H2,H4,35,Low,1,2
+Helical,output_voltage,LDA,helical_2_35hz_Low_2,H2,H4,35,Low,2,3
+Helical,output_voltage,LDA,helical_2_40hz_High_1,H2,H1,40,High,1,1
+Helical,output_voltage,LDA,helical_2_40hz_High_2,H2,H1,40,High,2,2
+Helical,output_voltage,LDA,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,output_voltage,LDA,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,output_voltage,LDA,helical_2_45hz_High_1,H2,H1,45,High,1,4
+Helical,output_voltage,LDA,helical_2_45hz_High_2,H2,H1,45,High,2,0
+Helical,output_voltage,LDA,helical_2_45hz_Low_1,H2,H2,45,Low,1,4
+Helical,output_voltage,LDA,helical_2_45hz_Low_2,H2,H2,45,Low,2,3
+Helical,output_voltage,LDA,helical_2_50hz_High_1,H2,H2,50,High,1,4
+Helical,output_voltage,LDA,helical_2_50hz_High_2,H2,H1,50,High,2,4
+Helical,output_voltage,LDA,helical_2_50hz_Low_1,H2,H3,50,Low,1,1
+Helical,output_voltage,LDA,helical_2_50hz_Low_2,H2,H3,50,Low,2,1
+Helical,output_voltage,LDA,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,output_voltage,LDA,helical_3_30hz_High_2,H3,H5,30,High,2,2
+Helical,output_voltage,LDA,helical_3_30hz_Low_1,H3,H5,30,Low,1,3
+Helical,output_voltage,LDA,helical_3_35hz_High_1,H3,H5,35,High,1,0
+Helical,output_voltage,LDA,helical_3_35hz_High_2,H3,H5,35,High,2,4
+Helical,output_voltage,LDA,helical_3_35hz_Low_1,H3,H5,35,Low,1,0
+Helical,output_voltage,LDA,helical_3_35hz_Low_2,H3,H1,35,Low,2,1
+Helical,output_voltage,LDA,helical_3_40hz_High_1,H3,H5,40,High,1,4
+Helical,output_voltage,LDA,helical_3_40hz_High_2,H3,H5,40,High,2,2
+Helical,output_voltage,LDA,helical_3_40hz_Low_1,H3,H3,40,Low,1,4
+Helical,output_voltage,LDA,helical_3_40hz_Low_2,H3,H3,40,Low,2,3
+Helical,output_voltage,LDA,helical_3_45hz_High_2,H3,H5,45,High,2,3
+Helical,output_voltage,LDA,helical_3_45hz_Low_1,H3,H3,45,Low,1,2
+Helical,output_voltage,LDA,helical_3_45hz_Low_2,H3,H5,45,Low,2,0
+Helical,output_voltage,LDA,helical_3_50hz_Low_1,H3,H3,50,Low,1,1
+Helical,output_voltage,LDA,helical_3_50hz_Low_2,H3,H3,50,Low,2,1
+Helical,output_voltage,LDA,helical_4_30hz_High_1,H4,H1,30,High,1,3
+Helical,output_voltage,LDA,helical_4_30hz_High_2,H4,H1,30,High,2,0
+Helical,output_voltage,LDA,helical_4_35hz_High_1,H4,H6,35,High,1,0
+Helical,output_voltage,LDA,helical_4_35hz_High_2,H4,H4,35,High,2,3
+Helical,output_voltage,LDA,helical_4_35hz_Low_1,H4,H1,35,Low,1,1
+Helical,output_voltage,LDA,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,output_voltage,LDA,helical_4_40hz_High_1,H4,H6,40,High,1,4
+Helical,output_voltage,LDA,helical_4_40hz_High_2,H4,H5,40,High,2,4
+Helical,output_voltage,LDA,helical_4_40hz_Low_1,H4,H2,40,Low,1,3
+Helical,output_voltage,LDA,helical_4_40hz_Low_2,H4,H1,40,Low,2,1
+Helical,output_voltage,LDA,helical_4_45hz_High_1,H4,H1,45,High,1,0
+Helical,output_voltage,LDA,helical_4_45hz_High_2,H4,H4,45,High,2,2
+Helical,output_voltage,LDA,helical_4_45hz_Low_1,H4,H1,45,Low,1,2
+Helical,output_voltage,LDA,helical_4_45hz_Low_2,H4,H2,45,Low,2,0
+Helical,output_voltage,LDA,helical_4_50hz_High_1,H4,H4,50,High,1,4
+Helical,output_voltage,LDA,helical_4_50hz_High_2,H4,H1,50,High,2,2
+Helical,output_voltage,LDA,helical_4_50hz_Low_1,H4,H1,50,Low,1,1
+Helical,output_voltage,LDA,helical_4_50hz_Low_2,H4,H5,50,Low,2,4
+Helical,output_voltage,LDA,helical_5_30hz_High_1,H5,H5,30,High,1,2
+Helical,output_voltage,LDA,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,output_voltage,LDA,helical_5_30hz_Low_1,H5,H5,30,Low,1,3
+Helical,output_voltage,LDA,helical_5_35hz_High_1,H5,H5,35,High,1,2
+Helical,output_voltage,LDA,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,output_voltage,LDA,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,output_voltage,LDA,helical_5_35hz_Low_2,H5,H5,35,Low,2,0
+Helical,output_voltage,LDA,helical_5_40hz_High_1,H5,H5,40,High,1,0
+Helical,output_voltage,LDA,helical_5_40hz_High_2,H5,H5,40,High,2,0
+Helical,output_voltage,LDA,helical_5_40hz_Low_1,H5,H3,40,Low,1,1
+Helical,output_voltage,LDA,helical_5_40hz_Low_2,H5,H3,40,Low,2,1
+Helical,output_voltage,LDA,helical_5_45hz_Low_1,H5,H3,45,Low,1,3
+Helical,output_voltage,LDA,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,output_voltage,LDA,helical_5_50hz_High_1,H5,H5,50,High,1,3
+Helical,output_voltage,LDA,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,output_voltage,LDA,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,output_voltage,LDA,helical_5_50hz_Low_2,H5,H3,50,Low,2,1
+Helical,output_voltage,LDA,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,output_voltage,LDA,helical_6_30hz_High_2,H6,H4,30,High,2,1
+Helical,output_voltage,LDA,helical_6_35hz_High_1,H6,H4,35,High,1,3
+Helical,output_voltage,LDA,helical_6_35hz_High_2,H6,H4,35,High,2,4
+Helical,output_voltage,LDA,helical_6_35hz_Low_1,H6,H4,35,Low,1,2
+Helical,output_voltage,LDA,helical_6_35hz_Low_2,H6,H4,35,Low,2,2
+Helical,output_voltage,LDA,helical_6_40hz_High_1,H6,H2,40,High,1,1
+Helical,output_voltage,LDA,helical_6_40hz_High_2,H6,H1,40,High,2,0
+Helical,output_voltage,LDA,helical_6_40hz_Low_1,H6,H2,40,Low,1,3
+Helical,output_voltage,LDA,helical_6_40hz_Low_2,H6,H5,40,Low,2,2
+Helical,output_voltage,LDA,helical_6_45hz_High_1,H6,H2,45,High,1,1
+Helical,output_voltage,LDA,helical_6_45hz_High_2,H6,H1,45,High,2,3
+Helical,output_voltage,LDA,helical_6_45hz_Low_1,H6,H1,45,Low,1,4
+Helical,output_voltage,LDA,helical_6_45hz_Low_2,H6,H1,45,Low,2,1
+Helical,output_voltage,LDA,helical_6_50hz_High_1,H6,H1,50,High,1,0
+Helical,output_voltage,LDA,helical_6_50hz_High_2,H6,H1,50,High,2,0
+Helical,output_voltage,LDA,helical_6_50hz_Low_1,H6,H3,50,Low,1,2
+Helical,output_voltage,LDA,helical_6_50hz_Low_2,H6,H5,50,Low,2,0
+Helical,output_voltage,Random Forest,helical_1_30hz_High_1,H1,H6,30,High,1,4
+Helical,output_voltage,Random Forest,helical_1_30hz_High_2,H1,H1,30,High,2,1
+Helical,output_voltage,Random Forest,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,output_voltage,Random Forest,helical_1_30hz_Low_2,H1,H1,30,Low,2,0
+Helical,output_voltage,Random Forest,helical_1_35hz_High_1,H1,H1,35,High,1,3
+Helical,output_voltage,Random Forest,helical_1_35hz_High_2,H1,H1,35,High,2,4
+Helical,output_voltage,Random Forest,helical_1_35hz_Low_1,H1,H6,35,Low,1,2
+Helical,output_voltage,Random Forest,helical_1_35hz_Low_2,H1,H6,35,Low,2,1
+Helical,output_voltage,Random Forest,helical_1_40hz_High_1,H1,H1,40,High,1,2
+Helical,output_voltage,Random Forest,helical_1_40hz_High_2,H1,H1,40,High,2,4
+Helical,output_voltage,Random Forest,helical_1_40hz_Low_1,H1,H1,40,Low,1,0
+Helical,output_voltage,Random Forest,helical_1_40hz_Low_2,H1,H1,40,Low,2,4
+Helical,output_voltage,Random Forest,helical_1_45hz_High_1,H1,H5,45,High,1,3
+Helical,output_voltage,Random Forest,helical_1_45hz_High_2,H1,H5,45,High,2,3
+Helical,output_voltage,Random Forest,helical_1_45hz_Low_1,H1,H1,45,Low,1,1
+Helical,output_voltage,Random Forest,helical_1_45hz_Low_2,H1,H1,45,Low,2,2
+Helical,output_voltage,Random Forest,helical_1_50hz_High_1,H1,H6,50,High,1,2
+Helical,output_voltage,Random Forest,helical_1_50hz_High_2,H1,H1,50,High,2,1
+Helical,output_voltage,Random Forest,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,output_voltage,Random Forest,helical_1_50hz_Low_2,H1,H1,50,Low,2,0
+Helical,output_voltage,Random Forest,helical_2_30hz_High_1,H2,H6,30,High,1,1
+Helical,output_voltage,Random Forest,helical_2_30hz_High_2,H2,H6,30,High,2,3
+Helical,output_voltage,Random Forest,helical_2_30hz_Low_1,H2,H2,30,Low,1,0
+Helical,output_voltage,Random Forest,helical_2_30hz_Low_2,H2,H2,30,Low,2,2
+Helical,output_voltage,Random Forest,helical_2_35hz_High_1,H2,H2,35,High,1,2
+Helical,output_voltage,Random Forest,helical_2_35hz_High_2,H2,H2,35,High,2,0
+Helical,output_voltage,Random Forest,helical_2_35hz_Low_1,H2,H2,35,Low,1,2
+Helical,output_voltage,Random Forest,helical_2_35hz_Low_2,H2,H6,35,Low,2,3
+Helical,output_voltage,Random Forest,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,output_voltage,Random Forest,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,output_voltage,Random Forest,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,output_voltage,Random Forest,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,output_voltage,Random Forest,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,output_voltage,Random Forest,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,output_voltage,Random Forest,helical_2_45hz_Low_1,H2,H2,45,Low,1,4
+Helical,output_voltage,Random Forest,helical_2_45hz_Low_2,H2,H4,45,Low,2,3
+Helical,output_voltage,Random Forest,helical_2_50hz_High_1,H2,H2,50,High,1,4
+Helical,output_voltage,Random Forest,helical_2_50hz_High_2,H2,H2,50,High,2,4
+Helical,output_voltage,Random Forest,helical_2_50hz_Low_1,H2,H6,50,Low,1,1
+Helical,output_voltage,Random Forest,helical_2_50hz_Low_2,H2,H6,50,Low,2,1
+Helical,output_voltage,Random Forest,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,output_voltage,Random Forest,helical_3_30hz_High_2,H3,H3,30,High,2,2
+Helical,output_voltage,Random Forest,helical_3_30hz_Low_1,H3,H3,30,Low,1,3
+Helical,output_voltage,Random Forest,helical_3_35hz_High_1,H3,H5,35,High,1,0
+Helical,output_voltage,Random Forest,helical_3_35hz_High_2,H3,H3,35,High,2,4
+Helical,output_voltage,Random Forest,helical_3_35hz_Low_1,H3,H6,35,Low,1,0
+Helical,output_voltage,Random Forest,helical_3_35hz_Low_2,H3,H6,35,Low,2,1
+Helical,output_voltage,Random Forest,helical_3_40hz_High_1,H3,H3,40,High,1,4
+Helical,output_voltage,Random Forest,helical_3_40hz_High_2,H3,H5,40,High,2,2
+Helical,output_voltage,Random Forest,helical_3_40hz_Low_1,H3,H5,40,Low,1,4
+Helical,output_voltage,Random Forest,helical_3_40hz_Low_2,H3,H3,40,Low,2,3
+Helical,output_voltage,Random Forest,helical_3_45hz_High_2,H3,H3,45,High,2,3
+Helical,output_voltage,Random Forest,helical_3_45hz_Low_1,H3,H5,45,Low,1,2
+Helical,output_voltage,Random Forest,helical_3_45hz_Low_2,H3,H5,45,Low,2,0
+Helical,output_voltage,Random Forest,helical_3_50hz_Low_1,H3,H3,50,Low,1,1
+Helical,output_voltage,Random Forest,helical_3_50hz_Low_2,H3,H3,50,Low,2,1
+Helical,output_voltage,Random Forest,helical_4_30hz_High_1,H4,H4,30,High,1,3
+Helical,output_voltage,Random Forest,helical_4_30hz_High_2,H4,H4,30,High,2,0
+Helical,output_voltage,Random Forest,helical_4_35hz_High_1,H4,H6,35,High,1,0
+Helical,output_voltage,Random Forest,helical_4_35hz_High_2,H4,H4,35,High,2,3
+Helical,output_voltage,Random Forest,helical_4_35hz_Low_1,H4,H2,35,Low,1,1
+Helical,output_voltage,Random Forest,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,output_voltage,Random Forest,helical_4_40hz_High_1,H4,H1,40,High,1,4
+Helical,output_voltage,Random Forest,helical_4_40hz_High_2,H4,H4,40,High,2,4
+Helical,output_voltage,Random Forest,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,output_voltage,Random Forest,helical_4_40hz_Low_2,H4,H4,40,Low,2,1
+Helical,output_voltage,Random Forest,helical_4_45hz_High_1,H4,H6,45,High,1,0
+Helical,output_voltage,Random Forest,helical_4_45hz_High_2,H4,H6,45,High,2,2
+Helical,output_voltage,Random Forest,helical_4_45hz_Low_1,H4,H1,45,Low,1,2
+Helical,output_voltage,Random Forest,helical_4_45hz_Low_2,H4,H2,45,Low,2,0
+Helical,output_voltage,Random Forest,helical_4_50hz_High_1,H4,H4,50,High,1,4
+Helical,output_voltage,Random Forest,helical_4_50hz_High_2,H4,H4,50,High,2,2
+Helical,output_voltage,Random Forest,helical_4_50hz_Low_1,H4,H6,50,Low,1,1
+Helical,output_voltage,Random Forest,helical_4_50hz_Low_2,H4,H3,50,Low,2,4
+Helical,output_voltage,Random Forest,helical_5_30hz_High_1,H5,H5,30,High,1,2
+Helical,output_voltage,Random Forest,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,output_voltage,Random Forest,helical_5_30hz_Low_1,H5,H3,30,Low,1,3
+Helical,output_voltage,Random Forest,helical_5_35hz_High_1,H5,H5,35,High,1,2
+Helical,output_voltage,Random Forest,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,output_voltage,Random Forest,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,output_voltage,Random Forest,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,output_voltage,Random Forest,helical_5_40hz_High_1,H5,H3,40,High,1,0
+Helical,output_voltage,Random Forest,helical_5_40hz_High_2,H5,H3,40,High,2,0
+Helical,output_voltage,Random Forest,helical_5_40hz_Low_1,H5,H3,40,Low,1,1
+Helical,output_voltage,Random Forest,helical_5_40hz_Low_2,H5,H5,40,Low,2,1
+Helical,output_voltage,Random Forest,helical_5_45hz_Low_1,H5,H5,45,Low,1,3
+Helical,output_voltage,Random Forest,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,output_voltage,Random Forest,helical_5_50hz_High_1,H5,H3,50,High,1,3
+Helical,output_voltage,Random Forest,helical_5_50hz_High_2,H5,H2,50,High,2,2
+Helical,output_voltage,Random Forest,helical_5_50hz_Low_1,H5,H5,50,Low,1,2
+Helical,output_voltage,Random Forest,helical_5_50hz_Low_2,H5,H3,50,Low,2,1
+Helical,output_voltage,Random Forest,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,output_voltage,Random Forest,helical_6_30hz_High_2,H6,H6,30,High,2,1
+Helical,output_voltage,Random Forest,helical_6_35hz_High_1,H6,H6,35,High,1,3
+Helical,output_voltage,Random Forest,helical_6_35hz_High_2,H6,H4,35,High,2,4
+Helical,output_voltage,Random Forest,helical_6_35hz_Low_1,H6,H4,35,Low,1,2
+Helical,output_voltage,Random Forest,helical_6_35hz_Low_2,H6,H4,35,Low,2,2
+Helical,output_voltage,Random Forest,helical_6_40hz_High_1,H6,H6,40,High,1,1
+Helical,output_voltage,Random Forest,helical_6_40hz_High_2,H6,H6,40,High,2,0
+Helical,output_voltage,Random Forest,helical_6_40hz_Low_1,H6,H3,40,Low,1,3
+Helical,output_voltage,Random Forest,helical_6_40hz_Low_2,H6,H6,40,Low,2,2
+Helical,output_voltage,Random Forest,helical_6_45hz_High_1,H6,H1,45,High,1,1
+Helical,output_voltage,Random Forest,helical_6_45hz_High_2,H6,H1,45,High,2,3
+Helical,output_voltage,Random Forest,helical_6_45hz_Low_1,H6,H4,45,Low,1,4
+Helical,output_voltage,Random Forest,helical_6_45hz_Low_2,H6,H6,45,Low,2,1
+Helical,output_voltage,Random Forest,helical_6_50hz_High_1,H6,H1,50,High,1,0
+Helical,output_voltage,Random Forest,helical_6_50hz_High_2,H6,H1,50,High,2,0
+Helical,output_voltage,Random Forest,helical_6_50hz_Low_1,H6,H2,50,Low,1,2
+Helical,output_voltage,Random Forest,helical_6_50hz_Low_2,H6,H6,50,Low,2,0
+Helical,input_voltage,KNN,helical_1_30hz_High_1,H1,H1,30,High,1,4
+Helical,input_voltage,KNN,helical_1_30hz_High_2,H1,H5,30,High,2,1
+Helical,input_voltage,KNN,helical_1_30hz_Low_1,H1,H6,30,Low,1,3
+Helical,input_voltage,KNN,helical_1_30hz_Low_2,H1,H6,30,Low,2,0
+Helical,input_voltage,KNN,helical_1_35hz_High_1,H1,H6,35,High,1,3
+Helical,input_voltage,KNN,helical_1_35hz_High_2,H1,H5,35,High,2,4
+Helical,input_voltage,KNN,helical_1_35hz_Low_1,H1,H1,35,Low,1,2
+Helical,input_voltage,KNN,helical_1_35hz_Low_2,H1,H1,35,Low,2,1
+Helical,input_voltage,KNN,helical_1_40hz_High_1,H1,H1,40,High,1,2
+Helical,input_voltage,KNN,helical_1_40hz_High_2,H1,H4,40,High,2,4
+Helical,input_voltage,KNN,helical_1_45hz_High_1,H1,H3,45,High,1,3
+Helical,input_voltage,KNN,helical_1_45hz_High_2,H1,H3,45,High,2,3
+Helical,input_voltage,KNN,helical_1_50hz_High_1,H1,H2,50,High,1,2
+Helical,input_voltage,KNN,helical_1_50hz_High_2,H1,H5,50,High,2,1
+Helical,input_voltage,KNN,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,input_voltage,KNN,helical_1_50hz_Low_2,H1,H4,50,Low,2,0
+Helical,input_voltage,KNN,helical_2_30hz_High_1,H2,H1,30,High,1,1
+Helical,input_voltage,KNN,helical_2_30hz_High_2,H2,H2,30,High,2,3
+Helical,input_voltage,KNN,helical_2_30hz_Low_1,H2,H4,30,Low,1,0
+Helical,input_voltage,KNN,helical_2_30hz_Low_2,H2,H1,30,Low,2,2
+Helical,input_voltage,KNN,helical_2_35hz_High_1,H2,H6,35,High,1,2
+Helical,input_voltage,KNN,helical_2_35hz_High_2,H2,H6,35,High,2,0
+Helical,input_voltage,KNN,helical_2_35hz_Low_1,H2,H6,35,Low,1,2
+Helical,input_voltage,KNN,helical_2_35hz_Low_2,H2,H6,35,Low,2,3
+Helical,input_voltage,KNN,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,input_voltage,KNN,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,input_voltage,KNN,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,input_voltage,KNN,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,input_voltage,KNN,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,input_voltage,KNN,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,input_voltage,KNN,helical_2_45hz_Low_1,H2,H4,45,Low,1,4
+Helical,input_voltage,KNN,helical_2_45hz_Low_2,H2,H2,45,Low,2,3
+Helical,input_voltage,KNN,helical_2_50hz_High_1,H2,H6,50,High,1,4
+Helical,input_voltage,KNN,helical_2_50hz_High_2,H2,H6,50,High,2,4
+Helical,input_voltage,KNN,helical_2_50hz_Low_1,H2,H3,50,Low,1,1
+Helical,input_voltage,KNN,helical_2_50hz_Low_2,H2,H3,50,Low,2,1
+Helical,input_voltage,KNN,helical_3_30hz_High_1,H3,H6,30,High,1,4
+Helical,input_voltage,KNN,helical_3_30hz_High_2,H3,H4,30,High,2,2
+Helical,input_voltage,KNN,helical_3_30hz_Low_1,H3,H1,30,Low,1,3
+Helical,input_voltage,KNN,helical_3_30hz_Low_2,H3,H3,30,Low,2,2
+Helical,input_voltage,KNN,helical_3_35hz_High_1,H3,H3,35,High,1,0
+Helical,input_voltage,KNN,helical_3_35hz_High_2,H3,H5,35,High,2,4
+Helical,input_voltage,KNN,helical_3_35hz_Low_1,H3,H4,35,Low,1,0
+Helical,input_voltage,KNN,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,input_voltage,KNN,helical_3_40hz_High_1,H3,H5,40,High,1,4
+Helical,input_voltage,KNN,helical_3_40hz_High_2,H3,H3,40,High,2,2
+Helical,input_voltage,KNN,helical_3_40hz_Low_1,H3,H3,40,Low,1,4
+Helical,input_voltage,KNN,helical_3_40hz_Low_2,H3,H3,40,Low,2,3
+Helical,input_voltage,KNN,helical_3_45hz_High_1,H3,H5,45,High,1,0
+Helical,input_voltage,KNN,helical_3_45hz_High_2,H3,H5,45,High,2,3
+Helical,input_voltage,KNN,helical_3_45hz_Low_1,H3,H2,45,Low,1,2
+Helical,input_voltage,KNN,helical_3_45hz_Low_2,H3,H3,45,Low,2,0
+Helical,input_voltage,KNN,helical_3_50hz_High_1,H3,H1,50,High,1,1
+Helical,input_voltage,KNN,helical_3_50hz_High_2,H3,H1,50,High,2,3
+Helical,input_voltage,KNN,helical_3_50hz_Low_1,H3,H6,50,Low,1,1
+Helical,input_voltage,KNN,helical_3_50hz_Low_2,H3,H6,50,Low,2,1
+Helical,input_voltage,KNN,helical_4_30hz_High_1,H4,H6,30,High,1,3
+Helical,input_voltage,KNN,helical_4_30hz_High_2,H4,H5,30,High,2,0
+Helical,input_voltage,KNN,helical_4_30hz_Low_2,H4,H4,30,Low,2,3
+Helical,input_voltage,KNN,helical_4_35hz_High_1,H4,H6,35,High,1,0
+Helical,input_voltage,KNN,helical_4_35hz_High_2,H4,H5,35,High,2,3
+Helical,input_voltage,KNN,helical_4_35hz_Low_1,H4,H2,35,Low,1,1
+Helical,input_voltage,KNN,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,input_voltage,KNN,helical_4_40hz_High_1,H4,H4,40,High,1,4
+Helical,input_voltage,KNN,helical_4_40hz_High_2,H4,H4,40,High,2,4
+Helical,input_voltage,KNN,helical_4_40hz_Low_1,H4,H1,40,Low,1,3
+Helical,input_voltage,KNN,helical_4_40hz_Low_2,H4,H4,40,Low,2,1
+Helical,input_voltage,KNN,helical_4_45hz_High_1,H4,H1,45,High,1,0
+Helical,input_voltage,KNN,helical_4_45hz_High_2,H4,H2,45,High,2,2
+Helical,input_voltage,KNN,helical_4_45hz_Low_1,H4,H4,45,Low,1,2
+Helical,input_voltage,KNN,helical_4_45hz_Low_2,H4,H3,45,Low,2,0
+Helical,input_voltage,KNN,helical_4_50hz_High_1,H4,H4,50,High,1,4
+Helical,input_voltage,KNN,helical_4_50hz_High_2,H4,H2,50,High,2,2
+Helical,input_voltage,KNN,helical_4_50hz_Low_1,H4,H4,50,Low,1,1
+Helical,input_voltage,KNN,helical_4_50hz_Low_2,H4,H4,50,Low,2,4
+Helical,input_voltage,KNN,helical_5_30hz_High_1,H5,H1,30,High,1,2
+Helical,input_voltage,KNN,helical_5_30hz_High_2,H5,H1,30,High,2,4
+Helical,input_voltage,KNN,helical_5_30hz_Low_1,H5,H5,30,Low,1,3
+Helical,input_voltage,KNN,helical_5_30hz_Low_2,H5,H3,30,Low,2,3
+Helical,input_voltage,KNN,helical_5_35hz_High_1,H5,H4,35,High,1,2
+Helical,input_voltage,KNN,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,input_voltage,KNN,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,input_voltage,KNN,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,input_voltage,KNN,helical_5_40hz_High_1,H5,H6,40,High,1,0
+Helical,input_voltage,KNN,helical_5_40hz_High_2,H5,H6,40,High,2,0
+Helical,input_voltage,KNN,helical_5_40hz_Low_1,H5,H1,40,Low,1,1
+Helical,input_voltage,KNN,helical_5_40hz_Low_2,H5,H1,40,Low,2,1
+Helical,input_voltage,KNN,helical_5_45hz_High_1,H5,H5,45,High,1,4
+Helical,input_voltage,KNN,helical_5_45hz_High_2,H5,H5,45,High,2,0
+Helical,input_voltage,KNN,helical_5_45hz_Low_1,H5,H3,45,Low,1,3
+Helical,input_voltage,KNN,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,input_voltage,KNN,helical_5_50hz_High_1,H5,H1,50,High,1,3
+Helical,input_voltage,KNN,helical_5_50hz_High_2,H5,H1,50,High,2,2
+Helical,input_voltage,KNN,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,input_voltage,KNN,helical_5_50hz_Low_2,H5,H6,50,Low,2,1
+Helical,input_voltage,KNN,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,input_voltage,KNN,helical_6_30hz_High_2,H6,H2,30,High,2,1
+Helical,input_voltage,KNN,helical_6_30hz_Low_1,H6,H5,30,Low,1,3
+Helical,input_voltage,KNN,helical_6_30hz_Low_2,H6,H5,30,Low,2,4
+Helical,input_voltage,KNN,helical_6_35hz_High_1,H6,H6,35,High,1,3
+Helical,input_voltage,KNN,helical_6_35hz_High_2,H6,H6,35,High,2,4
+Helical,input_voltage,KNN,helical_6_35hz_Low_1,H6,H6,35,Low,1,2
+Helical,input_voltage,KNN,helical_6_35hz_Low_2,H6,H6,35,Low,2,2
+Helical,input_voltage,KNN,helical_6_40hz_High_1,H6,H6,40,High,1,1
+Helical,input_voltage,KNN,helical_6_40hz_High_2,H6,H6,40,High,2,0
+Helical,input_voltage,KNN,helical_6_40hz_Low_1,H6,H6,40,Low,1,3
+Helical,input_voltage,KNN,helical_6_40hz_Low_2,H6,H6,40,Low,2,2
+Helical,input_voltage,KNN,helical_6_45hz_High_1,H6,H6,45,High,1,1
+Helical,input_voltage,KNN,helical_6_45hz_High_2,H6,H2,45,High,2,3
+Helical,input_voltage,KNN,helical_6_45hz_Low_1,H6,H1,45,Low,1,4
+Helical,input_voltage,KNN,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,input_voltage,KNN,helical_6_50hz_High_1,H6,H2,50,High,1,0
+Helical,input_voltage,KNN,helical_6_50hz_High_2,H6,H2,50,High,2,0
+Helical,input_voltage,KNN,helical_6_50hz_Low_1,H6,H2,50,Low,1,2
+Helical,input_voltage,KNN,helical_6_50hz_Low_2,H6,H2,50,Low,2,0
+Helical,input_voltage,SVM,helical_1_30hz_High_1,H1,H5,30,High,1,4
+Helical,input_voltage,SVM,helical_1_30hz_High_2,H1,H4,30,High,2,1
+Helical,input_voltage,SVM,helical_1_30hz_Low_1,H1,H6,30,Low,1,3
+Helical,input_voltage,SVM,helical_1_30hz_Low_2,H1,H4,30,Low,2,0
+Helical,input_voltage,SVM,helical_1_35hz_High_1,H1,H2,35,High,1,3
+Helical,input_voltage,SVM,helical_1_35hz_High_2,H1,H2,35,High,2,4
+Helical,input_voltage,SVM,helical_1_35hz_Low_1,H1,H1,35,Low,1,2
+Helical,input_voltage,SVM,helical_1_35hz_Low_2,H1,H1,35,Low,2,1
+Helical,input_voltage,SVM,helical_1_40hz_High_1,H1,H1,40,High,1,2
+Helical,input_voltage,SVM,helical_1_40hz_High_2,H1,H3,40,High,2,4
+Helical,input_voltage,SVM,helical_1_45hz_High_1,H1,H4,45,High,1,3
+Helical,input_voltage,SVM,helical_1_45hz_High_2,H1,H4,45,High,2,3
+Helical,input_voltage,SVM,helical_1_50hz_High_1,H1,H2,50,High,1,2
+Helical,input_voltage,SVM,helical_1_50hz_High_2,H1,H5,50,High,2,1
+Helical,input_voltage,SVM,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,input_voltage,SVM,helical_1_50hz_Low_2,H1,H4,50,Low,2,0
+Helical,input_voltage,SVM,helical_2_30hz_High_1,H2,H2,30,High,1,1
+Helical,input_voltage,SVM,helical_2_30hz_High_2,H2,H2,30,High,2,3
+Helical,input_voltage,SVM,helical_2_30hz_Low_1,H2,H1,30,Low,1,0
+Helical,input_voltage,SVM,helical_2_30hz_Low_2,H2,H5,30,Low,2,2
+Helical,input_voltage,SVM,helical_2_35hz_High_1,H2,H6,35,High,1,2
+Helical,input_voltage,SVM,helical_2_35hz_High_2,H2,H6,35,High,2,0
+Helical,input_voltage,SVM,helical_2_35hz_Low_1,H2,H4,35,Low,1,2
+Helical,input_voltage,SVM,helical_2_35hz_Low_2,H2,H6,35,Low,2,3
+Helical,input_voltage,SVM,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,input_voltage,SVM,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,input_voltage,SVM,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,input_voltage,SVM,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,input_voltage,SVM,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,input_voltage,SVM,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,input_voltage,SVM,helical_2_45hz_Low_1,H2,H3,45,Low,1,4
+Helical,input_voltage,SVM,helical_2_45hz_Low_2,H2,H2,45,Low,2,3
+Helical,input_voltage,SVM,helical_2_50hz_High_1,H2,H2,50,High,1,4
+Helical,input_voltage,SVM,helical_2_50hz_High_2,H2,H2,50,High,2,4
+Helical,input_voltage,SVM,helical_2_50hz_Low_1,H2,H6,50,Low,1,1
+Helical,input_voltage,SVM,helical_2_50hz_Low_2,H2,H6,50,Low,2,1
+Helical,input_voltage,SVM,helical_3_30hz_High_1,H3,H6,30,High,1,4
+Helical,input_voltage,SVM,helical_3_30hz_High_2,H3,H4,30,High,2,2
+Helical,input_voltage,SVM,helical_3_30hz_Low_1,H3,H3,30,Low,1,3
+Helical,input_voltage,SVM,helical_3_30hz_Low_2,H3,H1,30,Low,2,2
+Helical,input_voltage,SVM,helical_3_35hz_High_1,H3,H3,35,High,1,0
+Helical,input_voltage,SVM,helical_3_35hz_High_2,H3,H3,35,High,2,4
+Helical,input_voltage,SVM,helical_3_35hz_Low_1,H3,H2,35,Low,1,0
+Helical,input_voltage,SVM,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,input_voltage,SVM,helical_3_40hz_High_1,H3,H3,40,High,1,4
+Helical,input_voltage,SVM,helical_3_40hz_High_2,H3,H3,40,High,2,2
+Helical,input_voltage,SVM,helical_3_40hz_Low_1,H3,H4,40,Low,1,4
+Helical,input_voltage,SVM,helical_3_40hz_Low_2,H3,H4,40,Low,2,3
+Helical,input_voltage,SVM,helical_3_45hz_High_1,H3,H3,45,High,1,0
+Helical,input_voltage,SVM,helical_3_45hz_High_2,H3,H3,45,High,2,3
+Helical,input_voltage,SVM,helical_3_45hz_Low_1,H3,H3,45,Low,1,2
+Helical,input_voltage,SVM,helical_3_45hz_Low_2,H3,H3,45,Low,2,0
+Helical,input_voltage,SVM,helical_3_50hz_High_1,H3,H3,50,High,1,1
+Helical,input_voltage,SVM,helical_3_50hz_High_2,H3,H4,50,High,2,3
+Helical,input_voltage,SVM,helical_3_50hz_Low_1,H3,H6,50,Low,1,1
+Helical,input_voltage,SVM,helical_3_50hz_Low_2,H3,H6,50,Low,2,1
+Helical,input_voltage,SVM,helical_4_30hz_High_1,H4,H6,30,High,1,3
+Helical,input_voltage,SVM,helical_4_30hz_High_2,H4,H6,30,High,2,0
+Helical,input_voltage,SVM,helical_4_30hz_Low_2,H4,H4,30,Low,2,3
+Helical,input_voltage,SVM,helical_4_35hz_High_1,H4,H5,35,High,1,0
+Helical,input_voltage,SVM,helical_4_35hz_High_2,H4,H5,35,High,2,3
+Helical,input_voltage,SVM,helical_4_35hz_Low_1,H4,H2,35,Low,1,1
+Helical,input_voltage,SVM,helical_4_35hz_Low_2,H4,H2,35,Low,2,2
+Helical,input_voltage,SVM,helical_4_40hz_High_1,H4,H6,40,High,1,4
+Helical,input_voltage,SVM,helical_4_40hz_High_2,H4,H6,40,High,2,4
+Helical,input_voltage,SVM,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,input_voltage,SVM,helical_4_40hz_Low_2,H4,H1,40,Low,2,1
+Helical,input_voltage,SVM,helical_4_45hz_High_1,H4,H1,45,High,1,0
+Helical,input_voltage,SVM,helical_4_45hz_High_2,H4,H1,45,High,2,2
+Helical,input_voltage,SVM,helical_4_45hz_Low_1,H4,H4,45,Low,1,2
+Helical,input_voltage,SVM,helical_4_45hz_Low_2,H4,H4,45,Low,2,0
+Helical,input_voltage,SVM,helical_4_50hz_High_1,H4,H2,50,High,1,4
+Helical,input_voltage,SVM,helical_4_50hz_High_2,H4,H2,50,High,2,2
+Helical,input_voltage,SVM,helical_4_50hz_Low_1,H4,H1,50,Low,1,1
+Helical,input_voltage,SVM,helical_4_50hz_Low_2,H4,H4,50,Low,2,4
+Helical,input_voltage,SVM,helical_5_30hz_High_1,H5,H4,30,High,1,2
+Helical,input_voltage,SVM,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,input_voltage,SVM,helical_5_30hz_Low_1,H5,H5,30,Low,1,3
+Helical,input_voltage,SVM,helical_5_30hz_Low_2,H5,H3,30,Low,2,3
+Helical,input_voltage,SVM,helical_5_35hz_High_1,H5,H4,35,High,1,2
+Helical,input_voltage,SVM,helical_5_35hz_High_2,H5,H6,35,High,2,4
+Helical,input_voltage,SVM,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,input_voltage,SVM,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,input_voltage,SVM,helical_5_40hz_High_1,H5,H5,40,High,1,0
+Helical,input_voltage,SVM,helical_5_40hz_High_2,H5,H5,40,High,2,0
+Helical,input_voltage,SVM,helical_5_40hz_Low_1,H5,H1,40,Low,1,1
+Helical,input_voltage,SVM,helical_5_40hz_Low_2,H5,H1,40,Low,2,1
+Helical,input_voltage,SVM,helical_5_45hz_High_1,H5,H5,45,High,1,4
+Helical,input_voltage,SVM,helical_5_45hz_High_2,H5,H5,45,High,2,0
+Helical,input_voltage,SVM,helical_5_45hz_Low_1,H5,H3,45,Low,1,3
+Helical,input_voltage,SVM,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,input_voltage,SVM,helical_5_50hz_High_1,H5,H5,50,High,1,3
+Helical,input_voltage,SVM,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,input_voltage,SVM,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,input_voltage,SVM,helical_5_50hz_Low_2,H5,H6,50,Low,2,1
+Helical,input_voltage,SVM,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,input_voltage,SVM,helical_6_30hz_High_2,H6,H6,30,High,2,1
+Helical,input_voltage,SVM,helical_6_30hz_Low_1,H6,H5,30,Low,1,3
+Helical,input_voltage,SVM,helical_6_30hz_Low_2,H6,H5,30,Low,2,4
+Helical,input_voltage,SVM,helical_6_35hz_High_1,H6,H6,35,High,1,3
+Helical,input_voltage,SVM,helical_6_35hz_High_2,H6,H2,35,High,2,4
+Helical,input_voltage,SVM,helical_6_35hz_Low_1,H6,H6,35,Low,1,2
+Helical,input_voltage,SVM,helical_6_35hz_Low_2,H6,H4,35,Low,2,2
+Helical,input_voltage,SVM,helical_6_40hz_High_1,H6,H6,40,High,1,1
+Helical,input_voltage,SVM,helical_6_40hz_High_2,H6,H2,40,High,2,0
+Helical,input_voltage,SVM,helical_6_40hz_Low_1,H6,H6,40,Low,1,3
+Helical,input_voltage,SVM,helical_6_40hz_Low_2,H6,H6,40,Low,2,2
+Helical,input_voltage,SVM,helical_6_45hz_High_1,H6,H2,45,High,1,1
+Helical,input_voltage,SVM,helical_6_45hz_High_2,H6,H2,45,High,2,3
+Helical,input_voltage,SVM,helical_6_45hz_Low_1,H6,H4,45,Low,1,4
+Helical,input_voltage,SVM,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,input_voltage,SVM,helical_6_50hz_High_1,H6,H2,50,High,1,0
+Helical,input_voltage,SVM,helical_6_50hz_High_2,H6,H2,50,High,2,0
+Helical,input_voltage,SVM,helical_6_50hz_Low_1,H6,H3,50,Low,1,2
+Helical,input_voltage,SVM,helical_6_50hz_Low_2,H6,H3,50,Low,2,0
+Helical,input_voltage,LDA,helical_1_30hz_High_1,H1,H6,30,High,1,4
+Helical,input_voltage,LDA,helical_1_30hz_High_2,H1,H6,30,High,2,1
+Helical,input_voltage,LDA,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,input_voltage,LDA,helical_1_30hz_Low_2,H1,H1,30,Low,2,0
+Helical,input_voltage,LDA,helical_1_35hz_High_1,H1,H2,35,High,1,3
+Helical,input_voltage,LDA,helical_1_35hz_High_2,H1,H2,35,High,2,4
+Helical,input_voltage,LDA,helical_1_35hz_Low_1,H1,H2,35,Low,1,2
+Helical,input_voltage,LDA,helical_1_35hz_Low_2,H1,H2,35,Low,2,1
+Helical,input_voltage,LDA,helical_1_40hz_High_1,H1,H4,40,High,1,2
+Helical,input_voltage,LDA,helical_1_40hz_High_2,H1,H2,40,High,2,4
+Helical,input_voltage,LDA,helical_1_45hz_High_1,H1,H4,45,High,1,3
+Helical,input_voltage,LDA,helical_1_45hz_High_2,H1,H4,45,High,2,3
+Helical,input_voltage,LDA,helical_1_50hz_High_1,H1,H2,50,High,1,2
+Helical,input_voltage,LDA,helical_1_50hz_High_2,H1,H6,50,High,2,1
+Helical,input_voltage,LDA,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,input_voltage,LDA,helical_1_50hz_Low_2,H1,H4,50,Low,2,0
+Helical,input_voltage,LDA,helical_2_30hz_High_1,H2,H6,30,High,1,1
+Helical,input_voltage,LDA,helical_2_30hz_High_2,H2,H2,30,High,2,3
+Helical,input_voltage,LDA,helical_2_30hz_Low_1,H2,H2,30,Low,1,0
+Helical,input_voltage,LDA,helical_2_30hz_Low_2,H2,H6,30,Low,2,2
+Helical,input_voltage,LDA,helical_2_35hz_High_1,H2,H6,35,High,1,2
+Helical,input_voltage,LDA,helical_2_35hz_High_2,H2,H6,35,High,2,0
+Helical,input_voltage,LDA,helical_2_35hz_Low_1,H2,H5,35,Low,1,2
+Helical,input_voltage,LDA,helical_2_35hz_Low_2,H2,H5,35,Low,2,3
+Helical,input_voltage,LDA,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,input_voltage,LDA,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,input_voltage,LDA,helical_2_40hz_Low_1,H2,H1,40,Low,1,0
+Helical,input_voltage,LDA,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,input_voltage,LDA,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,input_voltage,LDA,helical_2_45hz_High_2,H2,H1,45,High,2,0
+Helical,input_voltage,LDA,helical_2_45hz_Low_1,H2,H2,45,Low,1,4
+Helical,input_voltage,LDA,helical_2_45hz_Low_2,H2,H2,45,Low,2,3
+Helical,input_voltage,LDA,helical_2_50hz_High_1,H2,H1,50,High,1,4
+Helical,input_voltage,LDA,helical_2_50hz_High_2,H2,H1,50,High,2,4
+Helical,input_voltage,LDA,helical_2_50hz_Low_1,H2,H3,50,Low,1,1
+Helical,input_voltage,LDA,helical_2_50hz_Low_2,H2,H3,50,Low,2,1
+Helical,input_voltage,LDA,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,input_voltage,LDA,helical_3_30hz_High_2,H3,H5,30,High,2,2
+Helical,input_voltage,LDA,helical_3_30hz_Low_1,H3,H5,30,Low,1,3
+Helical,input_voltage,LDA,helical_3_30hz_Low_2,H3,H2,30,Low,2,2
+Helical,input_voltage,LDA,helical_3_35hz_High_1,H3,H3,35,High,1,0
+Helical,input_voltage,LDA,helical_3_35hz_High_2,H3,H5,35,High,2,4
+Helical,input_voltage,LDA,helical_3_35hz_Low_1,H3,H2,35,Low,1,0
+Helical,input_voltage,LDA,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,input_voltage,LDA,helical_3_40hz_High_1,H3,H5,40,High,1,4
+Helical,input_voltage,LDA,helical_3_40hz_High_2,H3,H3,40,High,2,2
+Helical,input_voltage,LDA,helical_3_40hz_Low_1,H3,H4,40,Low,1,4
+Helical,input_voltage,LDA,helical_3_40hz_Low_2,H3,H4,40,Low,2,3
+Helical,input_voltage,LDA,helical_3_45hz_High_1,H3,H3,45,High,1,0
+Helical,input_voltage,LDA,helical_3_45hz_High_2,H3,H3,45,High,2,3
+Helical,input_voltage,LDA,helical_3_45hz_Low_1,H3,H3,45,Low,1,2
+Helical,input_voltage,LDA,helical_3_45hz_Low_2,H3,H3,45,Low,2,0
+Helical,input_voltage,LDA,helical_3_50hz_High_1,H3,H4,50,High,1,1
+Helical,input_voltage,LDA,helical_3_50hz_High_2,H3,H4,50,High,2,3
+Helical,input_voltage,LDA,helical_3_50hz_Low_1,H3,H3,50,Low,1,1
+Helical,input_voltage,LDA,helical_3_50hz_Low_2,H3,H3,50,Low,2,1
+Helical,input_voltage,LDA,helical_4_30hz_High_1,H4,H5,30,High,1,3
+Helical,input_voltage,LDA,helical_4_30hz_High_2,H4,H6,30,High,2,0
+Helical,input_voltage,LDA,helical_4_30hz_Low_2,H4,H1,30,Low,2,3
+Helical,input_voltage,LDA,helical_4_35hz_High_1,H4,H6,35,High,1,0
+Helical,input_voltage,LDA,helical_4_35hz_High_2,H4,H5,35,High,2,3
+Helical,input_voltage,LDA,helical_4_35hz_Low_1,H4,H1,35,Low,1,1
+Helical,input_voltage,LDA,helical_4_35hz_Low_2,H4,H1,35,Low,2,2
+Helical,input_voltage,LDA,helical_4_40hz_High_1,H4,H5,40,High,1,4
+Helical,input_voltage,LDA,helical_4_40hz_High_2,H4,H5,40,High,2,4
+Helical,input_voltage,LDA,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,input_voltage,LDA,helical_4_40hz_Low_2,H4,H1,40,Low,2,1
+Helical,input_voltage,LDA,helical_4_45hz_High_1,H4,H2,45,High,1,0
+Helical,input_voltage,LDA,helical_4_45hz_High_2,H4,H4,45,High,2,2
+Helical,input_voltage,LDA,helical_4_45hz_Low_1,H4,H1,45,Low,1,2
+Helical,input_voltage,LDA,helical_4_45hz_Low_2,H4,H4,45,Low,2,0
+Helical,input_voltage,LDA,helical_4_50hz_High_1,H4,H2,50,High,1,4
+Helical,input_voltage,LDA,helical_4_50hz_High_2,H4,H2,50,High,2,2
+Helical,input_voltage,LDA,helical_4_50hz_Low_1,H4,H1,50,Low,1,1
+Helical,input_voltage,LDA,helical_4_50hz_Low_2,H4,H4,50,Low,2,4
+Helical,input_voltage,LDA,helical_5_30hz_High_1,H5,H5,30,High,1,2
+Helical,input_voltage,LDA,helical_5_30hz_High_2,H5,H6,30,High,2,4
+Helical,input_voltage,LDA,helical_5_30hz_Low_1,H5,H5,30,Low,1,3
+Helical,input_voltage,LDA,helical_5_30hz_Low_2,H5,H3,30,Low,2,3
+Helical,input_voltage,LDA,helical_5_35hz_High_1,H5,H5,35,High,1,2
+Helical,input_voltage,LDA,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,input_voltage,LDA,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,input_voltage,LDA,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,input_voltage,LDA,helical_5_40hz_High_1,H5,H5,40,High,1,0
+Helical,input_voltage,LDA,helical_5_40hz_High_2,H5,H5,40,High,2,0
+Helical,input_voltage,LDA,helical_5_40hz_Low_1,H5,H4,40,Low,1,1
+Helical,input_voltage,LDA,helical_5_40hz_Low_2,H5,H4,40,Low,2,1
+Helical,input_voltage,LDA,helical_5_45hz_High_1,H5,H5,45,High,1,4
+Helical,input_voltage,LDA,helical_5_45hz_High_2,H5,H5,45,High,2,0
+Helical,input_voltage,LDA,helical_5_45hz_Low_1,H5,H4,45,Low,1,3
+Helical,input_voltage,LDA,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,input_voltage,LDA,helical_5_50hz_High_1,H5,H6,50,High,1,3
+Helical,input_voltage,LDA,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,input_voltage,LDA,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,input_voltage,LDA,helical_5_50hz_Low_2,H5,H3,50,Low,2,1
+Helical,input_voltage,LDA,helical_6_30hz_High_1,H6,H6,30,High,1,4
+Helical,input_voltage,LDA,helical_6_30hz_High_2,H6,H6,30,High,2,1
+Helical,input_voltage,LDA,helical_6_30hz_Low_1,H6,H5,30,Low,1,3
+Helical,input_voltage,LDA,helical_6_30hz_Low_2,H6,H5,30,Low,2,4
+Helical,input_voltage,LDA,helical_6_35hz_High_1,H6,H5,35,High,1,3
+Helical,input_voltage,LDA,helical_6_35hz_High_2,H6,H6,35,High,2,4
+Helical,input_voltage,LDA,helical_6_35hz_Low_1,H6,H6,35,Low,1,2
+Helical,input_voltage,LDA,helical_6_35hz_Low_2,H6,H5,35,Low,2,2
+Helical,input_voltage,LDA,helical_6_40hz_High_1,H6,H2,40,High,1,1
+Helical,input_voltage,LDA,helical_6_40hz_High_2,H6,H6,40,High,2,0
+Helical,input_voltage,LDA,helical_6_40hz_Low_1,H6,H6,40,Low,1,3
+Helical,input_voltage,LDA,helical_6_40hz_Low_2,H6,H6,40,Low,2,2
+Helical,input_voltage,LDA,helical_6_45hz_High_1,H6,H2,45,High,1,1
+Helical,input_voltage,LDA,helical_6_45hz_High_2,H6,H2,45,High,2,3
+Helical,input_voltage,LDA,helical_6_45hz_Low_1,H6,H4,45,Low,1,4
+Helical,input_voltage,LDA,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,input_voltage,LDA,helical_6_50hz_High_1,H6,H1,50,High,1,0
+Helical,input_voltage,LDA,helical_6_50hz_High_2,H6,H1,50,High,2,0
+Helical,input_voltage,LDA,helical_6_50hz_Low_1,H6,H3,50,Low,1,2
+Helical,input_voltage,LDA,helical_6_50hz_Low_2,H6,H3,50,Low,2,0
+Helical,input_voltage,Random Forest,helical_1_30hz_High_1,H1,H5,30,High,1,4
+Helical,input_voltage,Random Forest,helical_1_30hz_High_2,H1,H5,30,High,2,1
+Helical,input_voltage,Random Forest,helical_1_30hz_Low_1,H1,H1,30,Low,1,3
+Helical,input_voltage,Random Forest,helical_1_30hz_Low_2,H1,H1,30,Low,2,0
+Helical,input_voltage,Random Forest,helical_1_35hz_High_1,H1,H4,35,High,1,3
+Helical,input_voltage,Random Forest,helical_1_35hz_High_2,H1,H4,35,High,2,4
+Helical,input_voltage,Random Forest,helical_1_35hz_Low_1,H1,H1,35,Low,1,2
+Helical,input_voltage,Random Forest,helical_1_35hz_Low_2,H1,H1,35,Low,2,1
+Helical,input_voltage,Random Forest,helical_1_40hz_High_1,H1,H3,40,High,1,2
+Helical,input_voltage,Random Forest,helical_1_40hz_High_2,H1,H5,40,High,2,4
+Helical,input_voltage,Random Forest,helical_1_45hz_High_1,H1,H3,45,High,1,3
+Helical,input_voltage,Random Forest,helical_1_45hz_High_2,H1,H1,45,High,2,3
+Helical,input_voltage,Random Forest,helical_1_50hz_High_1,H1,H2,50,High,1,2
+Helical,input_voltage,Random Forest,helical_1_50hz_High_2,H1,H5,50,High,2,1
+Helical,input_voltage,Random Forest,helical_1_50hz_Low_1,H1,H4,50,Low,1,0
+Helical,input_voltage,Random Forest,helical_1_50hz_Low_2,H1,H4,50,Low,2,0
+Helical,input_voltage,Random Forest,helical_2_30hz_High_1,H2,H2,30,High,1,1
+Helical,input_voltage,Random Forest,helical_2_30hz_High_2,H2,H2,30,High,2,3
+Helical,input_voltage,Random Forest,helical_2_30hz_Low_1,H2,H4,30,Low,1,0
+Helical,input_voltage,Random Forest,helical_2_30hz_Low_2,H2,H2,30,Low,2,2
+Helical,input_voltage,Random Forest,helical_2_35hz_High_1,H2,H6,35,High,1,2
+Helical,input_voltage,Random Forest,helical_2_35hz_High_2,H2,H6,35,High,2,0
+Helical,input_voltage,Random Forest,helical_2_35hz_Low_1,H2,H6,35,Low,1,2
+Helical,input_voltage,Random Forest,helical_2_35hz_Low_2,H2,H6,35,Low,2,3
+Helical,input_voltage,Random Forest,helical_2_40hz_High_1,H2,H2,40,High,1,1
+Helical,input_voltage,Random Forest,helical_2_40hz_High_2,H2,H2,40,High,2,2
+Helical,input_voltage,Random Forest,helical_2_40hz_Low_1,H2,H2,40,Low,1,0
+Helical,input_voltage,Random Forest,helical_2_40hz_Low_2,H2,H2,40,Low,2,3
+Helical,input_voltage,Random Forest,helical_2_45hz_High_1,H2,H2,45,High,1,4
+Helical,input_voltage,Random Forest,helical_2_45hz_High_2,H2,H2,45,High,2,0
+Helical,input_voltage,Random Forest,helical_2_45hz_Low_1,H2,H4,45,Low,1,4
+Helical,input_voltage,Random Forest,helical_2_45hz_Low_2,H2,H6,45,Low,2,3
+Helical,input_voltage,Random Forest,helical_2_50hz_High_1,H2,H6,50,High,1,4
+Helical,input_voltage,Random Forest,helical_2_50hz_High_2,H2,H2,50,High,2,4
+Helical,input_voltage,Random Forest,helical_2_50hz_Low_1,H2,H6,50,Low,1,1
+Helical,input_voltage,Random Forest,helical_2_50hz_Low_2,H2,H6,50,Low,2,1
+Helical,input_voltage,Random Forest,helical_3_30hz_High_1,H3,H5,30,High,1,4
+Helical,input_voltage,Random Forest,helical_3_30hz_High_2,H3,H4,30,High,2,2
+Helical,input_voltage,Random Forest,helical_3_30hz_Low_1,H3,H3,30,Low,1,3
+Helical,input_voltage,Random Forest,helical_3_30hz_Low_2,H3,H3,30,Low,2,2
+Helical,input_voltage,Random Forest,helical_3_35hz_High_1,H3,H5,35,High,1,0
+Helical,input_voltage,Random Forest,helical_3_35hz_High_2,H3,H3,35,High,2,4
+Helical,input_voltage,Random Forest,helical_3_35hz_Low_1,H3,H2,35,Low,1,0
+Helical,input_voltage,Random Forest,helical_3_35hz_Low_2,H3,H2,35,Low,2,1
+Helical,input_voltage,Random Forest,helical_3_40hz_High_1,H3,H3,40,High,1,4
+Helical,input_voltage,Random Forest,helical_3_40hz_High_2,H3,H3,40,High,2,2
+Helical,input_voltage,Random Forest,helical_3_40hz_Low_1,H3,H4,40,Low,1,4
+Helical,input_voltage,Random Forest,helical_3_40hz_Low_2,H3,H5,40,Low,2,3
+Helical,input_voltage,Random Forest,helical_3_45hz_High_1,H3,H3,45,High,1,0
+Helical,input_voltage,Random Forest,helical_3_45hz_High_2,H3,H3,45,High,2,3
+Helical,input_voltage,Random Forest,helical_3_45hz_Low_1,H3,H3,45,Low,1,2
+Helical,input_voltage,Random Forest,helical_3_45hz_Low_2,H3,H5,45,Low,2,0
+Helical,input_voltage,Random Forest,helical_3_50hz_High_1,H3,H3,50,High,1,1
+Helical,input_voltage,Random Forest,helical_3_50hz_High_2,H3,H3,50,High,2,3
+Helical,input_voltage,Random Forest,helical_3_50hz_Low_1,H3,H5,50,Low,1,1
+Helical,input_voltage,Random Forest,helical_3_50hz_Low_2,H3,H5,50,Low,2,1
+Helical,input_voltage,Random Forest,helical_4_30hz_High_1,H4,H6,30,High,1,3
+Helical,input_voltage,Random Forest,helical_4_30hz_High_2,H4,H1,30,High,2,0
+Helical,input_voltage,Random Forest,helical_4_30hz_Low_2,H4,H4,30,Low,2,3
+Helical,input_voltage,Random Forest,helical_4_35hz_High_1,H4,H3,35,High,1,0
+Helical,input_voltage,Random Forest,helical_4_35hz_High_2,H4,H3,35,High,2,3
+Helical,input_voltage,Random Forest,helical_4_35hz_Low_1,H4,H1,35,Low,1,1
+Helical,input_voltage,Random Forest,helical_4_35hz_Low_2,H4,H6,35,Low,2,2
+Helical,input_voltage,Random Forest,helical_4_40hz_High_1,H4,H5,40,High,1,4
+Helical,input_voltage,Random Forest,helical_4_40hz_High_2,H4,H5,40,High,2,4
+Helical,input_voltage,Random Forest,helical_4_40hz_Low_1,H4,H4,40,Low,1,3
+Helical,input_voltage,Random Forest,helical_4_40hz_Low_2,H4,H4,40,Low,2,1
+Helical,input_voltage,Random Forest,helical_4_45hz_High_1,H4,H4,45,High,1,0
+Helical,input_voltage,Random Forest,helical_4_45hz_High_2,H4,H4,45,High,2,2
+Helical,input_voltage,Random Forest,helical_4_45hz_Low_1,H4,H4,45,Low,1,2
+Helical,input_voltage,Random Forest,helical_4_45hz_Low_2,H4,H1,45,Low,2,0
+Helical,input_voltage,Random Forest,helical_4_50hz_High_1,H4,H1,50,High,1,4
+Helical,input_voltage,Random Forest,helical_4_50hz_High_2,H4,H2,50,High,2,2
+Helical,input_voltage,Random Forest,helical_4_50hz_Low_1,H4,H1,50,Low,1,1
+Helical,input_voltage,Random Forest,helical_4_50hz_Low_2,H4,H1,50,Low,2,4
+Helical,input_voltage,Random Forest,helical_5_30hz_High_1,H5,H1,30,High,1,2
+Helical,input_voltage,Random Forest,helical_5_30hz_High_2,H5,H5,30,High,2,4
+Helical,input_voltage,Random Forest,helical_5_30hz_Low_1,H5,H1,30,Low,1,3
+Helical,input_voltage,Random Forest,helical_5_30hz_Low_2,H5,H3,30,Low,2,3
+Helical,input_voltage,Random Forest,helical_5_35hz_High_1,H5,H4,35,High,1,2
+Helical,input_voltage,Random Forest,helical_5_35hz_High_2,H5,H5,35,High,2,4
+Helical,input_voltage,Random Forest,helical_5_35hz_Low_1,H5,H2,35,Low,1,1
+Helical,input_voltage,Random Forest,helical_5_35hz_Low_2,H5,H6,35,Low,2,0
+Helical,input_voltage,Random Forest,helical_5_40hz_High_1,H5,H6,40,High,1,0
+Helical,input_voltage,Random Forest,helical_5_40hz_High_2,H5,H6,40,High,2,0
+Helical,input_voltage,Random Forest,helical_5_40hz_Low_1,H5,H3,40,Low,1,1
+Helical,input_voltage,Random Forest,helical_5_40hz_Low_2,H5,H1,40,Low,2,1
+Helical,input_voltage,Random Forest,helical_5_45hz_High_1,H5,H5,45,High,1,4
+Helical,input_voltage,Random Forest,helical_5_45hz_High_2,H5,H5,45,High,2,0
+Helical,input_voltage,Random Forest,helical_5_45hz_Low_1,H5,H3,45,Low,1,3
+Helical,input_voltage,Random Forest,helical_5_45hz_Low_2,H5,H3,45,Low,2,4
+Helical,input_voltage,Random Forest,helical_5_50hz_High_1,H5,H5,50,High,1,3
+Helical,input_voltage,Random Forest,helical_5_50hz_High_2,H5,H5,50,High,2,2
+Helical,input_voltage,Random Forest,helical_5_50hz_Low_1,H5,H3,50,Low,1,2
+Helical,input_voltage,Random Forest,helical_5_50hz_Low_2,H5,H5,50,Low,2,1
+Helical,input_voltage,Random Forest,helical_6_30hz_High_1,H6,H2,30,High,1,4
+Helical,input_voltage,Random Forest,helical_6_30hz_High_2,H6,H6,30,High,2,1
+Helical,input_voltage,Random Forest,helical_6_30hz_Low_1,H6,H6,30,Low,1,3
+Helical,input_voltage,Random Forest,helical_6_30hz_Low_2,H6,H5,30,Low,2,4
+Helical,input_voltage,Random Forest,helical_6_35hz_High_1,H6,H6,35,High,1,3
+Helical,input_voltage,Random Forest,helical_6_35hz_High_2,H6,H6,35,High,2,4
+Helical,input_voltage,Random Forest,helical_6_35hz_Low_1,H6,H6,35,Low,1,2
+Helical,input_voltage,Random Forest,helical_6_35hz_Low_2,H6,H6,35,Low,2,2
+Helical,input_voltage,Random Forest,helical_6_40hz_High_1,H6,H2,40,High,1,1
+Helical,input_voltage,Random Forest,helical_6_40hz_High_2,H6,H2,40,High,2,0
+Helical,input_voltage,Random Forest,helical_6_40hz_Low_1,H6,H6,40,Low,1,3
+Helical,input_voltage,Random Forest,helical_6_40hz_Low_2,H6,H6,40,Low,2,2
+Helical,input_voltage,Random Forest,helical_6_45hz_High_1,H6,H6,45,High,1,1
+Helical,input_voltage,Random Forest,helical_6_45hz_High_2,H6,H2,45,High,2,3
+Helical,input_voltage,Random Forest,helical_6_45hz_Low_1,H6,H4,45,Low,1,4
+Helical,input_voltage,Random Forest,helical_6_45hz_Low_2,H6,H2,45,Low,2,1
+Helical,input_voltage,Random Forest,helical_6_50hz_High_1,H6,H6,50,High,1,0
+Helical,input_voltage,Random Forest,helical_6_50hz_High_2,H6,H6,50,High,2,0
+Helical,input_voltage,Random Forest,helical_6_50hz_Low_1,H6,H2,50,Low,1,2
+Helical,input_voltage,Random Forest,helical_6_50hz_Low_2,H6,H3,50,Low,2,0
+Spur,output_voltage,KNN,spur_1_35hz_High_1,S1,S7,35,High,1,1
+Spur,output_voltage,KNN,spur_1_35hz_High_2,S1,S1,35,High,2,0
+Spur,output_voltage,KNN,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,output_voltage,KNN,spur_1_40hz_High_2,S1,S1,40,High,2,1
+Spur,output_voltage,KNN,spur_1_45hz_High_1,S1,S7,45,High,1,1
+Spur,output_voltage,KNN,spur_1_45hz_High_2,S1,S7,45,High,2,0
+Spur,output_voltage,KNN,spur_1_50hz_High_1,S1,S7,50,High,1,0
+Spur,output_voltage,KNN,spur_1_50hz_High_2,S1,S7,50,High,2,0
+Spur,output_voltage,KNN,spur_2_45hz_High_1,S2,S7,45,High,1,1
+Spur,output_voltage,KNN,spur_2_45hz_High_2,S2,S6,45,High,2,0
+Spur,output_voltage,KNN,spur_5_45hz_High_1,S5,S6,45,High,1,0
+Spur,output_voltage,KNN,spur_5_45hz_High_2,S5,S7,45,High,2,1
+Spur,output_voltage,KNN,spur_6_40hz_High_1,S6,S1,40,High,1,1
+Spur,output_voltage,KNN,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,output_voltage,KNN,spur_6_45hz_High_1,S6,S7,45,High,1,0
+Spur,output_voltage,KNN,spur_6_45hz_High_2,S6,S8,45,High,2,1
+Spur,output_voltage,KNN,spur_6_50hz_High_1,S6,S8,50,High,1,0
+Spur,output_voltage,KNN,spur_6_50hz_High_2,S6,S8,50,High,2,0
+Spur,output_voltage,KNN,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,output_voltage,KNN,spur_7_35hz_High_2,S7,S1,35,High,2,1
+Spur,output_voltage,KNN,spur_7_35hz_Low_1,S7,S1,35,Low,1,0
+Spur,output_voltage,KNN,spur_7_35hz_Low_2,S7,S1,35,Low,2,0
+Spur,output_voltage,KNN,spur_7_40hz_High_1,S7,S7,40,High,1,1
+Spur,output_voltage,KNN,spur_7_40hz_High_2,S7,S6,40,High,2,0
+Spur,output_voltage,KNN,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,output_voltage,KNN,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,output_voltage,KNN,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,output_voltage,KNN,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,output_voltage,KNN,spur_7_45hz_Low_1,S7,S1,45,Low,1,1
+Spur,output_voltage,KNN,spur_7_45hz_Low_2,S7,S1,45,Low,2,0
+Spur,output_voltage,KNN,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,output_voltage,KNN,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,output_voltage,KNN,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,output_voltage,KNN,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,output_voltage,KNN,spur_8_30hz_High_1,S8,S1,30,High,1,0
+Spur,output_voltage,KNN,spur_8_30hz_High_2,S8,S6,30,High,2,1
+Spur,output_voltage,KNN,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,output_voltage,KNN,spur_8_30hz_Low_2,S8,S7,30,Low,2,0
+Spur,output_voltage,KNN,spur_8_35hz_High_1,S8,S8,35,High,1,1
+Spur,output_voltage,KNN,spur_8_35hz_High_2,S8,S7,35,High,2,0
+Spur,output_voltage,KNN,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,output_voltage,KNN,spur_8_40hz_High_2,S8,S7,40,High,2,0
+Spur,output_voltage,KNN,spur_8_40hz_Low_1,S8,S8,40,Low,1,1
+Spur,output_voltage,KNN,spur_8_40hz_Low_2,S8,S8,40,Low,2,1
+Spur,output_voltage,KNN,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,output_voltage,KNN,spur_8_45hz_High_2,S8,S7,45,High,2,0
+Spur,output_voltage,KNN,spur_8_50hz_High_1,S8,S7,50,High,1,0
+Spur,output_voltage,KNN,spur_8_50hz_High_2,S8,S7,50,High,2,0
+Spur,output_voltage,SVM,spur_1_35hz_High_1,S1,S7,35,High,1,1
+Spur,output_voltage,SVM,spur_1_35hz_High_2,S1,S7,35,High,2,0
+Spur,output_voltage,SVM,spur_1_40hz_High_1,S1,S7,40,High,1,1
+Spur,output_voltage,SVM,spur_1_40hz_High_2,S1,S7,40,High,2,1
+Spur,output_voltage,SVM,spur_1_45hz_High_1,S1,S7,45,High,1,1
+Spur,output_voltage,SVM,spur_1_45hz_High_2,S1,S7,45,High,2,0
+Spur,output_voltage,SVM,spur_1_50hz_High_1,S1,S7,50,High,1,0
+Spur,output_voltage,SVM,spur_1_50hz_High_2,S1,S7,50,High,2,0
+Spur,output_voltage,SVM,spur_2_45hz_High_1,S2,S7,45,High,1,1
+Spur,output_voltage,SVM,spur_2_45hz_High_2,S2,S7,45,High,2,0
+Spur,output_voltage,SVM,spur_5_45hz_High_1,S5,S7,45,High,1,0
+Spur,output_voltage,SVM,spur_5_45hz_High_2,S5,S7,45,High,2,1
+Spur,output_voltage,SVM,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,output_voltage,SVM,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,output_voltage,SVM,spur_6_45hz_High_1,S6,S8,45,High,1,0
+Spur,output_voltage,SVM,spur_6_45hz_High_2,S6,S8,45,High,2,1
+Spur,output_voltage,SVM,spur_6_50hz_High_1,S6,S8,50,High,1,0
+Spur,output_voltage,SVM,spur_6_50hz_High_2,S6,S8,50,High,2,0
+Spur,output_voltage,SVM,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,output_voltage,SVM,spur_7_35hz_High_2,S7,S7,35,High,2,1
+Spur,output_voltage,SVM,spur_7_35hz_Low_1,S7,S7,35,Low,1,0
+Spur,output_voltage,SVM,spur_7_35hz_Low_2,S7,S7,35,Low,2,0
+Spur,output_voltage,SVM,spur_7_40hz_High_1,S7,S7,40,High,1,1
+Spur,output_voltage,SVM,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,output_voltage,SVM,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,output_voltage,SVM,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,output_voltage,SVM,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,output_voltage,SVM,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,output_voltage,SVM,spur_7_45hz_Low_1,S7,S8,45,Low,1,1
+Spur,output_voltage,SVM,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,output_voltage,SVM,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,output_voltage,SVM,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,output_voltage,SVM,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,output_voltage,SVM,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,output_voltage,SVM,spur_8_30hz_High_1,S8,S8,30,High,1,0
+Spur,output_voltage,SVM,spur_8_30hz_High_2,S8,S8,30,High,2,1
+Spur,output_voltage,SVM,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,output_voltage,SVM,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,output_voltage,SVM,spur_8_35hz_High_1,S8,S8,35,High,1,1
+Spur,output_voltage,SVM,spur_8_35hz_High_2,S8,S8,35,High,2,0
+Spur,output_voltage,SVM,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,output_voltage,SVM,spur_8_40hz_High_2,S8,S8,40,High,2,0
+Spur,output_voltage,SVM,spur_8_40hz_Low_1,S8,S8,40,Low,1,1
+Spur,output_voltage,SVM,spur_8_40hz_Low_2,S8,S8,40,Low,2,1
+Spur,output_voltage,SVM,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,output_voltage,SVM,spur_8_45hz_High_2,S8,S8,45,High,2,0
+Spur,output_voltage,SVM,spur_8_50hz_High_1,S8,S7,50,High,1,0
+Spur,output_voltage,SVM,spur_8_50hz_High_2,S8,S8,50,High,2,0
+Spur,output_voltage,LDA,spur_1_35hz_High_1,S1,S7,35,High,1,1
+Spur,output_voltage,LDA,spur_1_35hz_High_2,S1,S7,35,High,2,0
+Spur,output_voltage,LDA,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,output_voltage,LDA,spur_1_40hz_High_2,S1,S7,40,High,2,1
+Spur,output_voltage,LDA,spur_1_45hz_High_1,S1,S7,45,High,1,1
+Spur,output_voltage,LDA,spur_1_45hz_High_2,S1,S7,45,High,2,0
+Spur,output_voltage,LDA,spur_1_50hz_High_1,S1,S7,50,High,1,0
+Spur,output_voltage,LDA,spur_1_50hz_High_2,S1,S7,50,High,2,0
+Spur,output_voltage,LDA,spur_2_45hz_High_1,S2,S7,45,High,1,1
+Spur,output_voltage,LDA,spur_2_45hz_High_2,S2,S7,45,High,2,0
+Spur,output_voltage,LDA,spur_5_45hz_High_1,S5,S7,45,High,1,0
+Spur,output_voltage,LDA,spur_5_45hz_High_2,S5,S7,45,High,2,1
+Spur,output_voltage,LDA,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,output_voltage,LDA,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,output_voltage,LDA,spur_6_45hz_High_1,S6,S8,45,High,1,0
+Spur,output_voltage,LDA,spur_6_45hz_High_2,S6,S8,45,High,2,1
+Spur,output_voltage,LDA,spur_6_50hz_High_1,S6,S8,50,High,1,0
+Spur,output_voltage,LDA,spur_6_50hz_High_2,S6,S8,50,High,2,0
+Spur,output_voltage,LDA,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,output_voltage,LDA,spur_7_35hz_High_2,S7,S1,35,High,2,1
+Spur,output_voltage,LDA,spur_7_35hz_Low_1,S7,S5,35,Low,1,0
+Spur,output_voltage,LDA,spur_7_35hz_Low_2,S7,S5,35,Low,2,0
+Spur,output_voltage,LDA,spur_7_40hz_High_1,S7,S7,40,High,1,1
+Spur,output_voltage,LDA,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,output_voltage,LDA,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,output_voltage,LDA,spur_7_40hz_Low_2,S7,S8,40,Low,2,1
+Spur,output_voltage,LDA,spur_7_45hz_High_1,S7,S8,45,High,1,1
+Spur,output_voltage,LDA,spur_7_45hz_High_2,S7,S8,45,High,2,1
+Spur,output_voltage,LDA,spur_7_45hz_Low_1,S7,S8,45,Low,1,1
+Spur,output_voltage,LDA,spur_7_45hz_Low_2,S7,S5,45,Low,2,0
+Spur,output_voltage,LDA,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,output_voltage,LDA,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,output_voltage,LDA,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,output_voltage,LDA,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,output_voltage,LDA,spur_8_30hz_High_1,S8,S7,30,High,1,0
+Spur,output_voltage,LDA,spur_8_30hz_High_2,S8,S6,30,High,2,1
+Spur,output_voltage,LDA,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,output_voltage,LDA,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,output_voltage,LDA,spur_8_35hz_High_1,S8,S8,35,High,1,1
+Spur,output_voltage,LDA,spur_8_35hz_High_2,S8,S8,35,High,2,0
+Spur,output_voltage,LDA,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,output_voltage,LDA,spur_8_40hz_High_2,S8,S7,40,High,2,0
+Spur,output_voltage,LDA,spur_8_40hz_Low_1,S8,S8,40,Low,1,1
+Spur,output_voltage,LDA,spur_8_40hz_Low_2,S8,S8,40,Low,2,1
+Spur,output_voltage,LDA,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,output_voltage,LDA,spur_8_45hz_High_2,S8,S8,45,High,2,0
+Spur,output_voltage,LDA,spur_8_50hz_High_1,S8,S8,50,High,1,0
+Spur,output_voltage,LDA,spur_8_50hz_High_2,S8,S8,50,High,2,0
+Spur,output_voltage,Random Forest,spur_1_35hz_High_1,S1,S2,35,High,1,1
+Spur,output_voltage,Random Forest,spur_1_35hz_High_2,S1,S6,35,High,2,0
+Spur,output_voltage,Random Forest,spur_1_40hz_High_1,S1,S7,40,High,1,1
+Spur,output_voltage,Random Forest,spur_1_40hz_High_2,S1,S1,40,High,2,1
+Spur,output_voltage,Random Forest,spur_1_45hz_High_1,S1,S7,45,High,1,1
+Spur,output_voltage,Random Forest,spur_1_45hz_High_2,S1,S7,45,High,2,0
+Spur,output_voltage,Random Forest,spur_1_50hz_High_1,S1,S7,50,High,1,0
+Spur,output_voltage,Random Forest,spur_1_50hz_High_2,S1,S7,50,High,2,0
+Spur,output_voltage,Random Forest,spur_2_45hz_High_1,S2,S2,45,High,1,1
+Spur,output_voltage,Random Forest,spur_2_45hz_High_2,S2,S1,45,High,2,0
+Spur,output_voltage,Random Forest,spur_5_45hz_High_1,S5,S5,45,High,1,0
+Spur,output_voltage,Random Forest,spur_5_45hz_High_2,S5,S5,45,High,2,1
+Spur,output_voltage,Random Forest,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,output_voltage,Random Forest,spur_6_40hz_High_2,S6,S1,40,High,2,1
+Spur,output_voltage,Random Forest,spur_6_45hz_High_1,S6,S8,45,High,1,0
+Spur,output_voltage,Random Forest,spur_6_45hz_High_2,S6,S8,45,High,2,1
+Spur,output_voltage,Random Forest,spur_6_50hz_High_1,S6,S8,50,High,1,0
+Spur,output_voltage,Random Forest,spur_6_50hz_High_2,S6,S8,50,High,2,0
+Spur,output_voltage,Random Forest,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,output_voltage,Random Forest,spur_7_35hz_High_2,S7,S1,35,High,2,1
+Spur,output_voltage,Random Forest,spur_7_35hz_Low_1,S7,S6,35,Low,1,0
+Spur,output_voltage,Random Forest,spur_7_35hz_Low_2,S7,S7,35,Low,2,0
+Spur,output_voltage,Random Forest,spur_7_40hz_High_1,S7,S7,40,High,1,1
+Spur,output_voltage,Random Forest,spur_7_40hz_High_2,S7,S1,40,High,2,0
+Spur,output_voltage,Random Forest,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,output_voltage,Random Forest,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,output_voltage,Random Forest,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,output_voltage,Random Forest,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,output_voltage,Random Forest,spur_7_45hz_Low_1,S7,S8,45,Low,1,1
+Spur,output_voltage,Random Forest,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,output_voltage,Random Forest,spur_7_50hz_High_1,S7,S1,50,High,1,0
+Spur,output_voltage,Random Forest,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,output_voltage,Random Forest,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,output_voltage,Random Forest,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,output_voltage,Random Forest,spur_8_30hz_High_1,S8,S8,30,High,1,0
+Spur,output_voltage,Random Forest,spur_8_30hz_High_2,S8,S8,30,High,2,1
+Spur,output_voltage,Random Forest,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,output_voltage,Random Forest,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,output_voltage,Random Forest,spur_8_35hz_High_1,S8,S8,35,High,1,1
+Spur,output_voltage,Random Forest,spur_8_35hz_High_2,S8,S8,35,High,2,0
+Spur,output_voltage,Random Forest,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,output_voltage,Random Forest,spur_8_40hz_High_2,S8,S7,40,High,2,0
+Spur,output_voltage,Random Forest,spur_8_40hz_Low_1,S8,S8,40,Low,1,1
+Spur,output_voltage,Random Forest,spur_8_40hz_Low_2,S8,S8,40,Low,2,1
+Spur,output_voltage,Random Forest,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,output_voltage,Random Forest,spur_8_45hz_High_2,S8,S6,45,High,2,0
+Spur,output_voltage,Random Forest,spur_8_50hz_High_1,S8,S7,50,High,1,0
+Spur,output_voltage,Random Forest,spur_8_50hz_High_2,S8,S8,50,High,2,0
+Spur,input_voltage,KNN,spur_1_30hz_High_1,S1,S7,30,High,1,0
+Spur,input_voltage,KNN,spur_1_30hz_High_2,S1,S1,30,High,2,1
+Spur,input_voltage,KNN,spur_1_30hz_Low_1,S1,S1,30,Low,1,0
+Spur,input_voltage,KNN,spur_1_30hz_Low_2,S1,S8,30,Low,2,1
+Spur,input_voltage,KNN,spur_1_35hz_High_1,S1,S1,35,High,1,1
+Spur,input_voltage,KNN,spur_1_35hz_High_2,S1,S1,35,High,2,0
+Spur,input_voltage,KNN,spur_1_35hz_Low_1,S1,S1,35,Low,1,1
+Spur,input_voltage,KNN,spur_1_35hz_Low_2,S1,S8,35,Low,2,1
+Spur,input_voltage,KNN,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,input_voltage,KNN,spur_1_40hz_High_2,S1,S1,40,High,2,1
+Spur,input_voltage,KNN,spur_1_40hz_Low_1,S1,S8,40,Low,1,0
+Spur,input_voltage,KNN,spur_1_40hz_Low_2,S1,S8,40,Low,2,0
+Spur,input_voltage,KNN,spur_1_45hz_High_1,S1,S1,45,High,1,1
+Spur,input_voltage,KNN,spur_1_45hz_High_2,S1,S1,45,High,2,0
+Spur,input_voltage,KNN,spur_1_45hz_Low_1,S1,S1,45,Low,1,0
+Spur,input_voltage,KNN,spur_1_50hz_High_1,S1,S7,50,High,1,0
+Spur,input_voltage,KNN,spur_1_50hz_High_2,S1,S7,50,High,2,0
+Spur,input_voltage,KNN,spur_2_35hz_High_1,S2,S7,35,High,1,0
+Spur,input_voltage,KNN,spur_2_35hz_High_2,S2,S7,35,High,2,1
+Spur,input_voltage,KNN,spur_3_35hz_High_2,S3,S7,35,High,2,0
+Spur,input_voltage,KNN,spur_3_40hz_High_1,S3,S7,40,High,1,1
+Spur,input_voltage,KNN,spur_3_40hz_High_2,S3,S7,40,High,2,1
+Spur,input_voltage,KNN,spur_5_35hz_High_2,S5,S1,35,High,2,0
+Spur,input_voltage,KNN,spur_5_45hz_High_1,S5,S1,45,High,1,0
+Spur,input_voltage,KNN,spur_5_45hz_High_2,S5,S1,45,High,2,1
+Spur,input_voltage,KNN,spur_6_30hz_High_1,S6,S7,30,High,1,0
+Spur,input_voltage,KNN,spur_6_30hz_High_2,S6,S7,30,High,2,0
+Spur,input_voltage,KNN,spur_6_30hz_Low_1,S6,S6,30,Low,1,1
+Spur,input_voltage,KNN,spur_6_30hz_Low_2,S6,S6,30,Low,2,1
+Spur,input_voltage,KNN,spur_6_35hz_High_1,S6,S7,35,High,1,0
+Spur,input_voltage,KNN,spur_6_35hz_High_2,S6,S6,35,High,2,1
+Spur,input_voltage,KNN,spur_6_35hz_Low_1,S6,S8,35,Low,1,1
+Spur,input_voltage,KNN,spur_6_35hz_Low_2,S6,S6,35,Low,2,0
+Spur,input_voltage,KNN,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,input_voltage,KNN,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,input_voltage,KNN,spur_6_40hz_Low_1,S6,S6,40,Low,1,1
+Spur,input_voltage,KNN,spur_6_40hz_Low_2,S6,S6,40,Low,2,0
+Spur,input_voltage,KNN,spur_6_45hz_High_1,S6,S7,45,High,1,0
+Spur,input_voltage,KNN,spur_6_45hz_High_2,S6,S7,45,High,2,1
+Spur,input_voltage,KNN,spur_6_45hz_Low_1,S6,S8,45,Low,1,0
+Spur,input_voltage,KNN,spur_6_45hz_Low_2,S6,S1,45,Low,2,1
+Spur,input_voltage,KNN,spur_6_50hz_High_1,S6,S7,50,High,1,0
+Spur,input_voltage,KNN,spur_6_50hz_High_2,S6,S7,50,High,2,0
+Spur,input_voltage,KNN,spur_7_30hz_Low_1,S7,S6,30,Low,1,0
+Spur,input_voltage,KNN,spur_7_30hz_Low_2,S7,S8,30,Low,2,1
+Spur,input_voltage,KNN,spur_7_35hz_High_1,S7,S6,35,High,1,0
+Spur,input_voltage,KNN,spur_7_35hz_High_2,S7,S7,35,High,2,1
+Spur,input_voltage,KNN,spur_7_35hz_Low_1,S7,S7,35,Low,1,0
+Spur,input_voltage,KNN,spur_7_35hz_Low_2,S7,S7,35,Low,2,0
+Spur,input_voltage,KNN,spur_7_40hz_High_1,S7,S6,40,High,1,1
+Spur,input_voltage,KNN,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,input_voltage,KNN,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,input_voltage,KNN,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,input_voltage,KNN,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,input_voltage,KNN,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,input_voltage,KNN,spur_7_45hz_Low_1,S7,S7,45,Low,1,1
+Spur,input_voltage,KNN,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,input_voltage,KNN,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,input_voltage,KNN,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,input_voltage,KNN,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,input_voltage,KNN,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,input_voltage,KNN,spur_8_30hz_Low_1,S8,S1,30,Low,1,1
+Spur,input_voltage,KNN,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,input_voltage,KNN,spur_8_35hz_High_1,S8,S1,35,High,1,1
+Spur,input_voltage,KNN,spur_8_35hz_High_2,S8,S7,35,High,2,0
+Spur,input_voltage,KNN,spur_8_35hz_Low_1,S8,S1,35,Low,1,1
+Spur,input_voltage,KNN,spur_8_35hz_Low_2,S8,S8,35,Low,2,1
+Spur,input_voltage,KNN,spur_8_40hz_High_1,S8,S1,40,High,1,1
+Spur,input_voltage,KNN,spur_8_40hz_High_2,S8,S1,40,High,2,0
+Spur,input_voltage,KNN,spur_8_40hz_Low_1,S8,S1,40,Low,1,1
+Spur,input_voltage,KNN,spur_8_45hz_High_1,S8,S1,45,High,1,1
+Spur,input_voltage,KNN,spur_8_45hz_High_2,S8,S8,45,High,2,0
+Spur,input_voltage,KNN,spur_8_45hz_Low_1,S8,S1,45,Low,1,0
+Spur,input_voltage,KNN,spur_8_45hz_Low_2,S8,S1,45,Low,2,0
+Spur,input_voltage,KNN,spur_8_50hz_High_1,S8,S6,50,High,1,0
+Spur,input_voltage,KNN,spur_8_50hz_High_2,S8,S6,50,High,2,0
+Spur,input_voltage,SVM,spur_1_30hz_High_1,S1,S7,30,High,1,0
+Spur,input_voltage,SVM,spur_1_30hz_High_2,S1,S1,30,High,2,1
+Spur,input_voltage,SVM,spur_1_30hz_Low_1,S1,S8,30,Low,1,0
+Spur,input_voltage,SVM,spur_1_30hz_Low_2,S1,S1,30,Low,2,1
+Spur,input_voltage,SVM,spur_1_35hz_High_1,S1,S1,35,High,1,1
+Spur,input_voltage,SVM,spur_1_35hz_High_2,S1,S1,35,High,2,0
+Spur,input_voltage,SVM,spur_1_35hz_Low_1,S1,S1,35,Low,1,1
+Spur,input_voltage,SVM,spur_1_35hz_Low_2,S1,S1,35,Low,2,1
+Spur,input_voltage,SVM,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,input_voltage,SVM,spur_1_40hz_High_2,S1,S1,40,High,2,1
+Spur,input_voltage,SVM,spur_1_40hz_Low_1,S1,S8,40,Low,1,0
+Spur,input_voltage,SVM,spur_1_40hz_Low_2,S1,S8,40,Low,2,0
+Spur,input_voltage,SVM,spur_1_45hz_High_1,S1,S1,45,High,1,1
+Spur,input_voltage,SVM,spur_1_45hz_High_2,S1,S1,45,High,2,0
+Spur,input_voltage,SVM,spur_1_45hz_Low_1,S1,S8,45,Low,1,0
+Spur,input_voltage,SVM,spur_1_50hz_High_1,S1,S1,50,High,1,0
+Spur,input_voltage,SVM,spur_1_50hz_High_2,S1,S1,50,High,2,0
+Spur,input_voltage,SVM,spur_2_35hz_High_1,S2,S7,35,High,1,0
+Spur,input_voltage,SVM,spur_2_35hz_High_2,S2,S7,35,High,2,1
+Spur,input_voltage,SVM,spur_3_35hz_High_2,S3,S7,35,High,2,0
+Spur,input_voltage,SVM,spur_3_40hz_High_1,S3,S7,40,High,1,1
+Spur,input_voltage,SVM,spur_3_40hz_High_2,S3,S7,40,High,2,1
+Spur,input_voltage,SVM,spur_5_35hz_High_2,S5,S1,35,High,2,0
+Spur,input_voltage,SVM,spur_5_45hz_High_1,S5,S5,45,High,1,0
+Spur,input_voltage,SVM,spur_5_45hz_High_2,S5,S5,45,High,2,1
+Spur,input_voltage,SVM,spur_6_30hz_High_1,S6,S7,30,High,1,0
+Spur,input_voltage,SVM,spur_6_30hz_High_2,S6,S7,30,High,2,0
+Spur,input_voltage,SVM,spur_6_30hz_Low_1,S6,S6,30,Low,1,1
+Spur,input_voltage,SVM,spur_6_30hz_Low_2,S6,S6,30,Low,2,1
+Spur,input_voltage,SVM,spur_6_35hz_High_1,S6,S7,35,High,1,0
+Spur,input_voltage,SVM,spur_6_35hz_High_2,S6,S6,35,High,2,1
+Spur,input_voltage,SVM,spur_6_35hz_Low_1,S6,S6,35,Low,1,1
+Spur,input_voltage,SVM,spur_6_35hz_Low_2,S6,S6,35,Low,2,0
+Spur,input_voltage,SVM,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,input_voltage,SVM,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,input_voltage,SVM,spur_6_40hz_Low_1,S6,S6,40,Low,1,1
+Spur,input_voltage,SVM,spur_6_40hz_Low_2,S6,S6,40,Low,2,0
+Spur,input_voltage,SVM,spur_6_45hz_High_1,S6,S7,45,High,1,0
+Spur,input_voltage,SVM,spur_6_45hz_High_2,S6,S7,45,High,2,1
+Spur,input_voltage,SVM,spur_6_45hz_Low_1,S6,S6,45,Low,1,0
+Spur,input_voltage,SVM,spur_6_45hz_Low_2,S6,S6,45,Low,2,1
+Spur,input_voltage,SVM,spur_6_50hz_High_1,S6,S7,50,High,1,0
+Spur,input_voltage,SVM,spur_6_50hz_High_2,S6,S7,50,High,2,0
+Spur,input_voltage,SVM,spur_7_30hz_Low_1,S7,S7,30,Low,1,0
+Spur,input_voltage,SVM,spur_7_30hz_Low_2,S7,S1,30,Low,2,1
+Spur,input_voltage,SVM,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,input_voltage,SVM,spur_7_35hz_High_2,S7,S7,35,High,2,1
+Spur,input_voltage,SVM,spur_7_35hz_Low_1,S7,S7,35,Low,1,0
+Spur,input_voltage,SVM,spur_7_35hz_Low_2,S7,S7,35,Low,2,0
+Spur,input_voltage,SVM,spur_7_40hz_High_1,S7,S6,40,High,1,1
+Spur,input_voltage,SVM,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,input_voltage,SVM,spur_7_40hz_Low_1,S7,S6,40,Low,1,1
+Spur,input_voltage,SVM,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,input_voltage,SVM,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,input_voltage,SVM,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,input_voltage,SVM,spur_7_45hz_Low_1,S7,S7,45,Low,1,1
+Spur,input_voltage,SVM,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,input_voltage,SVM,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,input_voltage,SVM,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,input_voltage,SVM,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,input_voltage,SVM,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,input_voltage,SVM,spur_8_30hz_Low_1,S8,S1,30,Low,1,1
+Spur,input_voltage,SVM,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,input_voltage,SVM,spur_8_35hz_High_1,S8,S7,35,High,1,1
+Spur,input_voltage,SVM,spur_8_35hz_High_2,S8,S7,35,High,2,0
+Spur,input_voltage,SVM,spur_8_35hz_Low_1,S8,S1,35,Low,1,1
+Spur,input_voltage,SVM,spur_8_35hz_Low_2,S8,S1,35,Low,2,1
+Spur,input_voltage,SVM,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,input_voltage,SVM,spur_8_40hz_High_2,S8,S1,40,High,2,0
+Spur,input_voltage,SVM,spur_8_40hz_Low_1,S8,S1,40,Low,1,1
+Spur,input_voltage,SVM,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,input_voltage,SVM,spur_8_45hz_High_2,S8,S1,45,High,2,0
+Spur,input_voltage,SVM,spur_8_45hz_Low_1,S8,S8,45,Low,1,0
+Spur,input_voltage,SVM,spur_8_45hz_Low_2,S8,S8,45,Low,2,0
+Spur,input_voltage,SVM,spur_8_50hz_High_1,S8,S6,50,High,1,0
+Spur,input_voltage,SVM,spur_8_50hz_High_2,S8,S6,50,High,2,0
+Spur,input_voltage,LDA,spur_1_30hz_High_1,S1,S7,30,High,1,0
+Spur,input_voltage,LDA,spur_1_30hz_High_2,S1,S7,30,High,2,1
+Spur,input_voltage,LDA,spur_1_30hz_Low_1,S1,S1,30,Low,1,0
+Spur,input_voltage,LDA,spur_1_30hz_Low_2,S1,S1,30,Low,2,1
+Spur,input_voltage,LDA,spur_1_35hz_High_1,S1,S1,35,High,1,1
+Spur,input_voltage,LDA,spur_1_35hz_High_2,S1,S1,35,High,2,0
+Spur,input_voltage,LDA,spur_1_35hz_Low_1,S1,S1,35,Low,1,1
+Spur,input_voltage,LDA,spur_1_35hz_Low_2,S1,S1,35,Low,2,1
+Spur,input_voltage,LDA,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,input_voltage,LDA,spur_1_40hz_High_2,S1,S7,40,High,2,1
+Spur,input_voltage,LDA,spur_1_40hz_Low_1,S1,S8,40,Low,1,0
+Spur,input_voltage,LDA,spur_1_40hz_Low_2,S1,S8,40,Low,2,0
+Spur,input_voltage,LDA,spur_1_45hz_High_1,S1,S1,45,High,1,1
+Spur,input_voltage,LDA,spur_1_45hz_High_2,S1,S1,45,High,2,0
+Spur,input_voltage,LDA,spur_1_45hz_Low_1,S1,S8,45,Low,1,0
+Spur,input_voltage,LDA,spur_1_50hz_High_1,S1,S1,50,High,1,0
+Spur,input_voltage,LDA,spur_1_50hz_High_2,S1,S1,50,High,2,0
+Spur,input_voltage,LDA,spur_2_35hz_High_1,S2,S7,35,High,1,0
+Spur,input_voltage,LDA,spur_2_35hz_High_2,S2,S7,35,High,2,1
+Spur,input_voltage,LDA,spur_3_35hz_High_2,S3,S7,35,High,2,0
+Spur,input_voltage,LDA,spur_3_40hz_High_1,S3,S7,40,High,1,1
+Spur,input_voltage,LDA,spur_3_40hz_High_2,S3,S7,40,High,2,1
+Spur,input_voltage,LDA,spur_5_35hz_High_2,S5,S1,35,High,2,0
+Spur,input_voltage,LDA,spur_5_45hz_High_1,S5,S5,45,High,1,0
+Spur,input_voltage,LDA,spur_5_45hz_High_2,S5,S5,45,High,2,1
+Spur,input_voltage,LDA,spur_6_30hz_High_1,S6,S6,30,High,1,0
+Spur,input_voltage,LDA,spur_6_30hz_High_2,S6,S6,30,High,2,0
+Spur,input_voltage,LDA,spur_6_30hz_Low_1,S6,S6,30,Low,1,1
+Spur,input_voltage,LDA,spur_6_30hz_Low_2,S6,S6,30,Low,2,1
+Spur,input_voltage,LDA,spur_6_35hz_High_1,S6,S7,35,High,1,0
+Spur,input_voltage,LDA,spur_6_35hz_High_2,S6,S6,35,High,2,1
+Spur,input_voltage,LDA,spur_6_35hz_Low_1,S6,S6,35,Low,1,1
+Spur,input_voltage,LDA,spur_6_35hz_Low_2,S6,S6,35,Low,2,0
+Spur,input_voltage,LDA,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,input_voltage,LDA,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,input_voltage,LDA,spur_6_40hz_Low_1,S6,S6,40,Low,1,1
+Spur,input_voltage,LDA,spur_6_40hz_Low_2,S6,S6,40,Low,2,0
+Spur,input_voltage,LDA,spur_6_45hz_High_1,S6,S6,45,High,1,0
+Spur,input_voltage,LDA,spur_6_45hz_High_2,S6,S7,45,High,2,1
+Spur,input_voltage,LDA,spur_6_45hz_Low_1,S6,S6,45,Low,1,0
+Spur,input_voltage,LDA,spur_6_45hz_Low_2,S6,S8,45,Low,2,1
+Spur,input_voltage,LDA,spur_6_50hz_High_1,S6,S6,50,High,1,0
+Spur,input_voltage,LDA,spur_6_50hz_High_2,S6,S6,50,High,2,0
+Spur,input_voltage,LDA,spur_7_30hz_Low_1,S7,S7,30,Low,1,0
+Spur,input_voltage,LDA,spur_7_30hz_Low_2,S7,S1,30,Low,2,1
+Spur,input_voltage,LDA,spur_7_35hz_High_1,S7,S7,35,High,1,0
+Spur,input_voltage,LDA,spur_7_35hz_High_2,S7,S7,35,High,2,1
+Spur,input_voltage,LDA,spur_7_35hz_Low_1,S7,S7,35,Low,1,0
+Spur,input_voltage,LDA,spur_7_35hz_Low_2,S7,S7,35,Low,2,0
+Spur,input_voltage,LDA,spur_7_40hz_High_1,S7,S6,40,High,1,1
+Spur,input_voltage,LDA,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,input_voltage,LDA,spur_7_40hz_Low_1,S7,S6,40,Low,1,1
+Spur,input_voltage,LDA,spur_7_40hz_Low_2,S7,S7,40,Low,2,1
+Spur,input_voltage,LDA,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,input_voltage,LDA,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,input_voltage,LDA,spur_7_45hz_Low_1,S7,S7,45,Low,1,1
+Spur,input_voltage,LDA,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,input_voltage,LDA,spur_7_50hz_High_1,S7,S7,50,High,1,0
+Spur,input_voltage,LDA,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,input_voltage,LDA,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,input_voltage,LDA,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,input_voltage,LDA,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,input_voltage,LDA,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,input_voltage,LDA,spur_8_35hz_High_1,S8,S7,35,High,1,1
+Spur,input_voltage,LDA,spur_8_35hz_High_2,S8,S7,35,High,2,0
+Spur,input_voltage,LDA,spur_8_35hz_Low_1,S8,S1,35,Low,1,1
+Spur,input_voltage,LDA,spur_8_35hz_Low_2,S8,S1,35,Low,2,1
+Spur,input_voltage,LDA,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,input_voltage,LDA,spur_8_40hz_High_2,S8,S7,40,High,2,0
+Spur,input_voltage,LDA,spur_8_40hz_Low_1,S8,S8,40,Low,1,1
+Spur,input_voltage,LDA,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,input_voltage,LDA,spur_8_45hz_High_2,S8,S6,45,High,2,0
+Spur,input_voltage,LDA,spur_8_45hz_Low_1,S8,S1,45,Low,1,0
+Spur,input_voltage,LDA,spur_8_45hz_Low_2,S8,S1,45,Low,2,0
+Spur,input_voltage,LDA,spur_8_50hz_High_1,S8,S6,50,High,1,0
+Spur,input_voltage,LDA,spur_8_50hz_High_2,S8,S6,50,High,2,0
+Spur,input_voltage,Random Forest,spur_1_30hz_High_1,S1,S7,30,High,1,0
+Spur,input_voltage,Random Forest,spur_1_30hz_High_2,S1,S1,30,High,2,1
+Spur,input_voltage,Random Forest,spur_1_30hz_Low_1,S1,S1,30,Low,1,0
+Spur,input_voltage,Random Forest,spur_1_30hz_Low_2,S1,S1,30,Low,2,1
+Spur,input_voltage,Random Forest,spur_1_35hz_High_1,S1,S1,35,High,1,1
+Spur,input_voltage,Random Forest,spur_1_35hz_High_2,S1,S1,35,High,2,0
+Spur,input_voltage,Random Forest,spur_1_35hz_Low_1,S1,S1,35,Low,1,1
+Spur,input_voltage,Random Forest,spur_1_35hz_Low_2,S1,S1,35,Low,2,1
+Spur,input_voltage,Random Forest,spur_1_40hz_High_1,S1,S1,40,High,1,1
+Spur,input_voltage,Random Forest,spur_1_40hz_High_2,S1,S1,40,High,2,1
+Spur,input_voltage,Random Forest,spur_1_40hz_Low_1,S1,S6,40,Low,1,0
+Spur,input_voltage,Random Forest,spur_1_40hz_Low_2,S1,S8,40,Low,2,0
+Spur,input_voltage,Random Forest,spur_1_45hz_High_1,S1,S1,45,High,1,1
+Spur,input_voltage,Random Forest,spur_1_45hz_High_2,S1,S1,45,High,2,0
+Spur,input_voltage,Random Forest,spur_1_45hz_Low_1,S1,S1,45,Low,1,0
+Spur,input_voltage,Random Forest,spur_1_50hz_High_1,S1,S1,50,High,1,0
+Spur,input_voltage,Random Forest,spur_1_50hz_High_2,S1,S1,50,High,2,0
+Spur,input_voltage,Random Forest,spur_2_35hz_High_1,S2,S2,35,High,1,0
+Spur,input_voltage,Random Forest,spur_2_35hz_High_2,S2,S2,35,High,2,1
+Spur,input_voltage,Random Forest,spur_3_35hz_High_2,S3,S7,35,High,2,0
+Spur,input_voltage,Random Forest,spur_3_40hz_High_1,S3,S7,40,High,1,1
+Spur,input_voltage,Random Forest,spur_3_40hz_High_2,S3,S7,40,High,2,1
+Spur,input_voltage,Random Forest,spur_5_35hz_High_2,S5,S1,35,High,2,0
+Spur,input_voltage,Random Forest,spur_5_45hz_High_1,S5,S5,45,High,1,0
+Spur,input_voltage,Random Forest,spur_5_45hz_High_2,S5,S5,45,High,2,1
+Spur,input_voltage,Random Forest,spur_6_30hz_High_1,S6,S6,30,High,1,0
+Spur,input_voltage,Random Forest,spur_6_30hz_High_2,S6,S7,30,High,2,0
+Spur,input_voltage,Random Forest,spur_6_30hz_Low_1,S6,S6,30,Low,1,1
+Spur,input_voltage,Random Forest,spur_6_30hz_Low_2,S6,S6,30,Low,2,1
+Spur,input_voltage,Random Forest,spur_6_35hz_High_1,S6,S7,35,High,1,0
+Spur,input_voltage,Random Forest,spur_6_35hz_High_2,S6,S6,35,High,2,1
+Spur,input_voltage,Random Forest,spur_6_35hz_Low_1,S6,S6,35,Low,1,1
+Spur,input_voltage,Random Forest,spur_6_35hz_Low_2,S6,S6,35,Low,2,0
+Spur,input_voltage,Random Forest,spur_6_40hz_High_1,S6,S7,40,High,1,1
+Spur,input_voltage,Random Forest,spur_6_40hz_High_2,S6,S7,40,High,2,1
+Spur,input_voltage,Random Forest,spur_6_40hz_Low_1,S6,S6,40,Low,1,1
+Spur,input_voltage,Random Forest,spur_6_40hz_Low_2,S6,S6,40,Low,2,0
+Spur,input_voltage,Random Forest,spur_6_45hz_High_1,S6,S8,45,High,1,0
+Spur,input_voltage,Random Forest,spur_6_45hz_High_2,S6,S7,45,High,2,1
+Spur,input_voltage,Random Forest,spur_6_45hz_Low_1,S6,S6,45,Low,1,0
+Spur,input_voltage,Random Forest,spur_6_45hz_Low_2,S6,S6,45,Low,2,1
+Spur,input_voltage,Random Forest,spur_6_50hz_High_1,S6,S7,50,High,1,0
+Spur,input_voltage,Random Forest,spur_6_50hz_High_2,S6,S7,50,High,2,0
+Spur,input_voltage,Random Forest,spur_7_30hz_Low_1,S7,S7,30,Low,1,0
+Spur,input_voltage,Random Forest,spur_7_30hz_Low_2,S7,S1,30,Low,2,1
+Spur,input_voltage,Random Forest,spur_7_35hz_High_1,S7,S3,35,High,1,0
+Spur,input_voltage,Random Forest,spur_7_35hz_High_2,S7,S7,35,High,2,1
+Spur,input_voltage,Random Forest,spur_7_35hz_Low_1,S7,S7,35,Low,1,0
+Spur,input_voltage,Random Forest,spur_7_35hz_Low_2,S7,S8,35,Low,2,0
+Spur,input_voltage,Random Forest,spur_7_40hz_High_1,S7,S6,40,High,1,1
+Spur,input_voltage,Random Forest,spur_7_40hz_High_2,S7,S7,40,High,2,0
+Spur,input_voltage,Random Forest,spur_7_40hz_Low_1,S7,S7,40,Low,1,1
+Spur,input_voltage,Random Forest,spur_7_40hz_Low_2,S7,S3,40,Low,2,1
+Spur,input_voltage,Random Forest,spur_7_45hz_High_1,S7,S7,45,High,1,1
+Spur,input_voltage,Random Forest,spur_7_45hz_High_2,S7,S7,45,High,2,1
+Spur,input_voltage,Random Forest,spur_7_45hz_Low_1,S7,S7,45,Low,1,1
+Spur,input_voltage,Random Forest,spur_7_45hz_Low_2,S7,S7,45,Low,2,0
+Spur,input_voltage,Random Forest,spur_7_50hz_High_1,S7,S2,50,High,1,0
+Spur,input_voltage,Random Forest,spur_7_50hz_High_2,S7,S7,50,High,2,0
+Spur,input_voltage,Random Forest,spur_7_50hz_Low_1,S7,S7,50,Low,1,1
+Spur,input_voltage,Random Forest,spur_7_50hz_Low_2,S7,S7,50,Low,2,0
+Spur,input_voltage,Random Forest,spur_8_30hz_Low_1,S8,S8,30,Low,1,1
+Spur,input_voltage,Random Forest,spur_8_30hz_Low_2,S8,S8,30,Low,2,0
+Spur,input_voltage,Random Forest,spur_8_35hz_High_1,S8,S1,35,High,1,1
+Spur,input_voltage,Random Forest,spur_8_35hz_High_2,S8,S7,35,High,2,0
+Spur,input_voltage,Random Forest,spur_8_35hz_Low_1,S8,S8,35,Low,1,1
+Spur,input_voltage,Random Forest,spur_8_35hz_Low_2,S8,S8,35,Low,2,1
+Spur,input_voltage,Random Forest,spur_8_40hz_High_1,S8,S8,40,High,1,1
+Spur,input_voltage,Random Forest,spur_8_40hz_High_2,S8,S8,40,High,2,0
+Spur,input_voltage,Random Forest,spur_8_40hz_Low_1,S8,S1,40,Low,1,1
+Spur,input_voltage,Random Forest,spur_8_45hz_High_1,S8,S8,45,High,1,1
+Spur,input_voltage,Random Forest,spur_8_45hz_High_2,S8,S8,45,High,2,0
+Spur,input_voltage,Random Forest,spur_8_45hz_Low_1,S8,S1,45,Low,1,0
+Spur,input_voltage,Random Forest,spur_8_45hz_Low_2,S8,S1,45,Low,2,0
+Spur,input_voltage,Random Forest,spur_8_50hz_High_1,S8,S6,50,High,1,0
+Spur,input_voltage,Random Forest,spur_8_50hz_High_2,S8,S6,50,High,2,0

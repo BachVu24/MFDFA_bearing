@@ -1,0 +1,113 @@
+dataset,channel,classifier,protocol,held_out_condition,n_train,n_test,missing_training_classes,status,accuracy,macro_f1,macro_precision,macro_recall,weighted_f1,macro_scope
+Helical,output_voltage,KNN,leave_one_speed_out,30,91,18,,EVALUABLE,0.3888888888888889,0.38359788359788355,0.36666666666666664,0.4444444444444444,0.3439153439153439,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_speed_out,30,91,18,,EVALUABLE,0.5555555555555556,0.5305916305916306,0.6291666666666667,0.625,0.5025493025493025,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_speed_out,30,91,18,,EVALUABLE,0.3888888888888889,0.2853535353535353,0.3125,0.3333333333333333,0.35016835016835013,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_speed_out,30,91,18,,EVALUABLE,0.5,0.452020202020202,0.4513888888888889,0.5833333333333334,0.4057239057239057,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_speed_out,35,85,24,,EVALUABLE,0.25,0.22985347985347984,0.23148148148148148,0.25,0.22985347985347984,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_speed_out,35,85,24,,EVALUABLE,0.2916666666666667,0.3123931623931624,0.4537037037037037,0.2916666666666667,0.3123931623931624,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_speed_out,35,85,24,,EVALUABLE,0.25,0.2261904761904762,0.22777777777777777,0.25,0.2261904761904762,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_speed_out,35,85,24,,EVALUABLE,0.2916666666666667,0.27905982905982907,0.3148148148148148,0.2916666666666667,0.27905982905982907,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_speed_out,40,85,24,,EVALUABLE,0.5,0.47438672438672436,0.5466269841269841,0.5,0.47438672438672436,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_speed_out,40,85,24,,EVALUABLE,0.625,0.5618233618233618,0.6518518518518519,0.625,0.5618233618233618,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_speed_out,40,85,24,,EVALUABLE,0.3333333333333333,0.27121212121212124,0.2341269841269841,0.3333333333333333,0.27121212121212124,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_speed_out,40,85,24,,EVALUABLE,0.625,0.558119658119658,0.6574074074074074,0.625,0.558119658119658,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_speed_out,45,88,21,,EVALUABLE,0.42857142857142855,0.39033613445378146,0.5512820512820513,0.4305555555555555,0.38419367747098837,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_speed_out,45,88,21,,EVALUABLE,0.47619047619047616,0.3796296296296296,0.38095238095238093,0.5,0.3915343915343915,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_speed_out,45,88,21,,EVALUABLE,0.38095238095238093,0.36507936507936506,0.45,0.3611111111111111,0.3900226757369614,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_speed_out,45,88,21,,EVALUABLE,0.38095238095238093,0.3964285714285714,0.4694444444444444,0.4305555555555555,0.37482993197278913,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_speed_out,50,87,22,,EVALUABLE,0.3181818181818182,0.2738095238095238,0.2833333333333333,0.2916666666666667,0.2987012987012987,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_speed_out,50,87,22,,EVALUABLE,0.2727272727272727,0.2222222222222222,0.24166666666666667,0.3333333333333333,0.21212121212121213,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_speed_out,50,87,22,,EVALUABLE,0.22727272727272727,0.15584415584415584,0.13095238095238096,0.2916666666666667,0.14403778040141677,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_speed_out,50,87,22,,EVALUABLE,0.2727272727272727,0.21746031746031746,0.19999999999999998,0.3333333333333333,0.20692640692640693,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_load_out,High,54,55,,EVALUABLE,0.03636363636363636,0.02150537634408602,0.015873015873015872,0.03333333333333333,0.02346041055718475,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_load_out,High,54,55,,EVALUABLE,0.03636363636363636,0.022988505747126436,0.017543859649122806,0.03333333333333333,0.025078369905956115,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_load_out,High,54,55,,EVALUABLE,0.09090909090909091,0.10437710437710439,0.13888888888888887,0.08750000000000001,0.10725436179981634,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_load_out,High,54,55,,EVALUABLE,0.09090909090909091,0.0825211176088369,0.08387799564270153,0.08333333333333333,0.09002303739145844,Classes present in this held-out test condition
+Helical,output_voltage,KNN,leave_one_load_out,Low,55,54,,EVALUABLE,0.12962962962962962,0.06645735217163788,0.0673076923076923,0.11851851851851851,0.07099249956392814,Classes present in this held-out test condition
+Helical,output_voltage,SVM,leave_one_load_out,Low,55,54,,EVALUABLE,0.12962962962962962,0.08268398268398269,0.06298245614035088,0.13472222222222222,0.08116883116883117,Classes present in this held-out test condition
+Helical,output_voltage,LDA,leave_one_load_out,Low,55,54,,EVALUABLE,0.14814814814814814,0.06349206349206349,0.04040404040404041,0.14814814814814814,0.06349206349206349,Classes present in this held-out test condition
+Helical,output_voltage,Random Forest,leave_one_load_out,Low,55,54,,EVALUABLE,0.09259259259259259,0.06172839506172839,0.0462962962962963,0.0925925925925926,0.06172839506172839,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_speed_out,30,92,23,,EVALUABLE,0.391304347826087,0.3867724867724867,0.4138888888888888,0.38888888888888884,0.3911663216011042,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_speed_out,30,92,23,,EVALUABLE,0.34782608695652173,0.32936507936507936,0.33888888888888885,0.3611111111111111,0.31884057971014496,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_speed_out,30,92,23,,EVALUABLE,0.2608695652173913,0.2244047619047619,0.3194444444444444,0.25,0.23416149068322983,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_speed_out,30,92,23,,EVALUABLE,0.30434782608695654,0.2724867724867725,0.2611111111111111,0.3055555555555555,0.271911663216011,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_speed_out,35,91,24,,EVALUABLE,0.125,0.13227513227513227,0.14444444444444446,0.125,0.13227513227513227,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_speed_out,35,91,24,,EVALUABLE,0.20833333333333334,0.21666666666666667,0.3958333333333333,0.20833333333333334,0.21666666666666667,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_speed_out,35,91,24,,EVALUABLE,0.2916666666666667,0.2547008547008547,0.27777777777777773,0.2916666666666667,0.2547008547008547,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_speed_out,35,91,24,,EVALUABLE,0.16666666666666666,0.08888888888888889,0.06060606060606061,0.16666666666666666,0.08888888888888889,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_speed_out,40,93,22,,EVALUABLE,0.22727272727272727,0.22023809523809523,0.2222222222222222,0.25,0.21753246753246752,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_speed_out,40,93,22,,EVALUABLE,0.5,0.5119047619047618,0.6666666666666666,0.5,0.49783549783549774,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_speed_out,40,93,22,,EVALUABLE,0.3181818181818182,0.28148148148148144,0.3111111111111111,0.2916666666666667,0.30707070707070705,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_speed_out,40,93,22,,EVALUABLE,0.36363636363636365,0.29523809523809524,0.27777777777777773,0.3333333333333333,0.3220779220779221,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_speed_out,45,93,22,,EVALUABLE,0.2727272727272727,0.25,0.3333333333333333,0.25,0.2727272727272727,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_speed_out,45,93,22,,EVALUABLE,0.45454545454545453,0.38298738298738294,0.4185185185185185,0.4166666666666667,0.4178044178044178,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_speed_out,45,93,22,,EVALUABLE,0.45454545454545453,0.4255411255411255,0.4907407407407407,0.4583333333333333,0.44769775678866586,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_speed_out,45,93,22,,EVALUABLE,0.4090909090909091,0.39999999999999997,0.5625,0.375,0.43636363636363634,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_speed_out,50,91,24,,EVALUABLE,0.2916666666666667,0.2888888888888889,0.375,0.2916666666666667,0.2888888888888889,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_speed_out,50,91,24,,EVALUABLE,0.375,0.3161005661005661,0.2976190476190476,0.375,0.3161005661005661,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_speed_out,50,91,24,,EVALUABLE,0.2916666666666667,0.22486772486772486,0.24206349206349206,0.2916666666666667,0.22486772486772486,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_speed_out,50,91,24,,EVALUABLE,0.5,0.4589947089947089,0.49444444444444446,0.5,0.4589947089947089,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_load_out,High,55,60,,EVALUABLE,0.15,0.10641788766788766,0.08428030303030302,0.15,0.10641788766788768,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_load_out,High,55,60,,EVALUABLE,0.2,0.14544807965860598,0.12037037037037039,0.19999999999999998,0.14544807965860596,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_load_out,High,55,60,,EVALUABLE,0.15,0.10045219638242893,0.07972582972582973,0.15,0.10045219638242894,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_load_out,High,55,60,,EVALUABLE,0.13333333333333333,0.10311447811447812,0.10149572649572651,0.13333333333333333,0.10311447811447812,Classes present in this held-out test condition
+Helical,input_voltage,KNN,leave_one_load_out,Low,60,55,,EVALUABLE,0.2,0.16640586974683083,0.15189146365616954,0.19444444444444445,0.17520956541551508,Classes present in this held-out test condition
+Helical,input_voltage,SVM,leave_one_load_out,Low,60,55,,EVALUABLE,0.18181818181818182,0.1493734335839599,0.14074074074074075,0.16666666666666666,0.16295283663704715,Classes present in this held-out test condition
+Helical,input_voltage,LDA,leave_one_load_out,Low,60,55,,EVALUABLE,0.14545454545454545,0.10555555555555556,0.09166666666666667,0.13333333333333333,0.11515151515151514,Classes present in this held-out test condition
+Helical,input_voltage,Random Forest,leave_one_load_out,Low,60,55,,EVALUABLE,0.2,0.16853054353054353,0.15232683982683984,0.20555555555555552,0.17062836153745245,Classes present in this held-out test condition
+Spur,output_voltage,KNN,leave_one_speed_out,30,44,4,,EVALUABLE,0.25,0.4,1.0,0.25,0.4,Classes present in this held-out test condition
+Spur,output_voltage,SVM,leave_one_speed_out,30,44,4,,EVALUABLE,0.5,0.6666666666666666,1.0,0.5,0.6666666666666666,Classes present in this held-out test condition
+Spur,output_voltage,LDA,leave_one_speed_out,30,44,4,,EVALUABLE,0.5,0.6666666666666666,1.0,0.5,0.6666666666666666,Classes present in this held-out test condition
+Spur,output_voltage,Random Forest,leave_one_speed_out,30,44,4,,EVALUABLE,0.5,0.6666666666666666,1.0,0.5,0.6666666666666666,Classes present in this held-out test condition
+Spur,output_voltage,KNN,leave_one_speed_out,35,40,8,,EVALUABLE,0.25,0.35555555555555557,0.6666666666666666,0.25,0.3666666666666667,Classes present in this held-out test condition
+Spur,output_voltage,SVM,leave_one_speed_out,35,40,8,,EVALUABLE,0.625,0.48888888888888893,0.5555555555555555,0.5,0.5666666666666667,Classes present in this held-out test condition
+Spur,output_voltage,LDA,leave_one_speed_out,35,40,8,,EVALUABLE,0.5,0.5,0.5,0.5,0.5,Classes present in this held-out test condition
+Spur,output_voltage,Random Forest,leave_one_speed_out,35,40,8,,EVALUABLE,0.125,0.13333333333333333,0.3333333333333333,0.08333333333333333,0.2,Classes present in this held-out test condition
+Spur,output_voltage,KNN,leave_one_speed_out,40,36,12,,EVALUABLE,0.3333333333333333,0.21969696969696967,0.16964285714285715,0.3125,0.23737373737373735,Classes present in this held-out test condition
+Spur,output_voltage,SVM,leave_one_speed_out,40,36,12,,EVALUABLE,0.5833333333333334,0.36813186813186816,0.3611111111111111,0.4375,0.4908424908424909,Classes present in this held-out test condition
+Spur,output_voltage,LDA,leave_one_speed_out,40,36,12,,EVALUABLE,0.5833333333333334,0.36813186813186816,0.3611111111111111,0.4375,0.4908424908424909,Classes present in this held-out test condition
+Spur,output_voltage,Random Forest,leave_one_speed_out,40,36,12,,EVALUABLE,0.4166666666666667,0.3142857142857143,0.3333333333333333,0.3125,0.41904761904761906,Classes present in this held-out test condition
+Spur,output_voltage,KNN,leave_one_speed_out,45,34,14,S2;S5,NOT EVALUABLE,,,,,,
+Spur,output_voltage,SVM,leave_one_speed_out,45,34,14,S2;S5,NOT EVALUABLE,,,,,,
+Spur,output_voltage,LDA,leave_one_speed_out,45,34,14,S2;S5,NOT EVALUABLE,,,,,,
+Spur,output_voltage,Random Forest,leave_one_speed_out,45,34,14,S2;S5,NOT EVALUABLE,,,,,,
+Spur,output_voltage,KNN,leave_one_speed_out,50,38,10,,EVALUABLE,0.4,0.18181818181818182,0.14285714285714285,0.25,0.2909090909090909,Classes present in this held-out test condition
+Spur,output_voltage,SVM,leave_one_speed_out,50,38,10,,EVALUABLE,0.6,0.3666666666666667,0.29166666666666663,0.5,0.4533333333333333,Classes present in this held-out test condition
+Spur,output_voltage,LDA,leave_one_speed_out,50,38,10,,EVALUABLE,0.5,0.32539682539682535,0.3214285714285714,0.4375,0.4317460317460317,Classes present in this held-out test condition
+Spur,output_voltage,Random Forest,leave_one_speed_out,50,38,10,,EVALUABLE,0.3,0.2111111111111111,0.18333333333333335,0.25,0.2577777777777778,Classes present in this held-out test condition
+Spur,output_voltage,KNN,leave_one_load_out,High,12,36,S1;S2;S5;S6,NOT EVALUABLE,,,,,,
+Spur,output_voltage,SVM,leave_one_load_out,High,12,36,S1;S2;S5;S6,NOT EVALUABLE,,,,,,
+Spur,output_voltage,LDA,leave_one_load_out,High,12,36,S1;S2;S5;S6,NOT EVALUABLE,,,,,,
+Spur,output_voltage,Random Forest,leave_one_load_out,High,12,36,S1;S2;S5;S6,NOT EVALUABLE,,,,,,
+Spur,output_voltage,KNN,leave_one_load_out,Low,36,12,,EVALUABLE,0.4166666666666667,0.5164835164835164,0.6333333333333333,0.4375,0.4981684981684982,Classes present in this held-out test condition
+Spur,output_voltage,SVM,leave_one_load_out,Low,36,12,,EVALUABLE,0.5833333333333334,0.606060606060606,0.75,0.6875,0.5858585858585857,Classes present in this held-out test condition
+Spur,output_voltage,LDA,leave_one_load_out,Low,36,12,,EVALUABLE,0.5,0.625,0.75,0.5625,0.5833333333333334,Classes present in this held-out test condition
+Spur,output_voltage,Random Forest,leave_one_load_out,Low,36,12,,EVALUABLE,0.8333333333333334,0.873015873015873,0.9,0.875,0.8677248677248676,Classes present in this held-out test condition
+Spur,input_voltage,KNN,leave_one_speed_out,30,64,12,,EVALUABLE,0.5833333333333334,0.5,0.5,0.5,0.5833333333333334,Classes present in this held-out test condition
+Spur,input_voltage,SVM,leave_one_speed_out,30,64,12,,EVALUABLE,0.6666666666666666,0.6178571428571429,0.725,0.6875,0.6452380952380952,Classes present in this held-out test condition
+Spur,input_voltage,LDA,leave_one_speed_out,30,64,12,,EVALUABLE,0.8333333333333334,0.8125,0.8125,0.8125,0.8333333333333334,Classes present in this held-out test condition
+Spur,input_voltage,Random Forest,leave_one_speed_out,30,64,12,,EVALUABLE,0.75,0.726190476190476,0.85,0.75,0.7619047619047619,Classes present in this held-out test condition
+Spur,input_voltage,KNN,leave_one_speed_out,35,56,20,S2,NOT EVALUABLE,,,,,,
+Spur,input_voltage,SVM,leave_one_speed_out,35,56,20,S2,NOT EVALUABLE,,,,,,
+Spur,input_voltage,LDA,leave_one_speed_out,35,56,20,S2,NOT EVALUABLE,,,,,,
+Spur,input_voltage,Random Forest,leave_one_speed_out,35,56,20,S2,NOT EVALUABLE,,,,,,
+Spur,input_voltage,KNN,leave_one_speed_out,40,59,17,,EVALUABLE,0.5294117647058824,0.45670995670995673,0.4523809523809524,0.4833333333333333,0.4980901451489687,Classes present in this held-out test condition
+Spur,input_voltage,SVM,leave_one_speed_out,40,59,17,,EVALUABLE,0.47058823529411764,0.41650793650793644,0.4133333333333333,0.4333333333333333,0.45079365079365075,Classes present in this held-out test condition
+Spur,input_voltage,LDA,leave_one_speed_out,40,59,17,,EVALUABLE,0.47058823529411764,0.4027272727272727,0.47714285714285715,0.45,0.42967914438502675,Classes present in this held-out test condition
+Spur,input_voltage,Random Forest,leave_one_speed_out,40,59,17,,EVALUABLE,0.5294117647058824,0.4824242424242424,0.5523809523809524,0.4833333333333333,0.5204991087344029,Classes present in this held-out test condition
+Spur,input_voltage,KNN,leave_one_speed_out,45,59,17,,EVALUABLE,0.5882352941176471,0.5056410256410256,0.6599999999999999,0.55,0.5677224736048265,Classes present in this held-out test condition
+Spur,input_voltage,SVM,leave_one_speed_out,45,59,17,,EVALUABLE,0.6470588235294118,0.5382972582972583,0.635,0.6,0.6012053306170954,Classes present in this held-out test condition
+Spur,input_voltage,LDA,leave_one_speed_out,45,59,17,,EVALUABLE,0.6470588235294118,0.6287878787878787,0.6342857142857143,0.7,0.5779857397504455,Classes present in this held-out test condition
+Spur,input_voltage,Random Forest,leave_one_speed_out,45,59,17,,EVALUABLE,0.7647058823529411,0.7809523809523808,0.8333333333333334,0.8,0.7619047619047619,Classes present in this held-out test condition
+Spur,input_voltage,KNN,leave_one_speed_out,50,66,10,,EVALUABLE,0.5,0.41666666666666663,0.4,0.4375,0.4666666666666666,Classes present in this held-out test condition
+Spur,input_voltage,SVM,leave_one_speed_out,50,66,10,,EVALUABLE,0.6,0.45,0.41666666666666663,0.5,0.52,Classes present in this held-out test condition
+Spur,input_voltage,LDA,leave_one_speed_out,50,66,10,,EVALUABLE,0.7,0.5555555555555556,0.575,0.625,0.6222222222222221,Classes present in this held-out test condition
+Spur,input_voltage,Random Forest,leave_one_speed_out,50,66,10,,EVALUABLE,0.8,0.8309523809523809,0.9166666666666666,0.8125,0.8361904761904763,Classes present in this held-out test condition
+Spur,input_voltage,KNN,leave_one_load_out,High,32,44,S2;S3;S5,NOT EVALUABLE,,,,,,
+Spur,input_voltage,SVM,leave_one_load_out,High,32,44,S2;S3;S5,NOT EVALUABLE,,,,,,
+Spur,input_voltage,LDA,leave_one_load_out,High,32,44,S2;S3;S5,NOT EVALUABLE,,,,,,
+Spur,input_voltage,Random Forest,leave_one_load_out,High,32,44,S2;S3;S5,NOT EVALUABLE,,,,,,
+Spur,input_voltage,KNN,leave_one_load_out,Low,44,32,,EVALUABLE,0.25,0.19047619047619047,0.3214285714285714,0.2642857142857143,0.19791666666666666,Classes present in this held-out test condition
+Spur,input_voltage,SVM,leave_one_load_out,Low,44,32,,EVALUABLE,0.40625,0.3943452380952381,0.46031746031746035,0.42142857142857143,0.39862351190476186,Classes present in this held-out test condition
+Spur,input_voltage,LDA,leave_one_load_out,Low,44,32,,EVALUABLE,0.3125,0.23205128205128206,0.32608695652173914,0.325,0.24631410256410258,Classes present in this held-out test condition
+Spur,input_voltage,Random Forest,leave_one_load_out,Low,44,32,,EVALUABLE,0.28125,0.2,0.32608695652173914,0.3,0.20625,Classes present in this held-out test condition
