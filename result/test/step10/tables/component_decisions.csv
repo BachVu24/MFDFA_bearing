@@ -1,0 +1,11 @@
+component,decision,reason
+RAW MF-DFA,KEEP,Best supported coverage/cost baseline; conditional fault separation; processing locked
+QC,KEEP,Same scaling and decomposition eligibility; invalid not rescued
+RAW delta_alpha,KEEP,Helical fault association; complementary to alpha0
+RAW alpha0,KEEP,Repeated within-condition complementary separation; operating-sensitive
+RAW delta_h as classifier input,REMOVE,Pearson .955-.989 with delta_alpha; only three isolated extra cases after two features
+VMD_SUM,REMOVE,Mostly preserves RAW; no consistent matched gain or sensitivity improvement
+Individual VMD modes,REMOVE,Inadequate coverage; secondary Helical gains do not recur on Spur
+EMD in operational pipeline,REMOVE,"Comparator only; mixed matched gains/losses, lower coverage, added cost, approximate IMF constraints"
+Random Forest fixed Step9 baseline,KEEP AS REFERENCE,Highest macro F1 in all contexts; not deployment validated
+KNN/SVM/LDA,COMPARISON ONLY,Retain code and evidence; not final default classifier

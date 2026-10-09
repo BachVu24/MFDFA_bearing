@@ -1,0 +1,20 @@
+{
+  "equal": true,
+  "equal_keys": [
+    "q",
+    "scales",
+    "m",
+    "fit_interval",
+    "qc_rule",
+    "bands_hz",
+    "fs",
+    "vmd",
+    "emd",
+    "channels",
+    "speeds",
+    "loads",
+    "repeats",
+    "preprocessing"
+  ],
+  "scope_change_only": "Helical H1-H6 -> Spur S1-S8; no parameter/QC tuning"
+}

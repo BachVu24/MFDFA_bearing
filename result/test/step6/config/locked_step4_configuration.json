@@ -1,0 +1,212 @@
+{
+  "q": [
+    -5.0,
+    -4.5,
+    -4.0,
+    -3.5,
+    -3.0,
+    -2.5,
+    -2.0,
+    -1.5,
+    -1.0,
+    -0.5,
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "scales": [
+    64,
+    72,
+    82,
+    93,
+    105,
+    119,
+    135,
+    153,
+    173,
+    196,
+    222,
+    251,
+    285,
+    323,
+    365,
+    414,
+    468,
+    531,
+    601,
+    680,
+    771,
+    873,
+    988,
+    1119,
+    1267,
+    1435,
+    1625,
+    1841,
+    2085,
+    2361,
+    2674,
+    3028,
+    3429,
+    3883,
+    4398,
+    4980,
+    5640,
+    6387,
+    7234,
+    8192
+  ],
+  "m": 2,
+  "fit_interval": [
+    64,
+    512
+  ],
+  "qc_rule": {
+    "min_scale_points": 8,
+    "min_r2_floor": 0.9,
+    "r2_threshold": 0.95,
+    "min_good_r2_fraction": 0.8,
+    "max_local_slope_cv": 0.5,
+    "min_stable_q_fraction": 0.8,
+    "min_hq_exclusive": 0.05
+  },
+  "bands_hz": [
+    [
+      0,
+      1000
+    ],
+    [
+      1000,
+      4000
+    ],
+    [
+      4000,
+      10000
+    ],
+    [
+      10000,
+      20000
+    ],
+    [
+      20000,
+      33334
+    ]
+  ],
+  "fs": 66666.7,
+  "vmd": {
+    "K": 7,
+    "alpha": 500,
+    "tau": 0.0,
+    "DC": false,
+    "init": 1,
+    "tol": 1e-07,
+    "max_iter": 2000
+  },
+  "emd": {
+    "max_imfs": 6,
+    "max_siftings": 200,
+    "sd_threshold": 0.2,
+    "envelope_tol": 0.05,
+    "extrema_relative_tolerance": 0.005
+  },
+  "channels": [
+    [
+      1,
+      "output_voltage",
+      "primary"
+    ],
+    [
+      0,
+      "input_voltage",
+      "secondary"
+    ]
+  ],
+  "states": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+  ],
+  "speeds": [
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "loads": [
+    "High",
+    "Low"
+  ],
+  "repeats": [
+    1,
+    2
+  ],
+  "preprocessing": "Full original lengths. Raw: only internal MF-DFA mean removal; EMD/VMD: global mean removed. No windows/resampling.",
+  "dependencies": [
+    {
+      "path": "result/test/step4_corrected/config/mfdfa_configuration.json",
+      "sha256": "321abe5fb73594986e953c6c72c967238d28d45f09087965c1b1481f284009bd"
+    },
+    {
+      "path": "result/test/step4_corrected/config/mfdfa_quality_rules.json",
+      "sha256": "2dba44f2aaa4c67a65ed7eff4e5ca8b7cc172a9f7749d9b841c74b0069714aac"
+    },
+    {
+      "path": "result/test/step4_corrected/config/selected_scaling_range.json",
+      "sha256": "7ccefa61335dc4823e9b792890e800598b292bf3891a4ea17e3133f4dbfca4c0"
+    },
+    {
+      "path": "result/test/step4_corrected/config/selected_vmd_configuration.json",
+      "sha256": "52898cd77a8ce2de965fd2d0c8ec32295f6e435ed59528c55717baf06c5c2126"
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/scaling.py",
+      "sha256": "510224af32e899488f9c3328fa2d40cf1ca523c6fe0d3629ef806921cb720595"
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/vmd_accel.py",
+      "sha256": "680237a55143fde85965228e27573b579dafe4c966fde42012da09de5330384d"
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/vmd_kernel.cpp",
+      "sha256": "aa1de17b245ca67f9a57d5e3a110bfb0c8a32b9d0fdb8ad44af8d54f4cd0cf15"
+    },
+    {
+      "path": "result/test/step4/compare/emd_long_record.py",
+      "sha256": "24054f96a07ebced90c7edee4832eada270b3e99780d1a79e67e2c94d64e97ca"
+    },
+    {
+      "path": "result/test/step4/compare/run_step4.py",
+      "sha256": "ed6e87f1c984c3c5869998401943bded08ca320e6cd9c3d2879cc32c8f26a9d2"
+    },
+    {
+      "path": "code/core/mfdfa.py",
+      "sha256": "0daf602e1a642a13228b368d20c3260a725482ea1bc68a8a4726612302d4ccc4"
+    },
+    {
+      "path": "code/core/vmd.py",
+      "sha256": "69ca3e50cf1267f67df6828bb3fc0b1b2430c6c09f2d7f5c2351e9a99c908cd1"
+    },
+    {
+      "path": "code/core/emd.py",
+      "sha256": "25dea9d44cb3eb37d91bc6f5872bcdf0c76ebbc7f0c7b5f5a602b53ecd28202e"
+    },
+    {
+      "path": "DATA/labeled/VidData.xls",
+      "sha256": "edf186ce86c8b7ef16bd6b12e03ec30d4df91fba4bed2f889284fd7bee89cd71"
+    }
+  ],
+  "config_sha256": "d6a8424792c68ca5c3db58e097ec2858bfb74a2199168e727a26de080249792a",
+  "step5_config_sha256": "801a6da803068a9c2671c7db6d095a5ee5966dc525152c583c20e0b2bd162097"
+}

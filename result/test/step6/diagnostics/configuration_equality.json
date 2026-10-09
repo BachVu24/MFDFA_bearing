@@ -1,0 +1,20 @@
+{
+  "equal_keys": [
+    "q",
+    "scales",
+    "m",
+    "fit_interval",
+    "qc_rule",
+    "bands_hz",
+    "fs",
+    "vmd",
+    "emd",
+    "channels",
+    "speeds",
+    "loads",
+    "repeats",
+    "preprocessing"
+  ],
+  "equal": true,
+  "scope_change_only": "states: H1/H2/H5/H6 -> H1-H6; no signal-processing tuning"
+}

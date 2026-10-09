@@ -1,0 +1,1288 @@
+[
+  {
+    "sheet": "Sheet1",
+    "cells": [
+      {
+        "row": 1,
+        "column": 8,
+        "value": "IS"
+      },
+      {
+        "row": 1,
+        "column": 9,
+        "value": "Input Shaft"
+      },
+      {
+        "row": 1,
+        "column": 10,
+        "value": ":IS"
+      },
+      {
+        "row": 1,
+        "column": 11,
+        "value": "Input Side"
+      },
+      {
+        "row": 2,
+        "column": 8,
+        "value": "ID"
+      },
+      {
+        "row": 2,
+        "column": 9,
+        "value": "Idler Shaft"
+      },
+      {
+        "row": 2,
+        "column": 10,
+        "value": ":OS"
+      },
+      {
+        "row": 2,
+        "column": 11,
+        "value": "Ouput Side"
+      },
+      {
+        "row": 3,
+        "column": 2,
+        "value": "Part"
+      },
+      {
+        "row": 3,
+        "column": 8,
+        "value": "OS"
+      },
+      {
+        "row": 3,
+        "column": 9,
+        "value": "Output Shaft"
+      },
+      {
+        "row": 4,
+        "column": 2,
+        "value": "Gear"
+      },
+      {
+        "row": 4,
+        "column": 6,
+        "value": "Bearing"
+      },
+      {
+        "row": 4,
+        "column": 12,
+        "value": "Shaft"
+      },
+      {
+        "row": 5,
+        "column": 1,
+        "value": "Case"
+      },
+      {
+        "row": 5,
+        "column": 2,
+        "value": "32T"
+      },
+      {
+        "row": 5,
+        "column": 3,
+        "value": "96T"
+      },
+      {
+        "row": 5,
+        "column": 4,
+        "value": "48T"
+      },
+      {
+        "row": 5,
+        "column": 5,
+        "value": "80T"
+      },
+      {
+        "row": 5,
+        "column": 6,
+        "value": "IS:IS"
+      },
+      {
+        "row": 5,
+        "column": 7,
+        "value": "ID:IS"
+      },
+      {
+        "row": 5,
+        "column": 8,
+        "value": "OS:IS"
+      },
+      {
+        "row": 5,
+        "column": 9,
+        "value": "IS:OS"
+      },
+      {
+        "row": 5,
+        "column": 10,
+        "value": "ID:OS"
+      },
+      {
+        "row": 5,
+        "column": 11,
+        "value": "OS:OS"
+      },
+      {
+        "row": 5,
+        "column": 12,
+        "value": "Input"
+      },
+      {
+        "row": 5,
+        "column": 13,
+        "value": "Output"
+      },
+      {
+        "row": 6,
+        "column": 1,
+        "value": "Spur 1"
+      },
+      {
+        "row": 6,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 6,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 1,
+        "value": "Spur 2"
+      },
+      {
+        "row": 7,
+        "column": 2,
+        "value": "Chipped"
+      },
+      {
+        "row": 7,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 4,
+        "value": "Eccentric"
+      },
+      {
+        "row": 7,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 7,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 1,
+        "value": "Spur 3"
+      },
+      {
+        "row": 8,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 4,
+        "value": "Eccentric"
+      },
+      {
+        "row": 8,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 8,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 1,
+        "value": "Spur 4"
+      },
+      {
+        "row": 9,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 4,
+        "value": "Eccentric"
+      },
+      {
+        "row": 9,
+        "column": 5,
+        "value": "Broken"
+      },
+      {
+        "row": 9,
+        "column": 6,
+        "value": "Ball"
+      },
+      {
+        "row": 9,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 9,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 1,
+        "value": "Spur 5"
+      },
+      {
+        "row": 10,
+        "column": 2,
+        "value": "Chipped"
+      },
+      {
+        "row": 10,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 4,
+        "value": "Eccentric"
+      },
+      {
+        "row": 10,
+        "column": 5,
+        "value": "Broken"
+      },
+      {
+        "row": 10,
+        "column": 6,
+        "value": "Inner"
+      },
+      {
+        "row": 10,
+        "column": 7,
+        "value": "Ball"
+      },
+      {
+        "row": 10,
+        "column": 8,
+        "value": "Outer"
+      },
+      {
+        "row": 10,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 10,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 1,
+        "value": "Spur 6"
+      },
+      {
+        "row": 11,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 5,
+        "value": "Broken"
+      },
+      {
+        "row": 11,
+        "column": 6,
+        "value": "Inner"
+      },
+      {
+        "row": 11,
+        "column": 7,
+        "value": "Ball"
+      },
+      {
+        "row": 11,
+        "column": 8,
+        "value": "Outer"
+      },
+      {
+        "row": 11,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 11,
+        "column": 12,
+        "value": "Imbalance"
+      },
+      {
+        "row": 11,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 1,
+        "value": "Spur 7"
+      },
+      {
+        "row": 12,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 6,
+        "value": "Inner"
+      },
+      {
+        "row": 12,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 12,
+        "column": 13,
+        "value": "Keyway Sheared"
+      },
+      {
+        "row": 13,
+        "column": 1,
+        "value": "Spur 8"
+      },
+      {
+        "row": 13,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 7,
+        "value": "Ball"
+      },
+      {
+        "row": 13,
+        "column": 8,
+        "value": "Outer"
+      },
+      {
+        "row": 13,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 13,
+        "column": 12,
+        "value": "Imbalance"
+      },
+      {
+        "row": 13,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 16,
+        "column": 1,
+        "value": "Case"
+      },
+      {
+        "row": 16,
+        "column": 2,
+        "value": "16T"
+      },
+      {
+        "row": 16,
+        "column": 3,
+        "value": "48T"
+      },
+      {
+        "row": 16,
+        "column": 4,
+        "value": "24T"
+      },
+      {
+        "row": 16,
+        "column": 5,
+        "value": "40T"
+      },
+      {
+        "row": 16,
+        "column": 6,
+        "value": "IS:IS"
+      },
+      {
+        "row": 16,
+        "column": 7,
+        "value": "ID:IS"
+      },
+      {
+        "row": 16,
+        "column": 8,
+        "value": "OS:IS"
+      },
+      {
+        "row": 16,
+        "column": 9,
+        "value": "IS:OS"
+      },
+      {
+        "row": 16,
+        "column": 10,
+        "value": "ID:OS"
+      },
+      {
+        "row": 16,
+        "column": 11,
+        "value": "OS:OS"
+      },
+      {
+        "row": 16,
+        "column": 12,
+        "value": "Input"
+      },
+      {
+        "row": 16,
+        "column": 13,
+        "value": "Output"
+      },
+      {
+        "row": 17,
+        "column": 1,
+        "value": "Helical 1"
+      },
+      {
+        "row": 17,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 17,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 1,
+        "value": "Helical 2"
+      },
+      {
+        "row": 18,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 4,
+        "value": "Chipped"
+      },
+      {
+        "row": 18,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 18,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 1,
+        "value": "Helical 3"
+      },
+      {
+        "row": 19,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 4,
+        "value": "Broken"
+      },
+      {
+        "row": 19,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 9,
+        "value": "Combination"
+      },
+      {
+        "row": 19,
+        "column": 10,
+        "value": "Inner"
+      },
+      {
+        "row": 19,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 19,
+        "column": 12,
+        "value": "Bent Shaft"
+      },
+      {
+        "row": 19,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 1,
+        "value": "Helical 4"
+      },
+      {
+        "row": 20,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 9,
+        "value": "Combination"
+      },
+      {
+        "row": 20,
+        "column": 10,
+        "value": "ball"
+      },
+      {
+        "row": 20,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 20,
+        "column": 12,
+        "value": "Imbalnce"
+      },
+      {
+        "row": 20,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 1,
+        "value": "Helical 5"
+      },
+      {
+        "row": 21,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 4,
+        "value": "Broken"
+      },
+      {
+        "row": 21,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 10,
+        "value": "Inner"
+      },
+      {
+        "row": 21,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 12,
+        "value": "Good"
+      },
+      {
+        "row": 21,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 1,
+        "value": "Helical 6"
+      },
+      {
+        "row": 22,
+        "column": 2,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 3,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 4,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 5,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 6,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 7,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 8,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 9,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 10,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 11,
+        "value": "Good"
+      },
+      {
+        "row": 22,
+        "column": 12,
+        "value": "Bent Shaft"
+      },
+      {
+        "row": 22,
+        "column": 13,
+        "value": "Good"
+      },
+      {
+        "row": 27,
+        "column": 1,
+        "value": "Bearing Data"
+      },
+      {
+        "row": 28,
+        "column": 1,
+        "value": "Bearing"
+      },
+      {
+        "row": 28,
+        "column": 2,
+        "value": "MB Manufacturing"
+      },
+      {
+        "row": 28,
+        "column": 4,
+        "value": "ER-10K"
+      },
+      {
+        "row": 29,
+        "column": 1,
+        "value": "# Elements"
+      },
+      {
+        "row": 29,
+        "column": 2,
+        "value": 8.0
+      },
+      {
+        "row": 30,
+        "column": 1,
+        "value": "R.E. Diameter"
+      },
+      {
+        "row": 30,
+        "column": 2,
+        "value": 0.3125
+      },
+      {
+        "row": 31,
+        "column": 1,
+        "value": "Pitch Dia."
+      },
+      {
+        "row": 31,
+        "column": 2,
+        "value": 1.319
+      },
+      {
+        "row": 32,
+        "column": 1,
+        "value": "Contact Angle"
+      },
+      {
+        "row": 32,
+        "column": 2,
+        "value": 0.0
+      },
+      {
+        "row": 34,
+        "column": 1,
+        "value": "Each Acquisition "
+      },
+      {
+        "row": 34,
+        "column": 2,
+        "value": "4 Seconds"
+      },
+      {
+        "row": 35,
+        "column": 1,
+        "value": "2 acquisitions per Operating Speed and Load"
+      },
+      {
+        "row": 37,
+        "column": 1,
+        "value": "Operating Speeds (Hz)"
+      },
+      {
+        "row": 37,
+        "column": 2,
+        "value": 30.0
+      },
+      {
+        "row": 37,
+        "column": 3,
+        "value": 35.0
+      },
+      {
+        "row": 37,
+        "column": 4,
+        "value": 40.0
+      },
+      {
+        "row": 37,
+        "column": 5,
+        "value": 45.0
+      },
+      {
+        "row": 37,
+        "column": 6,
+        "value": 50.0
+      },
+      {
+        "row": 38,
+        "column": 1,
+        "value": "RPM"
+      },
+      {
+        "row": 39,
+        "column": 1,
+        "value": "Load:"
+      },
+      {
+        "row": 39,
+        "column": 2,
+        "value": "Low"
+      },
+      {
+        "row": 39,
+        "column": 3,
+        "value": "High"
+      },
+      {
+        "row": 40,
+        "column": 1,
+        "value": "Total Runs:"
+      },
+      {
+        "row": 41,
+        "column": 1,
+        "value": "Sample Rate"
+      },
+      {
+        "row": 41,
+        "column": 2,
+        "value": "66.6667 KHz"
+      },
+      {
+        "row": 44,
+        "column": 1,
+        "value": "Accelerometers:"
+      },
+      {
+        "row": 44,
+        "column": 2,
+        "value": "Endevco"
+      },
+      {
+        "row": 44,
+        "column": 3,
+        "value": "6259M31"
+      },
+      {
+        "row": 44,
+        "column": 4,
+        "value": "10mv/g"
+      }
+    ],
+    "merged_ranges_zero_based": []
+  },
+  {
+    "sheet": "Sheet2",
+    "cells": [],
+    "merged_ranges_zero_based": []
+  },
+  {
+    "sheet": "Sheet3",
+    "cells": [],
+    "merged_ranges_zero_based": []
+  }
+]

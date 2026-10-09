@@ -1,0 +1,3042 @@
+[
+  {
+    "recording": "spur_1_30hz_High_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_30hz_High_1.txt",
+    "sha256": "3e763cb9b76b3bcc3834f2840fa5dc97d33c6f9bd52141250692966ab789c59d",
+    "samples": 266655,
+    "duration_seconds": 3.9998230000885,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "4603ffdd2744719035a2eaa8647616f13079876740cc2c39f1d818a25b1069fd"
+  },
+  {
+    "recording": "spur_1_30hz_High_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_30hz_High_2.txt",
+    "sha256": "d576500a580653f7fe6e5f229d715ea1689508d00b3ee834ab75bbcd6d7ebc0f",
+    "samples": 266652,
+    "duration_seconds": 3.999778000111,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "9867ff918b2b5590a72b05aa64bde9a67f0240f3fdf99f654dd9582a15cd16b2"
+  },
+  {
+    "recording": "spur_1_30hz_Low_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_30hz_Low_1.txt",
+    "sha256": "1dfea12de62d8c6ca393db7e0efebeee6a9050ee1c682da44ded3cd5c822719b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "1415f5ed508cf7511676458647aa1453484ef3c0b5868c7e78e50cb4fe6d5092"
+  },
+  {
+    "recording": "spur_1_30hz_Low_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_30hz_Low_2.txt",
+    "sha256": "38c059037b63a33e3286fc640dabd1b8c41ba30afeae08a2014ccc167671c88b",
+    "samples": 266654,
+    "duration_seconds": 3.999808000096,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a661ae5ba0e7e538bdc5f7e5125b8dc175a3e4dbfd45bf25f92857b135631f2e"
+  },
+  {
+    "recording": "spur_1_35hz_High_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_35hz_High_1.txt",
+    "sha256": "0d93304db0c1ced05e6bbc7ae32112704309df84ec96793d13681407e66e97df",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "8f25e76ed86cd898f9508737c603ed79581a24ca61c5a55b176d8602b2a510f5"
+  },
+  {
+    "recording": "spur_1_35hz_High_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_35hz_High_2.txt",
+    "sha256": "7c6d62d9d8ad24feb770e021fb962410503fe10814c0a2592102d4fc5f8aa8cf",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "4d18699eadf5423d032b90267fa7468471493f67c02f31a1cfc675a9a9c42e9d"
+  },
+  {
+    "recording": "spur_1_35hz_Low_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_35hz_Low_1.txt",
+    "sha256": "5a796129ae3721df99b3abc15ef08f9617395f92f63bd75025a5d34b47e873e4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "83143ee101dae726195d2c89d97343696662802c99ab00a51d37a8d6c5b981e8"
+  },
+  {
+    "recording": "spur_1_35hz_Low_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_35hz_Low_2.txt",
+    "sha256": "f481c7f706da74f13e3db164fabbdd4ddc6f6fcae2e2133ddc295523db87fd3a",
+    "samples": 266650,
+    "duration_seconds": 3.999748000126,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "0d8808d180e9b9172419bf9acf8d3be24d7307c60cd33b6815f11196210b5aa2"
+  },
+  {
+    "recording": "spur_1_40hz_High_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_40hz_High_1.txt",
+    "sha256": "aa886472df1ffc67b00a90fbb8575ce401b184ecb2406893d168dc5515112f99",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f2ed7d181bef4bd504a86a582fc465b93f101865dc98bf80295e56e19d6a457e"
+  },
+  {
+    "recording": "spur_1_40hz_High_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_40hz_High_2.txt",
+    "sha256": "98ce372aa3a20246b5c1a131808d1dfc200b4a124b83cec3e797fe67f8bdafaf",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "b0e6a57534d24b7d6cad7a6fa6b590f97b0a09dac87500de8ad82ce68f8b6799"
+  },
+  {
+    "recording": "spur_1_40hz_Low_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_40hz_Low_1.txt",
+    "sha256": "b3c5c9fb5e593230f2d86122d1aa63218095b83d53536df8b488cd856452a474",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "2f19c22e0e8da4d8462a93406b3c9279df75d886d1b224c4cff343e8b0bec8f3"
+  },
+  {
+    "recording": "spur_1_40hz_Low_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_40hz_Low_2.txt",
+    "sha256": "190102bc7b4f2f5d7b5b152739a56b095d853a54793cd863826fbfd4fe118e0b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ee4fb54be1190b47721a84bf3fe91ac8579f99d4184930e4227f4440f9e4b432"
+  },
+  {
+    "recording": "spur_1_45hz_High_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_45hz_High_1.txt",
+    "sha256": "fbb3c56874d6ccd3c1df5750fa943a6abef94a2e345e08604c43de2e80992a29",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "176e31710c2caad1fb165aab4909132adadba8798bd7780fb932fe03ebdcf667"
+  },
+  {
+    "recording": "spur_1_45hz_High_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_45hz_High_2.txt",
+    "sha256": "7db56e526da7a1f0613697fc7901d72abbe4c3304eb5a2beb52734489b1213de",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ddc124b28b14ba15cfd9493751e947321209c8732a10caf9b2c755040e8487d1"
+  },
+  {
+    "recording": "spur_1_45hz_Low_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_45hz_Low_1.txt",
+    "sha256": "ae9bf5395ccd6e432f5f89739b8ab44308365786634579d1158c1ad343946251",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "fc7b01139b3cd324d3f6b6335d28c09596fbb89e0b41d1bfa5bb4b543b18d558"
+  },
+  {
+    "recording": "spur_1_45hz_Low_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_45hz_Low_2.txt",
+    "sha256": "506ef49d67b7b28af3185879046e24c48ca928755609cdaa76236b407fd3b805",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "9fa93d9fe9167e8b93544a5a99fdc045f787378429a976eb837e5dd633f39ecd"
+  },
+  {
+    "recording": "spur_1_50hz_High_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_50hz_High_1.txt",
+    "sha256": "251e6eb74b2a48e15227b6bf375570f248d20ad1210bf07a7544d0037561583e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ab913058aeab193d9670aed3a0209a15dfa8e03604f9d46e38cbc7b5f9d0fc17"
+  },
+  {
+    "recording": "spur_1_50hz_High_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_50hz_High_2.txt",
+    "sha256": "f0c6e02755a0c93a1d1ecd0c5a30c0231b7b93f970b5e427cd578212384f1e86",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "586c55244e0d04285be46365a8017f7e915f0c9e4682b86eaefe3171feca0a35"
+  },
+  {
+    "recording": "spur_1_50hz_Low_1",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 1/spur 1_50hz_Low_1.txt",
+    "sha256": "c0b48474e53308d92f695038c924683a0796968b6693418cb19e4d1def337b71",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "36597e2d56ad009797fae449139a9188ced0925b4f28afac943f878d0ed5a154"
+  },
+  {
+    "recording": "spur_1_50hz_Low_2",
+    "state": "S1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 1/spur 1_50hz_Low_2.txt",
+    "sha256": "5dfc1c4fa8c3b07dab7f353a5917a532e340de6abc012060e70ca57b15087e09",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "aaecd575a7f66502517cdd3c192410a949c1801aa23eac97257267a0017b472e"
+  },
+  {
+    "recording": "spur_2_30hz_High_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_30hz_High_1.txt",
+    "sha256": "88500ca89d707a665b2e120a19f2d964c11a31fcc19c84ca0a2a3c3f949502ed",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "8caffc5fc761ee906805114981893ffc1a0aa135390fa904d9b6ea76493176c4"
+  },
+  {
+    "recording": "spur_2_30hz_High_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_30hz_High_2.txt",
+    "sha256": "cddbd6882036dfedc76d9d35e439f282b97e19854db72598393dd5c63dfbdc35",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "bc21a2f81f5ae234a3484866aabdd92982eb7c4e62eb973df737c3d9ddb51941"
+  },
+  {
+    "recording": "spur_2_30hz_Low_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_30hz_Low_1.txt",
+    "sha256": "2225e7d09ceebdf49f3f3accc2c8e0459388ed90e7e50a44d35dea88081f785a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e58629274229a965d506ad47450c728d16bcfb162a923bb17580b2aad686279c"
+  },
+  {
+    "recording": "spur_2_30hz_Low_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_30hz_Low_2.txt",
+    "sha256": "ac38b22ae5e3b5620a21777e471d826bc8d22961ea47e0592a9fc2d524d668f2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "7f21a01f0dffb67a4ab19ed63aee639e6cb6d0a32542ca42203f2aeb193d6110"
+  },
+  {
+    "recording": "spur_2_35hz_High_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_35hz_High_1.txt",
+    "sha256": "285b6b3a1dc41f5610b723c48850cb6b9394370576880442ef2f41211ed8984c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "fbfe57483d749edf4ed59a0427f7b53a5ad2a770aba307e13c2bb9453da42f04"
+  },
+  {
+    "recording": "spur_2_35hz_High_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_35hz_High_2.txt",
+    "sha256": "44af9c0c4b343ab979897c2a06bfa07af8138abc8977f054cfa3f4b9f245f7e3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "eed837a1c9a6528290beff1c4dc162318d7b235a1df6c8ac44f57cdb7fc242e5"
+  },
+  {
+    "recording": "spur_2_35hz_Low_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_35hz_Low_1.txt",
+    "sha256": "a1097302d7f5af3f68c856f13d631c7c84de438bc59c60b95e8e3a211e6b364d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "12695969de689aeae3b0f3777da7f688866b2b02047f5e3dcee72d0109cc8437"
+  },
+  {
+    "recording": "spur_2_35hz_Low_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_35hz_Low_2.txt",
+    "sha256": "89a8927871d7dc7906a6f967b966d1b24a23d2e1805e4d7486f4c6a8cbf4f2ad",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "99ae891dfe674bf2ce8188e988e32420bc40885f9e142c61c8eb6011e4523c55"
+  },
+  {
+    "recording": "spur_2_40hz_High_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_40hz_High_1.txt",
+    "sha256": "d4589f0c8a34ffcf56e0b3d489a20d34568626116d7458112e5b4aa01b404c05",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e2baf99b81d9698e5f4257b9773cf32d39657c75816c9b55cce347e1209dd90f"
+  },
+  {
+    "recording": "spur_2_40hz_High_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_40hz_High_2.txt",
+    "sha256": "2dcf8ca38ffe44f93eb155366c3e28e52289b3928126597c282b6e0a47948f03",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "5b6334930b95b0f67305f236630910647b37c54b494b925faa6f54b2b994a641"
+  },
+  {
+    "recording": "spur_2_40hz_Low_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_40hz_Low_1.txt",
+    "sha256": "c25662c13cd0c5571ff37d45547c1dd2b6c07acafef8c7ff0e1f53a7f0e633d1",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "885081ab5e0f8c79e50639075b622fced7b5d0921bebe1a73e4faa50c86531d8"
+  },
+  {
+    "recording": "spur_2_40hz_Low_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_40hz_Low_2.txt",
+    "sha256": "2884b4f62217bf4731b42d8338810f0036131861e5b686089d2e5472ae9f6d78",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "5427e97dc3ed55b30a7f45b859e1560dc2167e084962e71db89bb4ad894e45ba"
+  },
+  {
+    "recording": "spur_2_45hz_High_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_45hz_High_1.txt",
+    "sha256": "1d4687711b0ec531d8ad9a480c7e9a878a1e1ff35c7befd0323164f19870d6ac",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "b08300b88bd9b4729e7927b6a5bad820fd5fa3880538e1e7c7bedfb397d2c362"
+  },
+  {
+    "recording": "spur_2_45hz_High_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_45hz_High_2.txt",
+    "sha256": "29d78a8b1b95f71995d9aa1909d9b23f17ab7c420c8c19cea6ab36b7d3522f4b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f42f492b04c01704cee74ab824b1f0bb9d155de65c4dc13e50cd890457c54a4e"
+  },
+  {
+    "recording": "spur_2_45hz_Low_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_45hz_Low_1.txt",
+    "sha256": "6bf6481f5c1ddeecb5e136669be9d37a53d268aa64ae02c5f9d2bf009da2daa5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "b27ba56bebca4b23aca265eabb0967d2212e086e43265f1ef0fd8737e1ffbc50"
+  },
+  {
+    "recording": "spur_2_45hz_Low_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_45hz_Low_2.txt",
+    "sha256": "5dc7d8caebbc94f9151d47d8407850e71ce45bf0d1fe363ead09ee71803ad5aa",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "16aeefd002b15c6509bae39a0cd4abdc3cc128b73456b0cc1881bd8aaa0c87c1"
+  },
+  {
+    "recording": "spur_2_50hz_High_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_50hz_High_1.txt",
+    "sha256": "4e43c90b4ece285dd861ce82045ba0933c0962678161ad028405b91e61cb821e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e0f611b90a9f2dacf904820d3ff34e1ba9cee5d8059f9df789d0a31918e6b07b"
+  },
+  {
+    "recording": "spur_2_50hz_High_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_50hz_High_2.txt",
+    "sha256": "b1a29267fb6dd44979a5abe513a969e6671924cf38669964d8ff3d227fa64b56",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e3d0f04b03a216b08322e6e68776b35d573a363173c2ac23ba1d9d338986a6a5"
+  },
+  {
+    "recording": "spur_2_50hz_Low_1",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 2/spur 2_50hz_Low_1.txt",
+    "sha256": "a68383502be49803740ddcb4d047e2a4a6fb3d44277393bb2c7343caa7747afc",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "b7a685c1cd9e4333f75d1c8c96c67d49ccefdd6982562a8f2ec5c7497cf56dfc"
+  },
+  {
+    "recording": "spur_2_50hz_Low_2",
+    "state": "S2",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 2/spur 2_50hz_Low_2.txt",
+    "sha256": "d6c44abe31020f7e781275f3e84c4b36f8b76cd16ad34e1ba8aaa1cde0da2cc5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f0c1615083cf4780cfec40787cfacf4adbf994f0025cd0fe906e5346c3891204"
+  },
+  {
+    "recording": "spur_3_30hz_High_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_30hz_High_1.txt",
+    "sha256": "eea073f92a2f32284966e066f41700a4cbe5195651a38b0c6c565312eddee2ce",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a355e2cb99f5fdebb08faa771511179e4f21f3710cd99d7dd4881bc1aa04aeea"
+  },
+  {
+    "recording": "spur_3_30hz_High_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_30hz_High_2.txt",
+    "sha256": "a3dd43fbad82158dab9a36d7af7a7be45f8369b92b8a3c705f6c7738901446bc",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "2f72d984381d758ef21b562b07b8ad7d4b292650d622ec3e457bb4b3235b2b96"
+  },
+  {
+    "recording": "spur_3_30hz_Low_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_30hz_Low_1.txt",
+    "sha256": "fd993a2642fe98e665f3cfc9a05d77871c9743c2fe04e920ec8413a9b5535cd8",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c4cd7b11fa5c70c26f1f3b981d6864b2e82273ab1f6678ab69e3beb379209808"
+  },
+  {
+    "recording": "spur_3_30hz_Low_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_30hz_Low_2.txt",
+    "sha256": "db2954359d81859d9b4eaec992c504a143581cb1a3de9ae3865cc6b3648194a6",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "147f6d469cffbd07f5349f128dec15c0893e673b434632d09a8638cf192a3971"
+  },
+  {
+    "recording": "spur_3_35hz_High_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_35hz_High_1.txt",
+    "sha256": "4f5425de97121d2b258f029ff7b34a4e216c2702e72c28106e2d125fb74b9d3c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "604f9f2dfc52bba0dd44643b7068a2225f32c8369cbadf266787aec49b3eff54"
+  },
+  {
+    "recording": "spur_3_35hz_High_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_35hz_High_2.txt",
+    "sha256": "53b67dd986e81661299bfedfe5e82a87b8dd31f87c79bf91a22f39441539d762",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "cd7be0a31120604f584965d96b647f989d2e637cda397ba7477c7e7239e3099a"
+  },
+  {
+    "recording": "spur_3_35hz_Low_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_35hz_Low_1.txt",
+    "sha256": "fcc945875d914d9b2ca8aca872798b89f9a74afc2934c21916265d76adcfcf3a",
+    "samples": 266655,
+    "duration_seconds": 3.9998230000885,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "908a63479fb57f1595ee293a111f007a71b682f9f73fec874089ce7c67644333"
+  },
+  {
+    "recording": "spur_3_35hz_Low_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_35hz_Low_2.txt",
+    "sha256": "0c856f51392b239db2ecb69b79073a14eea2e01f9712eb1c9018ed97b4cde2d5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "fef2c2a5439a4cb774339434d106c83320148160d9eb98e8472b38159aab90d5"
+  },
+  {
+    "recording": "spur_3_40hz_High_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_40hz_High_1.txt",
+    "sha256": "af76c02f7462ae2b8ff542a05f8c13a1c66c475f25da9467028f260e87906bcd",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "bce12cdae190e3c21c358439a27793b0fed8d64d4fd46e516865bfc97160534f"
+  },
+  {
+    "recording": "spur_3_40hz_High_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_40hz_High_2.txt",
+    "sha256": "038289ca3213e022ce10fe04766ad1f94c66311c62ce5ff82d9095f336161002",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "cde18e535c3cff6ddf252d03b702b2d72ac041069447bf559dc2380f2abbdba4"
+  },
+  {
+    "recording": "spur_3_40hz_Low_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_40hz_Low_1.txt",
+    "sha256": "5c054ba440ab77a47a6297f25a465a123d7bb168fd1aa5decb2ab26f564bbe06",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "57f2a2ccd207f752047ac8ca4830611fcba69e8ae692c80ca0ea9960ee8d9252"
+  },
+  {
+    "recording": "spur_3_40hz_Low_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_40hz_Low_2.txt",
+    "sha256": "50fa518d26d32055cdef59144f423929800adbfb2f245d2af2db858f8eb1e48a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "fb4052d55cd5ddc1ab754380986967fbcd9098d090359e413f098a0f548e8cc7"
+  },
+  {
+    "recording": "spur_3_45hz_High_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_45hz_High_1.txt",
+    "sha256": "6f376e419e148491ef7d68b9285ea8a59fc914ff62ad6dbd4dc4e8614cf3df8a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a8687451472840d5c78f173e107e04899a166208d15fac5b8edff5a7cfc6a3ad"
+  },
+  {
+    "recording": "spur_3_45hz_High_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_45hz_High_2.txt",
+    "sha256": "60373d0bc80532e1f8c6a4ade7eab7b40cf477d100773831156eeb8ca95b572e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "355cf7d1ab68a736cf4143aeaa982666388df72a60bf9cddc917846e492ae570"
+  },
+  {
+    "recording": "spur_3_45hz_Low_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_45hz_Low_1.txt",
+    "sha256": "c8f1687bf0c4426538dcc9eba7412076f9fe1563b473d0726f8e8bb1d6169bd4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "7ee429a67244319a39bc6ce131457a505c3c1984a02419a1501e235395b78b1d"
+  },
+  {
+    "recording": "spur_3_45hz_Low_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_45hz_Low_2.txt",
+    "sha256": "1f73e3f3914d6acce03a3904c2ead1318384ed8e561bf72d39255fc9b8044472",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "0fd003d4c1290ce6b52d779da8f7d49470e85440e5466c5f2f4c79244a92fc80"
+  },
+  {
+    "recording": "spur_3_50hz_High_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_50hz_High_1.txt",
+    "sha256": "1fb2607b90f4fb7bc1d83f5652bb981bb226154697fa0e2bda164ef399b8cd9a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "5efadd50f336017654a3116c5adcdd95cb1299a66a1f879e194a5095b903c268"
+  },
+  {
+    "recording": "spur_3_50hz_High_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_50hz_High_2.txt",
+    "sha256": "91c80e576a6b197098c926a40c330d628f02ac2160b18e0d5b92b87b00a8dcf7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f47f1e8089ebf82d1f80acf1c4973dc52fbbe5912fe945e28ad2b43a9c54a773"
+  },
+  {
+    "recording": "spur_3_50hz_Low_1",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 3/spur 3_50hz_Low_1.txt",
+    "sha256": "8ef321130fe394aac419bc3d7e9c4164c89b92bd0968dd769041c0f1cdd46d6e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "76894b9cbe4a8a9303b20c95a7e63e02e02155f48eb42ea0421a611624969287"
+  },
+  {
+    "recording": "spur_3_50hz_Low_2",
+    "state": "S3",
+    "label": "Gear 48T=Eccentric",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 3/spur 3_50hz_Low_2.txt",
+    "sha256": "864ef7f6ca49a16153a4b9d41c2be424624359d18e2f85491d0ddfec8b1e338b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "6d069f46daed6f6da5fb271cdc5937ffc54361a7dbed1d146ef4736372c2c321"
+  },
+  {
+    "recording": "spur_4_30hz_High_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_30hz_High_1.txt",
+    "sha256": "388d236724bf2fe5e21be106e6fc8380412d5cf79588b4cb314e42631f5d898a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "10b8072177a307e7dc25fc9a321523e0debb8f45effa37dbee025b76ede53760"
+  },
+  {
+    "recording": "spur_4_30hz_High_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_30hz_High_2.txt",
+    "sha256": "e2db0fe9a37ca5f4e537f88b55d40ccc28a6861e0f7975dd4ecdded9480b4f9c",
+    "samples": 266654,
+    "duration_seconds": 3.999808000096,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c94f043f3f783d47fb29944dae4699ac5a79400ec0751015f3bb5ad0c836c8d7"
+  },
+  {
+    "recording": "spur_4_30hz_Low_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_30hz_Low_1.txt",
+    "sha256": "1db7fc71a7a1ab4e19a128c542199177f4cdcf1e3702f844e4485dab9967c492",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "8dd19ace5f12f7857ed2d909d4461a1c76a5686e9c73dc9f729950c2efe60f45"
+  },
+  {
+    "recording": "spur_4_30hz_Low_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_30hz_Low_2.txt",
+    "sha256": "2163461735b51c6cabed2af295573f0470f1c0728ebb63cfb719c8579cf3ff14",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d6f623bec88da902a7d7cebea16037eab6c46bc78934f5fae959c16c9cd49a90"
+  },
+  {
+    "recording": "spur_4_35hz_High_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_35hz_High_1.txt",
+    "sha256": "18f1a2529bb02f0ff6fa173ce9460db59d4927638f643faa140739360c26df5b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "954db429af27eb275331328268ee5585c3b1f57096c56129e338c523fa9bf70e"
+  },
+  {
+    "recording": "spur_4_35hz_High_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_35hz_High_2.txt",
+    "sha256": "6f79b935bcfed1763052ca3bc48a12c42fe2a049f7a53552f31e161ca36b8cad",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "637004b2c16a6274cc149c22029d44377d0d80f49766d4bf40d7c71c0c70cf32"
+  },
+  {
+    "recording": "spur_4_35hz_Low_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_35hz_Low_1.txt",
+    "sha256": "6f2383a7fdbfa73876ca98b266c51fa805f818bfa627d6b3bf99714dba9f2458",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f62e46e6f46be01339b3105e58f5c084c51f1cf3acb9ff6cffb1dd8f066da517"
+  },
+  {
+    "recording": "spur_4_35hz_Low_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_35hz_Low_2.txt",
+    "sha256": "74c37ee261107bb3300c62d8f5458ca6bb09a4d6ffd19f2f2abd78422aa720f5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "77789d895ca7879baa2fe488863af6be78db095b52e9774843b17cfc6a917e76"
+  },
+  {
+    "recording": "spur_4_40hz_High_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_40hz_High_1.txt",
+    "sha256": "78b46e752712cb2fbe3d8681d0f3a75c50bdb2449030386c47d709b5b4f13ec6",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "90d7fe4a953433cce20a6e1aae45346a02bb01e04ddf0507dc30d4232b55d780"
+  },
+  {
+    "recording": "spur_4_40hz_High_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_40hz_High_2.txt",
+    "sha256": "87dba3a7fcddb47b8b98a088af0e7c66e39bd472e94eee222df1cb04e6d8a17a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "0b8965fe5c03e69da35c629b32df9b54845a00d9142472a81bab3e899ac110cb"
+  },
+  {
+    "recording": "spur_4_40hz_Low_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_40hz_Low_1.txt",
+    "sha256": "340057cc70d12fdc3d150bf842781b9b0bdc3dde47079316fd0e7c0ff4e2be30",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "739897eb11b446366981bf6b3dd8c33c2507e3a2dc4c9ea1378da16c735d1ac5"
+  },
+  {
+    "recording": "spur_4_40hz_Low_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_40hz_Low_2.txt",
+    "sha256": "80d75e992237f309848a6eaa6515a738b1c60346178a95799643b88a4aa7069a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c5304fe0517cfb1f5517fef7dcf8d2eb0cbca57df387294d8774d7c4a21f228d"
+  },
+  {
+    "recording": "spur_4_45hz_High_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_45hz_High_1.txt",
+    "sha256": "67d7092adbe49e38e53896d961cc0c205e1ab2c40b8ea337d6d89bba012922c4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "17e7aa967637419811ffad02f73b48f54c9555b8a06c7cd60f86d97532eae087"
+  },
+  {
+    "recording": "spur_4_45hz_High_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_45hz_High_2.txt",
+    "sha256": "17e4cb5cc3c6bca21f448eafe01278704eaf7a12622ec7017fd18daa67461445",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "2644d58ec723c9daee781a8d759c3cf5272e4b6e0df9ca86c6744a055f2af782"
+  },
+  {
+    "recording": "spur_4_45hz_Low_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_45hz_Low_1.txt",
+    "sha256": "6b9d2a1f7a4702f3f07bf1f2730b574ec093367e0e53d37597141687125ccbf6",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "93b1dae686246b66230ef42558831b9e5f5203848dbc5fa19e35425f65c03fce"
+  },
+  {
+    "recording": "spur_4_45hz_Low_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_45hz_Low_2.txt",
+    "sha256": "0bd8a1f04d63a3450feccd531601fd39d9f8462918941249908e4a49b1ece2b0",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "8a4f11a89987852e8abd622e46ffe18264ef968bbad5d14fdd292afbf0650bd3"
+  },
+  {
+    "recording": "spur_4_50hz_High_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_50hz_High_1.txt",
+    "sha256": "587863ee0a42539038333d44963b8143aacbd9698b0395686877b1f6e923bcb8",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "2c1881973986d421d70c456dcb1b14c80ab1d1ab0645ba68c1000ae43cfd6a86"
+  },
+  {
+    "recording": "spur_4_50hz_High_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_50hz_High_2.txt",
+    "sha256": "119484e6fb2f8f6c0f0291136557c9c1315c6dee7c220503de2f47f40661faa7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e925218a6aaaf449562b0730bdbc7b5f962ed654c0e7b44c6f5c62c390a5bfa8"
+  },
+  {
+    "recording": "spur_4_50hz_Low_1",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 4/spur 4_50hz_Low_1.txt",
+    "sha256": "985e36ab08d68296dc762a9e420368718e76861f257100e79b7bdcbc393c9d21",
+    "samples": 266655,
+    "duration_seconds": 3.9998230000885,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "66425c10dbf7de84cdd6ea7398ddf7b5fa4597bc9dbff901e68c8e6e9220329e"
+  },
+  {
+    "recording": "spur_4_50hz_Low_2",
+    "state": "S4",
+    "label": "Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Ball",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 4/spur 4_50hz_Low_2.txt",
+    "sha256": "c72d669c388083c37e8d9bbd2a5ecf1f3be9a134770da0a8bbd2d85904957398",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "2cb3cf5a48b94c68fac98a40fde95d3ac43bddb543e151d4fd35aec41a2e851f"
+  },
+  {
+    "recording": "spur_5_30hz_High_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_30hz_High_1.txt",
+    "sha256": "7535d5c1cd1e21cb54e5d2bc450ad178705cb1242b7737983c6d63eefad8a14a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a589fc03295755fd464e30141e38cfaebb36028e33b3a19ec9afd87fca6ec234"
+  },
+  {
+    "recording": "spur_5_30hz_High_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_30hz_High_2.txt",
+    "sha256": "efd3aabc4ba4e972a166488d23a74733a8adfd002fe15a4429d71f6090cde786",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "1b0c2eaadc54723aac77c9138564412be7458f5e20a2756bbda61e2d4e165a1a"
+  },
+  {
+    "recording": "spur_5_30hz_Low_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_30hz_Low_1.txt",
+    "sha256": "33964bd97ad74fb6cdac397762632526a9879fd97d1f1de6fe51431db814ee98",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "1b67ec9ea8e8fcf7d22b68b5d97b2c98bf45f42605e4ab6e892bf4c3eb8dc99d"
+  },
+  {
+    "recording": "spur_5_30hz_Low_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_30hz_Low_2.txt",
+    "sha256": "c57394c8a9dbdafcc436cb7685ede3eef937c55107c0ca6b8a084ce0b9dc88de",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a92f53c154664814657010f588b36fd6e42c141accd50ef21da573595474c83c"
+  },
+  {
+    "recording": "spur_5_35hz_High_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_35hz_High_1.txt",
+    "sha256": "e24eb35753cd43d45dcfe543b745dedad75226e326ecee0baedc9a064069204c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "dd094744c3fc86df7d0036b755731b3421026f52d11fb38d3e992274d4454048"
+  },
+  {
+    "recording": "spur_5_35hz_High_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_35hz_High_2.txt",
+    "sha256": "12aead8b43adfc33a37d74049474d197796da5fedd46dcabcc182b878b943f9a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e0d85121dbf69fbf8de024e782139be2f54b007a2bdfd635bf577768e3346311"
+  },
+  {
+    "recording": "spur_5_35hz_Low_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_35hz_Low_1.txt",
+    "sha256": "438e545572a6d6e37acfa8ebf5f183b36695a9952eb080d17cf8ec3b76109677",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "63c900e9ad49f43fd055a80e6f0e8c286fe66cf49d820903c7904bee5122ad78"
+  },
+  {
+    "recording": "spur_5_35hz_Low_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_35hz_Low_2.txt",
+    "sha256": "681d2ac7a9f128b21f0c601ef3e7eefa1eda38e5c5ea7c5890f7f5459f177b3f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "496acca98f7bf2dd2d5273b8062bd12d9881aa955afe63120d19f62d00f27308"
+  },
+  {
+    "recording": "spur_5_40hz_High_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_40hz_High_1.txt",
+    "sha256": "e9c975d9f150cab62576b74db696e2568621a95eb0b9b3648a94c0e6957df838",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "6fcb14902e48ccea213a742a01923d1f92b0005d805596cf628486f76a92f6e6"
+  },
+  {
+    "recording": "spur_5_40hz_High_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_40hz_High_2.txt",
+    "sha256": "355d533f1559e43ad49446b4564d7156f9ca8bf38da8f8299bd8de93999e5efe",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e6b14eeede371a909fd6e198b9ed9e0697f951961758ad79b0977a726206a7b9"
+  },
+  {
+    "recording": "spur_5_40hz_Low_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_40hz_Low_1.txt",
+    "sha256": "c4e0be0005c96e4a8a9779324c09daf9c3b1f97c0bb7fa931fbcbd47cb2b45b1",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f46fee025158fff0a0b173d9ed40d826bd3d8b4df6f371cfb3742fd4e5cd84ba"
+  },
+  {
+    "recording": "spur_5_40hz_Low_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_40hz_Low_2.txt",
+    "sha256": "e83027e32747b99691fa7387eac7ff0e3a2841d944b2e9c19b7e12c2e6709a6f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e07e8d957e542a81008e483aa5d85ce350d030e41dbb78c5be379836815ee738"
+  },
+  {
+    "recording": "spur_5_45hz_High_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_45hz_High_1.txt",
+    "sha256": "421b573009065515baefab44baf617183fa8b8180956a8bba8965b57f89751b0",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ac1b0968e80a2bcce03751faab789b47c2d068a1f6ec5090d5edd6569a8e1829"
+  },
+  {
+    "recording": "spur_5_45hz_High_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_45hz_High_2.txt",
+    "sha256": "21e0b1bf7fc2651846bd4f97de989d9145f63d01505f6e003bcc49b43e1bc59b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d27ca7761a5b94470a948583e6e9d42ea5de651d7ad29ee7912606e00752d4ab"
+  },
+  {
+    "recording": "spur_5_45hz_Low_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_45hz_Low_1.txt",
+    "sha256": "b48a9267ae70f843b5dbaf66a38b00d75dc1f569df6ab9220da327b1131db7d5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ef5b10dd84d80956862c04f56b5b1015ce8e4eafc6a4285a81509cb7e650a705"
+  },
+  {
+    "recording": "spur_5_45hz_Low_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_45hz_Low_2.txt",
+    "sha256": "d517898c3bba2379f17fc6d1e6dad49f2180cb57417749639f4177a8feddaa2b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "1c69b95c4a0ee5e9f258e21e198ace7b5fc5b0d1ef62057c0c658fc7dd43325b"
+  },
+  {
+    "recording": "spur_5_50hz_High_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_50hz_High_1.txt",
+    "sha256": "962bad292d666855b048d5e889d11b0323d080f1cd21b9489d4c67782424422a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "aa7b3b832fb45e77d131d483b11c3cc7c509c6580efffd26000841c0caf4b813"
+  },
+  {
+    "recording": "spur_5_50hz_High_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_50hz_High_2.txt",
+    "sha256": "04045ddfdecfa6ad151dc3e1f516af420e9804c272623d44b19be63ddee25744",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "4cf1f9dea9077b146c2f96a225350b053e695eae3227ef078a468bb92bb62721"
+  },
+  {
+    "recording": "spur_5_50hz_Low_1",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 5/spur 5_50hz_Low_1.txt",
+    "sha256": "9554cede1bbddf3ed7e6d5ec8538763a1a8f035c5ce99f251c0629a47f07d7d1",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "9eeb0b9dfdce47bedf5b951298b4f2c07940183bbd93ce2ec601d54dabe1ac6f"
+  },
+  {
+    "recording": "spur_5_50hz_Low_2",
+    "state": "S5",
+    "label": "Gear 32T=Chipped; Gear 48T=Eccentric; Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 5/spur 5_50hz_Low_2.txt",
+    "sha256": "ad3a8073fdaab8f09ba62a2bb0e02d86d3165614547cb122fc5a28bdf1c387c0",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "684cdb77934be7e1b7f12f6673fd9635ce99eba7bec9a878f14eb187f3a80b14"
+  },
+  {
+    "recording": "spur_6_30hz_High_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_30hz_High_1.txt",
+    "sha256": "9884172a7774fa60b41434b23bffbd1f198bdaf0fa168426e6d2b7d0a8bf283f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "3f32be888c382e87ff748cce28f99980ebeb034d38e2818a4bc029e0da3ebf4b"
+  },
+  {
+    "recording": "spur_6_30hz_High_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_30hz_High_2.txt",
+    "sha256": "72a9e39aa3ec672ae2c7a7f4f4e7249e2c20810fd6ad682bdc33dbc4a51ad4e3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "82f9127cfcfe984ed27903dd2a091a2ba16994a62b9e80a8cb3a9299faf4a4be"
+  },
+  {
+    "recording": "spur_6_30hz_Low_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_30hz_Low_1.txt",
+    "sha256": "d28b3a344d6729a5e1bd4f77dcda372c90ab3919ff6d0c69e19152455d26734e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "86ae6a2ab989c4fbb41caad1a9e0672563f34cb70bcb348fa0b0ca5889aafa91"
+  },
+  {
+    "recording": "spur_6_30hz_Low_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_30hz_Low_2.txt",
+    "sha256": "3f1c6dd5cd10e3a20c3079065e1f56f1001336cc61af9a3e36ebcc97ea0afe1e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "02f18d692b22a102bc480c3fc13229fb8632fc26903519af60441af36d46f4a6"
+  },
+  {
+    "recording": "spur_6_35hz_High_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_35hz_High_1.txt",
+    "sha256": "f5100a0d08247dd595de591981e6dac5669f913b9d8cdb68aa657a751a559667",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "47cc4d8288f3c2fbd39fbdca147e28a8d08e765a7572211681369be0503f7d84"
+  },
+  {
+    "recording": "spur_6_35hz_High_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_35hz_High_2.txt",
+    "sha256": "a7d8c0cde57a05c7fb451faf932ed41f3c2c017c3211ae1399a22574d416587b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "10b9b75710da9851f925714ff4ab7d906aec98d48153c8ef82aeeb2ffde4fa74"
+  },
+  {
+    "recording": "spur_6_35hz_Low_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_35hz_Low_1.txt",
+    "sha256": "1484db51fe49699ab132262719f1a6796782f80281af7257dd5e4b612a73023c",
+    "samples": 266655,
+    "duration_seconds": 3.9998230000885,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "6ef1a291502c89c7b66f6377cae79ac7f685fbc5beb63d35b2c9cafea7962564"
+  },
+  {
+    "recording": "spur_6_35hz_Low_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_35hz_Low_2.txt",
+    "sha256": "3bee1add4bfbc8314813a1f5b7bb87c0916ed32946a73bd84e7b5d2bacfb6728",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "7cded4222aaf7b04a208702ab56c609385557afb587a994e1e3335bfb922a395"
+  },
+  {
+    "recording": "spur_6_40hz_High_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_40hz_High_1.txt",
+    "sha256": "b71c34684be2dc236664b97fa61e972b2bd5ade7169ca09a71a1d79eab0eb532",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "884cbdacb6cab7da588996a05352b8e0f9532b6b8a74e79d3e6a6e4cc32571ef"
+  },
+  {
+    "recording": "spur_6_40hz_High_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_40hz_High_2.txt",
+    "sha256": "0652c2df5a519e94741e04598f666c5ccf39b80b3d63ccedd12abfe9a090dd1a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "22a948f365a529a28ede60a282a54efa92f5bc2a2dc58b4ed168b80c31812b2e"
+  },
+  {
+    "recording": "spur_6_40hz_Low_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_40hz_Low_1.txt",
+    "sha256": "2779b5cf003bfb0a2bd1c3052546f1d304bcb675d40eed578663989cb334e1dc",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d58893fd85abb90561fd8591d81b88cf8cb8b7d4fdfe4fc64a707ad9784f6a35"
+  },
+  {
+    "recording": "spur_6_40hz_Low_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_40hz_Low_2.txt",
+    "sha256": "287b6b11907d9d6b0e05e8c71bad7672e318dc74eaffb872a80be86bfa3a5072",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "87d8492fc18d4dc25316bd66ceee9b812f1f292c74aeb1c886df05d6169d2207"
+  },
+  {
+    "recording": "spur_6_45hz_High_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_45hz_High_1.txt",
+    "sha256": "c215f12034fde94560f5fe0ea9a7da5826b458a9c1627a3bfaea3d9e963d3512",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "525544ccb5262bb40835f984da38ba7ad7123e2b434c8882b957ddc1283cf8c1"
+  },
+  {
+    "recording": "spur_6_45hz_High_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_45hz_High_2.txt",
+    "sha256": "d2e00d336cc37c01276c9ca1e340282306e06f348fd1ccf4ea147f17c2afb17d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ce940efec5c568d2a75bf3551a683bf0b4b9d189a8d72681e8cddd5d405643f1"
+  },
+  {
+    "recording": "spur_6_45hz_Low_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_45hz_Low_1.txt",
+    "sha256": "ff68bba5cc923a8176e7330ca6f8474f8918f46b81536ee11420aba0dc0e6c93",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "db344ffcb5359348f5c9f12c47275cda329ee4846dd3d6091f730bb2b94dead6"
+  },
+  {
+    "recording": "spur_6_45hz_Low_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_45hz_Low_2.txt",
+    "sha256": "7b8754043b468d448c09e27b5afe7675f0f407ffff182c3c6ec31e1216d103d3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "7a114f724a1695b52e3217a11e4cb827425d195a0d1d249e2cd465125ff75721"
+  },
+  {
+    "recording": "spur_6_50hz_High_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_50hz_High_1.txt",
+    "sha256": "869eb02a002a84a210d1b717e88e0a3f4be65c3a5d4aaeb47a99b65c98448d6a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "4043ac7c172503aeae61e6391241416e87ab12904548ea4f41989a8ffe4bb520"
+  },
+  {
+    "recording": "spur_6_50hz_High_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_50hz_High_2.txt",
+    "sha256": "c61e924b86f99d1d52ee81d922904b7c5e964b85591084436c1cd21733227ba4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "4e1b24d828d428f89e56250616a69e35a95726149a88b08760a1191421744d29"
+  },
+  {
+    "recording": "spur_6_50hz_Low_1",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 6/spur 6_50hz_Low_1.txt",
+    "sha256": "bce3e3212a9950c02e49c693863eeb5f82ddb442f035cf0ebc8d1c45f0df3568",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "162bac8f615b08ba05fd5b760ba4778bbeb1ded30667cfc3a63ed5803614e7d8"
+  },
+  {
+    "recording": "spur_6_50hz_Low_2",
+    "state": "S6",
+    "label": "Gear 80T=Broken; Bearing IS:IS=Inner; Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 6/spur 6_50hz_Low_2.txt",
+    "sha256": "a6720c6d10169154912ffc64695112270c484a7cd688f093ef8f9cd47f7fefb2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f331ad92ca259ee8ce3180debfb66299f7ea25df8acbfd4100cccf6a5009c12c"
+  },
+  {
+    "recording": "spur_7_30hz_High_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_30hz_High_1.txt",
+    "sha256": "c990802f51fb23b77faecc59c9e80022504df3a14433406736c37ed981f02a27",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "3fd38cb2909ab18ef46936c8d1e7bf3ecf0659e91168f30fd147e4a050de50a8"
+  },
+  {
+    "recording": "spur_7_30hz_High_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_30hz_High_2.txt",
+    "sha256": "691d04327f92faf17933eacb80f4fbc5b3d74ae3ed68ffe5f22d15f2736df72f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ceb8618ad0b33219daf1221fb4ebfb6c82c8acd959d8adf91d618ef8bc360656"
+  },
+  {
+    "recording": "spur_7_30hz_Low_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_30hz_Low_1.txt",
+    "sha256": "9081788e89b3daab988ea57b1e94e912342e990158e00ad49536ac5bda7bc070",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a7cd54a09dcf6e200284d7a302592f52fca9d4cedb4fb1da79f22c83ecfeb970"
+  },
+  {
+    "recording": "spur_7_30hz_Low_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_30hz_Low_2.txt",
+    "sha256": "f984ed8b4da1465114b3b1b2f3553a63d50accace34485d3710a2db4c1a9ca10",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c40c8a96549fe24faf7f55aff6ac9a25c9bdf65e8d01e22d0322a74c25b85f6e"
+  },
+  {
+    "recording": "spur_7_35hz_High_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_35hz_High_1.txt",
+    "sha256": "b0f1a16aa78ed9694320c2431cb7f002bf23c6ec08eb4e131b22c636a0fe35f9",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "01c47f40c61b6b039da84cd030f1f76c3ec706f00ef13cdfec22b1d8c1ee9364"
+  },
+  {
+    "recording": "spur_7_35hz_High_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_35hz_High_2.txt",
+    "sha256": "5d91bae83a9a4bb4e7b383b4535612559e3fb7f8a016a8ad21eb7ce0e6229a24",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "9f8cdf390685567fb8dfcb10a1099352584c5a6f212df86a2a5f711fa2e72ae0"
+  },
+  {
+    "recording": "spur_7_35hz_Low_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_35hz_Low_1.txt",
+    "sha256": "5e7725fc5aa36dd4c2db2293919c5c8fb152aab52445a5fbf3df07f6fe907a07",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ed9a65465fa0a5e42878ad4bfdd0c594ff2a7581728b53a07144a98ff973bd4c"
+  },
+  {
+    "recording": "spur_7_35hz_Low_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_35hz_Low_2.txt",
+    "sha256": "e16cac5c706a083042fc5ab61203341f95dd4dc3508ce12f083375ea34cf40b9",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "3edf35a7ba74fb53a6b14fd79e8e235c4e66d31107e53d556a39c1a0aeb83e34"
+  },
+  {
+    "recording": "spur_7_40hz_High_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_40hz_High_1.txt",
+    "sha256": "606810e85fcb9d35ed9e94adce1450a744e82fafc4e27bf978a6ea134035323a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "9cff9903521d7368bfe4f3e1182c40599d868c3ccb7adddff9ec0c06fd9bcdc5"
+  },
+  {
+    "recording": "spur_7_40hz_High_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_40hz_High_2.txt",
+    "sha256": "3b6c7c67e60b691e19e1f726815b096cabf470c61789cc285400574c89abb7d0",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "e95d5f633d0d32eb456d0317cf7b25c3a2e1255995a1f86aef4a8b6a738c98ca"
+  },
+  {
+    "recording": "spur_7_40hz_Low_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_40hz_Low_1.txt",
+    "sha256": "872e7ac41fa35ca9542135665d6942fc1d3836cbfb7f1b162caa04c0c10c6fdb",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "7165c13059c0d83e0f768d962211406959234e35b8e1a71179fb3df9f903d3bd"
+  },
+  {
+    "recording": "spur_7_40hz_Low_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_40hz_Low_2.txt",
+    "sha256": "86b2c3bb9e429111401e67278739d00ab8f7eccce383259c6c844d1b362f9982",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "1f31bee071ae14b503ad6e618aabbf9c2fcdde465d65919cda451dd5a079a630"
+  },
+  {
+    "recording": "spur_7_45hz_High_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_45hz_High_1.txt",
+    "sha256": "bec44078665ca059860fc598ed555d8497448e94e962a23d5e1cb154cdd8ecc0",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "36c6286b83d72c1289cb91c0c2163ec726401490d42c70617d9c6d7b45f1b99c"
+  },
+  {
+    "recording": "spur_7_45hz_High_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_45hz_High_2.txt",
+    "sha256": "61d51b223b07328386dbf58766a5c9ae2a7f0b837db3f15dfa76f27271d05d03",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "f41a17e2bd2420b58d9d83b9b55274b39c24aa141f75ef3a375577e0e8819961"
+  },
+  {
+    "recording": "spur_7_45hz_Low_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_45hz_Low_1.txt",
+    "sha256": "0c183e63d52c9dd9cd9b22d112bab22bfa3d3cffb9f011c85dba47f8c191deb3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "747717c489a2db83fe4165d96201028666aec14ce4e41c8e298c788f9b50b9a9"
+  },
+  {
+    "recording": "spur_7_45hz_Low_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_45hz_Low_2.txt",
+    "sha256": "54793b13cbb998f23238fa2ab3f3f9e68daaf5d5b23f7f475b742a69cb1d258a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "0fb52f1e311d0b5290b8012f42365853a4ef21e5b1276d2556c2111bf20f73e0"
+  },
+  {
+    "recording": "spur_7_50hz_High_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_50hz_High_1.txt",
+    "sha256": "26676adeb862977008d95d407b1a060726968b0334b2f5ab889d85d8e4098e51",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c37660b5ad6cdfb154058c14380b80af6a01d5144eae871d4b75228072ea0d0d"
+  },
+  {
+    "recording": "spur_7_50hz_High_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_50hz_High_2.txt",
+    "sha256": "024e06ae8f56ca2daada48ef7e01505684746bd0ec92f5b686e7b14196f77dd3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "5120c76f76e8e5bbc7be1a4887f99e6c06ed09310281ef13a69b65c770e8d7a7"
+  },
+  {
+    "recording": "spur_7_50hz_Low_1",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 7/spur 7_50hz_Low_1.txt",
+    "sha256": "7d9fbb88057d12beb4570b5a10571d44f14e4e661ecf075b27fb13207d94769d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ac84c88e29cb4fd7f6d6b8df78585573036a946cdfcaf2e492d5738d84bae61e"
+  },
+  {
+    "recording": "spur_7_50hz_Low_2",
+    "state": "S7",
+    "label": "Bearing IS:IS=Inner; Shaft Output=Keyway Sheared",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 7/spur 7_50hz_Low_2.txt",
+    "sha256": "4551c4df8128c59729391abe2583bc93288bcfda60701bfe81a48023866d344a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "bfa74ca9d1dd5700c399c6750f9ffd30085429fc7f7e01af0abbab5d3e393d8a"
+  },
+  {
+    "recording": "spur_8_30hz_High_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_30hz_High_1.txt",
+    "sha256": "d32f29e6f3e1ad0b744b9374ebd67fa3e543b4fd1670c32b25c80442a8a351c2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d083c3b48c5b8274d69344dc74333d6ec4ba66c8cab31c5c3cf1b32311df2780"
+  },
+  {
+    "recording": "spur_8_30hz_High_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_30hz_High_2.txt",
+    "sha256": "d4edf1de13070ad8ca8b595d9290e08f1954763caf2208363896efa4a5ba85a2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "436ca521fa45a9257ca9bec9cffa8eb2ec8d5d07d03407821f2e902393fa203b"
+  },
+  {
+    "recording": "spur_8_30hz_Low_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_30hz_Low_1.txt",
+    "sha256": "382ee327fc932434a4ba5d569d1220f62ba9a57e2f1c6744509cf015eadcfb56",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "c9d49ca64d7976ca995d747a56c922bc9ada679a9aec24705b4616db8de0f120"
+  },
+  {
+    "recording": "spur_8_30hz_Low_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_30hz_Low_2.txt",
+    "sha256": "4e9b583d1d0e1f7ec69c43991af5354210f790b13d23322b216aa4bdfb750ae6",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "6b4a224a8da02473c62e248d5071708b2c5ff94c7eeb0e58e47e0f00fbb527a4"
+  },
+  {
+    "recording": "spur_8_35hz_High_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_35hz_High_1.txt",
+    "sha256": "e4d41180c2bedf06c74fa99e5d4a1eefc4e023fac35aae3e32d12554904802bc",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "5bbb433ba36f29242ffb26957729db7da277ed136433dab90d5efb66e40ac2ea"
+  },
+  {
+    "recording": "spur_8_35hz_High_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_35hz_High_2.txt",
+    "sha256": "28aa204657220475d5a832887c8ae8fbab87a58a963129c2895cac8de4ea624c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d977e3e1102e6b772ccb713b266fb936fda581400dc948711a5e6cb4af7df00d"
+  },
+  {
+    "recording": "spur_8_35hz_Low_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_35hz_Low_1.txt",
+    "sha256": "5ab82d1b0acf5930bd66abc462123c0b3738d1f6f256b24a5aa777f5146559e2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "b165dfb2c26ce6a6fc0ac912ec7ce9e48728041b7e7ec7debc4e5f0d420a3c31"
+  },
+  {
+    "recording": "spur_8_35hz_Low_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_35hz_Low_2.txt",
+    "sha256": "fb2dcf78ebb71652a8e2370c15a5e45ce4269023376c5505081b29cf36ea2151",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "684e84c5a969b58349b2811f6da178bd2d9aada9c19dbb22c2a3f31b538007f5"
+  },
+  {
+    "recording": "spur_8_40hz_High_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_40hz_High_1.txt",
+    "sha256": "b0831f4922d0d194fefeae5b48836af7b33447572ea9603055a0c678ee42d1b4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "bbdf43be7a40a050ce087893d4ad5824648734d9d0b3c4059509908dcb165439"
+  },
+  {
+    "recording": "spur_8_40hz_High_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_40hz_High_2.txt",
+    "sha256": "af47cd2f21ecc43ee026a67533c6eaf0bac1b15adaef310ab694e58a6d094d9d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "051f8a12a68965e9e18411e7dc2133b4ea0a08f49acc3e3b456cc5aba57d17a2"
+  },
+  {
+    "recording": "spur_8_40hz_Low_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_40hz_Low_1.txt",
+    "sha256": "d2798583429a726fca89572d3ca46c1929bff104ec8ad5a13a26768cd0888357",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "a0e9bb4921cb9e3e5737025f58af5cd4eba3bca4744ac52993890f8826edfaa3"
+  },
+  {
+    "recording": "spur_8_40hz_Low_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_40hz_Low_2.txt",
+    "sha256": "226e752416eeb77e148509092909cf40ce2008b690efdf9345b60108b5ff9009",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ba9f5d0c204c360596277f9c3274d345bc37cc06bf3f0e952ca09a6112f31d6b"
+  },
+  {
+    "recording": "spur_8_45hz_High_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_45hz_High_1.txt",
+    "sha256": "e0ebacdc558495472d5ff37b93d2a23da95aaa6a025c8500cb0842a9d6952467",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "d381c5fe1f4fc4ec0ec522cd90aad8f8a042904246a78dbf439ece4ce83ef6e4"
+  },
+  {
+    "recording": "spur_8_45hz_High_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_45hz_High_2.txt",
+    "sha256": "47cc418956e465ab364c6b996074ea2e2dd83f157d0aaff3ddac8229fc16ecbd",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "29251ff99937ee394e596354ceaf30bd51c8495397db31a446fa2bcdbf8aa0fd"
+  },
+  {
+    "recording": "spur_8_45hz_Low_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_45hz_Low_1.txt",
+    "sha256": "fa300d0aa20a8cb6294299bf6c5939abe966e34c9d5d859c5bb1f4054cf5eecf",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ad310dbc56fe27edcecc2a49da6a6b9fca07b5962aa2cb86e1fb8d25153b6532"
+  },
+  {
+    "recording": "spur_8_45hz_Low_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_45hz_Low_2.txt",
+    "sha256": "df4e5749d4b786f73c78847f069efc8efe1ec6d0dfe39f08446b51b8e87ca456",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "644be17d19e705884dc01332e22b85b619022b02f8001b04a18b5171676f2ab2"
+  },
+  {
+    "recording": "spur_8_50hz_High_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_50hz_High_1.txt",
+    "sha256": "e52daed392dfa74f8e5f320a26ef83b2aef28c3bd051371874bdaed916a3977f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "ae03af96fbe6e9197b7dcb7ce1e02d113ebec663fbf4f47045fcdc487f57d1cf"
+  },
+  {
+    "recording": "spur_8_50hz_High_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_50hz_High_2.txt",
+    "sha256": "851f8d81d8a0e4fe2d23ad925e23ec1b8eeaecac72ddc31c3cd066c350eb7f2b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "90ae813b92e8d2832e73322cb22705554036c38822e6146016b195ff3672d21a"
+  },
+  {
+    "recording": "spur_8_50hz_Low_1",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/spur 8/spur 8_50hz_Low_1.txt",
+    "sha256": "d3f6815c85c6e95f441f9d914ef3b932960051b1ae26a0a0aab8d420fe1c6aa4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "94212875845cb5d626733819f4213f272b1a5c99df858b0af0c70cabb3a059f4"
+  },
+  {
+    "recording": "spur_8_50hz_Low_2",
+    "state": "S8",
+    "label": "Bearing ID:IS=Ball; Bearing OS:IS=Outer; Shaft Input=Imbalance",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/spur 8/spur 8_50hz_Low_2.txt",
+    "sha256": "7628250de67fd8566a8b85608e991cc144a99529f37fdac13037028a4ecbbe0d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true,
+    "numeric_sha256": "073f578bb69370cf081ca26e979bbfce6a384a0d441993258098abfc0ce9e96a"
+  }
+]

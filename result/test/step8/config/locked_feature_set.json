@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "step": 8,
+  "status": "LOCKED",
+  "feature_set_type": "B. Two-feature set",
+  "representation": "RAW",
+  "pipeline": "raw",
+  "component": "raw",
+  "features": [
+    "delta_alpha",
+    "alpha0"
+  ],
+  "feature_order": [
+    "delta_alpha",
+    "alpha0"
+  ],
+  "primary_channel": "output_voltage",
+  "secondary_channel": "input_voltage",
+  "channel_policy": "Separate analyses with the identical locked feature list; channels share recording groups.",
+  "decision_basis": "Fault association of delta_alpha plus repeated, nonredundant within-condition separation from alpha0; delta_h adds only isolated separations beyond both.",
+  "feature_reselection_allowed": false,
+  "classification_accuracy_may_change_feature_set": false,
+  "excluded_features": [
+    "delta_h"
+  ],
+  "excluded_representations": [
+    "VMD_SUM",
+    "individual_VMD_modes",
+    "EMD"
+  ],
+  "locked_processing": {
+    "q": [
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ],
+    "scales": [
+      64,
+      72,
+      82,
+      93,
+      105,
+      119,
+      135,
+      153,
+      173,
+      196,
+      222,
+      251,
+      285,
+      323,
+      365,
+      414,
+      468,
+      531,
+      601,
+      680,
+      771,
+      873,
+      988,
+      1119,
+      1267,
+      1435,
+      1625,
+      1841,
+      2085,
+      2361,
+      2674,
+      3028,
+      3429,
+      3883,
+      4398,
+      4980,
+      5640,
+      6387,
+      7234,
+      8192
+    ],
+    "m": 2,
+    "fit_interval": [
+      64,
+      512
+    ],
+    "qc_rule": {
+      "min_scale_points": 8,
+      "min_r2_floor": 0.9,
+      "r2_threshold": 0.95,
+      "min_good_r2_fraction": 0.8,
+      "max_local_slope_cv": 0.5,
+      "min_stable_q_fraction": 0.8,
+      "min_hq_exclusive": 0.05
+    },
+    "bands_hz": [
+      [
+        0,
+        1000
+      ],
+      [
+        1000,
+        4000
+      ],
+      [
+        4000,
+        10000
+      ],
+      [
+        10000,
+        20000
+      ],
+      [
+        20000,
+        33334
+      ]
+    ],
+    "fs": 66666.7,
+    "vmd": {
+      "K": 7,
+      "alpha": 500,
+      "tau": 0.0,
+      "DC": false,
+      "init": 1,
+      "tol": 1e-07,
+      "max_iter": 2000
+    },
+    "emd": {
+      "max_imfs": 6,
+      "max_siftings": 200,
+      "sd_threshold": 0.2,
+      "envelope_tol": 0.05,
+      "extrema_relative_tolerance": 0.005
+    },
+    "channels": [
+      [
+        1,
+        "output_voltage",
+        "primary"
+      ],
+      [
+        0,
+        "input_voltage",
+        "secondary"
+      ]
+    ],
+    "preprocessing": "Full original lengths. Raw: only internal MF-DFA mean removal; EMD/VMD: global mean removed. No windows/resampling."
+  },
+  "upstream_inputs": [
+    {
+      "path": "result/test/step6/features/analysis_representatives.csv",
+      "sha256": "593639fa3a7cf67b4b941b0b2686b5672986681f6e14ecd0b2301244d0ffedd0",
+      "bytes": 2314019
+    },
+    {
+      "path": "result/test/step6/summaries/cell_feature_summary.csv",
+      "sha256": "6bdc2d54a29251dc11b5121450298cea47925094ba6dbf27968ac0b4d477695c",
+      "bytes": 433980
+    },
+    {
+      "path": "result/test/step6/summaries/within_condition_separation.csv",
+      "sha256": "a324812ac8521d2939d696a54fd0685d28fa45865b1cece0dc1fecb45e6152dd",
+      "bytes": 2765726
+    },
+    {
+      "path": "result/test/step6/summaries/speed_robustness.csv",
+      "sha256": "b0cb25f19e83c86a5913636eba15b4ed575ab3b8760eaf61b938ea1b6d4ac04c",
+      "bytes": 162706
+    },
+    {
+      "path": "result/test/step6/summaries/load_robustness.csv",
+      "sha256": "ca70ee120bd3eefb73db201c9fb3a328fac3da8f7d3dc9f1e29e8bf26650f995",
+      "bytes": 447156
+    },
+    {
+      "path": "result/test/step6/summaries/factorial_effects.csv",
+      "sha256": "57a1e99a258ce026e95ea5a9d056815c9b2dc8e3eb73b355ee094a36b08f9f85",
+      "bytes": 215818
+    },
+    {
+      "path": "result/test/step6/summaries/paired_raw_vmd_summary.csv",
+      "sha256": "c42d5ba5fdb4797db12cced1b0dc042cf474a3430babf7dc2fa2999dc143ed3c",
+      "bytes": 15230
+    },
+    {
+      "path": "result/test/step6/summaries/raw_vmd_matched_effects.csv",
+      "sha256": "2755f801e7dcb02074162a26b0b65ca4db3072d8383196e672cfcdba7ba7aba9",
+      "bytes": 14907
+    },
+    {
+      "path": "result/test/step6/summaries/vmd_extra_separation_recurrence.csv",
+      "sha256": "48f5ef4c262a2fe62ada2c5ac9196d7809765bd71ce1999bde8aa5f88b523870",
+      "bytes": 5901
+    },
+    {
+      "path": "result/test/step6/config/locked_step4_configuration.json",
+      "sha256": "fe4c21c0e76a819f301a5e3d7b51adb6b33b479a05a28f3d5de928267a73da91",
+      "bytes": 4108
+    },
+    {
+      "path": "result/test/step6/config/analysis_rules.json",
+      "sha256": "2dbd5673f62a4b73259bad593d49710541ecc10d8100842d47cc9b84cd55bace",
+      "bytes": 844
+    },
+    {
+      "path": "result/test/step6/config/current_source_hashes.json",
+      "sha256": "cd0c8406095bb48e7435e0c1794069e6633413d4bf67999d0d5da878ab59fc82",
+      "bytes": 550
+    },
+    {
+      "path": "result/test/step6/diagnostics/validation.json",
+      "sha256": "9c5d03110675af969d6a80132582d2e7b493e74db206f4acabff0c00f2e19a26",
+      "bytes": 396
+    },
+    {
+      "path": "result/test/step7/features/analysis_representatives.csv",
+      "sha256": "40f4c5c24cb73e5fe3537682f4df508ad111d2feaee1981a300bb052871b6fa7",
+      "bytes": 3031652
+    },
+    {
+      "path": "result/test/step7/summaries/cell_feature_summary.csv",
+      "sha256": "991de67f894718ace9b5fda8d6edc106b0c39c69e2b0d545043ba76e4ecbfd94",
+      "bytes": 462732
+    },
+    {
+      "path": "result/test/step7/summaries/within_condition_separation.csv",
+      "sha256": "f4ec212e3a7f4fdbb147787b7fe7fd7bcf06aa0970737f82f1ec34005522fee0",
+      "bytes": 4505518
+    },
+    {
+      "path": "result/test/step7/summaries/speed_robustness.csv",
+      "sha256": "8c6042664fdca17c1744d5c548a79e7500286e32bffe547ea6a5b37d3b13d8bd",
+      "bytes": 146977
+    },
+    {
+      "path": "result/test/step7/summaries/load_robustness.csv",
+      "sha256": "7b334574003e0f06520fe0b42c8091d4894e432755aa119b199e222b58e9e599",
+      "bytes": 507456
+    },
+    {
+      "path": "result/test/step7/summaries/factorial_effects.csv",
+      "sha256": "369cfc0d0ea0a3b856b1507cf0a8b06c399256e11701ff5cc4137398223197e7",
+      "bytes": 56117
+    },
+    {
+      "path": "result/test/step7/summaries/paired_raw_vmd_summary.csv",
+      "sha256": "213dfa42d0bdcedaafc1ba82b3279d83f1d3489517683ea15e4d709c286fdbaa",
+      "bytes": 7164
+    },
+    {
+      "path": "result/test/step7/summaries/raw_vmd_matched_effects.csv",
+      "sha256": "ac4df82997b71e7f21edb60f5c1cc8a37907a3853867b1a19f673ca2dac773fc",
+      "bytes": 6074
+    },
+    {
+      "path": "result/test/step7/summaries/vmd_extra_separation_recurrence.csv",
+      "sha256": "0045e07495046b160a18d03242afe65a4e45242dd977e6fb47908769613599aa",
+      "bytes": 742
+    },
+    {
+      "path": "result/test/step7/config/locked_step4_configuration.json",
+      "sha256": "e5c0b6c53607499bca20368093d77ad28743878c2fb173167660f2879c6dc58a",
+      "bytes": 4242
+    },
+    {
+      "path": "result/test/step7/config/analysis_rules.json",
+      "sha256": "139c2287119c1ef18b7ddaa8c86438c5c32509f20bb39b23beca570c9f6f8d31",
+      "bytes": 1038
+    },
+    {
+      "path": "result/test/step7/config/current_source_hashes.json",
+      "sha256": "cd0c8406095bb48e7435e0c1794069e6633413d4bf67999d0d5da878ab59fc82",
+      "bytes": 550
+    },
+    {
+      "path": "result/test/step7/diagnostics/validation.json",
+      "sha256": "be007e57ef809de5cbd72d7a3e6663a8b702272d64d2937a442d93c9a6607ff6",
+      "bytes": 575
+    }
+  ],
+  "sample_unit": "Full original recording; no independent windows; split channels of the same recording together.",
+  "eligibility": "analysis_valid == True; finite values of both selected features; no QC override or imputation of QC-failed features.",
+  "class_policy": "Retain original compound configurations. Analyze Helical and Spur separately. Report unavailable classes; no forced full S1-S8 claim.",
+  "operating_conditions": "Preserve speed/load metadata for condition-aware evaluation; alpha0 is condition-sensitive, not a condition-invariant fault marker.",
+  "evaluation": "Feature selection used labels from Step6/7. Unbiased final evaluation requires untouched recordings; reuse grouped CV only as exploratory conditional evaluation. Fit scaling only on training folds."
+}

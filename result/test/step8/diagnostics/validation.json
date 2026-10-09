@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "upstream_manifest_verified": 26,
+  "processing_configuration_identical": true,
+  "expected_candidate_rows": 96,
+  "main_signal_grids_complete": true,
+  "missing_mode_representatives_included_in_coverage_denominator": true,
+  "no_duplicate_recording_channel_per_representation": true,
+  "finite_selected_valid_features": true,
+  "selection_basis": "descriptive evidence; no classifier or processing changes",
+  "selected_features": [
+    "delta_alpha",
+    "alpha0"
+  ]
+}

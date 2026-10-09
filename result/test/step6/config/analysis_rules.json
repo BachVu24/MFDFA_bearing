@@ -1,0 +1,21 @@
+{
+  "frequency_center_ratio_limit": 1.5,
+  "representative": "largest energy in fixed Step 4 band BEFORE QC",
+  "complete_cell": "two independent acquisitions; no substitute for invalid/missing",
+  "relative_difference": "2*abs(a-b)/(abs(a)+abs(b))",
+  "CV": "sample std / abs(mean), only if abs(mean)>1e-8",
+  "bootstrap_draws": 1999,
+  "seed": 6509,
+  "primary_channel": "output_voltage",
+  "robustness_verdict": "main raw/sum: evaluable complete-cell coverage>=75%; ROBUST if >=2 features have disjoint pair fraction>=75% and fault/operating SD ratio>=1; NOT ROBUST if >=2 features have pair fraction<=25% and fault/operating ratio<1; otherwise CONDITION-DEPENDENT; inadequate coverage = NOT EVALUABLE",
+  "states": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+  ],
+  "expected_cells": 60,
+  "expected_pair_conditions": 150
+}

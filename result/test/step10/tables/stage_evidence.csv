@@ -1,0 +1,25 @@
+stage,dataset,channel,representation,valid_signals,expected_signals,evaluable_cells,expected_cells,evaluable_feature_pair_conditions,expected_feature_pair_conditions,disjoint_feature_pair_conditions
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,input_voltage,EMD_SUM,8,8,4,4,9,9,7
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,output_voltage,EMD_SUM,7,8,3,4,6,9,4
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,input_voltage,RAW,8,8,4,4,9,9,6
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,output_voltage,RAW,8,8,4,4,9,9,7
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,input_voltage,VMD_SUM,8,8,4,4,9,9,7
+Step4_corrected,Helical pilot H1/H2/H5/H6; 50Hz/High,output_voltage,VMD_SUM,8,8,4,4,9,9,6
+Step5,Helical subset,input_voltage,EMD_SUM,74,80,37,40,153,180,135
+Step5,Helical subset,output_voltage,EMD_SUM,73,80,36,40,147,180,131
+Step5,Helical subset,input_voltage,RAW,76,80,38,40,162,180,130
+Step5,Helical subset,output_voltage,RAW,75,80,37,40,156,180,145
+Step5,Helical subset,input_voltage,VMD_SUM,76,80,38,40,162,180,129
+Step5,Helical subset,output_voltage,VMD_SUM,76,80,37,40,156,180,139
+Step6,Helical,input_voltage,EMD_SUM,110,120,54,60,369,450,324
+Step6,Helical,output_voltage,EMD_SUM,103,120,51,60,339,450,293
+Step6,Helical,input_voltage,RAW,115,120,57,60,405,450,337
+Step6,Helical,output_voltage,RAW,109,120,53,60,366,450,333
+Step6,Helical,input_voltage,VMD_SUM,115,120,57,60,405,450,331
+Step6,Helical,output_voltage,VMD_SUM,111,120,54,60,378,450,330
+Step7,Spur,input_voltage,EMD_SUM,75,160,35,80,177,840,150
+Step7,Spur,output_voltage,EMD_SUM,43,160,20,80,54,840,45
+Step7,Spur,input_voltage,RAW,76,160,36,80,165,840,138
+Step7,Spur,output_voltage,RAW,48,160,24,80,93,840,80
+Step7,Spur,input_voltage,VMD_SUM,69,160,33,80,147,840,115
+Step7,Spur,output_voltage,VMD_SUM,45,160,22,80,90,840,81

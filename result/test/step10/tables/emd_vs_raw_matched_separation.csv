@@ -1,0 +1,13 @@
+dataset,channel,feature,common_pair_conditions,raw_disjoint,emd_disjoint,gained,lost
+Helical,output_voltage,delta_alpha,113,103,98,3,8
+Helical,output_voltage,alpha0,113,106,97,3,12
+Helical,output_voltage,delta_h,113,99,98,4,5
+Helical,input_voltage,delta_alpha,123,103,104,10,9
+Helical,input_voltage,alpha0,123,100,110,15,5
+Helical,input_voltage,delta_h,123,104,110,15,9
+Spur,output_voltage,delta_alpha,18,16,14,0,2
+Spur,output_voltage,alpha0,18,12,14,4,2
+Spur,output_voltage,delta_h,18,17,17,0,0
+Spur,input_voltage,delta_alpha,48,34,39,6,1
+Spur,input_voltage,alpha0,48,46,45,1,2
+Spur,input_voltage,delta_h,48,38,38,5,5

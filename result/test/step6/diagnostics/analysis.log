@@ -1,0 +1,45 @@
+test_band_selection_before_QC_no_invalid_rescue (__main__.Step6Tests.test_band_selection_before_QC_no_invalid_rescue) ... ok
+test_complete_factorial_descriptive_summaries_and_absent_bands (__main__.Step6Tests.test_complete_factorial_descriptive_summaries_and_absent_bands) ... ok
+test_factorial_identifies_known_effect_and_full_design (__main__.Step6Tests.test_factorial_identifies_known_effect_and_full_design) ... ok
+test_invalid_repeat_excluded_and_not_pseudoreplicated (__main__.Step6Tests.test_invalid_repeat_excluded_and_not_pseudoreplicated) ... ok
+test_locked_configuration_and_QC (__main__.Step6Tests.test_locked_configuration_and_QC) ... ok
+test_matching_frequency_not_rank_or_label (__main__.Step6Tests.test_matching_frequency_not_rank_or_label) ... ok
+test_parser_scope_and_independent_acquisitions (__main__.Step6Tests.test_parser_scope_and_independent_acquisitions) ... ok
+test_portable_vmd_matches_reference (__main__.Step6Tests.test_portable_vmd_matches_reference) ... ok
+test_sparse_factorial_not_evaluable (__main__.Step6Tests.test_sparse_factorial_not_evaluable) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.760s
+
+OK
+
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+STEP 6 COMPLETE: report, figures, tables and validation

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "code/core/mfdfa.py",
+    "sha256": "088a7b9fa06d994da230b8e5043dc3893728fa3c73de4b2c1fa914625019ba68"
+  },
+  {
+    "path": "code/core/vmd.py",
+    "sha256": "69ca3e50cf1267f67df6828bb3fc0b1b2430c6c09f2d7f5c2351e9a99c908cd1"
+  },
+  {
+    "path": "result/test/step4_corrected/scripts/scaling.py",
+    "sha256": "510224af32e899488f9c3328fa2d40cf1ca523c6fe0d3629ef806921cb720595"
+  },
+  {
+    "path": "result/test/step4/compare/emd_long_record.py",
+    "sha256": "24054f96a07ebced90c7edee4832eada270b3e99780d1a79e67e2c94d64e97ca"
+  }
+]

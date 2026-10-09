@@ -1,0 +1,2065 @@
+dataset,channel,representation,feature,pair,evaluable_conditions,expected_conditions,disjoint_conditions,disjoint_fraction,direction_evaluable,direction_consistent,direction_consistency,hard_below_50_percent,coverage_status
+Helical,input_voltage,EMD_SUM,delta_alpha,H1-H2,8,10,7,0.875,8,4,0.5,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H1-H3,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H1-H4,6,10,6,1.0,6,1,0.16666666666666666,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H1-H5,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H1-H6,8,10,7,0.875,8,3,0.375,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H2-H3,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H2-H4,8,10,7,0.875,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H2-H5,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H2-H6,10,10,7,0.7,10,3,0.3,False,COMPLETE
+Helical,input_voltage,EMD_SUM,delta_alpha,H3-H4,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H3-H5,9,10,6,0.6666666666666666,9,5,0.5555555555555556,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H3-H6,9,10,7,0.7777777777777778,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H4-H5,8,10,6,0.75,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H4-H6,8,10,6,0.75,8,5,0.625,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_alpha,H5-H6,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H1-H2,8,10,8,1.0,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H1-H3,7,10,7,1.0,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H1-H4,6,10,5,0.8333333333333334,6,2,0.3333333333333333,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H1-H5,7,10,6,0.8571428571428571,7,4,0.5714285714285714,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H1-H6,8,10,7,0.875,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H2-H3,9,10,8,0.8888888888888888,9,8,0.8888888888888888,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H2-H4,8,10,8,1.0,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H2-H5,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H2-H6,10,10,6,0.6,10,4,0.4,False,COMPLETE
+Helical,input_voltage,EMD_SUM,alpha0,H3-H4,8,10,7,0.875,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H3-H5,9,10,7,0.7777777777777778,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H3-H6,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H4-H5,8,10,8,1.0,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H4-H6,8,10,7,0.875,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,alpha0,H5-H6,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H1-H2,8,10,8,1.0,8,4,0.5,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H1-H3,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H1-H4,6,10,5,0.8333333333333334,6,2,0.3333333333333333,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H1-H5,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H1-H6,8,10,7,0.875,8,3,0.375,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H2-H3,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H2-H4,8,10,7,0.875,8,6,0.75,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H2-H5,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H2-H6,10,10,9,0.9,10,3,0.3,False,COMPLETE
+Helical,input_voltage,EMD_SUM,delta_h,H3-H4,8,10,8,1.0,8,7,0.875,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H3-H5,9,10,6,0.6666666666666666,9,5,0.5555555555555556,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H3-H6,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H4-H5,8,10,8,1.0,8,7,0.875,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H4-H6,8,10,6,0.75,8,4,0.5,False,PARTIAL
+Helical,input_voltage,EMD_SUM,delta_h,H5-H6,9,10,7,0.7777777777777778,9,7,0.7777777777777778,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H1-H2,10,10,8,0.8,10,4,0.4,False,COMPLETE
+Helical,output_voltage,EMD_SUM,delta_alpha,H1-H3,7,10,6,0.8571428571428571,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H1-H4,8,10,8,1.0,8,3,0.375,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H1-H5,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H1-H6,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H2-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H2-H4,8,10,4,0.5,8,3,0.375,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H2-H5,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H2-H6,9,10,7,0.7777777777777778,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H3-H4,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H3-H5,7,10,4,0.5714285714285714,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H4-H5,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H4-H6,8,10,5,0.625,8,3,0.375,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_alpha,H5-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H1-H2,10,10,9,0.9,10,4,0.4,False,COMPLETE
+Helical,output_voltage,EMD_SUM,alpha0,H1-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H1-H4,8,10,7,0.875,8,5,0.625,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H1-H5,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H1-H6,9,10,7,0.7777777777777778,9,2,0.2222222222222222,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H2-H3,7,10,5,0.7142857142857143,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H2-H4,8,10,8,1.0,8,5,0.625,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H2-H5,7,10,6,0.8571428571428571,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H2-H6,9,10,6,0.6666666666666666,9,8,0.8888888888888888,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H3-H4,6,10,5,0.8333333333333334,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H3-H5,7,10,4,0.5714285714285714,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H4-H5,6,10,4,0.6666666666666666,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H4-H6,8,10,8,1.0,8,4,0.5,False,PARTIAL
+Helical,output_voltage,EMD_SUM,alpha0,H5-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H1-H2,10,10,8,0.8,10,4,0.4,False,COMPLETE
+Helical,output_voltage,EMD_SUM,delta_h,H1-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H1-H4,8,10,7,0.875,8,4,0.5,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H1-H5,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H1-H6,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H2-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H2-H4,8,10,4,0.5,8,4,0.5,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H2-H5,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H2-H6,9,10,6,0.6666666666666666,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H3-H4,6,10,5,0.8333333333333334,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H3-H5,7,10,5,0.7142857142857143,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H4-H5,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H4-H6,8,10,6,0.75,8,3,0.375,False,PARTIAL
+Helical,output_voltage,EMD_SUM,delta_h,H5-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H1-H2,8,10,6,0.75,8,4,0.5,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H1-H3,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H1-H4,7,10,5,0.7142857142857143,7,2,0.2857142857142857,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H1-H5,8,10,6,0.75,8,8,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H1-H6,8,10,8,1.0,8,3,0.375,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H2-H3,10,10,9,0.9,10,8,0.8,False,COMPLETE
+Helical,input_voltage,RAW,delta_alpha,H2-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H2-H5,10,10,10,1.0,10,9,0.9,False,COMPLETE
+Helical,input_voltage,RAW,delta_alpha,H2-H6,10,10,6,0.6,10,3,0.3,False,COMPLETE
+Helical,input_voltage,RAW,delta_alpha,H3-H4,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H3-H5,10,10,6,0.6,10,6,0.6,False,COMPLETE
+Helical,input_voltage,RAW,delta_alpha,H3-H6,10,10,10,1.0,10,7,0.7,False,COMPLETE
+Helical,input_voltage,RAW,delta_alpha,H4-H5,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H4-H6,9,10,7,0.7777777777777778,9,4,0.4444444444444444,False,PARTIAL
+Helical,input_voltage,RAW,delta_alpha,H5-H6,10,10,8,0.8,10,6,0.6,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H1-H2,8,10,5,0.625,8,4,0.5,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H1-H3,8,10,5,0.625,8,5,0.625,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H1-H4,7,10,6,0.8571428571428571,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H1-H5,8,10,6,0.75,8,5,0.625,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H1-H6,8,10,6,0.75,8,6,0.75,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H2-H3,10,10,9,0.9,10,9,0.9,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H2-H4,9,10,8,0.8888888888888888,9,3,0.3333333333333333,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H2-H5,10,10,7,0.7,10,2,0.2,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H2-H6,10,10,8,0.8,10,9,0.9,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H3-H4,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H3-H5,10,10,7,0.7,10,9,0.9,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H3-H6,10,10,10,1.0,10,10,1.0,False,COMPLETE
+Helical,input_voltage,RAW,alpha0,H4-H5,9,10,8,0.8888888888888888,9,5,0.5555555555555556,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H4-H6,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,RAW,alpha0,H5-H6,10,10,9,0.9,10,10,1.0,False,COMPLETE
+Helical,input_voltage,RAW,delta_h,H1-H2,8,10,7,0.875,8,4,0.5,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H1-H3,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H1-H4,7,10,5,0.7142857142857143,7,3,0.42857142857142855,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H1-H5,8,10,6,0.75,8,8,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H1-H6,8,10,8,1.0,8,3,0.375,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H2-H3,10,10,10,1.0,10,8,0.8,False,COMPLETE
+Helical,input_voltage,RAW,delta_h,H2-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H2-H5,10,10,9,0.9,10,9,0.9,False,COMPLETE
+Helical,input_voltage,RAW,delta_h,H2-H6,10,10,8,0.8,10,4,0.4,False,COMPLETE
+Helical,input_voltage,RAW,delta_h,H3-H4,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H3-H5,10,10,4,0.4,10,4,0.4,True,COMPLETE
+Helical,input_voltage,RAW,delta_h,H3-H6,10,10,9,0.9,10,7,0.7,False,COMPLETE
+Helical,input_voltage,RAW,delta_h,H4-H5,9,10,7,0.7777777777777778,9,8,0.8888888888888888,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H4-H6,9,10,8,0.8888888888888888,9,4,0.4444444444444444,False,PARTIAL
+Helical,input_voltage,RAW,delta_h,H5-H6,10,10,7,0.7,10,7,0.7,False,COMPLETE
+Helical,output_voltage,RAW,delta_alpha,H1-H2,10,10,10,1.0,10,5,0.5,False,COMPLETE
+Helical,output_voltage,RAW,delta_alpha,H1-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H1-H4,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H1-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H1-H6,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H2-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H2-H4,9,10,8,0.8888888888888888,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H2-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H2-H6,9,10,7,0.7777777777777778,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H3-H4,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H3-H5,7,10,2,0.2857142857142857,0,0,,True,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H4-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H4-H6,9,10,6,0.6666666666666666,9,5,0.5555555555555556,False,PARTIAL
+Helical,output_voltage,RAW,delta_alpha,H5-H6,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H1-H2,10,10,9,0.9,10,5,0.5,False,COMPLETE
+Helical,output_voltage,RAW,alpha0,H1-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H1-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H1-H5,8,10,7,0.875,8,7,0.875,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H1-H6,9,10,8,0.8888888888888888,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H2-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H2-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H2-H5,8,10,8,1.0,8,6,0.75,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H2-H6,9,10,7,0.7777777777777778,9,8,0.8888888888888888,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H3-H4,7,10,6,0.8571428571428571,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H3-H5,7,10,6,0.8571428571428571,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H4-H5,8,10,8,1.0,8,7,0.875,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H4-H6,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,RAW,alpha0,H5-H6,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H1-H2,10,10,9,0.9,10,5,0.5,False,COMPLETE
+Helical,output_voltage,RAW,delta_h,H1-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H1-H4,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H1-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H1-H6,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H2-H3,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H2-H4,9,10,5,0.5555555555555556,9,5,0.5555555555555556,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H2-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H2-H6,9,10,6,0.6666666666666666,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H3-H4,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H3-H5,7,10,3,0.42857142857142855,0,0,,True,PARTIAL
+Helical,output_voltage,RAW,delta_h,H3-H6,7,10,7,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H4-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H4-H6,9,10,6,0.6666666666666666,9,5,0.5555555555555556,False,PARTIAL
+Helical,output_voltage,RAW,delta_h,H5-H6,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H2,6,10,4,0.6666666666666666,6,3,0.5,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H3,6,10,2,0.3333333333333333,6,6,1.0,True,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H4,5,10,1,0.2,5,2,0.4,True,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H5,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H6,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H3,7,10,5,0.7142857142857143,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H4,5,10,3,0.6,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H5,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H6,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H4,6,10,2,0.3333333333333333,6,5,0.8333333333333334,True,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H5,5,10,3,0.6,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H4-H5,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H4-H6,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_alpha,H5-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H1-H2,6,10,6,1.0,6,4,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H1-H3,6,10,5,0.8333333333333334,6,3,0.5,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H1-H4,5,10,4,0.8,5,4,0.8,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H1-H5,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H1-H6,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H2-H3,7,10,6,0.8571428571428571,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H2-H4,5,10,5,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H2-H5,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H2-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H3-H4,6,10,5,0.8333333333333334,6,3,0.5,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H3-H5,5,10,3,0.6,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H3-H6,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H4-H5,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H4-H6,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,alpha0,H5-H6,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H1-H2,6,10,4,0.6666666666666666,6,3,0.5,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H1-H3,6,10,3,0.5,6,1,0.16666666666666666,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H1-H4,5,10,2,0.4,5,3,0.6,True,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H1-H5,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H1-H6,3,10,1,0.3333333333333333,0,0,,True,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H2-H3,7,10,6,0.8571428571428571,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H2-H4,5,10,4,0.8,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H2-H5,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H2-H6,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H3-H4,6,10,4,0.6666666666666666,6,4,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H3-H5,5,10,4,0.8,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H3-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H4-H5,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H4-H6,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_0_1000_Hz,delta_h,H5-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_10000_20000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_1000_4000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_20000_33334_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_band_4000_10000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,input_voltage,VMD_SUM,delta_alpha,H1-H2,8,10,6,0.75,8,4,0.5,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H1-H3,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H1-H4,7,10,5,0.7142857142857143,7,1,0.14285714285714285,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H1-H5,8,10,6,0.75,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H1-H6,8,10,8,1.0,8,3,0.375,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H2-H3,10,10,9,0.9,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_alpha,H2-H4,9,10,8,0.8888888888888888,9,6,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H2-H5,10,10,10,1.0,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_alpha,H2-H6,10,10,6,0.6,10,4,0.4,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_alpha,H3-H4,9,10,7,0.7777777777777778,9,9,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H3-H5,10,10,6,0.6,10,7,0.7,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_alpha,H3-H6,10,10,9,0.9,10,7,0.7,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_alpha,H4-H5,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H4-H6,9,10,6,0.6666666666666666,9,4,0.4444444444444444,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_alpha,H5-H6,10,10,8,0.8,10,6,0.6,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H1-H2,8,10,4,0.5,8,4,0.5,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H1-H3,8,10,5,0.625,8,5,0.625,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H1-H4,7,10,6,0.8571428571428571,7,5,0.7142857142857143,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H1-H5,8,10,7,0.875,8,5,0.625,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H1-H6,8,10,6,0.75,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H2-H3,10,10,9,0.9,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H2-H4,9,10,9,1.0,9,3,0.3333333333333333,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H2-H5,10,10,7,0.7,10,2,0.2,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H2-H6,10,10,8,0.8,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H3-H4,9,10,8,0.8888888888888888,9,7,0.7777777777777778,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H3-H5,10,10,8,0.8,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H3-H6,10,10,10,1.0,10,10,1.0,False,COMPLETE
+Helical,input_voltage,VMD_SUM,alpha0,H4-H5,9,10,8,0.8888888888888888,9,5,0.5555555555555556,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H4-H6,9,10,8,0.8888888888888888,9,9,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,alpha0,H5-H6,10,10,8,0.8,10,1,0.1,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H1-H2,8,10,7,0.875,8,4,0.5,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H1-H3,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H1-H4,7,10,4,0.5714285714285714,7,3,0.42857142857142855,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H1-H5,8,10,6,0.75,8,8,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H1-H6,8,10,8,1.0,8,3,0.375,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H2-H3,10,10,10,1.0,10,8,0.8,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H2-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H2-H5,10,10,9,0.9,10,9,0.9,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H2-H6,10,10,8,0.8,10,4,0.4,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H3-H4,9,10,9,1.0,9,9,1.0,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H3-H5,10,10,4,0.4,10,6,0.6,True,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H3-H6,10,10,8,0.8,10,7,0.7,False,COMPLETE
+Helical,input_voltage,VMD_SUM,delta_h,H4-H5,9,10,7,0.7777777777777778,9,8,0.8888888888888888,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H4-H6,9,10,8,0.8888888888888888,9,4,0.4444444444444444,False,PARTIAL
+Helical,input_voltage,VMD_SUM,delta_h,H5-H6,10,10,7,0.7,10,7,0.7,False,COMPLETE
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H2,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H3,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H4,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H5,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H1-H6,5,10,5,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H3,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H4,2,10,2,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H5,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H2-H6,4,10,2,0.5,4,2,0.5,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H4,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H5,5,10,2,0.4,5,1,0.2,True,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H3-H6,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H4-H5,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H4-H6,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_alpha,H5-H6,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H1-H2,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H1-H3,4,10,2,0.5,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H1-H4,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H1-H5,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H1-H6,5,10,4,0.8,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H2-H3,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H2-H4,2,10,2,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H2-H5,3,10,2,0.6666666666666666,3,1,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H2-H6,4,10,4,1.0,4,3,0.75,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H3-H4,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H3-H5,5,10,5,1.0,5,1,0.2,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H3-H6,5,10,4,0.8,5,1,0.2,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H4-H5,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H4-H6,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,alpha0,H5-H6,5,10,3,0.6,5,3,0.6,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H1-H2,3,10,2,0.6666666666666666,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H1-H3,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H1-H4,6,10,6,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H1-H5,4,10,4,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H1-H6,5,10,5,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H2-H3,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H2-H4,2,10,2,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H2-H5,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H2-H6,4,10,2,0.5,4,2,0.5,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H3-H4,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H3-H5,5,10,2,0.4,5,3,0.6,True,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H3-H6,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H4-H5,3,10,3,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H4-H6,4,10,3,0.75,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_0_1000_Hz,delta_h,H5-H6,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_10000_20000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H5,1,10,1,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H5,1,10,1,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H5,1,10,1,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_1000_4000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_20000_33334_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,alpha0,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H2,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H1-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H3,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H2-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H4,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H3-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H4-H5,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H4-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_band_4000_10000_Hz,delta_h,H5-H6,0,10,0,,0,0,,False,NOT EVALUABLE
+Helical,output_voltage,VMD_SUM,delta_alpha,H1-H2,10,10,9,0.9,10,5,0.5,False,COMPLETE
+Helical,output_voltage,VMD_SUM,delta_alpha,H1-H3,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H1-H4,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H1-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H1-H6,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H2-H3,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H2-H4,9,10,6,0.6666666666666666,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H2-H5,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H2-H6,9,10,7,0.7777777777777778,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H3-H4,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H3-H5,7,10,2,0.2857142857142857,0,0,,True,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H3-H6,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H4-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H4-H6,9,10,6,0.6666666666666666,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_alpha,H5-H6,8,10,7,0.875,8,7,0.875,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H1-H2,10,10,9,0.9,10,5,0.5,False,COMPLETE
+Helical,output_voltage,VMD_SUM,alpha0,H1-H3,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H1-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H1-H5,8,10,8,1.0,8,6,0.75,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H1-H6,9,10,8,0.8888888888888888,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H2-H3,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H2-H4,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H2-H5,8,10,7,0.875,8,5,0.625,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H2-H6,9,10,7,0.7777777777777778,9,8,0.8888888888888888,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H3-H4,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H3-H5,7,10,6,0.8571428571428571,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H3-H6,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H4-H5,8,10,8,1.0,8,7,0.875,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H4-H6,9,10,9,1.0,9,6,0.6666666666666666,False,PARTIAL
+Helical,output_voltage,VMD_SUM,alpha0,H5-H6,8,10,7,0.875,8,7,0.875,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H1-H2,10,10,9,0.9,10,5,0.5,False,COMPLETE
+Helical,output_voltage,VMD_SUM,delta_h,H1-H3,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H1-H4,9,10,9,1.0,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H1-H5,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H1-H6,9,10,8,0.8888888888888888,9,4,0.4444444444444444,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H2-H3,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H2-H4,9,10,6,0.6666666666666666,9,5,0.5555555555555556,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H2-H5,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H2-H6,9,10,7,0.7777777777777778,9,3,0.3333333333333333,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H3-H4,8,10,7,0.875,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H3-H5,7,10,2,0.2857142857142857,0,0,,True,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H3-H6,8,10,8,1.0,0,0,,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H4-H5,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H4-H6,9,10,5,0.5555555555555556,9,5,0.5555555555555556,False,PARTIAL
+Helical,output_voltage,VMD_SUM,delta_h,H5-H6,8,10,7,0.875,8,7,0.875,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S3,2,10,1,0.5,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S5,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S6,7,10,6,0.8571428571428571,7,7,1.0,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S7,6,10,5,0.8333333333333334,6,3,0.5,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S1-S8,5,10,4,0.8,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S3,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S3-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S3-S6,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S3-S7,2,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S3-S8,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_alpha,S5-S6,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S5-S7,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S5-S8,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S6-S7,7,10,6,0.8571428571428571,7,7,1.0,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S6-S8,6,10,4,0.6666666666666666,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_alpha,S7-S8,5,10,4,0.8,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S3,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S1-S5,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S6,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S7,6,10,6,1.0,6,6,1.0,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S1-S8,5,10,3,0.6,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S2-S3,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S3-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S3-S6,2,10,1,0.5,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S3-S7,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S3-S8,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,alpha0,S5-S6,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S5-S7,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S5-S8,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S6-S7,7,10,7,1.0,7,4,0.5714285714285714,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S6-S8,6,10,6,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,alpha0,S7-S8,5,10,5,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S3,2,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S1-S5,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S6,7,10,5,0.7142857142857143,7,6,0.8571428571428571,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S7,6,10,4,0.6666666666666666,6,3,0.5,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S1-S8,5,10,4,0.8,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S2-S3,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S3-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S3-S6,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S3-S7,2,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S3-S8,2,10,1,0.5,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,EMD_SUM,delta_h,S5-S6,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S5-S7,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S5-S8,2,10,2,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S6-S7,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S6-S8,6,10,4,0.6666666666666666,0,0,,False,PARTIAL
+Spur,input_voltage,EMD_SUM,delta_h,S7-S8,5,10,4,0.8,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S7,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S1-S8,3,10,1,0.3333333333333333,3,3,1.0,True,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_alpha,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S6-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_alpha,S7-S8,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S1-S2,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S1-S7,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S1-S8,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,alpha0,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S6-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,EMD_SUM,alpha0,S7-S8,5,10,3,0.6,5,4,0.8,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S1-S7,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S1-S8,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,EMD_SUM,delta_h,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S6-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,EMD_SUM,delta_h,S7-S8,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S3,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S6,8,10,4,0.5,8,8,1.0,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S7,7,10,5,0.7142857142857143,7,6,0.8571428571428571,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S1-S8,6,10,5,0.8333333333333334,6,5,0.8333333333333334,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S2-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S3-S6,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S3-S7,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_alpha,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S6-S7,8,10,7,0.875,8,7,0.875,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S6-S8,7,10,6,0.8571428571428571,7,3,0.42857142857142855,False,PARTIAL
+Spur,input_voltage,RAW,delta_alpha,S7-S8,7,10,6,0.8571428571428571,7,6,0.8571428571428571,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S3,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S6,8,10,8,1.0,8,8,1.0,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S7,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S1-S8,6,10,5,0.8333333333333334,6,2,0.3333333333333333,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S3-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S3-S7,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,RAW,alpha0,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,alpha0,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S6-S7,8,10,7,0.875,8,5,0.625,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S6-S8,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Spur,input_voltage,RAW,alpha0,S7-S8,7,10,7,1.0,7,7,1.0,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S3,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S6,8,10,5,0.625,8,7,0.875,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S7,7,10,5,0.7142857142857143,7,6,0.8571428571428571,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S1-S8,6,10,5,0.8333333333333334,6,5,0.8333333333333334,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S3-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S3-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,RAW,delta_h,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S6-S7,8,10,7,0.875,8,8,1.0,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S6-S8,7,10,5,0.7142857142857143,7,2,0.2857142857142857,False,PARTIAL
+Spur,input_voltage,RAW,delta_h,S7-S8,7,10,6,0.8571428571428571,7,7,1.0,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S1-S6,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S1-S7,4,10,3,0.75,4,2,0.5,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S1-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_alpha,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S6-S7,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S6-S8,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_alpha,S7-S8,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S1-S2,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,RAW,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S1-S6,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S1-S7,4,10,3,0.75,4,3,0.75,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S1-S8,4,10,2,0.5,4,2,0.5,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S2-S6,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,RAW,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S2-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,RAW,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,alpha0,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S6-S7,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S6-S8,3,10,2,0.6666666666666666,3,3,1.0,False,PARTIAL
+Spur,output_voltage,RAW,alpha0,S7-S8,5,10,5,1.0,5,3,0.6,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S1-S6,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S1-S7,4,10,3,0.75,4,2,0.5,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S1-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,RAW,delta_h,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S6-S7,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S6-S8,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,RAW,delta_h,S7-S8,5,10,5,1.0,5,5,1.0,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S6-S8,2,10,1,0.5,2,1,0.5,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S6-S8,2,10,2,1.0,2,2,1.0,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S6-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S6-S8,2,10,1,0.5,2,1,0.5,False,PARTIAL
+Spur,input_voltage,VMD_band_0_1000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_10000_20000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_1000_4000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_20000_33334_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_band_4000_10000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S3,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S6,6,10,3,0.5,6,5,0.8333333333333334,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S7,6,10,3,0.5,6,5,0.8333333333333334,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S1-S8,5,10,4,0.8,5,4,0.8,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S2-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S3-S6,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S3-S7,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_alpha,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S6-S7,8,10,6,0.75,8,7,0.875,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S6-S8,6,10,5,0.8333333333333334,6,3,0.5,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_alpha,S7-S8,6,10,4,0.6666666666666666,6,5,0.8333333333333334,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S3,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S6,6,10,6,1.0,6,6,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S7,6,10,6,1.0,6,6,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S1-S8,5,10,4,0.8,5,3,0.6,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S3-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S3-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,alpha0,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S5-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S6-S7,8,10,6,0.75,8,4,0.5,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S6-S8,6,10,6,1.0,6,6,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,alpha0,S7-S8,6,10,6,1.0,6,6,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S3,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S6,6,10,4,0.6666666666666666,6,6,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S7,6,10,4,0.6666666666666666,6,4,0.6666666666666666,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S1-S8,5,10,3,0.6,5,5,1.0,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S3-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S3-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S3-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,input_voltage,VMD_SUM,delta_h,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S6-S7,8,10,6,0.75,8,7,0.875,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S6-S8,6,10,4,0.6666666666666666,6,2,0.3333333333333333,False,PARTIAL
+Spur,input_voltage,VMD_SUM,delta_h,S7-S8,6,10,5,0.8333333333333334,6,6,1.0,False,PARTIAL
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S6-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S6-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_band_0_1000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S6-S8,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,VMD_band_0_1000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_10000_20000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_1000_4000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_20000_33334_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_alpha,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,alpha0,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S2,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S1-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S2-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S5-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S6-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S6-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_band_4000_10000_Hz,delta_h,S7-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S6,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S7,4,10,3,0.75,4,2,0.5,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S1-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_alpha,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S6-S7,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S6-S8,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_alpha,S7-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S1-S2,1,10,0,0.0,0,0,,True,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S1-S6,3,10,2,0.6666666666666666,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S1-S7,4,10,3,0.75,4,3,0.75,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S1-S8,4,10,2,0.5,4,2,0.5,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,alpha0,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S6-S7,3,10,3,1.0,3,3,1.0,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S6-S8,3,10,2,0.6666666666666666,3,3,1.0,False,PARTIAL
+Spur,output_voltage,VMD_SUM,alpha0,S7-S8,4,10,4,1.0,4,3,0.75,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S1-S2,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S1-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S1-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S1-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S1-S6,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S1-S7,4,10,3,0.75,4,2,0.5,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S1-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S2-S3,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S2-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S2-S5,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S2-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S2-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S2-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S3-S4,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S3-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S3-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S3-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S3-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S4-S5,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S4-S6,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S4-S7,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S4-S8,0,10,0,,0,0,,False,NOT EVALUABLE
+Spur,output_voltage,VMD_SUM,delta_h,S5-S6,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S5-S7,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S5-S8,1,10,1,1.0,0,0,,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S6-S7,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S6-S8,3,10,3,1.0,3,2,0.6666666666666666,False,PARTIAL
+Spur,output_voltage,VMD_SUM,delta_h,S7-S8,4,10,4,1.0,4,4,1.0,False,PARTIAL

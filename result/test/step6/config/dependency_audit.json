@@ -1,0 +1,80 @@
+[
+  {
+    "path": "result/test/step4_corrected/config/mfdfa_configuration.json",
+    "sha256": "321abe5fb73594986e953c6c72c967238d28d45f09087965c1b1481f284009bd",
+    "current_sha256": "bb169c669c282c64655b32058526c764c4b37071f8061daa3c382778a07c1206",
+    "status": "line endings only"
+  },
+  {
+    "path": "result/test/step4_corrected/config/mfdfa_quality_rules.json",
+    "sha256": "2dba44f2aaa4c67a65ed7eff4e5ca8b7cc172a9f7749d9b841c74b0069714aac",
+    "current_sha256": "41f33ecddf9a04014b7543d3fd04e1b35f9f44f0a7ab02df9e2ac854a077bce1",
+    "status": "line endings only"
+  },
+  {
+    "path": "result/test/step4_corrected/config/selected_scaling_range.json",
+    "sha256": "7ccefa61335dc4823e9b792890e800598b292bf3891a4ea17e3133f4dbfca4c0",
+    "current_sha256": "15e8fd98e50f618ae5a3db8315797304792d933ff9198d596bb3ffedde923abb",
+    "status": "line endings only"
+  },
+  {
+    "path": "result/test/step4_corrected/config/selected_vmd_configuration.json",
+    "sha256": "52898cd77a8ce2de965fd2d0c8ec32295f6e435ed59528c55717baf06c5c2126",
+    "current_sha256": "f0876a3aa41837ef00196cdf2ecb284e21edb53e6b6ccc813ffe11beee65f539",
+    "status": "line endings only"
+  },
+  {
+    "path": "result/test/step4_corrected/scripts/scaling.py",
+    "sha256": "510224af32e899488f9c3328fa2d40cf1ca523c6fe0d3629ef806921cb720595",
+    "current_sha256": "510224af32e899488f9c3328fa2d40cf1ca523c6fe0d3629ef806921cb720595",
+    "status": "exact"
+  },
+  {
+    "path": "result/test/step4_corrected/scripts/vmd_accel.py",
+    "sha256": "680237a55143fde85965228e27573b579dafe4c966fde42012da09de5330384d",
+    "current_sha256": "680237a55143fde85965228e27573b579dafe4c966fde42012da09de5330384d",
+    "status": "exact"
+  },
+  {
+    "path": "result/test/step4_corrected/scripts/vmd_kernel.cpp",
+    "sha256": "aa1de17b245ca67f9a57d5e3a110bfb0c8a32b9d0fdb8ad44af8d54f4cd0cf15",
+    "current_sha256": "aa1de17b245ca67f9a57d5e3a110bfb0c8a32b9d0fdb8ad44af8d54f4cd0cf15",
+    "status": "exact"
+  },
+  {
+    "path": "result/test/step4/compare/emd_long_record.py",
+    "sha256": "24054f96a07ebced90c7edee4832eada270b3e99780d1a79e67e2c94d64e97ca",
+    "current_sha256": "24054f96a07ebced90c7edee4832eada270b3e99780d1a79e67e2c94d64e97ca",
+    "status": "exact"
+  },
+  {
+    "path": "result/test/step4/compare/run_step4.py",
+    "sha256": "ed6e87f1c984c3c5869998401943bded08ca320e6cd9c3d2879cc32c8f26a9d2",
+    "current_sha256": "ed6e87f1c984c3c5869998401943bded08ca320e6cd9c3d2879cc32c8f26a9d2",
+    "status": "exact"
+  },
+  {
+    "path": "code/core/mfdfa.py",
+    "sha256": "0daf602e1a642a13228b368d20c3260a725482ea1bc68a8a4726612302d4ccc4",
+    "current_sha256": "088a7b9fa06d994da230b8e5043dc3893728fa3c73de4b2c1fa914625019ba68",
+    "status": "source mismatch; numerical parity required"
+  },
+  {
+    "path": "code/core/vmd.py",
+    "sha256": "69ca3e50cf1267f67df6828bb3fc0b1b2430c6c09f2d7f5c2351e9a99c908cd1",
+    "current_sha256": "69ca3e50cf1267f67df6828bb3fc0b1b2430c6c09f2d7f5c2351e9a99c908cd1",
+    "status": "exact"
+  },
+  {
+    "path": "code/core/emd.py",
+    "sha256": "25dea9d44cb3eb37d91bc6f5872bcdf0c76ebbc7f0c7b5f5a602b53ecd28202e",
+    "current_sha256": "25dea9d44cb3eb37d91bc6f5872bcdf0c76ebbc7f0c7b5f5a602b53ecd28202e",
+    "status": "exact"
+  },
+  {
+    "path": "DATA/labeled/VidData.xls",
+    "sha256": "edf186ce86c8b7ef16bd6b12e03ec30d4df91fba4bed2f889284fd7bee89cd71",
+    "current_sha256": "edf186ce86c8b7ef16bd6b12e03ec30d4df91fba4bed2f889284fd7bee89cd71",
+    "status": "exact"
+  }
+]

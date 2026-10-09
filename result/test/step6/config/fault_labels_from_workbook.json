@@ -1,0 +1,110 @@
+[
+  {
+    "state": "H1",
+    "sheet_row": 17,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Good",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Good",
+      "10": "Good",
+      "11": "Good",
+      "12": "Good",
+      "13": "Good"
+    }
+  },
+  {
+    "state": "H2",
+    "sheet_row": 18,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Chipped",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Good",
+      "10": "Good",
+      "11": "Good",
+      "12": "Good",
+      "13": "Good"
+    }
+  },
+  {
+    "state": "H3",
+    "sheet_row": 19,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Broken",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Combination",
+      "10": "Inner",
+      "11": "Good",
+      "12": "Bent Shaft",
+      "13": "Good"
+    }
+  },
+  {
+    "state": "H4",
+    "sheet_row": 20,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Good",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Combination",
+      "10": "ball",
+      "11": "Good",
+      "12": "Imbalnce",
+      "13": "Good"
+    }
+  },
+  {
+    "state": "H5",
+    "sheet_row": 21,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Broken",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Good",
+      "10": "Inner",
+      "11": "Good",
+      "12": "Good",
+      "13": "Good"
+    }
+  },
+  {
+    "state": "H6",
+    "sheet_row": 22,
+    "components": {
+      "2": "Good",
+      "3": "Good",
+      "4": "Good",
+      "5": "Good",
+      "6": "Good",
+      "7": "Good",
+      "8": "Good",
+      "9": "Good",
+      "10": "Good",
+      "11": "Good",
+      "12": "Bent Shaft",
+      "13": "Good"
+    }
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "seed": 9609,
+  "features": [
+    "delta_alpha",
+    "alpha0"
+  ],
+  "representation": "RAW",
+  "hyperparameter_search": false,
+  "metric_for_comparison": "Primary: pooled out-of-fold macro F1 within each dataset/channel; accuracy secondary; ties reported.",
+  "folds": {
+    "Helical": 5,
+    "Spur": 2
+  },
+  "split_method": "Configuration-stratified, channel-eligibility-balanced recording groups; saved before fitting. Same recording fold across channels.",
+  "supplemental_protocols": [
+    "leave_one_speed_out",
+    "leave_one_load_out"
+  ],
+  "missing_training_class": "Supplemental split NOT EVALUABLE, no dropping class or fitting reduced target set.",
+  "reporting_scope": "Eligible configurations only; full S1-S8 classification NOT EVALUABLE.",
+  "feature_selection_bias": "Step8 selected using these labels. Internal CV conditional on fixed features is exploratory; independent end-to-end validation needs untouched recordings.",
+  "libraries": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "classifiers": {
+    "KNN": {
+      "memory": null,
+      "transform_input": null,
+      "verbose": false,
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "kneighborsclassifier__algorithm": "auto",
+      "kneighborsclassifier__leaf_size": 30,
+      "kneighborsclassifier__metric": "minkowski",
+      "kneighborsclassifier__metric_params": null,
+      "kneighborsclassifier__n_jobs": null,
+      "kneighborsclassifier__n_neighbors": 5,
+      "kneighborsclassifier__p": 2,
+      "kneighborsclassifier__weights": "uniform"
+    },
+    "SVM": {
+      "memory": null,
+      "transform_input": null,
+      "verbose": false,
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "svc__C": 1.0,
+      "svc__break_ties": false,
+      "svc__cache_size": 200,
+      "svc__class_weight": null,
+      "svc__coef0": 0.0,
+      "svc__decision_function_shape": "ovr",
+      "svc__degree": 3,
+      "svc__gamma": "scale",
+      "svc__kernel": "rbf",
+      "svc__max_iter": -1,
+      "svc__probability": false,
+      "svc__random_state": null,
+      "svc__shrinking": true,
+      "svc__tol": 0.001,
+      "svc__verbose": false
+    },
+    "LDA": {
+      "memory": null,
+      "transform_input": null,
+      "verbose": false,
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "lineardiscriminantanalysis__covariance_estimator": null,
+      "lineardiscriminantanalysis__n_components": null,
+      "lineardiscriminantanalysis__priors": null,
+      "lineardiscriminantanalysis__shrinkage": null,
+      "lineardiscriminantanalysis__solver": "svd",
+      "lineardiscriminantanalysis__store_covariance": false,
+      "lineardiscriminantanalysis__tol": 0.0001
+    },
+    "Random Forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 9609,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "step8_config_sha256": "7931d257877836d889b655b942998b3db7adc8bedd150bcf40619683df19c93b"
+}
