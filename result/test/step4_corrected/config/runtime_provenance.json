@@ -1,0 +1,279 @@
+{
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "mfdfa_core_sha256": "0daf602e1a642a13228b368d20c3260a725482ea1bc68a8a4726612302d4ccc4",
+  "vmd_core_sha256": "69ca3e50cf1267f67df6828bb3fc0b1b2430c6c09f2d7f5c2351e9a99c908cd1",
+  "fft_backend": "numpy.fft",
+  "optional_admm_backend": "GCC fused C++ kernel (parity validated)",
+  "sensitivity_source_hashes": [
+    {
+      "recording": "helical_1_50hz_High_1",
+      "state": "H1",
+      "label": "Healthy",
+      "repeat": 1,
+      "relative_source": "DATA\\labeled\\helical 1\\helical 1_50hz_High_1.txt",
+      "sha256": "18e1a403f0e8d1efc15e90fe13feda846e2a532bb40a03517df89c248ddd219e",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.019836,
+        -0.048065,
+        -0.61401
+      ],
+      "maximum": [
+        0.076294,
+        0.040894,
+        4.9561
+      ],
+      "mean": [
+        0.021842558481301122,
+        0.0010357363650546046,
+        2.397678337772875
+      ],
+      "std": [
+        0.005912669493139916,
+        0.006042830057658195,
+        2.4269172766860385
+      ],
+      "tachometer_rising_edges": 1995
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "state": "H1",
+      "label": "Healthy",
+      "repeat": 2,
+      "relative_source": "DATA\\labeled\\helical 1\\helical 1_50hz_High_2.txt",
+      "sha256": "efb55ed32c19daa7b05bf21263908d4b994998f4e4b187eebc4611232929785f",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.023346,
+        -0.040741,
+        -0.62866
+      ],
+      "maximum": [
+        0.065308,
+        0.045013,
+        4.9561
+      ],
+      "mean": [
+        0.02180866718686047,
+        0.0009629524011085381,
+        2.3976319480044515
+      ],
+      "std": [
+        0.005876999712253281,
+        0.005930873947107262,
+        2.426813658915022
+      ],
+      "tachometer_rising_edges": 1996
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "state": "H2",
+      "label": "Gear",
+      "repeat": 1,
+      "relative_source": "DATA\\labeled\\helical 2\\helical 2_50hz_High_1.txt",
+      "sha256": "cfcdcc6c3e7ab5929897b58e181c464c5418edf46066304a635382a22ac3b780",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.043182,
+        -0.05249,
+        -0.63354
+      ],
+      "maximum": [
+        0.08255,
+        0.059967,
+        4.9548
+      ],
+      "mean": [
+        0.021522185786591763,
+        0.0007100268777751029,
+        2.399978732223416
+      ],
+      "std": [
+        0.006681875387877299,
+        0.006396667936345318,
+        2.4269904149490285
+      ],
+      "tachometer_rising_edges": 1997
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "state": "H2",
+      "label": "Gear",
+      "repeat": 2,
+      "relative_source": "DATA\\labeled\\helical 2\\helical 2_50hz_High_2.txt",
+      "sha256": "f3fa5171fa18878b8438970bc109588f0e3e1fcbaa4d5dd3ee7190e2946b04b7",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.055389,
+        -0.05188,
+        -0.60181
+      ],
+      "maximum": [
+        0.083313,
+        0.063171,
+        4.9548
+      ],
+      "mean": [
+        0.021514647345829554,
+        0.0007170675039001719,
+        2.4000079979927693
+      ],
+      "std": [
+        0.006684961613024638,
+        0.00647178220934997,
+        2.4268893200553188
+      ],
+      "tachometer_rising_edges": 1996
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "state": "H5",
+      "label": "Gear+Bearing",
+      "repeat": 1,
+      "relative_source": "DATA\\labeled\\helical 5\\helical 5_50hz_High_1.txt",
+      "sha256": "55b624d2b0cb108e1c1b3a30714ff5ece6858960ef7f453d83ec1225cc28bb7a",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.029144,
+        -0.1593,
+        -0.63721
+      ],
+      "maximum": [
+        0.078278,
+        0.17883,
+        4.9597
+      ],
+      "mean": [
+        0.021667864366748647,
+        0.0006655537043606845,
+        2.40136620623797
+      ],
+      "std": [
+        0.008441344538535785,
+        0.014120449383011007,
+        2.4272455172190517
+      ],
+      "tachometer_rising_edges": 1996
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "state": "H5",
+      "label": "Gear+Bearing",
+      "repeat": 2,
+      "relative_source": "DATA\\labeled\\helical 5\\helical 5_50hz_High_2.txt",
+      "sha256": "7e3b33abbef85b27f5af8a760fc2ca220be5c8f1eebc75c52f68150566e3aa8f",
+      "samples": 245648,
+      "columns": 3,
+      "duration_seconds": 3.6847181576409214,
+      "finite": true,
+      "minimum": [
+        -0.026245,
+        -0.16129,
+        -0.54443
+      ],
+      "maximum": [
+        0.079346,
+        0.23483,
+        4.9573
+      ],
+      "mean": [
+        0.02165994659109528,
+        0.0006400442838940267,
+        2.40119069166747
+      ],
+      "std": [
+        0.008671968211877427,
+        0.015238481302807846,
+        2.4273242279180893
+      ],
+      "tachometer_rising_edges": 1839
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "state": "H6",
+      "label": "Shaft",
+      "repeat": 1,
+      "relative_source": "DATA\\labeled\\helical 6\\helical 6_50hz_High_1.txt",
+      "sha256": "d8d2deb28f86ac548799ef5e366b261a20613f6261f18b2c0a8fe4105ddf0202",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.041809,
+        -0.052948,
+        -0.56519
+      ],
+      "maximum": [
+        0.086517,
+        0.062866,
+        4.9622
+      ],
+      "mean": [
+        0.021457498757310643,
+        0.0006784918141725808,
+        2.3954052809483795
+      ],
+      "std": [
+        0.0076610945223373385,
+        0.006057692083747191,
+        2.426785411222731
+      ],
+      "tachometer_rising_edges": 1996
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "state": "H6",
+      "label": "Shaft",
+      "repeat": 2,
+      "relative_source": "DATA\\labeled\\helical 6\\helical 6_50hz_High_2.txt",
+      "sha256": "8dc08eb1d879816f509bd02c2b67756ab07f3ee83f0588bf8ed350a7096fb902",
+      "samples": 266656,
+      "columns": 3,
+      "duration_seconds": 3.999838000081,
+      "finite": true,
+      "minimum": [
+        -0.03479,
+        -0.046844,
+        -0.63477
+      ],
+      "maximum": [
+        0.084839,
+        0.061951,
+        4.9609
+      ],
+      "mean": [
+        0.021415581558897608,
+        0.0006764370454443062,
+        2.3911326821431773
+      ],
+      "std": [
+        0.007716020092051817,
+        0.006184932651010188,
+        2.4266657801384253
+      ],
+      "tachometer_rising_edges": 1996
+    }
+  ],
+  "generated_input_dependencies": [
+    "result/test/step4/raw_mfdfa",
+    "result/test/step4/emd_mfdfa",
+    "result/test/step4/vmd_mfdfa (candidate-range audit only)"
+  ]
+}

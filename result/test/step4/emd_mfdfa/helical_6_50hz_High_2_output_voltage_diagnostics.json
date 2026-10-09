@@ -1,0 +1,104 @@
+{
+  "recording": "helical_6_50hz_High_2",
+  "state": "H6",
+  "channel": "output_voltage",
+  "pipeline": "emd",
+  "config_id": "d1e28794ef2d57b008327ce41e69dd92040bcd962ae1e10dd394460f36b2f24a",
+  "source_sha256": "8dc08eb1d879816f509bd02c2b67756ab07f3ee83f0588bf8ed350a7096fb902",
+  "mode_count": 6,
+  "centers_hz": [
+    6621.101356915438,
+    3213.3182833067076,
+    2276.1790778405443,
+    1020.5076687394726,
+    510.00304613710136,
+    250.302401040989
+  ],
+  "algorithm_info": {
+    "stop_reason": "max_imfs",
+    "modes": [
+      {
+        "siftings": 48,
+        "energy_sd": 0.003659274463362582,
+        "envelope_mean_ratio": 0.03579424222907119,
+        "extrema": 129519,
+        "zero_crossings": 129246,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.0021077988557663355,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      },
+      {
+        "siftings": 14,
+        "energy_sd": 0.008339195937855629,
+        "envelope_mean_ratio": 0.04738873436818387,
+        "extrema": 54835,
+        "zero_crossings": 54640,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.003556122914197137,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      },
+      {
+        "siftings": 8,
+        "energy_sd": 0.00475956051326417,
+        "envelope_mean_ratio": 0.04528510516486671,
+        "extrema": 24886,
+        "zero_crossings": 24818,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.002732460017680624,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      },
+      {
+        "siftings": 15,
+        "energy_sd": 0.01146629419672863,
+        "envelope_mean_ratio": 0.04930756268061275,
+        "extrema": 11386,
+        "zero_crossings": 11354,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.002810468997013877,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      },
+      {
+        "siftings": 14,
+        "energy_sd": 0.0027860073606125664,
+        "envelope_mean_ratio": 0.04746228784731056,
+        "extrema": 5321,
+        "zero_crossings": 5309,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.0022552151851155796,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      },
+      {
+        "siftings": 7,
+        "energy_sd": 0.0026445725956965004,
+        "envelope_mean_ratio": 0.03610447221664192,
+        "extrema": 2547,
+        "zero_crossings": 2536,
+        "exact_one_count_condition": false,
+        "relative_count_mismatch": 0.0043188064389477815,
+        "converged_practical_rule": true,
+        "status": "approximate_mode"
+      }
+    ],
+    "n_imfs": 6,
+    "stopping_rule": "relative energy SD and RMS envelope mean; count mismatch <=0.5%",
+    "all_practical_modes_converged": true,
+    "all_exact_one_count_conditions": false,
+    "sorted_original_imf_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "warnings": [],
+  "reconstruction_error": 0.27871875408123237,
+  "identity_error": 0.0,
+  "elapsed_decomposition_seconds": 5.1789070998784155
+}

@@ -1,0 +1,187 @@
+{
+  "python_files": 26,
+  "files": [
+    {
+      "path": "execution/accelerator.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": true,
+      "relative_root": false
+    },
+    {
+      "path": "execution/benchmark.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "execution/provenance.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "execution/runner.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "execution/tests.py",
+      "utf8_readable": true,
+      "windows_drive_literals": true,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "execution/__init__.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/algo/test_algorithms.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step5/scripts/analysis.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step5/scripts/factorial_model.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/step5/scripts/pipeline.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": true,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step5/scripts/presentation.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/step5/scripts/tests.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/experiment.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/scaling.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/tests.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/vmd_accel.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": true,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4_corrected/scripts/vmd_sensitivity.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4/compare/check_raw_formula.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4/compare/emd_long_record.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "result/test/step4/compare/read_viddata.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4/compare/run_step4.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "result/test/step4/compare/test_step4.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": true
+    },
+    {
+      "path": "code/core/data_collect.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "code/core/emd.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "code/core/mfdfa.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    },
+    {
+      "path": "code/core/vmd.py",
+      "utf8_readable": true,
+      "windows_drive_literals": false,
+      "uses_dll": false,
+      "relative_root": false
+    }
+  ]
+}

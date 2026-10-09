@@ -1,0 +1,30 @@
+{
+  "selected_interval": [
+    64,
+    512
+  ],
+  "common_valid": true,
+  "rule": {
+    "min_scale_points": 8,
+    "min_r2_floor": 0.9,
+    "r2_threshold": 0.95,
+    "min_good_r2_fraction": 0.8,
+    "max_local_slope_cv": 0.5,
+    "min_stable_q_fraction": 0.8,
+    "min_hq_exclusive": 0.05
+  },
+  "selection_population": "all 16 raw recording/channel signals; no class labels or separation metrics",
+  "selection_rule": "all raw inputs must pass; ties: worst R2 descending, median local CV ascending, lower bound ascending",
+  "chosen_summary": {
+    "candidate_min": 64,
+    "candidate_max": 512,
+    "raw_inputs": 16,
+    "raw_pass_count": 16,
+    "all_raw_pass": true,
+    "worst_r2": 0.9475920967095564,
+    "median_local_cv": 0.15839801576237825,
+    "min_good_r2_fraction": 0.9523809523809523,
+    "min_stable_q_fraction": 0.8095238095238095,
+    "scale_points": 17
+  }
+}

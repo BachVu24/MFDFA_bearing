@@ -1,0 +1,29 @@
+test_amplitude_modulated_chirp (__main__.EMDTests.test_amplitude_modulated_chirp) ... ok
+test_invalid_inputs (__main__.EMDTests.test_invalid_inputs) ... ok
+test_monotone_and_constant (__main__.EMDTests.test_monotone_and_constant) ... ok
+test_plateau_and_nonuniform_time (__main__.EMDTests.test_plateau_and_nonuniform_time) ... ok
+test_scaling_and_cap (__main__.EMDTests.test_scaling_and_cap) ... ok
+test_single_tone (__main__.EMDTests.test_single_tone) ... ok
+test_three_tones_and_imf_definition (__main__.EMDTests.test_three_tones_and_imf_definition) ... ok
+test_binomial_cascade_against_theory (__main__.MFDFATests.test_binomial_cascade_against_theory) ... ok
+test_independent_formula_both_ends_and_q_zero (__main__.MFDFATests.test_independent_formula_both_ends_and_q_zero) ... ok
+test_integrated_white_noise_scaling (__main__.MFDFATests.test_integrated_white_noise_scaling) ... ok
+test_legendre_transform_linear_and_quadratic (__main__.MFDFATests.test_legendre_transform_linear_and_quadratic) ... ok
+test_polynomial_detrending (__main__.MFDFATests.test_polynomial_detrending) ... ok
+test_q_near_zero_extreme_moments_and_fit_range (__main__.MFDFATests.test_q_near_zero_extreme_moments_and_fit_range) ... ok
+test_scale_offset_and_negative_amplitude_invariance (__main__.MFDFATests.test_scale_offset_and_negative_amplitude_invariance) ... ok
+test_undefined_series_and_invalid_arguments (__main__.MFDFATests.test_undefined_series_and_invalid_arguments) ... ok
+test_white_noise_hurst (__main__.MFDFATests.test_white_noise_hurst) ... ok
+test_denoising_improves_noisy_tone (__main__.VMDTests.test_denoising_improves_noisy_tone) ... ok
+test_denoising_seed_scaling_and_alias (__main__.VMDTests.test_denoising_seed_scaling_and_alias) ... ok
+test_dual_ascent_second_step (__main__.VMDTests.test_dual_ascent_second_step) ... ok
+test_invalid_inputs_and_cap_warning (__main__.VMDTests.test_invalid_inputs_and_cap_warning) ... ok
+test_one_admm_step_independent_formula (__main__.VMDTests.test_one_admm_step_independent_formula) ... ok
+test_single_tone_odd_length_and_nyquist (__main__.VMDTests.test_single_tone_odd_length_and_nyquist) ... ok
+test_three_tones (__main__.VMDTests.test_three_tones) ... ok
+test_zero_constant_and_dc (__main__.VMDTests.test_zero_constant_and_dc) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.470s
+
+OK

@@ -1,0 +1,1920 @@
+{
+  "analyses_checked": 272,
+  "all_passed": true,
+  "source_files_unchanged": true,
+  "checks": [
+    "common q/scales",
+    "finite arrays",
+    "positive Fq",
+    "tau=q*h-1",
+    "f(alpha0)=1",
+    "two-end segment counts",
+    "source SHA256"
+  ],
+  "results": [
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "raw",
+      "component": "raw",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode1",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode2",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode3",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode4",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode5",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "mode6",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "oscillatory_sum",
+      "passed": true
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "component": "residue",
+      "passed": true
+    }
+  ]
+}

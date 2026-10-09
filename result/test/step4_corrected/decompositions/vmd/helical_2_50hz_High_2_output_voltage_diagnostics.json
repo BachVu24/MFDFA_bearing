@@ -1,0 +1,23 @@
+{
+  "signature": "b75be31e387b3936d486fd358e3f380a4a19244b2fa46598c63aaf3066200559",
+  "recording": "helical_2_50hz_High_2",
+  "channel": "output_voltage",
+  "config": {
+    "K": 7,
+    "alpha": 500,
+    "tau": 0.0
+  },
+  "algorithm_info": {
+    "converged": true,
+    "iterations": 112,
+    "relative_change": 9.947722705660712e-08,
+    "constraint_error": 0.06391715240734704,
+    "reconstruction_error": 0.06391715240734755,
+    "frequency_unit": "cycles per time unit",
+    "tau": 0.0,
+    "numeric_backend": "cpp_fused_admm"
+  },
+  "reconstruction_error": 0.06391715240734755,
+  "warnings": [],
+  "elapsed_seconds": 4.721027299994603
+}

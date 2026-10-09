@@ -1,0 +1,47 @@
+{
+  "all_passed": true,
+  "recordings": 80,
+  "channel_signals": 160,
+  "analyses": 2880,
+  "valid_analyses": 641,
+  "raw_hashes_unchanged": true,
+  "step4_dependency_hashes_unchanged": true,
+  "QC_thresholds_unchanged": true,
+  "configuration_unchanged": true,
+  "runtime_dependencies_unchanged": true,
+  "reused_step4_array_hashes_checked": 288,
+  "exact_full_length_preserved": true,
+  "states": [
+    "H1",
+    "H2",
+    "H5",
+    "H6"
+  ],
+  "speeds": [
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "loads": [
+    "High",
+    "Low"
+  ],
+  "acquisitions": [
+    1,
+    2
+  ],
+  "no_duplicate_recordings_or_components": true,
+  "invalid_excluded_from_valid_analysis": true,
+  "mode_matching": "band/energy/frequency only; no class label used for physical assignment",
+  "no_parameter_selection_or_windows": true,
+  "all_summary_recordings_traceable": true,
+  "tests": {
+    "tests_run": 8,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "config_sha256": "681840f1de3d6ca6c0b7875e63e1a53800dcd80e9d6566d945a09c2fa904889b"
+}

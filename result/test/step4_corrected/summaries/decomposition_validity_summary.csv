@@ -1,0 +1,7 @@
+﻿pipeline,channel,signals,decomposition_valid,median_reconstruction_error,maximum_reconstruction_error,strict_emd_valid
+raw,output_voltage,8,8,0.0,0.0,
+raw,input_voltage,8,8,0.0,0.0,
+emd,output_voltage,8,8,0.2408615191767584,0.2838258491373264,0
+emd,input_voltage,8,8,0.4297051725250135,0.6008405816368569,0
+vmd,output_voltage,8,8,0.06409764213083752,0.16373891614090538,
+vmd,input_voltage,8,8,0.05474372702344424,0.08408663133126199,

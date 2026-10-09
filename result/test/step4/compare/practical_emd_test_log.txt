@@ -1,0 +1,9 @@
+test_cap_is_visible (__main__.PracticalEMDTests.test_cap_is_visible) ... ok
+test_known_tones_reconstruction_and_peak (__main__.PracticalEMDTests.test_known_tones_reconstruction_and_peak) ... ok
+test_noisy_record_reports_approximation (__main__.PracticalEMDTests.test_noisy_record_reports_approximation) ... ok
+test_zero_and_monotone (__main__.PracticalEMDTests.test_zero_and_monotone) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.447s
+
+OK

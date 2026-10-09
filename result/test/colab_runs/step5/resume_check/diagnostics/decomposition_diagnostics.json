@@ -1,0 +1,534 @@
+[
+  {
+    "recording": "helical_1_30hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "samples": 266656,
+    "channel": "output_voltage",
+    "role": "primary",
+    "source_sha256": "b5d56959e5a669b2a25ecc521c707628fe160f76b6c838084cb312c6536037c2",
+    "config_sha256": "681840f1de3d6ca6c0b7875e63e1a53800dcd80e9d6566d945a09c2fa904889b",
+    "reused_step4": false,
+    "pipeline": "vmd",
+    "decomposition_valid": true,
+    "decomposition_kind": "VMD",
+    "reconstruction_error": 0.08317865043709254,
+    "mode_plus_residue_error": 0.0,
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 215,
+      "relative_change": 9.960521585276546e-08,
+      "constraint_error": 0.08317865043709396,
+      "reconstruction_error": 0.08317865043709333,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0,
+      "numeric_backend": "cpp_fused_admm"
+    },
+    "mode_diagnostics": [
+      {
+        "mode_rank": 1,
+        "center_hz": 482.8604846936801,
+        "observed_centroid_hz": 482.8778035367317,
+        "mode_energy": 7.147175723701548e-06,
+        "mode_energy_fraction": 0.5855301964145472,
+        "bandwidth_hz": 311.1967046764658,
+        "correlation_mode_raw": 0.8161259311769457,
+        "max_other_spectral_overlap": 0.08304575218891272
+      },
+      {
+        "mode_rank": 2,
+        "center_hz": 2765.5496610068253,
+        "observed_centroid_hz": 2765.5636877353054,
+        "mode_energy": 1.7328057221337282e-06,
+        "mode_energy_fraction": 0.14195958152596574,
+        "bandwidth_hz": 574.3082206178293,
+        "correlation_mode_raw": 0.47706540524333974,
+        "max_other_spectral_overlap": 0.08304575218891272
+      },
+      {
+        "mode_rank": 3,
+        "center_hz": 8956.814203748987,
+        "observed_centroid_hz": 8956.821754960307,
+        "mode_energy": 1.5250087623251677e-06,
+        "mode_energy_fraction": 0.12493587882231398,
+        "bandwidth_hz": 262.7788730441796,
+        "correlation_mode_raw": 0.3775336039452768,
+        "max_other_spectral_overlap": 0.12321520982455342
+      },
+      {
+        "mode_rank": 4,
+        "center_hz": 9792.051525759985,
+        "observed_centroid_hz": 9792.518980498833,
+        "mode_energy": 8.137737238266831e-08,
+        "mode_energy_fraction": 0.0066668164708627,
+        "bandwidth_hz": 979.412342084984,
+        "correlation_mode_raw": 0.1708956487872835,
+        "max_other_spectral_overlap": 0.12321520982455342
+      },
+      {
+        "mode_rank": 5,
+        "center_hz": 17252.9738892655,
+        "observed_centroid_hz": 17253.109045446254,
+        "mode_energy": 2.660379712412369e-08,
+        "mode_energy_fraction": 0.002179507984364117,
+        "bandwidth_hz": 1396.4057590454036,
+        "correlation_mode_raw": 0.09030535029210501,
+        "max_other_spectral_overlap": 0.09673837188598072
+      },
+      {
+        "mode_rank": 6,
+        "center_hz": 23310.247719342522,
+        "observed_centroid_hz": 23310.24910746602,
+        "mode_energy": 2.822978879772533e-08,
+        "mode_energy_fraction": 0.0023127168574655754,
+        "bandwidth_hz": 1357.7558446514047,
+        "correlation_mode_raw": 0.0842014995474293,
+        "max_other_spectral_overlap": 0.09673837188598072
+      },
+      {
+        "mode_rank": 7,
+        "center_hz": 29987.931871685836,
+        "observed_centroid_hz": 29987.98500700666,
+        "mode_energy": 2.8103928406810802e-08,
+        "mode_energy_fraction": 0.002302405783236827,
+        "bandwidth_hz": 1345.3673055619925,
+        "correlation_mode_raw": 0.07694151276125714,
+        "max_other_spectral_overlap": 0.0884969183587933
+      }
+    ],
+    "elapsed_seconds": 14.608579500112683,
+    "duplicate_fraction": 0.0,
+    "max_spectral_overlap": 0.12321520982455342,
+    "minimum_mode_energy_fraction": 0.002179507984364117
+  },
+  {
+    "recording": "helical_1_30hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "samples": 266656,
+    "channel": "output_voltage",
+    "role": "primary",
+    "source_sha256": "b5d56959e5a669b2a25ecc521c707628fe160f76b6c838084cb312c6536037c2",
+    "config_sha256": "681840f1de3d6ca6c0b7875e63e1a53800dcd80e9d6566d945a09c2fa904889b",
+    "reused_step4": false,
+    "pipeline": "emd",
+    "decomposition_valid": true,
+    "decomposition_kind": "approximate_EMD",
+    "reconstruction_error": 0.2535761366400189,
+    "mode_plus_residue_error": 0.0,
+    "algorithm_info": {
+      "stop_reason": "max_imfs",
+      "modes": [
+        {
+          "siftings": 15,
+          "energy_sd": 0.0030834043438802143,
+          "envelope_mean_ratio": 0.046855535341480535,
+          "extrema": 118389,
+          "zero_crossings": 117809,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.004899103801873485,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 14,
+          "energy_sd": 0.004083654280143285,
+          "envelope_mean_ratio": 0.04990058303941827,
+          "extrema": 53535,
+          "zero_crossings": 53418,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0021854861305687866,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 13,
+          "energy_sd": 0.0030835246450682703,
+          "envelope_mean_ratio": 0.04297403957701978,
+          "extrema": 24603,
+          "zero_crossings": 24539,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0026013087834816893,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 16,
+          "energy_sd": 0.004658115304955928,
+          "envelope_mean_ratio": 0.03875730404790343,
+          "extrema": 11500,
+          "zero_crossings": 11465,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.003043478260869565,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 12,
+          "energy_sd": 0.007039622036839652,
+          "envelope_mean_ratio": 0.04670933486039049,
+          "extrema": 5178,
+          "zero_crossings": 5167,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0021243723445345695,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 4,
+          "energy_sd": 0.003990597587440992,
+          "envelope_mean_ratio": 0.049537541226837435,
+          "extrema": 2512,
+          "zero_crossings": 2502,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.003980891719745223,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        }
+      ],
+      "n_imfs": 6,
+      "stopping_rule": "relative energy SD and RMS envelope mean; count mismatch <=0.5%",
+      "all_practical_modes_converged": true,
+      "all_exact_one_count_conditions": false
+    },
+    "mode_diagnostics": [
+      {
+        "mode_rank": 1,
+        "center_hz": 10023.304234830197,
+        "observed_centroid_hz": 10023.80612795067,
+        "mode_energy": 1.8104061843258795e-06,
+        "mode_energy_fraction": 0.14831697577871228,
+        "bandwidth_hz": 5218.266688453452,
+        "correlation_mode_raw": 0.35919902284092203,
+        "max_other_spectral_overlap": 0.4642016598488621
+      },
+      {
+        "mode_rank": 2,
+        "center_hz": 4159.639643471888,
+        "observed_centroid_hz": 4159.651384125308,
+        "mode_energy": 1.3706566175662785e-06,
+        "mode_energy_fraction": 0.11229062632936535,
+        "bandwidth_hz": 2475.6608001621585,
+        "correlation_mode_raw": 0.3245537754250835,
+        "max_other_spectral_overlap": 0.6746774874749335
+      },
+      {
+        "mode_rank": 3,
+        "center_hz": 2302.2716698873273,
+        "observed_centroid_hz": 2302.281618845282,
+        "mode_energy": 1.4209875035486994e-06,
+        "mode_energy_fraction": 0.11641396884874337,
+        "bandwidth_hz": 1014.6894650327018,
+        "correlation_mode_raw": 0.3449729489122779,
+        "max_other_spectral_overlap": 0.6746774874749335
+      },
+      {
+        "mode_rank": 4,
+        "center_hz": 987.1231020142494,
+        "observed_centroid_hz": 987.159721837665,
+        "mode_energy": 1.7590717870781755e-06,
+        "mode_energy_fraction": 0.14411142090427534,
+        "bandwidth_hz": 481.23209730590634,
+        "correlation_mode_raw": 0.38471562540866044,
+        "max_other_spectral_overlap": 0.5925218515438534
+      },
+      {
+        "mode_rank": 5,
+        "center_hz": 491.69073837566714,
+        "observed_centroid_hz": 491.7136392310723,
+        "mode_energy": 2.5997108145929806e-06,
+        "mode_energy_fraction": 0.21298051744295055,
+        "bandwidth_hz": 301.055658818314,
+        "correlation_mode_raw": 0.46719971575158326,
+        "max_other_spectral_overlap": 0.5925218515438534
+      },
+      {
+        "mode_rank": 6,
+        "center_hz": 274.6190954645508,
+        "observed_centroid_hz": 274.62015548198985,
+        "mode_energy": 2.744815553586254e-06,
+        "mode_energy_fraction": 0.22486817903236087,
+        "bandwidth_hz": 97.17084035215238,
+        "correlation_mode_raw": 0.4707475499268687,
+        "max_other_spectral_overlap": 0.5918549644882926
+      }
+    ],
+    "elapsed_seconds": 9.177354600047693,
+    "duplicate_fraction": 0.0,
+    "max_spectral_overlap": 0.6746774874749335,
+    "minimum_mode_energy_fraction": 0.11229062632936535,
+    "strict_emd_imf_valid": false
+  },
+  {
+    "recording": "helical_1_30hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "samples": 266656,
+    "channel": "input_voltage",
+    "role": "secondary",
+    "source_sha256": "b5d56959e5a669b2a25ecc521c707628fe160f76b6c838084cb312c6536037c2",
+    "config_sha256": "681840f1de3d6ca6c0b7875e63e1a53800dcd80e9d6566d945a09c2fa904889b",
+    "reused_step4": false,
+    "pipeline": "vmd",
+    "decomposition_valid": true,
+    "decomposition_kind": "VMD",
+    "reconstruction_error": 0.06331462844226468,
+    "mode_plus_residue_error": 0.0,
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 493,
+      "relative_change": 9.996917218920325e-08,
+      "constraint_error": 0.06331462844226488,
+      "reconstruction_error": 0.06331462844226432,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0,
+      "numeric_backend": "cpp_fused_admm"
+    },
+    "mode_diagnostics": [
+      {
+        "mode_rank": 1,
+        "center_hz": 429.13053198851634,
+        "observed_centroid_hz": 429.3477725233277,
+        "mode_energy": 5.4481517502171414e-06,
+        "mode_energy_fraction": 0.47533271570719876,
+        "bandwidth_hz": 283.6261377074792,
+        "correlation_mode_raw": 0.7544936518728428,
+        "max_other_spectral_overlap": 0.0918321391710451
+      },
+      {
+        "mode_rank": 2,
+        "center_hz": 2085.8829111610157,
+        "observed_centroid_hz": 2085.8930631317003,
+        "mode_energy": 2.87443311226128e-06,
+        "mode_energy_fraction": 0.25078451555894965,
+        "bandwidth_hz": 356.33634455310107,
+        "correlation_mode_raw": 0.5985018949528172,
+        "max_other_spectral_overlap": 0.0918321391710451
+      },
+      {
+        "mode_rank": 3,
+        "center_hz": 4451.416160649191,
+        "observed_centroid_hz": 4451.454547755844,
+        "mode_energy": 5.591816520807286e-07,
+        "mode_energy_fraction": 0.04878669784603138,
+        "bandwidth_hz": 567.4528576777292,
+        "correlation_mode_raw": 0.30122346258745075,
+        "max_other_spectral_overlap": 0.0820921919274712
+      },
+      {
+        "mode_rank": 4,
+        "center_hz": 8995.58330600392,
+        "observed_centroid_hz": 8995.584518716203,
+        "mode_energy": 8.24744505608848e-07,
+        "mode_energy_fraction": 0.07195615386447708,
+        "bandwidth_hz": 289.0350819474086,
+        "correlation_mode_raw": 0.2840127108891665,
+        "max_other_spectral_overlap": 0.0244795267667892
+      },
+      {
+        "mode_rank": 5,
+        "center_hz": 14935.848545102308,
+        "observed_centroid_hz": 14936.032533201484,
+        "mode_energy": 2.1069695934029605e-08,
+        "mode_energy_fraction": 0.001838259330248658,
+        "bandwidth_hz": 1429.347395497662,
+        "correlation_mode_raw": 0.08766320322030126,
+        "max_other_spectral_overlap": 0.08295940251644444
+      },
+      {
+        "mode_rank": 6,
+        "center_hz": 22135.802187656114,
+        "observed_centroid_hz": 22135.901648312465,
+        "mode_energy": 2.142818384513056e-08,
+        "mode_energy_fraction": 0.0018695361815817778,
+        "bandwidth_hz": 1430.7842478230123,
+        "correlation_mode_raw": 0.07722554652317293,
+        "max_other_spectral_overlap": 0.08295940251644444
+      },
+      {
+        "mode_rank": 7,
+        "center_hz": 29586.913995873852,
+        "observed_centroid_hz": 29586.97406636993,
+        "mode_energy": 2.264020003588466e-08,
+        "mode_energy_fraction": 0.0019752804731957697,
+        "bandwidth_hz": 1408.6105688344119,
+        "correlation_mode_raw": 0.07207066446452619,
+        "max_other_spectral_overlap": 0.08019920202395567
+      }
+    ],
+    "elapsed_seconds": 24.631178099894896,
+    "duplicate_fraction": 0.0,
+    "max_spectral_overlap": 0.0918321391710451,
+    "minimum_mode_energy_fraction": 0.001838259330248658
+  },
+  {
+    "recording": "helical_1_30hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "samples": 266656,
+    "channel": "input_voltage",
+    "role": "secondary",
+    "source_sha256": "b5d56959e5a669b2a25ecc521c707628fe160f76b6c838084cb312c6536037c2",
+    "config_sha256": "681840f1de3d6ca6c0b7875e63e1a53800dcd80e9d6566d945a09c2fa904889b",
+    "reused_step4": false,
+    "pipeline": "emd",
+    "decomposition_valid": true,
+    "decomposition_kind": "approximate_EMD",
+    "reconstruction_error": 0.34500671695883,
+    "mode_plus_residue_error": 0.0,
+    "algorithm_info": {
+      "stop_reason": "max_imfs",
+      "modes": [
+        {
+          "siftings": 20,
+          "energy_sd": 0.0032762261517968426,
+          "envelope_mean_ratio": 0.048083268642597266,
+          "extrema": 135006,
+          "zero_crossings": 134512,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0036590966327422485,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 18,
+          "energy_sd": 0.009077532308353158,
+          "envelope_mean_ratio": 0.046584967999225096,
+          "extrema": 58597,
+          "zero_crossings": 58450,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.00250866085294469,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 12,
+          "energy_sd": 0.0032650446449614765,
+          "envelope_mean_ratio": 0.044051766019991064,
+          "extrema": 26350,
+          "zero_crossings": 26265,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0032258064516129032,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 13,
+          "energy_sd": 0.0033573278906430404,
+          "envelope_mean_ratio": 0.047985885322945544,
+          "extrema": 12200,
+          "zero_crossings": 12177,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.0018852459016393444,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 16,
+          "energy_sd": 0.002577689572432287,
+          "envelope_mean_ratio": 0.025432875846188543,
+          "extrema": 5808,
+          "zero_crossings": 5797,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.001893939393939394,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        },
+        {
+          "siftings": 9,
+          "energy_sd": 0.00382360448125708,
+          "envelope_mean_ratio": 0.02973952984521785,
+          "extrema": 2856,
+          "zero_crossings": 2845,
+          "exact_one_count_condition": false,
+          "relative_count_mismatch": 0.003851540616246499,
+          "converged_practical_rule": true,
+          "status": "approximate_mode"
+        }
+      ],
+      "n_imfs": 6,
+      "stopping_rule": "relative energy SD and RMS envelope mean; count mismatch <=0.5%",
+      "all_practical_modes_converged": true,
+      "all_exact_one_count_conditions": false
+    },
+    "mode_diagnostics": [
+      {
+        "mode_rank": 1,
+        "center_hz": 10659.830345323371,
+        "observed_centroid_hz": 10659.87436080107,
+        "mode_energy": 9.102851353757862e-07,
+        "mode_energy_fraction": 0.07941928296120282,
+        "bandwidth_hz": 6269.217338206726,
+        "correlation_mode_raw": 0.2629794003759894,
+        "max_other_spectral_overlap": 0.4881787410275413
+      },
+      {
+        "mode_rank": 2,
+        "center_hz": 4039.209855857052,
+        "observed_centroid_hz": 4039.2110050820074,
+        "mode_energy": 1.3409027460878764e-06,
+        "mode_energy_fraction": 0.11698920533404517,
+        "bandwidth_hz": 2575.0619583794046,
+        "correlation_mode_raw": 0.3354448499461426,
+        "max_other_spectral_overlap": 0.6828169062115009
+      },
+      {
+        "mode_rank": 3,
+        "center_hz": 2186.3508829699863,
+        "observed_centroid_hz": 2186.355607760733,
+        "mode_energy": 2.444242613693464e-06,
+        "mode_energy_fraction": 0.21325185726845255,
+        "bandwidth_hz": 893.1603608613917,
+        "correlation_mode_raw": 0.4561827183304084,
+        "max_other_spectral_overlap": 0.6828169062115009
+      },
+      {
+        "mode_rank": 4,
+        "center_hz": 1164.748322554612,
+        "observed_centroid_hz": 1164.7485632913945,
+        "mode_energy": 1.8566106666708775e-06,
+        "mode_energy_fraction": 0.16198296792383726,
+        "bandwidth_hz": 516.488416342347,
+        "correlation_mode_raw": 0.3894133264885376,
+        "max_other_spectral_overlap": 0.5562533895987897
+      },
+      {
+        "mode_rank": 5,
+        "center_hz": 544.525711996776,
+        "observed_centroid_hz": 544.5710628743093,
+        "mode_energy": 1.86810107846246e-06,
+        "mode_energy_fraction": 0.16298546728360072,
+        "bandwidth_hz": 252.2951881868321,
+        "correlation_mode_raw": 0.4057172681089758,
+        "max_other_spectral_overlap": 0.6193212082102628
+      },
+      {
+        "mode_rank": 6,
+        "center_hz": 298.6505381507648,
+        "observed_centroid_hz": 298.6506056002343,
+        "mode_energy": 2.0316050469893167e-06,
+        "mode_energy_fraction": 0.17725063260056856,
+        "bandwidth_hz": 121.1122854467222,
+        "correlation_mode_raw": 0.41122846937543484,
+        "max_other_spectral_overlap": 0.6193212082102628
+      }
+    ],
+    "elapsed_seconds": 9.220573500031605,
+    "duplicate_fraction": 0.0,
+    "max_spectral_overlap": 0.6828169062115009,
+    "minimum_mode_energy_fraction": 0.07941928296120282,
+    "strict_emd_imf_valid": false
+  }
+]

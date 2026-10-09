@@ -1,0 +1,6 @@
+# Numerical dependency versions used by the validated Windows environment.
+# Python 3.12+; Colab CPU runtime. GCC g++ is optional for Linux native VMD.
+numpy==2.2.6
+scipy==1.18.1
+matplotlib==3.10.8
+psutil==7.2.2

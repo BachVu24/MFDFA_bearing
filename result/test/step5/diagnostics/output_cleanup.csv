@@ -1,0 +1,3 @@
+﻿path,bytes,reason
+_work\mplconfig\fontlist-v390.json,132260,regenerable plot cache
+diagnostics\decomposition_diagnostics.json,1400195,duplicate aggregate removed in initial phase; size reconstructed from retained per-record audit; decomposition_summary references retained inputs

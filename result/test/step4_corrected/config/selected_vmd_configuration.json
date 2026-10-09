@@ -1,0 +1,81 @@
+{
+  "selected_config": {
+    "K": 7,
+    "alpha": 500,
+    "tau": 0.0
+  },
+  "init": 1,
+  "tol": 1e-07,
+  "sensitivity_max_iter": 1000,
+  "full_record_max_iter": 2000,
+  "eligible_configuration_found": true,
+  "selection_rule": {
+    "min_convergence_fraction": 0.9,
+    "max_p90_reconstruction_error": 0.15,
+    "max_median_repeat_center_relative_error": 0.15,
+    "max_median_duplicate_fraction": 0.3,
+    "duplicate_spectral_overlap": 0.8,
+    "minimum_mean_mode_energy_fraction": 0.0001,
+    "ranking": "eligible first; repeat center drift ascending, duplicate fraction ascending, reconstruction p90 ascending, K ascending, alpha ascending, tau ascending"
+  },
+  "selected_summary": {
+    "configuration": "K7_a500_t0",
+    "K": 7,
+    "alpha": 500,
+    "tau": 0.0,
+    "signals": 16,
+    "convergence_fraction": 1.0,
+    "median_iterations": 157.5,
+    "median_reconstruction_error": 0.06198607220503752,
+    "p90_reconstruction_error": 0.12309720593659584,
+    "max_reconstruction_error": 0.1637806299678534,
+    "median_constraint_error": 0.06198607220503759,
+    "median_repeat_center_relative_error": 0.005392645791686555,
+    "p90_repeat_center_relative_error": 0.27143147730836614,
+    "matched_mode_fraction": 0.8571428571428571,
+    "median_duplicate_fraction": 0.0,
+    "minimum_mean_mode_energy_fraction": 0.002446219456964532,
+    "eligible": true,
+    "ineligible_reason": "",
+    "selection_rank": 1
+  },
+  "grid": {
+    "K": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "alpha": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "tau": [
+      0.0,
+      0.5
+    ],
+    "init": 1,
+    "tol": 1e-07,
+    "max_iter": 1000,
+    "window_samples": 65536,
+    "window_start": 0,
+    "fs": 66666.7
+  },
+  "note": "Selection uses only pooled convergence/reconstruction/frequency/overlap/energy diagnostics; no MF-DFA features or class separation. Repeat membership is acquisition pairing only.",
+  "full_record_confirmation_pending": false,
+  "full_record_confirmation": {
+    "signals": 16,
+    "converged": 16,
+    "max_reconstruction_error": 0.16373891614090538,
+    "median_reconstruction_error": 0.06198415492150973,
+    "p90_reconstruction_error": 0.12267064216197904,
+    "median_repeat_center_relative_error": 0.005603043188888513,
+    "matched_mode_fraction": 0.8571428571428571,
+    "median_duplicate_fraction": 0.0,
+    "minimum_mean_mode_energy_fraction": 0.002682627874762086,
+    "pooled_robustness_pass": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "grid": {
+    "K": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "alpha": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "tau": [
+      0.0,
+      0.5
+    ],
+    "init": 1,
+    "tol": 1e-07,
+    "max_iter": 1000,
+    "window_samples": 65536,
+    "window_start": 0,
+    "fs": 66666.7
+  },
+  "selection_rule": {
+    "min_convergence_fraction": 0.9,
+    "max_p90_reconstruction_error": 0.15,
+    "max_median_repeat_center_relative_error": 0.15,
+    "max_median_duplicate_fraction": 0.3,
+    "duplicate_spectral_overlap": 0.8,
+    "minimum_mean_mode_energy_fraction": 0.0001,
+    "ranking": "eligible first; repeat center drift ascending, duplicate fraction ascending, reconstruction p90 ascending, K ascending, alpha ascending, tau ascending"
+  },
+  "user_authorized_window": true
+}

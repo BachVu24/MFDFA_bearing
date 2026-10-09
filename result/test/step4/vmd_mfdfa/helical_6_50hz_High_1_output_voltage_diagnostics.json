@@ -1,0 +1,30 @@
+{
+  "recording": "helical_6_50hz_High_1",
+  "state": "H6",
+  "channel": "output_voltage",
+  "pipeline": "vmd",
+  "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+  "source_sha256": "d8d2deb28f86ac548799ef5e366b261a20613f6261f18b2c0a8fe4105ddf0202",
+  "mode_count": 6,
+  "centers_hz": [
+    26846.583780986482,
+    21578.581872452243,
+    9855.496565623042,
+    8781.645982973954,
+    2838.7436479121016,
+    444.52812678797255
+  ],
+  "algorithm_info": {
+    "converged": true,
+    "iterations": 111,
+    "relative_change": 9.860996449320397e-08,
+    "constraint_error": 0.22703936236164024,
+    "reconstruction_error": 0.2270393623616385,
+    "frequency_unit": "cycles per time unit",
+    "tau": 0.0
+  },
+  "warnings": [],
+  "reconstruction_error": 0.22703936236164016,
+  "identity_error": 0.0,
+  "elapsed_decomposition_seconds": 25.737857700092718
+}

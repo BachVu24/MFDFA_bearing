@@ -1,0 +1,325 @@
+{
+  "all_identities_passed": true,
+  "results": [
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.27446389800688664
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.28943296087166465
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.2455189734505905
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.2826800982378843
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.23620406490292628
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.24829881869188428
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.2347198606340422
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.25372286568729363
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.17228190498637527
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.5699773841783624
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.1617583227159156
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.5802199356829154
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.2838258491373264
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.6008405816368569
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.27871875408123237
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "emd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": false,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.6002595684400355
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.20073943213755213
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.13938680868000852
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.20331962437361906
+    },
+    {
+      "recording": "helical_1_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.14016908432841574
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.25758269713443044
+    },
+    {
+      "recording": "helical_2_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.14752997324595712
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.25915470766971166
+    },
+    {
+      "recording": "helical_2_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.148217302002692
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.3574197802979291
+    },
+    {
+      "recording": "helical_5_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.20416150032709593
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.35545678378930656
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.21351809560577661
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.22703936236164016
+    },
+    {
+      "recording": "helical_6_50hz_High_1",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.13877411432901168
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "output_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.2321307232922545
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "pipeline": "vmd",
+      "solver_converged": true,
+      "exact_emd_count_conditions": null,
+      "mode_count": 6,
+      "identity_error": 0.0,
+      "reconstruction_error": 0.13900160218552898
+    }
+  ]
+}

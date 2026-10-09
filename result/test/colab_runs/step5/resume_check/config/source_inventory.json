@@ -1,0 +1,1442 @@
+[
+  {
+    "recording": "helical_1_30hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_30hz_High_1.txt",
+    "sha256": "b5d56959e5a669b2a25ecc521c707628fe160f76b6c838084cb312c6536037c2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_30hz_High_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_30hz_High_2.txt",
+    "sha256": "cfa059f97cf8cd7d6b615eb5a6317e317d8dfea52787f0f1d02ef1ec1f517c6c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_30hz_Low_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_30hz_Low_1.txt",
+    "sha256": "22ad6acec781199580fb85c1c6fa7c8e6fd872fd6f4a9aed776ce6b32b16eafa",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_30hz_Low_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_30hz_Low_2.txt",
+    "sha256": "28d0916d2f8bcb0ba8460d5ae4c585972910ca3f27b6ae85ae1fdba91f4a3efa",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_35hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_35hz_High_1.txt",
+    "sha256": "a1bd0ae884299a9e1fb4c2a0981103bed463e25386d0594a43864b81fd5305e7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_35hz_High_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_35hz_High_2.txt",
+    "sha256": "87724e8989b15e30e6e3032dc4606eb1720831c245c1a3cb7511465cacdf8562",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_35hz_Low_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_35hz_Low_1.txt",
+    "sha256": "b77c5d013b732d5f73b37ee4a71ccc317ab0de71bea93fc904104b8f41205b4d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_35hz_Low_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_35hz_Low_2.txt",
+    "sha256": "55c564b5d1731f6a4bb3ec3cc2985316d9db30d189b96bcf20ea91e8e9f4bc57",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_40hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_40hz_High_1.txt",
+    "sha256": "e45d336e8d90c75a3d4f74206bf85e7646f186b43a8df35c4dd37cb522a940eb",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_40hz_High_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_40hz_High_2.txt",
+    "sha256": "f6a3e7fb0bda46715bb9d4dd912a133df1e194df0fa2213d33ab7bf77eca71bc",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_40hz_Low_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_40hz_Low_1.txt",
+    "sha256": "d1ed0549773348cbbf1c3d0b63ab3eef320af3ea7ffbd64669e3adb69c5c7b47",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_40hz_Low_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_40hz_Low_2.txt",
+    "sha256": "b7219cdd714d70cb8241e23af4aa0257093e4feb23750aa64bbfda7d13b7b84a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_45hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_45hz_High_1.txt",
+    "sha256": "453a57734da0139d34b78fa241e1fe3fa26fcdd04cf80bfb745f7a5e84e3dd7a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_45hz_High_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_45hz_High_2.txt",
+    "sha256": "47249ee654faeeff498879ccb0346f5c2e01c3d5f474b3fdd10fe0af0e33b3b3",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_45hz_Low_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_45hz_Low_1.txt",
+    "sha256": "faf5fb4ba8c82cbbbd4225420f6620f1b037f3c1426e698174f20686b41880ff",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_45hz_Low_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_45hz_Low_2.txt",
+    "sha256": "b2f3b229fbf49e9847c713c9a5cf78e418bd88648a03b434d75042cf55d32bad",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_50hz_High_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_50hz_High_1.txt",
+    "sha256": "18e1a403f0e8d1efc15e90fe13feda846e2a532bb40a03517df89c248ddd219e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_50hz_High_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_50hz_High_2.txt",
+    "sha256": "efb55ed32c19daa7b05bf21263908d4b994998f4e4b187eebc4611232929785f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_50hz_Low_1",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 1/helical 1_50hz_Low_1.txt",
+    "sha256": "fdef59aa1d4a18b3c0656042a137b1e8438ca780d549cc9f090b8b237a408bc2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_1_50hz_Low_2",
+    "state": "H1",
+    "label": "Healthy",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 1/helical 1_50hz_Low_2.txt",
+    "sha256": "bf62d28dbdf00678a1af6fa33af60d069d69367f04918c5620be88706372274b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_30hz_High_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_30hz_High_1.txt",
+    "sha256": "71e8c1bef201bc7b76b40289a44843a7ec2ce976a7328b526743072ea6f90b6d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_30hz_High_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_30hz_High_2.txt",
+    "sha256": "2a81aa127592265acd9c672d8f2acab71a0fd1b3d3015e2b19539da10787c9d7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_30hz_Low_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_30hz_Low_1.txt",
+    "sha256": "8537ee7ab90a8affbdb9a2685fb4adc00a636940fa4ce7b24f9522dc470d47d5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_30hz_Low_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_30hz_Low_2.txt",
+    "sha256": "eacabbae53bc34e8a7ea4a5fcf55187a45391b61b59cb4610f627ceb305ebff2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_35hz_High_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_35hz_High_1.txt",
+    "sha256": "29deaa70fcf19df8b3ed44f20aa14d2ca597eb60ba62c462dd9d78610443cde7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_35hz_High_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_35hz_High_2.txt",
+    "sha256": "ddf1c0adf2ddba32893970730e5b24fc6b9627335d7ef040b433c845d34b0254",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_35hz_Low_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_35hz_Low_1.txt",
+    "sha256": "fe0fcbae90a2a35662ea36730fc366947bd3b49c8c955017dece88c8b8b2c685",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_35hz_Low_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_35hz_Low_2.txt",
+    "sha256": "0806bf5639a0dce6998a1d7c4a99918e91abe09478ec01ca2c2268be7cd7006d",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_40hz_High_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_40hz_High_1.txt",
+    "sha256": "f8ef2e8736f556e376b469a582d000b095467285e6bd75dbc4ff568ffdd029cd",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_40hz_High_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_40hz_High_2.txt",
+    "sha256": "cd9572a92a2108591a6fb178af7746f7c80426b2c90093d43db4d1e5293e41f2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_40hz_Low_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_40hz_Low_1.txt",
+    "sha256": "0d38db84804d2bfde663c9cd6477eb0a434427faf5a81d668b3cbfd353483f44",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_40hz_Low_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_40hz_Low_2.txt",
+    "sha256": "cf912165bd6814a38ca476c7f7b959c7706f02c4bf2f1e7944d13ba9271f7fb5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_45hz_High_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_45hz_High_1.txt",
+    "sha256": "c70afb5251052384c3694c1258d1e2215b65b8ab8e09dae045f1d562685e75b5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_45hz_High_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_45hz_High_2.txt",
+    "sha256": "35877bed1e473d45ff6151be94c0e8911acd89b9c60e78d873bcf9968276f8c7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_45hz_Low_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_45hz_Low_1.txt",
+    "sha256": "7b62306f360ac126ffaa1a3ee56d4bd460fb235c7229085d141727fad42e400f",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_45hz_Low_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_45hz_Low_2.txt",
+    "sha256": "ef094c33ac3c68dadd3ac05a533adff822a8d9362e460f210457c4a5395fed7a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_50hz_High_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_50hz_High_1.txt",
+    "sha256": "cfcdcc6c3e7ab5929897b58e181c464c5418edf46066304a635382a22ac3b780",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_50hz_High_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_50hz_High_2.txt",
+    "sha256": "f3fa5171fa18878b8438970bc109588f0e3e1fcbaa4d5dd3ee7190e2946b04b7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_50hz_Low_1",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 2/helical 2_50hz_Low_1.txt",
+    "sha256": "19ece2537b8c20e8566ae466503bfccec8098b31cb35ec8e3f1836ba0ad8eb38",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_2_50hz_Low_2",
+    "state": "H2",
+    "label": "24T chipped gear",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 2/helical 2_50hz_Low_2.txt",
+    "sha256": "7db567e2f9299db4c9d41df3717679035574da086c84fd1bd97913880f731e52",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_30hz_High_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_30hz_High_1.txt",
+    "sha256": "9745cc891d5f67c75fc1287a95a74ac39f8ca597dfc67024cbace60a18c64e2b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_30hz_High_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_30hz_High_2.txt",
+    "sha256": "c85aac6782e022b00ca8e0f2c66ce4a4618392ebf23397fd28f2e85b82927355",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_30hz_Low_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_30hz_Low_1.txt",
+    "sha256": "9d7c13e22973300599d34f20cb745c584d7944f8d17053aecc429c224fcb0ded",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_30hz_Low_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_30hz_Low_2.txt",
+    "sha256": "5542262bd55e68932b6836b119ff8a8cb9683e59dd404c1a62008afeb4973365",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_35hz_High_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_35hz_High_1.txt",
+    "sha256": "006daa4a5993b2269c7cb033aca1e5bab624ba0bffea73270bfb6d44d27dbd8e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_35hz_High_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_35hz_High_2.txt",
+    "sha256": "0dba9f8255fc38c296d4406bc824f64f723970f78a24ade9498da52ac094a836",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_35hz_Low_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_35hz_Low_1.txt",
+    "sha256": "1d2dd4860277750bbab64161f86551d652ccc9bec9bae9527bb25526983eb0ea",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_35hz_Low_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_35hz_Low_2.txt",
+    "sha256": "842a3ffe16f53181cca43b75724e65313587b6ac9144d943fc20248ffb35686c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_40hz_High_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_40hz_High_1.txt",
+    "sha256": "c905242e9ee71749a61f4deea3c02a827c86908f74dac74033d788a98056fa37",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_40hz_High_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_40hz_High_2.txt",
+    "sha256": "be771b96f382128a174ec79aa0e7a5ed740581a93ad04bbe9daae8edc1a9baba",
+    "samples": 266655,
+    "duration_seconds": 3.9998230000885,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_40hz_Low_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_40hz_Low_1.txt",
+    "sha256": "a34287211dc4308bd374a2cf6dcd9c0ba8f443645f546cb9817001287669ee45",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_40hz_Low_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_40hz_Low_2.txt",
+    "sha256": "d35e3c4852355b9367aa2dab1f23e97248d7d53a0da8b52d788c54d3d6838154",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_45hz_High_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_45hz_High_1.txt",
+    "sha256": "b35aea23ea6a015980d73e7ba451f53ecaed958e93dc6ef0df9d9c39f3bd1664",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_45hz_High_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_45hz_High_2.txt",
+    "sha256": "6ed131d424aa611f839e6798300846368964a106d931991d20d677643e5af8f9",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_45hz_Low_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_45hz_Low_1.txt",
+    "sha256": "2781e976304e3d6c418ada3db4af17724428e218902159949f2a8341f7899eea",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_45hz_Low_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_45hz_Low_2.txt",
+    "sha256": "bf7e30566e3c0f6d2254ceaad9626accd7cdb5dc1e92c58ad5fcd55380385def",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_50hz_High_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_50hz_High_1.txt",
+    "sha256": "55b624d2b0cb108e1c1b3a30714ff5ece6858960ef7f453d83ec1225cc28bb7a",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_50hz_High_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_50hz_High_2.txt",
+    "sha256": "7e3b33abbef85b27f5af8a760fc2ca220be5c8f1eebc75c52f68150566e3aa8f",
+    "samples": 245648,
+    "duration_seconds": 3.6847181576409214,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_50hz_Low_1",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 5/helical 5_50hz_Low_1.txt",
+    "sha256": "ced843d60161d143eb14c95756eb58b453425af84b62e664e164aa34954fc75b",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_5_50hz_Low_2",
+    "state": "H5",
+    "label": "24T broken gear + bearing inner-race fault",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 5/helical 5_50hz_Low_2.txt",
+    "sha256": "ad9bfbe5646372c2447651c52b7315124fe5cab27292d5ebd3d289dffdd99e04",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_30hz_High_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 30,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_30hz_High_1.txt",
+    "sha256": "9e16fb97af00e78100a566bdaab3aecda72f6be5561b4b8d3061024ac1702106",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_30hz_High_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 30,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_30hz_High_2.txt",
+    "sha256": "e9cbfab71bd1a894eade7eb205f0d9c71aa93f5db7fddf2af7c9ded915c7d401",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_30hz_Low_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_30hz_Low_1.txt",
+    "sha256": "5f7548035cb8e9a54d345cc4c217046e6159a04b6e4911b70d4b56150c865b86",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_30hz_Low_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 30,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_30hz_Low_2.txt",
+    "sha256": "93688a3937e161b8015cbd088ff7a1abd2fe4e4bfc22ef95446509926e9914a6",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_35hz_High_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 35,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_35hz_High_1.txt",
+    "sha256": "e29bf63c73730326a747155a896a9304e35d95b0ee06d2537f55d69fae47d66c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_35hz_High_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 35,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_35hz_High_2.txt",
+    "sha256": "50ecd7faa2b99d7122ba1ca9b96811481be02735402e7c34fa2c07de78969dde",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_35hz_Low_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_35hz_Low_1.txt",
+    "sha256": "7b4b188f835c77b72ece7600b9795fcc051142f14f1b94eb94ea4a975ec655ce",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_35hz_Low_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 35,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_35hz_Low_2.txt",
+    "sha256": "89e5f623adb0c25501dcf247b7ddcf8ffeee06c6587f3d72d4dbca4f198634f4",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_40hz_High_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 40,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_40hz_High_1.txt",
+    "sha256": "37774a757fbaf89972e01c491aed4db2feddcaa50c318ea45d693e93e326f554",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_40hz_High_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 40,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_40hz_High_2.txt",
+    "sha256": "f710abd56b1c35a507610b41cd6eb89a4d1be440b45558e80edcaa63ebd6cfd2",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_40hz_Low_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_40hz_Low_1.txt",
+    "sha256": "32a7b2ea34a39576cc5950ab323b55c74955e0103599a138d2b03c3f2c14f905",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_40hz_Low_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 40,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_40hz_Low_2.txt",
+    "sha256": "0561c1c95df4af18ded05e949d83a621f5026d1d9fba26092432951c2052f772",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_45hz_High_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 45,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_45hz_High_1.txt",
+    "sha256": "0e976068a547efb1d7862af6f5adc345fc813da8b2274758b28c127477bc8d99",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_45hz_High_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 45,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_45hz_High_2.txt",
+    "sha256": "1a54afc26814c322f938ee09aab3e8905b4ffead25ef7366f0e588a7196932d7",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_45hz_Low_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_45hz_Low_1.txt",
+    "sha256": "821629032bc55d6b85c150e7b8fc51c7369ca80a0f3c84a3c38fd5f6c4425ad5",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_45hz_Low_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 45,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_45hz_Low_2.txt",
+    "sha256": "4d217acf44bfdeaaf855a4dd5a0ce392757a1b7ce1b4846ab117401353bad770",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_50hz_High_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 50,
+    "load": "High",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_50hz_High_1.txt",
+    "sha256": "d8d2deb28f86ac548799ef5e366b261a20613f6261f18b2c0a8fe4105ddf0202",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_50hz_High_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 50,
+    "load": "High",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_50hz_High_2.txt",
+    "sha256": "8dc08eb1d879816f509bd02c2b67756ab07f3ee83f0588bf8ed350a7096fb902",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_50hz_Low_1",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 1,
+    "relative_source": "DATA/labeled/helical 6/helical 6_50hz_Low_1.txt",
+    "sha256": "d56c5c3eab4366309311919fcaeb72274f0a2c320e52da8d44b212a7d090ba6e",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  },
+  {
+    "recording": "helical_6_50hz_Low_2",
+    "state": "H6",
+    "label": "bent input shaft",
+    "speed": 50,
+    "load": "Low",
+    "repeat": 2,
+    "relative_source": "DATA/labeled/helical 6/helical 6_50hz_Low_2.txt",
+    "sha256": "d4778a808c4573a39d4c57b7cf9ad79421d6fb203503f40695d353440396780c",
+    "samples": 266656,
+    "duration_seconds": 3.999838000081,
+    "channels": 3,
+    "analyzed_channels": [
+      "output_voltage",
+      "input_voltage"
+    ],
+    "finite": true
+  }
+]

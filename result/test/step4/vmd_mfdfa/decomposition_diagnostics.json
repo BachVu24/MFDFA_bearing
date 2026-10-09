@@ -1,0 +1,482 @@
+[
+  {
+    "recording": "helical_1_50hz_High_1",
+    "state": "H1",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "18e1a403f0e8d1efc15e90fe13feda846e2a532bb40a03517df89c248ddd219e",
+    "mode_count": 6,
+    "centers_hz": [
+      27833.226554925248,
+      22283.174764493288,
+      10080.196417761,
+      8846.557873881306,
+      2720.3353397450323,
+      455.0466952417634
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 98,
+      "relative_change": 9.968924308444849e-08,
+      "constraint_error": 0.20073943213755127,
+      "reconstruction_error": 0.20073943213755305,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.20073943213755213,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 20.80777329998091
+  },
+  {
+    "recording": "helical_1_50hz_High_1",
+    "state": "H1",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "18e1a403f0e8d1efc15e90fe13feda846e2a532bb40a03517df89c248ddd219e",
+    "mode_count": 6,
+    "centers_hz": [
+      26470.62940785458,
+      17598.67999545248,
+      9044.227977589118,
+      4489.3917412173105,
+      2134.63365440715,
+      410.76410929938544
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 117,
+      "relative_change": 9.079778527226285e-08,
+      "constraint_error": 0.13938680868000877,
+      "reconstruction_error": 0.13938680868000766,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.13938680868000852,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 22.539325800025836
+  },
+  {
+    "recording": "helical_1_50hz_High_2",
+    "state": "H1",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "efb55ed32c19daa7b05bf21263908d4b994998f4e4b187eebc4611232929785f",
+    "mode_count": 6,
+    "centers_hz": [
+      28016.705308676293,
+      22337.40407443256,
+      10060.947707658108,
+      8841.021215769355,
+      2775.597693189161,
+      451.728078352915
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 221,
+      "relative_change": 9.911675531050883e-08,
+      "constraint_error": 0.2033196243736182,
+      "reconstruction_error": 0.2033196243736198,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.20331962437361906,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 44.14703810005449
+  },
+  {
+    "recording": "helical_1_50hz_High_2",
+    "state": "H1",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "efb55ed32c19daa7b05bf21263908d4b994998f4e4b187eebc4611232929785f",
+    "mode_count": 6,
+    "centers_hz": [
+      26942.654279406484,
+      17709.80903033693,
+      9040.880104155132,
+      4496.670362679216,
+      2139.9917897004925,
+      401.41894753244685
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 100,
+      "relative_change": 9.442077094003372e-08,
+      "constraint_error": 0.14016908432841624,
+      "reconstruction_error": 0.14016908432841685,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.14016908432841574,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 27.94068600004539
+  },
+  {
+    "recording": "helical_2_50hz_High_1",
+    "state": "H2",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "cfcdcc6c3e7ab5929897b58e181c464c5418edf46066304a635382a22ac3b780",
+    "mode_count": 6,
+    "centers_hz": [
+      26697.834104435235,
+      22070.89116702361,
+      9928.907445087216,
+      8754.704519757253,
+      2919.5426069298674,
+      472.7779903823399
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 43,
+      "relative_change": 9.707945561090384e-08,
+      "constraint_error": 0.25758269713442994,
+      "reconstruction_error": 0.25758269713443044,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.25758269713443044,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 9.650566099910066
+  },
+  {
+    "recording": "helical_2_50hz_High_1",
+    "state": "H2",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "cfcdcc6c3e7ab5929897b58e181c464c5418edf46066304a635382a22ac3b780",
+    "mode_count": 6,
+    "centers_hz": [
+      26819.147559093824,
+      10278.724544804862,
+      8985.842739711648,
+      4486.2930243016435,
+      2225.177318963411,
+      442.0487929732815
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 214,
+      "relative_change": 7.424015271115251e-08,
+      "constraint_error": 0.14752997324595685,
+      "reconstruction_error": 0.14752997324595707,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.14752997324595712,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 35.26568869990297
+  },
+  {
+    "recording": "helical_2_50hz_High_2",
+    "state": "H2",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "f3fa5171fa18878b8438970bc109588f0e3e1fcbaa4d5dd3ee7190e2946b04b7",
+    "mode_count": 6,
+    "centers_hz": [
+      26635.45698624737,
+      22059.16339790929,
+      9920.114184444124,
+      8748.222298170193,
+      2914.8495148094385,
+      476.800359919529
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 43,
+      "relative_change": 7.214496827905906e-08,
+      "constraint_error": 0.25915470766970816,
+      "reconstruction_error": 0.2591547076697119,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.25915470766971166,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 8.572281899861991
+  },
+  {
+    "recording": "helical_2_50hz_High_2",
+    "state": "H2",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "f3fa5171fa18878b8438970bc109588f0e3e1fcbaa4d5dd3ee7190e2946b04b7",
+    "mode_count": 6,
+    "centers_hz": [
+      26779.546581327275,
+      10293.52295386702,
+      8985.967576163319,
+      4480.172826521718,
+      2222.539428980785,
+      454.56023189728194
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 184,
+      "relative_change": 8.468381903052376e-08,
+      "constraint_error": 0.1482173020026903,
+      "reconstruction_error": 0.14821730200269095,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.148217302002692,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 30.591087399981916
+  },
+  {
+    "recording": "helical_5_50hz_High_1",
+    "state": "H5",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "55b624d2b0cb108e1c1b3a30714ff5ece6858960ef7f453d83ec1225cc28bb7a",
+    "mode_count": 6,
+    "centers_hz": [
+      26645.31928319172,
+      22197.40177760101,
+      9909.345062436385,
+      8356.773314541706,
+      5595.8953515053845,
+      453.45192873202467
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 49,
+      "relative_change": 8.657080783011983e-08,
+      "constraint_error": 0.35741978029793264,
+      "reconstruction_error": 0.3574197802979321,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.3574197802979291,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 15.080583499977365
+  },
+  {
+    "recording": "helical_5_50hz_High_1",
+    "state": "H5",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "55b624d2b0cb108e1c1b3a30714ff5ece6858960ef7f453d83ec1225cc28bb7a",
+    "mode_count": 6,
+    "centers_hz": [
+      29031.473201693352,
+      26556.496595121687,
+      9201.840605848669,
+      5165.022519589566,
+      2183.51878905198,
+      185.6822368029701
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 109,
+      "relative_change": 9.204114938886532e-08,
+      "constraint_error": 0.2041615003270961,
+      "reconstruction_error": 0.20416150032709643,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.20416150032709593,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 32.3879294001963
+  },
+  {
+    "recording": "helical_5_50hz_High_2",
+    "state": "H5",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "7e3b33abbef85b27f5af8a760fc2ca220be5c8f1eebc75c52f68150566e3aa8f",
+    "mode_count": 6,
+    "centers_hz": [
+      26564.448505304004,
+      22320.87116087609,
+      9908.384153021347,
+      8354.84754112506,
+      5650.812559805146,
+      438.55875407923094
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 51,
+      "relative_change": 8.361382359724042e-08,
+      "constraint_error": 0.35545678378930845,
+      "reconstruction_error": 0.3554567837893068,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.35545678378930656,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 10.973737500142306
+  },
+  {
+    "recording": "helical_5_50hz_High_2",
+    "state": "H5",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "7e3b33abbef85b27f5af8a760fc2ca220be5c8f1eebc75c52f68150566e3aa8f",
+    "mode_count": 6,
+    "centers_hz": [
+      28997.761502613957,
+      26552.99561620082,
+      9261.065236712711,
+      5213.568850641187,
+      2220.1885649846226,
+      175.6412321166206
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 99,
+      "relative_change": 9.730773811342528e-08,
+      "constraint_error": 0.21351809560577528,
+      "reconstruction_error": 0.2135180956057768,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.21351809560577661,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 20.360026800073683
+  },
+  {
+    "recording": "helical_6_50hz_High_1",
+    "state": "H6",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "d8d2deb28f86ac548799ef5e366b261a20613f6261f18b2c0a8fe4105ddf0202",
+    "mode_count": 6,
+    "centers_hz": [
+      26846.583780986482,
+      21578.581872452243,
+      9855.496565623042,
+      8781.645982973954,
+      2838.7436479121016,
+      444.52812678797255
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 111,
+      "relative_change": 9.860996449320397e-08,
+      "constraint_error": 0.22703936236164024,
+      "reconstruction_error": 0.2270393623616385,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.22703936236164016,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 25.737857700092718
+  },
+  {
+    "recording": "helical_6_50hz_High_1",
+    "state": "H6",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "d8d2deb28f86ac548799ef5e366b261a20613f6261f18b2c0a8fe4105ddf0202",
+    "mode_count": 6,
+    "centers_hz": [
+      26726.46385216134,
+      10331.701757481529,
+      8982.022604098413,
+      4415.090577992051,
+      2171.136580703234,
+      182.3469669378787
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 189,
+      "relative_change": 8.154570936127804e-08,
+      "constraint_error": 0.138774114329012,
+      "reconstruction_error": 0.1387741143290117,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.13877411432901168,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 39.375451599946246
+  },
+  {
+    "recording": "helical_6_50hz_High_2",
+    "state": "H6",
+    "channel": "output_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "8dc08eb1d879816f509bd02c2b67756ab07f3ee83f0588bf8ed350a7096fb902",
+    "mode_count": 6,
+    "centers_hz": [
+      26846.91311373269,
+      21841.71799350388,
+      9869.953507608863,
+      8766.847370932406,
+      2875.6450939504257,
+      448.8848056053307
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 71,
+      "relative_change": 9.638905734166475e-08,
+      "constraint_error": 0.23213072329225298,
+      "reconstruction_error": 0.23213072329225423,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.2321307232922545,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 13.88037270004861
+  },
+  {
+    "recording": "helical_6_50hz_High_2",
+    "state": "H6",
+    "channel": "input_voltage",
+    "pipeline": "vmd",
+    "config_id": "98ebb45dfb395f7000499a554e4accc9589e253765b363df2a1b907a30d4c593",
+    "source_sha256": "8dc08eb1d879816f509bd02c2b67756ab07f3ee83f0588bf8ed350a7096fb902",
+    "mode_count": 6,
+    "centers_hz": [
+      26862.958232285575,
+      10303.896346629266,
+      8974.913468086585,
+      4438.075822843321,
+      2189.498878990814,
+      185.57777456492852
+    ],
+    "algorithm_info": {
+      "converged": true,
+      "iterations": 214,
+      "relative_change": 9.149151873405812e-08,
+      "constraint_error": 0.13900160218552912,
+      "reconstruction_error": 0.1390016021855286,
+      "frequency_unit": "cycles per time unit",
+      "tau": 0.0
+    },
+    "warnings": [],
+    "reconstruction_error": 0.13900160218552898,
+    "identity_error": 0.0,
+    "elapsed_decomposition_seconds": 42.09652930009179
+  }
+]

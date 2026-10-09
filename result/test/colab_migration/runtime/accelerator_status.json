@@ -1,0 +1,71 @@
+{
+  "backend": "cpp_fused_admm",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "source_sha256": "680237a55143fde85965228e27573b579dafe4c966fde42012da09de5330384d",
+  "cpp_sha256": "aa1de17b245ca67f9a57d5e3a110bfb0c8a32b9d0fdb8ad44af8d54f4cd0cf15",
+  "parity_passed": true,
+  "parity_cases": [
+    {
+      "length": 512,
+      "tau": 0,
+      "DC": false,
+      "init": 1,
+      "relative_errors": [
+        5.14809703769705e-15,
+        5.147435851220719e-15,
+        1.0911439294110521e-15
+      ],
+      "passed": true
+    },
+    {
+      "length": 513,
+      "tau": 0.5,
+      "DC": false,
+      "init": 2,
+      "relative_errors": [
+        1.0525072364039996e-14,
+        1.053830298142886e-14,
+        1.7346364081173777e-15
+      ],
+      "passed": true
+    },
+    {
+      "length": 512,
+      "tau": 0,
+      "DC": true,
+      "init": 0,
+      "relative_errors": [
+        7.755711636627726e-15,
+        7.764488591796584e-15,
+        2.5344912858948125e-15
+      ],
+      "passed": true
+    },
+    {
+      "length": 512,
+      "tau": 0.5,
+      "DC": true,
+      "init": 1,
+      "relative_errors": [
+        3.135679891919158e-14,
+        3.135561496155973e-14,
+        6.351242370531589e-15
+      ],
+      "passed": true
+    },
+    {
+      "length": 1024,
+      "tau": 0,
+      "DC": false,
+      "init": 1,
+      "relative_errors": [
+        1.2838546563294977e-14,
+        1.2843170621572653e-14,
+        1.8042086802541746e-15
+      ],
+      "passed": true
+    }
+  ],
+  "library": "D:\\2026\\20261\\bearingsys\\Project\\result\\test\\step4_corrected\\_runtime\\vmd_kernel.dll",
+  "library_sha256": "74a1ae27d48eef4088b1bb0a040e9e86d50882568f167bea579f2f1a587c118e"
+}

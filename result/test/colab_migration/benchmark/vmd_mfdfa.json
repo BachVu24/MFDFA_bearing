@@ -1,0 +1,20 @@
+{
+  "stage": "vmd_mfdfa",
+  "recording": "helical_1_50hz_High_1",
+  "channel": "output_voltage",
+  "samples": 266656,
+  "source_sha256": "18e1a403f0e8d1efc15e90fe13feda846e2a532bb40a03517df89c248ddd219e",
+  "config_sha256": "801a6da803068a9c2671c7db6d095a5ee5966dc525152c583c20e0b2bd162097",
+  "backend": "cpp_fused_admm",
+  "compute_wall_seconds": 18.617583699990064,
+  "compute_cpu_seconds": 18.59375,
+  "peak_rss_mib": 247.640625,
+  "peak_memory_method": "10 ms RSS sampling in isolated stage subprocess; excludes parity warm-up",
+  "read_io_wall_seconds": 0.2046707000117749,
+  "read_io_cpu_seconds": 0.203125,
+  "write_io_wall_seconds": 0.9015609999187291,
+  "write_io_cpu_seconds": 0.90625,
+  "write_bytes": 16380182,
+  "spectra_evaluated": 9,
+  "valid_spectra": 1
+}

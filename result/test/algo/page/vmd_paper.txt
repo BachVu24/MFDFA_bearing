@@ -1,0 +1,843 @@
+IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014                                                                              531
+
+
+
+
+                               Variational Mode Decomposition
+                                   Konstantin Dragomiretskiy and Dominique Zosso, Member, IEEE
+
+
+   Abstract—During the late 1990s, Huang introduced the algo-                        tion is highly dependent on methods of extremal point finding,
+rithm called Empirical Mode Decomposition, which is widely                           interpolation of extremal points into carrier envelopes, and the
+used today to recursively decompose a signal into different modes                    stopping criteria imposed. The lack of mathematical theory and
+of unknown but separate spectral bands. EMD is known for
+limitations like sensitivity to noise and sampling. These limitations                the aformentioned degrees of freedom reducing the algorithm’s
+could only partially be addressed by more mathematical attempts                      robustness all leave room for theoretical development and im-
+to this decomposition problem, like synchrosqueezing, empirical                      provement on the robustness of the decomposition [2]–[5]. In
+wavelets or recursive variational decomposition. Here, we propose                    some experiments it has been shown that EMD shares impor-
+an entirely non-recursive variational mode decomposition model,                      tant similarities with wavelets and (adaptive) filter banks [6].
+where the modes are extracted concurrently. The model looks
+for an ensemble of modes and their respective center frequen-                           Despite the limited mathematical understanding and some
+cies, such that the modes collectively reproduce the input signal,                   obvious shortcomings, the EMD method has had significant im-
+while each being smooth after demodulation into baseband. In                         pact and is widely used in a broad variety of time-frequency
+Fourier domain, this corresponds to a narrow-band prior. We                          analysis applications. These involve signal decomposition in
+show important relations to Wiener filter denoising. Indeed, the                     audio engineering [7], climate analysis [8], and various flux,
+proposed method is a generalization of the classic Wiener filter
+into multiple, adaptive bands. Our model provides a solution                         respiratory, and neuromuscular signals found in medicine and
+to the decomposition problem that is theoretically well founded                      biology [9]–[12], to name just a few examples.
+and still easy to understand. The variational model is efficiently
+optimized using an alternating direction method of multipliers                       A. What is a Mode?
+approach. Preliminary results show attractive performance with                         In the original EMD description, a mode is defined as a signal
+respect to existing mode decomposition models. In particular,
+                                                                                     whose number of local extrema and zero-crossings differ at most
+our proposed model is much more robust to sampling and noise.
+Finally, we show promising practical decomposition results on a                      by one [1]. In most later related works, the definition is slightly
+series of artificial and real data.                                                  changed into so-called Intrinsic Mode Functions (IMF), based
+   Index Terms—AM-FM, augmented Lagrangian, Fourier trans-                           on modulation criteria:
+form, Hilbert transform, mode decomposition, spectral decompo-                         Definition 1: (Intrinsic Mode Function): Intrinsic Mode
+sition, variational problem, Wiener filter.                                          Functions are amplitude-modulated-frequency-modulated
+                                                                                     (AM-FM) signals, written as:
+
+                             I. INTRODUCTION                                                                                                         (1)
+
+                                                                                     where the phase            is a non-decreasing function,
+
+E     MPIRICAL MODE decompositon (EMD) proposed by
+      Huang et al. [1] is an algorithmic method to detect and de-
+compose a signal into principal “modes”. This algorithm recur-
+                                                                                       , the envelope is non-negative
+                                                                                     tantly, both the envelope
+                                                                                                                                      , and, very impor-
+                                                                                                                        and the instantaneous frequency
+                                                                                                        vary much slower than the phase             [13],
+sively detects local minima/maxima in a signal, estimates lower/                     [14].
+upper envelopes by interpolation of these extrema, removes the                           In other words, on a sufficiently long interval            ,
+average of the envelopes as “low-pass” centerline, thus isolating                               , the mode          can be considered to be a pure har-
+the high-frequency oscillations as “mode” of a signal, and con-                      monic signal with amplitude            and instantaneous frequency
+tinues recursively on the remaining “low-pass” centerline. In                                [13]. Note that the newer definition of signal components
+some cases, this sifting algorithm does indeed decompose a                           is slightly more restrictive than the original one: while all sig-
+signal into principal modes, however the resulting decomposi-                        nals adhering to the above IMF definition satisfy the original
+                                                                                     EMD mode properties, the converse is not necessarily true [13].
+                                                                                     The immediate consequence of the newer IMF definition, how-
+   Manuscript received April 10, 2013; revised August 09, 2013; accepted             ever, is limited bandwidth, as we show in the next paragraphs,
+October 10, 2013. Date of publication November 05, 2013; date of current
+                                                                                     and which is the central assumption that allows mode separa-
+version January 13, 2014. The associate editor coordinating the review of this
+manuscript and approving it for publication was Dr. Akbar Sayeed. This work          tion in the proposed variational mode decomposition model.
+was supported by the Swiss National Science Foundation (SNF) by Grants               Our restricted class of admissible mode functions is also mo-
+PBELP2_137727 and P300P2_147778, the W. M. Keck Foundation, ONR
+                                                                                     tivated by analysis in [3], for they are well-behaved with re-
+Grants N000141210838 and N000141210040, and NSF Grant DMS-1118971.
+   The authors are with the Department of Mathematics, University of                 spect to time-frequency analysis of extracted modes, as rou-
+California, Los Angeles (UCLA), Los Angeles, CA 90095 USA (e-mail:                   tinely performed in the Hilbert-Huang-Transform [1]. In con-
+konstantin@math.ucla.edu; zosso@math.ucla.edu).
+                                                                                     trast, the original IMF definition also admits non-         and dis-
+   Color versions of one or more of the figures in this paper are available online
+at http://ieeexplore.ieee.org.                                                       continuous signals like the sawtooth, for which the estimated in-
+   Digital Object Identifier 10.1109/TSP.2013.2288675                                stantaneous frequency is not physically meaningful, see Fig. 1.
+
+                         1053-587X © 2013 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+                             See http://www.ieee.org/publications_standards/publications/rights/index.html for more information.
+532                                                                             IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+
+Fig. 1. Sawtooth signal and its phase/frequency. (a) The original signal. (b) The
+estimated phase after Hilbert transform. The phase exhibits jumps at the dis-
+continuous saw-peaks. (c) The instantaneous frequency is obtained as the time-
+derivative of the phase. At the discontinuous saw-peaks, this is clearly mean-
+ingless. Such a signal is an admissible mode according to the original IMF def-
+inition based on zero-crossings and local extrema [1], but not part of the newer
+definition based on amplitude- and frequency-modulated signals (1) which is
+also used here [13].
+
+
+   Indeed, if    is the mean frequency of a mode, then its prac-
+tical bandwidth increases both with the maximum deviation
+     of the instantaneous frequency from its center (carrier fre-
+quency, ), and with the rate of this excursion,      , according
+to Carson’s rule1 [15]:
+
+                                                                             (2)
+
+In addition to this, the bandwidth of the envelope          modu-
+lating the amplitude of the FM signal, itself given by its highest
+frequency       , broadens the spectrum even further:
+   Definition 2: (Total Practical IMF Bandwidth): We esti-
+mate the total practical bandwidth of an IMF as
+                                                                                    Fig. 2. AM-FM signals with limited bandwidth. Here, we use a signal
+                                                                                                                                                        . (a) Pure AM
+                                                                             (3)    signal. (b) Pure FM signal with little but rapid frequency deviations. (c) Pure FM
+                                                                                    signal with slow but important frequency oscillations. (d) Combined AM-FM
+Depending on the actual IMF, either of these terms may be dom-                      signal. The solid vertical line in the spectrum shows the carrier frequency ,
+                                                                                    the dotted lines correspond to the estimated band limits at                 , based
+inant. An illustration of four typical cases is provided in Fig. 2,                 on (3).
+where the last example is rather extreme in terms of required
+bandwidth (for illustrational purposes).
+                                                                                    by estimating its instantaneous frequency as average frequency
+                                                                                    after the Hilbert transform. Again, this process is repeated re-
+B. Recent Work
+                                                                                    cursively on the residual signal.
+   To address the sensitivity of the original EMD algorithm with                       A third class of methods makes use of wavelets. An ap-
+respect to noise and sampling, more robust versions have since                      proach based on selecting appropriate wavelet scales, dubbed
+been proposed [16], [17]. There, in essence, the extraction of                      synchrosqueezing, was proposed by Daubechies et al. [13],
+local extrema and their interpolation for envelope forming is                       [20]. They remove unimportant wavelet coefficients (both in
+substituted by more robust constraint optimization techniques.                      time and scale) by thresholding of the respective signal energy
+The global recursive sifting structure of EMD is maintained,                        in that portion. Conversely, locally relevant wavelets are se-
+however.                                                                            lected as local maxima of the continuous wavelet transform,
+   Other authors create a partially variational approach to EMD                     that are shown to be tuned with the local signals, and from
+where the signal is explicitly modeled as an IMF [18]. This                         which the current instantaneous frequency of each mode can
+method still relies on interpolation, selection of a Fourier low-                   be recovered.
+pass filter, and sifting of high-frequency components. Here, the                       Other recent work pursuing the same goal is the Empirical
+candidate modes are extracted variationally. The signal is re-                      Wavelet Transform (EWT) to explicitly build an adaptive
+cursively decomposed into an IMF with TV3-smooth envelope                           wavelet basis to decompose a given signal into adaptive sub-
+(3rd-order total variation), and a TV3-smooth residual. The re-                     bands [14]. This model relies on robust preprocessing for
+sulting algorithm is very similar to EMD in structure, but some-                    peak detection, then performs spectrum segmentation based on
+what more robust to noise.                                                          detected maxima, and constructs a corresponding wavelet filter
+   A slightly more variational, but still recursive decomposi-                      bank. The filter bank includes flexibility for some mollification
+tion scheme has been proposed in [19], for the analysis of time-                    (spectral overlap), but explicit construction of frequency bands
+varying vibration. Here, the dominant vibration is extracted                        still appears slightly strict.
+   1The theoretical spectral support of a frequency modulated signal is infinite;
+                                                                                       Finally, a related decomposition into different wavelet bands
+However, for practical purposes, Carson’s rule provides bounds containing 98%       was suggested by [21]. The author introduces two complemen-
+of the signal’s power, which should be good enough in this context.                 tary wavelet bases with different Q-factor. This allows discrim-
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                              533
+
+
+
+inating between sustained oscillations (high-resonance compo-          comparisons to EMD, and various synthetic multi-mode signals
+nents), and non-oscillatory, short-term transients. Indeed, the        and our method’s decomposition of them. Specifically, tone de-
+high-resonance components can sparsely be represented in a             tection and separation, as well as noise robustness will be an-
+high-Q wavelet basis, while transients will be synthesized by          alyzed and compared to that of EMD. Additionally, real sig-
+low-Q wavelets.                                                        nals will be considered. Section V concludes on our proposed
+                                                                       variational mode decomposition method, summarizes again the
+                                                                       main assumptions and limitations, and includes some future di-
+                                                                       rections and expected improvements.
+C. Proposed Method
+                                                                                   II. TOOLS FROM SIGNAL PROCESSING
+   In this paper, we propose a new, fully intrinsic and adap-
+tive, variational method, the minimization of which leads to              In this section we briefly review a few concepts and tools
+a decomposition of a signal into its principal modes. Indeed,          from signal processing that will constitute the building blocks
+the current decomposition models are mostly limited by 1)              of our variational mode decomposition model. First, we present
+their algorithmic ad-hoc nature lacking mathematical theory            a classical case of Wiener filtering for denoising. Next, we de-
+(EMD), 2) the recursive sifting in most methods, which does            scribe the Hilbert transform and its use in the construction of a
+not allow for backward error correction, 3) the inability to           single-side band analytic signal. Finally, we show how multi-
+properly cope with noise, 4) the hard band-limits of wavelet           plication with pure complex harmonics is used to shift the fre-
+approaches, and 5) the requirement of predefining filter bank          quencies in a signal.
+boundaries in EWT. In contrast, we propose a variational model
+that determines the relevant bands adaptively, and estimates           A. Wiener Filtering
+the corresponding modes concurrently, thus properly balancing            Let us start with a simple denoising problem. Consider the
+errors between them. Motivated by the narrow-band properties           observed signal      , a copy of the original signal affected
+corresponding to the current common IMF definition, we look            by additive zero-mean Gaussian noise:
+for an ensemble of modes that reconstruct the given input signal
+optimally (either exactly, or in a least-squares sense), while                                                                       (4)
+each being band-limited about a center frequency estimated
+on-line. Here, our variational model specifically can address the      Recovering the unknown signal is a typical ill-posed inverse
+presence of noise in the input signal. Indeed, the tight relations     problem [22], [23], classically addressed using Tikhonov regu-
+to the Wiener filter actually suggest that our approach has            larization [24], [25]:
+some optimality in dealing with noise. The variational model
+assesses the bandwidth of the modes as         -norm, after shifting                                                                 (5)
+the Hilbert-complemented, analytic signal down into base-
+band by complex harmonic mixing. The resulting optimization
+scheme is very simple and fast: each mode is iteratively updated       of which the Euler-Lagrange equations are easily obtained and
+directly in Fourier domain, as the narrow-band Wiener filter           typically solved in Fourier domain:
+corresponding to the current estimate of the mode’s center-fre-
+quency being applied to the signal estimation residual of all                                                                        (6)
+other modes; then the center frequency is re-estimated as the
+center-of-gravity of the mode’s power spectrum. Our quanti-
+                                                                       where                                                      , with
+tative results on tone detection and separation show excellent
+                                                                                 , is the Fourier transform of the signal      . Clearly,
+performance irrespective of harmonic frequencies, in particular
+                                                                       the recovered signal is a low-pass narrow-band selection of
+when compared to the apparent limits of EMD in this respect.
+                                                                       the input signal     around         . Indeed, the solution corre-
+Further, qualitative results on synthetic and real test signals are
+                                                                       sponds to convolution with a Wiener filter, where represents
+convincing, also regarding robustness to signal noise.
+                                                                       the variance of the white noise, and the signal has a lowpass
+   The rest of this paper is organized as follows: Section II intro-
+                                                                             power spectrum prior [26], [27].
+duces the notions of the Wiener filter, the Hilbert transform, and
+the analytic signal. Also, we briefly review the concept of fre-
+                                                                       B. Hilbert Transform and Analytic Signal
+quency shifting through harmonic mixing. These concepts are
+the very building blocks of our variational mode decomposition            Here, we cite the definition of the Hilbert transform given in
+model. Although signal processing scholars can be expected to          [28]:
+be familiar with these concepts, we include this short refresher          Definition 3: (Hilbert Transform): The 1-D Hilbert trans-
+to keep the manuscript largely self-contained and accessible to        form is the linear, shift-invariant operator that maps all 1-D
+readers of different provenience. Section III presents and ex-         cosine functions into their corresponding sine functions. It is
+plains our variational model in detail, our algorithm to mini-         an all-pass filter that is characterized by the transfer function
+mize it, and finer technicalities on optimization, boundaries and                                        .
+periodicity. Section IV contains our experiments and results,             Thus, the Hilbert transform is a multiplier operator in
+namely some simple quantitative performance evaluations, and           the spectral domain. The corresponding impulse response is
+534                                                                IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+                 . Because convolution with         is not inte-       and thus, the mixed signal is automatically “mono-tone” (con-
+grable, the Hilbert transform       of a signal      is obtained       stituted of a single frequency only). In Fourier terms, this is well
+as the Cauchy principal value (denoted p.v.) of the convolution        known as the following transform pair:
+integral:
+
+                                                                                                                                                    (13)
+                                                                (7)
+                                                                       where is the Dirac distribution and denotes convolution.
+                                                                       Thus, multiplying an analytic signal with a pure exponential
+For further properties and analysis of the Hilbert transform, we       results in simple frequency shifting.
+refer e.g. to [29].
+   The most prominent use of the Hilbert transform is in the                        III. VARIATIONAL MODE DECOMPOSITION
+construction of an analytic signal from a purely real signal, as
+proposed by Gabor [30].                                                   In this section we introduce our proposed model for varia-
+   Definition 4: (Analytic Signal): Let         be a purely real       tional mode decomposition, essentially based on the three con-
+signal. The complex-valued analytic signal is now defined as:          cepts outlined in the previous section.
+                                                                          The goal of VMD is to decompose a real valued input signal
+                                                                          into a discrete number of sub-signals (modes), , that have
+                                                                (8)
+                                                                       specific sparsity properties while reproducing the input.2 Here,
+                                                                       the sparsity prior of each mode is chosen to be its bandwidth
+   This analytic signal has the following important properties.
+                                                                       in spectral domain. In other words, we assume each mode to
+The complex exponential term               is a phasor describing
+                                                                       be mostly compact around a center pulsation , which is to be
+the rotation of the complex signal in time,               being the
+                                                                       determined along with the decomposition.
+phase, while the amplitude is governed by the real envelope
+                                                                          In order to assess the bandwidth of a mode, we propose the
+     . This representation is particularly useful in the analysis of
+                                                                       following scheme: 1) for each mode , compute the associated
+time-varying amplitude and instantaneous frequency, defined as
+                                                                       analytic signal by means of the Hilbert transform in order to ob-
+                  . In particular for IMF signals of the form (1),
+                                                                       tain a unilateral frequency spectrum. 2) for each mode, shift the
+where the amplitude         changes slowly enough, Bedrosian’s
+                                                                       mode’s frequency spectrum to “baseband”, by mixing with an
+theorem applies [31], and the analytic signal directly inherits
+                                                                       exponential tuned to the respective estimated center frequency.
+the same amplitude function:
+                                                                       3) The bandwidth is now estimated through the           Gaussian
+                                                                       smoothness of the demodulated signal, i.e. the squared -norm
+                                                                       of the gradient. The resulting constrained variational problem is
+                                                                (9)    the following:
+
+The second property is the unilateral spectrum of the analytic
+signal, consisting only of non-negative frequencies. Finally, we
+note that from such an analytic signal, the original (real) signal
+                                                                                                                                                    (14)
+is easily retrieved as the real part:
+
+                                                               (10)    where                             and                           are
+                                                                       shorthand notations for the set of all modes and their center
+                                                                       frequencies, respectively. Equally,                  is understood
+C. Frequency Mixing and Heterodyne Demodulation                        as the summation over all modes.
+                                                                          The reconstruction constraint can be addressed in different
+   The last concept that we wish to recall before introducing the      ways. Here, we suggest making use of both a quadratic penalty
+proposed variational mode decomposition, is the principle of           term and Lagrangian multipliers, , in order to render the
+frequency mixing. Mixing is the process of combining two sig-          problem unconstrained. The quadratic penalty is a classic way
+nals non-linearily, thus introducing cross-frequency terms in the      to encourage reconstruction fidelity, typically in the presence of
+output. The simplest mixer is multiplication. Multiplying two          additive i.i.d. Gaussian noise. The weight of the penalty term is
+real signals with frequencies       and , respectively, creates        derived from such a Bayesian prior to be inversely proportional
+mixed frequencies in the output at            and         , which      to the noise level in the data. Conversely, in a noisefree setting,
+is easily illustrated by the following trigonometric identity:         the weight needs to be infinitely big in order to enforce strict
+                                                                       data fidelity, rendering the system ill-conditioned in the process.
+                                                                       On the other hand, Lagrangian multipliers are a common way of
+                                                                       enforcing constraints strictly. The combination of the two terms
+                                                               (11)
+                                                                          2For the sake of completeness, we require that both signal and modes are inte-
+
+Here we mix the two respective analytic signals:                       grable, and square integrable upto second derivatives:                         . We
+                                                                       call this functional space     for further reference. This ensures that later inte-
+                                                                       grals are finite, and that Fourier isometry applies. In practice, we will deal with
+                                                               (12)    discrete signals and in our implementations the solutions are tacitly discretized.
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                           535
+
+
+
+thus benefits both from the nice convergence properties of the      where for simplicity we omit the and            for the fixed di-
+quadratic penalty at finite weight, and the strict enforcement      rections     and      , respectively, but each is implicitly un-
+of the constraint by the Lagrangian multiplier. Therefore, we       derstood as the most recent available update. Now, making use
+introduce the augmented Lagrangian as follows [32], [33]:           of the Parseval/Plancherel Fourier isometry under the      norm,
+                                                                    this problem can be solved in spectral domain:
+
+
+
+
+                                                            (15)                                                                  (20)
+
+
+The solution to the original minimization problem (14) is now       We now perform a change of variables                   in the first
+found as the saddle point of the augmented Lagrangian in a          term:
+sequence of iterative sub-optimizations called alternate direc-
+tion method of multipliers (ADMM) [34]–[36], see algorithm
+1. In the next paragraphs, we will then detail how the respective
+sub-problems can be solved.
+                                                                                                                                  (21)
+Algorithm 1: ADMM optimization concept for VMD
+
+Initialize      ,     ,       ,                                     Exploiting the Hermitian symmetry of the real signals in the
+repeat                                                              reconstruction fidelity term, we can write both terms as half-
+                                                                    space integrals over the non-negative frequencies:
+
+      for             do
+             Update       :
+
+                                                            (16)
+                                                                                                                                  (22)
+
+      end for                                                       The solution of this quadratic optimization problem is readily
+      for             do                                            found by letting the first variation vanish for the positive fre-
+                                                                    quencies:
+             Update       :
+
+                                                            (17)                                                                  (23)
+
+                                                                    which is clearly identified as a Wiener filtering of the current
+      end for                                                       residual, with signal prior                . The full spectrum of
+                                                                    the real mode is then simply obtained by Hermitian symmetric
+      Dual ascent:
+                                                                    completion. Conversely, the mode in time domain is obtained
+                                                                    as the real part of the inverse Fourier transform of this filtered
+                                                            (18)    analytic signal.
+
+                                                                    B. Minimization w.r.t.
+until convergence:                                  .                  The center frequencies        do not appear in the reconstruc-
+                                                                    tion fidelity term, but only in the bandwidth prior. The relevant
+                                                                    problem thus reads:
+A. Minimization w.r.t.
+   To update the modes , we first rewrite the subproblem (16)
+as the following equivalent minimization problem:
+                                                                                                                             (24)
+                                                                    As before, the optimization can take place in Fourier domain,
+                                                                    and we end up optimizing:
+
+
+                                                            (19)                                                                  (25)
+536                                                            IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+This quadratic problem is easily solved as:                        D. On Boundaries and Periodicity
+                                                                      Up until now, the signals and the modes               have been
+                                                                   considered continuous over the whole axis               . However,
+                                                           (26)    in signal processing we are much more likely to be working
+                                                                   with signals that are both finite in time and resolution. Let us
+                                                                   say we restrict the time window to                . The results pre-
+which puts the new       at the center of gravity of the corre-
+sponding mode’s power spectrum. This mean carrier frequency        sented so far equally hold for discrete, finite time signals, where
+is the frequency of a least squares linear regression to the in-   simply the continuous Fourier transform is replaced by its dis-
+stantaneous phase observed in the mode.                            crete counterpart. The only problems arise at the boundaries of
+   Plugging the solutions of the sub-optimizations into the        the signal.
+ADMM algorithm 1, and directly optimizing in Fourier domain           Indeed, when considering short-time signals, the implicit as-
+where appropriate, we get the complete algorithm for varia-        sumption here is that the signal considered is just a one-period
+tional mode decomposition, summarized in algorithm 2.              extract of an infinitely long, periodic signal. Consequently, the
+                                                                   spectrum of a seemingly simple “general trend”-function on a
+                                                                   short interval, say                  :         , contains an impor-
+Algorithm 2: Complete optimization of VMD
+                                                                   tant amount of high-frequency harmonics, since we are effec-
+Initialize      ,     ,       ,                                    tively looking at the spectrum of the periodic sawtooth function.
+                                                                   Conversely in time domain, we realize that at the endpoints of
+repeat                                                             the domain, the periodized function is discontinuous, thus se-
+                                                                   verely affecting the      smoothing term.
+                                                                      There are several possible remedies to this. Ideally, one
+      for             do                                           should exclude the boundaries of the domain in the evaluation
+             Update       for all       :                          of the smoothness, i.e. restrict its evaluation to the open interval
+                                                                   (0,1). However, this clearly breaks the Parseval/Plancherel
+                                                                   Fourier isometry and the whole beauty of the spectral solution
+                                                                   is lost.
+                                                           (27)       Here, the boundary issues can most easily be remedied by
+                                                                   simple mirror extension of the signal by half its length on each
+             Update       :
+                                                                   side, effectively corresponding to Neumann boundary condi-
+                                                                   tions, namely vanishing derivatives at the time domain bound-
+                                                           (28)    aries. We will briefly discuss an alternative for short-time anal-
+                                                                   ysis of non-stationary signals in the last section of this paper.
+
+      end for                                                                      IV. EXPERIMENTS AND RESULTS
+
+      Dual ascent for all           :                                 In this section, we apply the proposed VMD algorithm to a
+                                                                   series of test signals in order to assess the validity of our ap-
+                                                                   proach. First, we focus on a few problems that have been suc-
+                                                           (29)    cessfully employed for highlighting the strengths and shortcom-
+                                                                   ings of EMD, namely tones versus sampling, and tones separa-
+                                                                   tion [2]. Then we briefly investigate noise robustness of VMD,
+until convergence:                                 .               sensitivity to initialization and over- and underbinning (choice
+                                                                   of ). Finally, we shift our attention to more complex signals,
+                                                                   which have already been used for evaluation in [18] and [14].
+C. Exact Reconstruction Versus Denoising
+   Here, the role of the Lagrangian multiplier is to enforce       A. Tones and Sampling
+the constraint, while the quadratic penalty improves conver-          When the input signal                           is composed
+gence. If exact reconstruction is not the goal, in particular      of a pure harmonic, then the mode decomposition is expected to
+in the presence of (strong) noise that should not be included      output exactly this harmonic. As reported in [2], [5], this does
+in the decomposition, using the quadratic penalty only while       not happen to be the case with EMD, since the local extrema
+dropping the Lagrangian multiplier would be the appropriate        can suffer from important jittering with increasing frequency.
+choice. Indeed, the quadratic penalty on its own represents
+                                                                   In [2], the relative error
+the least-squares data fidelity prior associated with additive
+Gaussian noise. The Lagrangian multiplier is effectively
+shut-off by keeping its value at 0, most easily by simply
+                                                                                                                                  (30)
+choosing its update parameter         .
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                                                         537
+
+
+
+
+Fig. 3. Mode decomposition of a pure harmonic. (a)–(d) Relative error for a
+range of 257 frequencies, for different convergence tolerance levels . The rel-
+ative error does not correlate with the tone frequency. Further, reconstruction
+error can be controlled by decreasing the stopping criterion’s convergence tol-
+erance, except for frequencies very close to the Nyquist frequency. In contrast,
+EMD’s relative tone reconstruction error is bounded by a quadratic increase with
+frequency (dotted line) [2].
+
+
+
+was introduced, and a quadratic increase with frequency of an
+upper bound to this relative error was reported for EMD. Fur-
+ther, EMD has pronounced spikes of near-perfect reconstruction
+                                                                                   Fig. 4. Tones separation. In a superposition of two tones of frequencies
+when the sampling frequency is an even multiple of the tone’s
+                                                                                                and amplitudes of different ratio , the mode decompositions be-
+frequency.                                                                         tween EMD and VMD vary significantly. The plot indicates relative error, with
+   Here, we perform this analysis for the proposed VMD                             values between 0 (white) and 0.5 (black). (a) EMD has important areas of con-
+                                                                                   fusion (dark), where the tones cannot be separated correctly [2]. (b) In contrast,
+model. The results for different convergence tolerance levels                      VMD achieves good tones separation almost everywhere but for too close to
+  are shown in Fig. 3. It can be clearly seen that the relative                    the Nyquist frequency.
+reconstruction error is largely independent of the harmonic’s
+frequency. Moreover, the relative error is nicely controlled by                    affected by noise:
+the tolerance level .
+                                                                                                                                                               (32)
+B. Tones Separation
+                                                                                   where                    represents the Gaussian additive noise,
+   The next slightly more complicated challenge is the separa-                     and controls the noise level (standard deviation). Here we
+tion of two different superimposed tones [2]. Here, the input                      pick            , which is quite important with respect to the
+signal is composed of two different, pure harmonics:                               amplitude of the highest and weakest harmonic. We perform
+                                                                                   variational modes decomposition into three modes, without La-
+                                                                          (31)     grangian multipliers in order to remove the noise. The signal,
+                                                                                   and the three components estimated using VMD are shown in
+with                    , and      two possibly different ampli-                   Fig. 5. The strong, lowest frequency signal is recovered almost
+tudes. As a function of the amplitude ratio           , EMD ex-                    flawlessly. The medium-strength medium-frequency signal is
+hibits different, important regions of confusion, where the two                    still detected at acceptable quality. The weak, high-frequency
+signals are too close in frequency to be separated correctly, as                   signal, however, is difficult. The VMD algorithm correctly tunes
+reported in [2] and illustrated in Fig. 4.                                         the third center-frequency on this harmonic, but the recovered
+   Again, we apply the same analysis to the proposed                               mode is highly affected by the noise. Here, decreasing the band-
+VMD model. The results for varying amplitude ratios                                width by increasing comes at the risk of not properly cap-
+                                are shown in Fig. 4 along with                     turing the correct center frequency, while too low an includes
+the corresponding EMD error measures. As can be clearly seen,                      more noise in the estimated mode. The mode could, however, be
+the proposed VMD achieves good tones separation over the                           cleaned further in post-processing. For reference, we note that
+whole domain except at the Nyquist frequency. In particular,                       the estimated VMD center frequencies are off by 0.27%, 1.11%
+the decomposition quality is not significantly worse for close                     and 0.18% only.
+harmonics.                                                                            We provide a comparison with EMD3 based on exactly the
+                                                                                   same signal in Fig. 5. The EMD produces 7 estimated modes.
+C. Noise Robustness                                                                The first two modes contain the highest-frequency harmonic,
+  To illustrate the VMD robustness with respect to noise in the                      3Implementation by Gabriel Rilling, available at http://perso.ens-lyon.fr/
+input signal, we test using the following tri-harmonic signal,                     patrick.flandrin/emd.html.
+538                                                                           IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+
+                                                                                  Fig. 6. Convergence and sensitivity to initialization, tested on the noisy tri-
+                                                                                  harmonic (32). (a) At low noise level, e.g.              , the Lagrangian mul-
+                                                                                  tipliers can help achieving 100% success rate despite fully random initializa-
+                                                                                  tion of center frequencies. (b) Success rate at higher noise levels , without
+                                                                                  Lagrangian multipliers, and (c) with Lagrangian multipliers. At low noise levels,
+                                                                                  the Lagrangian multipliers boost the success-rate for random      -initialization
+                                                                                  to 100%, but with more important noise in the data they become an obstacle.
+
+
+
+                                                                                  Decomposition [37]. However, we have not been able to achieve
+                                                                                  significantly better results than the ones produced by traditional
+                                                                                  EMD.
+
+                                                                                  D. Initialization and Convergence
+                                                                                     Although we cannot provide a detailed convergence analysis
+                                                                                  in the scope of the present paper, we do wish to comment on
+                                                                                  some convergence properties and sensitivity to initial condi-
+                                                                                  tions. We propose to illustrate the algorithm success for varying
+                                                                                  random initializations of the center frequencies, the rest of the
+                                                                                  variables being essentially updated from there.
+                                                                                     Indeed, the proposed algorithm is not guaranteed to converge
+                                                                                  to a global minimum. Therefore, the result does depend on the
+                                                                                  initialization, and in particular the success rate depends on the
+                                                                                  noise level. For sufficiently low noise levels, the Lagrangian
+                                                                                  multiplier can be used to enforce exact reconstruction of the
+                                                                                  input signal. Therefore, even with unfortunate initialization
+                                                                                  leading to “duplicate and forgotten modes”, the forgotten
+                                                                                  modes will be picked up eventually. In Fig. 6(a) we show the
+                                                                                  100 trajectories of randomly initialized center frequencies for
+                                                                                  the noisy triharmonic (32), at low noise level              , and
+                                                                                  with Lagrangian multipliers active. In this setting, we were
+                                                                                  100% successful. The success rate for bigger is shown in
+                                                                                  Fig. 6(c), where one clearly sees the impact of Lagrangian
+                                                                                  multipliers: Their presence ensures optimal convergence at low
+                                                                                  noise level, but becomes a strict impediment if noise becomes
+Fig. 5. Decomposition of noisy tri-harmonic. (a) The noisy input signal.          more important.
+(b) The three modes extracted by denoising VMD (inactive Lagrangian multi-           In the presence of stronger noise, the Lagrangian multipliers
+plier), and the theoretical mode (dotted). (c) The spectrum of the input signal   are not useful anymore, since we wish to eliminate the noise
+(expected mode-frequencies as vertical dashed lines), and (d) its distribution
+over the three modes. (e) The 7 components extracted by EMD. None of the          from the estimated modes. Here, convergence is more sensi-
+modes corresponds to a pure harmonic.                                             tive to noise, and the success rate for the noisy triharmonic
+                                                                                  (32) drops. A detailed curve of the success rate as a function
+and important amounts of noise. The forth mode comes closest                      of the noise level is shown in Fig. 6(b). Interestingly, some
+to the middle harmonic, however important features have been                      amount of noise is beneficial with regards to finding the correct
+attributed to the third and fifth mode. The sixth mode picks up                   center frequencies. Like the non-zero temperature in simulated
+most of the low frequency harmonic, but is severely distorted.                    annealing [38], [39], some noise in the data flattens the spectra
+In addition, we have also run the supposedly noise robust ex-                     and helps the algorithm evolve out of wrong local minima. This
+tension of EMD on the same data: Ensemble Empirical Mode                          leads to maximum success rate of about 90–95% between
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                                                   539
+
+
+
+
+                                                                               Fig. 8. Decomposition of harmonic beat. (a) The composite signal, with two
+                                                                               close harmonics interfering according to (33). (b) The low-frequency harmonic
+                                                                                     consistently identified for both             . (c) The amplitude modulated
+                                                                               single mode        , extracted with        . (d) The two constituent single har-
+                                                                               monics        and          found with        . The trade-off here is mode band-
+                                                                               width against number of modes. (a)             ; (b) VMD          ,            ;
+                                                                               (c) VMD        ,          ; (d) VMD            ,          .
+
+                                                                               between modes to identify portions of the signal shared by
+                                                                               several modes, or by looking at the residuals not accounted for
+Fig. 7. Sensitivity to the number of modes . (a), (b) Too few modes lead to
+undersegmentation of the data. Some components are contained in other modes
+                                                                               by any of the modes (“noise”). Indeed, strongly structured noise
+(low ) or discarded as “noise” (high and no ). (c), (d) Too many modes         would immediately suggest the presence of an extra component
+either capture extra noise ( small), or lead to mode duplication ( big). All   not currently accounted for.
+these cases are easily detected in post-processing.
+                                                                                  On the other hand, when overbinning, the outcome looks
+                                                                               more like this: For small , one or several extra modes will
+      and 0.08. Above, the noise starts masking the weakest har-
+                                                                               largely consist of noise, and thus have very low structure and
+monic and the success rate falls off. The successful trajectories
+                                                                               broad spectral density. For big, however, important parts of
+are typically characterized by fast convergence, compared to the
+                                                                               the signal/spectrum are shared by two or more different modes,
+failing runs. Also, at             for example, all initializations
+                                                                               and their center frequencies coincide (mode duplication).
+within                       , and within                     were
+                                                                               Again, both situations are easily detected in post-processing,
+successful, which means that in this difficult example even the
+                                                                               but doing so is beyond the scope of the present manuscript.
+weakest component need only be initialized with an error less
+                                                                                  The decomposition of a signal in multiple AM-FM signals
+than 40% for successful segmentation. This does not seem very
+                                                                               is not unique. For example, the “beat” effect of two close har-
+strict for a practical application where some prior knowledge
+                                                                               monics is well-known in acoustics. Two harmonics of slightly
+about the expected oscillations is available.
+                                                                               different pitch          interfere in a way that is perceived as
+E. Over- and Undersegmentation, Uniqueness                                     amplitude modulation of a middle harmonic, instead of two in-
+                                                                               dividual harmonics, as described by the following trigonometric
+   A classical shortcoming of many segmentation algorithms is                  identity:
+the need to tell in advance into how many clusters (or modes,
+in the present case), data are to be binned. This is no different
+with the proposed VMD algorithm. In order to study the effects                                                                             (33)
+of over- and underbinning the given data, we evaluate here the                 The RHS takes the form of an AM-FM signal and is as much an
+outcome of VMD using too few or too many modes, .                              admissible mode function, as are the two individual harmonics.
+   For this study, we use a triharmonic as given in (32), however              Depending on the number of modes to be detected, the noise
+at small noise level             . We run VMD both with                        level and imposed bandwidth limits , VMD can be guided to
+(too few modes) and             (too many modes). The resulting                identify such a signal either as two individual harmonics, or as
+decomposition depends on the tightness of the band-limits im-                  a single AM-FM mode, shown in Fig. 8. In contrast, EMD will
+posed by the parameter . Indeed, as shown in Fig. 7, the results               always identify this situation as a single AM-modulated signal
+are as follows:                                                                (see also Section IV-B on tones separation, above).
+   When underbinning, one of the modes is either shared by
+neighboring modes ( small), or mostly discarded ( big and                      F. Non-Stationary Multimode Signals
+no Lagrangian multipliers). This situation can be identified                     Now we look at slightly more complex signals to be decom-
+post-hoc by checking the spectral overlap or orthogonality                     posed. In particular, we consider the same test signals that were
+540                                                                           IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+                                                                                  its respective center frequency. The three modes in time domain
+                                                                                  show nice separation into three distinct signals of characteristic
+                                                                                  oscillations. Compared to the EMD results, the proposed VMD
+                                                                                  method performs clearly better, with less spurious oscillations
+                                                                                  in the trend and mid-frequency signal.
+                                                                                     2) Example 2: The second example uses a quadratic trend,
+                                                                                  a chirp signal, and a third mode with sharp transition between
+                                                                                  two constant frequencies:4
+
+
+
+
+                                                                                                                                                (35)
+                                                                                  The signal, its three constituent modes, and the composite
+                                                                                  Fourier spectrum are shown in Fig. 10. For             the chirp’s
+                                                                                  instantaneous frequency varies linearly between           an      .
+                                                                                  Consequently, the theoretical center frequency of the mode
+                                                                                  is located at       . The piecewise-constant bi-harmonic has
+                                                                                  spectral peaks expected at       and     .
+                                                                                     Again, with VMD the estimated center frequencies           con-
+                                                                                  verge to the expected frequencies precisely. Here, we chose to
+                                                                                  decompose into four modes, thus assigning each half of the
+                                                                                  piecewise-constant frequency signal to a separate mode. The
+                                                                                  spectral partitioning can be nicely appreciated in the spectral
+                                                                                  plot of the different modes. Here, EMD does a better job recov-
+                                                                                  ering the quadratic trend, and, correspondingly, the first oscilla-
+                                                                                  tion. However, EMD is unable to separate the two pieces of the
+                                                                                  piecewise constant frequency signal.
+                                                                                     3) Example 3: The third synthetic signal has intrawave fre-
+                                                                                  quency modulation:
+
+
+
+
+                                                                                                                                                (36)
+                                                                                  The signal, its three constituent modes, and the composite
+                                                                                  Fourier spectrum are shown in Fig. 11. While the first,
+                                                                                  bell-shaped component has mostly low-pass content, the
+                                                                                  second mode’s main peak is clearly identified at       . However,
+                                                                                  due to the non-linear intrawave frequency modulation, an
+                                                                                  important amount of higher-order harmonics are also observed.
+                                                                                  This second component obviously violates the narrow-band
+Fig. 9. VMD decomposition of            . (a)         , (b)–(d) its constituent   assumption, and one would naturally expect some difficulties
+modes. (e) The signal’s spectrum. (f) VMD’s spectral decomposition. (g) VMD       recovering this mode using VMD.
+reconstructed modes (h) EMD reconstructed modes.                                     The corresponding VMD results are illustrated in Fig. 11. The
+                                                                                  non-zero      quickly converges to the correct main frequency
+previously suggested in [18] and also used in [14], with the pur-                      . The higher order harmonics are not uniquely attributed
+pose of increased comparability.                                                  to the second mode, however, but shared between both modes.
+   1) Example 1: The first signal is a composition of three                       Consequently, the intrawave frequency modulation is shared by
+simple components, namely a general linear trend and two dif-                     both modes, creating some ripples in the otherwise low-fre-
+ferent harmonics:                                                                 quency mode.
+                                                                         (34)        4) Example 4: The forth signal is a superposition of two saw-
+                                                                                  tooth-signals of different period and amplitude, as illustrated in
+The signal, its three constituent modes, and the composite                        Fig. 12. We chose to test this signal since its natural modes are
+Fourier spectrum are shown in Fig. 9. The main challenge                          admitted by the original definition of modes by Huang [1], but
+of this signal is the linear growth term, whose higher order                      conflict with the newer IMF definition which serves as starting
+harmonics spread over the whole spectrum.                                         point for the proposed method. Indeed, the sawtooth signal has
+  The recovered VMD modes constitute a nice partition of the                        4Here, we changed the phase shift in the third component, with piecewise-
+input spectrum, with each mode being clearly dominant around                      constant frequency, from   to      , in order to have a continuous signal.
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                                                    541
+
+
+
+
+                                                                                   Fig. 11. Results of VMD on        . (a)     , (b), (c) its constituent modes.
+                                                                                   (d) The signal’s spectrum. (e) The corresponding spectrum decomposition.
+                                                                                   (f) VMD reconstructed modes. (g) EMD reconstructed modes.
+
+
+
+                                                                                   from the somewhat smoothed low-frequency sawtooth over
+                                                                                   into the higher-frequency component. In contrast, the EMD
+                                                                                   decomposition fails to properly extract the highest frequency
+                                                                                   oscillations. As a result, the residual after the first sifting is still
+                                                                                   heavily contaminated by the higher-frequency sawtooth.
+                                                                                      5) Example 5: The fifth example is a real signal from an
+Fig. 10. Results of VMD and EMD on           . (a)     , (b)–(d) its constituent
+modes. (e) The signal’s spectrum. (f) VMD’s spectral decomposition. (g) VMD        electrocardiogram (ECG), data shared by [14]. These data
+reconstructed modes. (h) EMD reconstructed modes.                                  present numerous components, as seen in Fig. 13. Beyond the
+                                                                                   expected spikes-train driven by the rhythm of the heartbeat,
+                                                                                   one can clearly see an oscillating low-frequency pattern. At
+important higher order harmonics, that spread over the full spec-                  the other end of the spectrum, there is distinct high-frequency
+trum, and even create aliasing, which is in clear violation of the                 noise at a single high-pitch harmonic, most likely the electric
+limited band-width assumption of VMD modes.                                        power-line frequency. The distinct spikes of the ECG signal
+   The results of the decomposition are quite surprising, though.                  create important higher-order harmonics.
+Indeed, the proposed VMD algorithm captures the relevant                              The spectrum and the results of VMD are depicted in Fig. 13.
+center frequencies quite precisely, and the resulting signal                       We chose a high-number of 10 modes to be detected, to accom-
+separation is relatively good. Only a few spikes spill over                        modate the numerous higher-order harmonics of the spikes. The
+542                                                                          IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+
+Fig. 12. Results of VMD and EMD on              . (a)    , (b) its constituent
+modes. (c) The signal’s spectrum. (d) The corresponding spectrum decomposi-
+tion. (e) VMD reconstructed modes. (f) EMD reconstructed modes.
+
+
+
+respective center frequencies nicely converge to these spectral
+                                                                                 Fig. 13. Results of ECG decomposition. (a), (b) ECG and detail. (c) The
+peaks. The first, low-frequency mode captures the low-fre-                       signal’s spectrum. (d) Reconstructed modes. (e), (f) Cleaned ECG and detail.
+quency oscillation of the baseline. The highest frequency mode
+contains the most noise. The first actual ECG specific mode os-
+cillates precisely at the frequency of the heartbeat. The higher                 Instead, we replace the most recent definition of IMFs, namely
+ECG modes then contain the higher-order wave-packages                            their characteristic description as AM-FM signals, by the corre-
+around the highly non-sinusoidal spikes. A “clean” ECG signal                    sponding narrow-band property. Indeed, we provide a formula
+can be reconstructed by summing all but the first and last VMD                   that relates the parameters of the explicit AM-FM descriptors to
+modes, thus discarding the low-frequency baseline oscillation                    the estimated signal bandwidth.
+and most of the high-frequency noise.                                               Our decomposition model solves the inverse problem as fol-
+                                                                                 lows: decompose a signal into a given number of modes, ei-
+                  V. CONCLUSIONS AND OUTLOOK                                     ther exactly or in a least squares sense, such that each individual
+   In this paper, we have presented a novel variational method                   mode has limited bandwidth. We assess the mode’s bandwidth
+for decomposing a signal into an ensemble of band-limited in-                    as the squared        norm of its Hilbert complemented analytic
+trinsic mode functions, that we call Variational Mode Decom-                     signal with only positive frequencies, shifted to baseband by
+position, (VMD). In contrast to existing decomposition models,                   mixing with a complex exponential of the current center fre-
+like the empirical mode decomposition (EMD), we refrain from                     quency estimate. The variational problem is solved very effi-
+modeling the individual modes as signals with explicit IMFs.                     ciently in a classical ADMM approach: The modes are updated
+DRAGOMIRETSKIY AND ZOSSO: VARIATIONAL MODE DECOMPOSITION                                                                                          543
+
+
+
+by simple Wiener filtering, directly in Fourier domain with a         detected modes, and thus criteria for automatic determination of
+filter tuned to the current center frequency, then the center fre-       could be devised.
+quencies are updated as the center of gravity of the mode’s              Current work addresses these shortcomings, and we are also
+power spectrum, and finally the Lagrangian multiplier enforcing       working on suitable extensions to signals on domains of dimen-
+exact signal reconstruction is updated as dual ascent.                sion greater than one.
+    Since the Fourier transform corresponds to an expansion in an        A MATLAB implementation of the proposed algorithm is
+orthonormal basis, two signals having non-overlapping support         available at http://www.math.ucla.edu/~zosso/code.html.
+in their Fourier spectra are inherently orthogonal. The decom-
+posed mode functions obtained through the proposed VMD al-                                      ACKNOWLEDGMENT
+gorithm have largely disjoint spectral support and are therefore        The authors gratefully acknowledge valuable discussions
+automatically quasi-orthogonal. This corresponds well to the          with and input from: Prof. A. L. Bertozzi, Dr. J. Gilles, and Dr.
+quasi-orthogonality property mentioned with EMD, e.g. [17].           Y. van Gennip. They also thank the anonymous reviewers for
+    In our experiments, we show that the proposed VMD scheme          their criticism helpful in improving this manuscript.
+clearly outperforms EMD with regards to tone detection, tone
+separation, and noise robustness. Further, we apply our model                                       REFERENCES
+to more complicated signals for comparison with other state-of-          [1] N. E. Huang, Z. Shen, S. R. Long, M. C. Wu, H. H. Shih, Q. Zheng,
+the-art methods, and can show successful decomposition.                      N.-C. Yen, C. C. Tung, and H. H. Liu, “The empirical mode decompo-
+                                                                             sition and the Hilbert spectrum for nonlinear and non-stationary time
+    The core assumption of VMD is the limited bandwidth of                   series analysis,” Proc. Royal Soc. A: Math., Phys. Eng. Sci., vol. 454,
+the individual modes. The most important resulting limitation                no. 1971, pp. 903–995, Mar. 1998.
+of the proposed VMD is with boundary effects, and sudden                 [2] G. Rilling, P. Flandrin, and P. Gonçalvès, “On empirical mode decom-
+                                                                             position and its algorithms,” in Proc. IEEE-EURASIP Workshop Non-
+signal onset in general. This is strongly related to the use of              linear Signal Image Process. (NSIP), 2003, vol. 3, pp. 8–11.
+an      -based smoothness term, that overly penalizes jumps at           [3] R. C. Sharpley and V. Vatchev, “Analysis of the intrinsic mode func-
+the domain borders and within; conversely, this is also reflected            tions,” Construct. Approx. vol. 24, no. 1, pp. 17–47, Aug. 2005.
+                                                                         [4] G. Rilling and P. Flandrin, “One or two frequencies? The empirical
+by implicit periodicity assumptions when optimizing in Fourier               mode decomposition answers,” IEEE Trans. Signal Process., vol. 56,
+domain, and by the narrow-band violation caused by discontin-                no. 1, pp. 85–95, Jan. 2008.
+uous envelopes in such AM-FM signals. The proposed VMD                   [5] G. Rilling and P. Flandrin, “Sampling effects on the empirical mode
+                                                                             decomposition,” Adv. Adapt. Data Anal., vol. 01, no. 01, pp. 43–59,
+model does not explicitly deal with a global trend in the signal.            Jan. 2009.
+However, in our code we do include an option to fix the center           [6] P. Flandrin, P. Gonçalvès, and G. Rilling, “EMD equivalent filter
+frequency of one mode at             , which can address the prior           banks, from interpretation to applications,” in Hilbert-Huang Trans-
+                                                                             form Its Appl., 2005, pp. 57–74.
+knowledge about the existence of a very low frequency compo-             [7] N. Klügel, “Practical empirical mode decomposition for audio syn-
+nent in the signal. Due to the strongly non-periodic nature of this          thesis,” in Proc. Int. Conf. Digital Audio Effects (DAFx-12), 2012, no.
+trend and despite the mirror extension at the boundaries, a strong           2, pp. 15–18.
+                                                                         [8] B. Barnhart and W. Eichinger, “Empirical mode decomposition applied
+trend will spread its harmonics over the whole signal spectrum,              to solar irradiance, global temperature, sunspot number, and CO2 con-
+and in some cases it might be crucial to eliminate strong trends             centration data,” J. Atmospher. Solar-Terrestrial Phys., vol. 73, no. 13,
+preliminarily, using classical trend removal approaches.                     pp. 1771–1779, Aug. 2011.
+                                                                         [9] S. Assous, A. Humeau, and J.-P. L’huillier, “Empirical mode decompo-
+    VMD does not work “out of the box” with non-stationary sig-              sition applied to laser Doppler flowmetry signals: Diagnosis approach,”
+nals, like long-term EEG records, for which the spectral bands               in Proc. IEEE Eng. Med. Biol. Conf. (EMBC), Jan. 2005, vol. 2, pp.
+of modes can change more drastically over time, and will glob-               1232–1235.
+                                                                        [10] A. O. Andrade, S. Nasuto, P. Kyberd, C. M. Sweeney-Reed, and F.
+ally overlap. Here, the direct solution is to break down the de-             Van Kanijn, “EMG signal filtering based on empirical mode decompo-
+composition on shorter chunks, on which the signals are suf-                 sition,” Biomed. Signal Process. Control, vol. 1, no. 1, pp. 44–55, Jan.
+ficiently stationary. This is classically done so in short-term              2006.
+                                                                        [11] S. Liu, Q. He, R. X. Gao, and P. Freedson, “Empirical mode decom-
+Fourier analysis. There also, the chunk borders are dealt with               position applied to tissue artifact removal from respiratory signal,” in
+by smooth windowing as opposed to mirror extension, see e.g.                 Proc. IEEE Eng. Med. Biol. Conf. (EMBC), Jan. 2008, pp. 3624–3627.
+[40], [41]. The window is simply applied to the input signal            [12] I. Mostafanezhad, O. Boric-Lubecke, V. Lubecke, and D. P. Mandic,
+                                                                             “Application of empirical mode decomposition in removing fidgeting
+chunk prior to performing the VMD algorithm. In a sliding                    interference in Doppler radar life signs monitoring devices,” in Proc.
+window short-time analysis of a larger time series signal, the               IEEE Eng. Med. Biol. Conf. (EMBC), Jan. 2009, pp. 340–343.
+modes can be stitched together by simple weighted addition,             [13] I. Daubechies, J. Lu, and H.-T. Wu, “Synchrosqueezed wavelet trans-
+                                                                             forms: An empirical mode decomposition-like tool,” Appl. Computat.
+a synthesis method called weighted overlap-add (OLA) [41],                   Harmon. Anal., vol. 30, no. 2, pp. 243–261, Mar. 2011.
+[42]. For greater coherence of modes across the sliding win-            [14] J. Gilles, “Empirical wavelet transform,” IEEE Trans. Signal Process.,
+dows, temporal filtering might then become useful [43].                      vol. 61, no. 16, pp. 3999–4010, Aug. 2013.
+                                                                        [15] J. Carson, “Notes on the theory of modulation,” Proc. IRE, vol. 10, no.
+    Also, our method requires the number of modes to be prede-               1, pp. 57–64, Feb. 1922.
+fined. This is a vice we share with many successful clustering          [16] S. Meignen and V. Perrier, “A new formulation for empirical mode de-
+and segmentation algorithms, like k-means [44], [45]. The em-                composition based on constrained optimization,” IEEE Signal Process.
+                                                                             Lett. vol. 14, no. 12, pp. 932–935, Dec. 2007.
+pirical wavelet transform suffers from the same drawback [14].          [17] N. Pustelnik, P. Borgnat, and P. Flandrin, “A multicomponent proximal
+In practical applications, prior information about the expected              algorithm for empirical mode decomposition,” in Proc. IEEE 20th Eur.
+number of modes should be available most of the time, at least               Signal Process. Conf. (EUSIPCO), 2012, pp. 1880–1884.
+                                                                        [18] T. Y. Hou and Z. Shi, “Adaptive data analysis via sparse time-fre-
+up to some precision. Beyond, we have found that both overbin-               quency representation,” Adv. Adapt. Data Anal., vol. 03, no. 1 & 2,
+ning and underbinning have predictable impact on the nature of               pp. 1–28, Apr. 2011.
+544                                                                               IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 62, NO. 3, FEBRUARY 1, 2014
+
+
+
+      [19] M. Feldman, “Time-varying vibration decomposition and analysis                [40] J. Allen, “Short term spectral analysis, synthesis, and modification
+           based on the Hilbert transform,” J. Sound Vibrat., vol. 295, no. 3–5,              by discrete Fourier transform,” IEEE Trans. Acoust., Speech, Signal
+           pp. 518–530, Aug. 2006.                                                            Process., vol. 25, no. 3, pp. 235–238, Jun. 1977.
+      [20] H.-T. Wu, P. Flandrin, and I. Daubechies, “One or two frequencies?            [41] J. Allen and L. Rabiner, “A unified approach to short-time Fourier anal-
+           The synchrosqueezing answers,” Adv. Adapt. Data Anal., vol. 03, no.                ysis and synthesis,” Proc. IEEE, vol. 65, no. 11, pp. 1558–1564, 1977.
+           01–02, pp. 29–39, Apr. 2011.                                                  [42] R. Crochiere, “A weighted overlap-add method of short-time Fourier
+      [21] I. W. Selesnick, “Resonance-based signal decomposition: A new spar-                analysis/synthesis,” IEEE Trans. Acoust., Speech, Signal Process., vol.
+           sity-enabled signal analysis method,” Signal Process., vol. 91, no. 12,            28, no. 1, pp. 99–102, Feb. 1980.
+           pp. 2793–2809, Dec. 2011.                                                     [43] R. Bitmead and P. Parker, “A Kalman filtering approach to short-time
+      [22] J. Hadamard, “Sur les problèmes aux dérivées partielles et leur signifi-           Fourier analysis,” IEEE Trans. Acoust., Speech, Signal Process., vol.
+           cation physique,” Princeton Univ. Bull., vol. 13, pp. 49–52, 1902.                 34, no. 6, pp. 1493–1501, Dec. 1986.
+      [23] M. Bertero, T. A. Poggio, and V. Torre, “Ill-posed problems in early          [44] H. Bock, “Clustering methods: A history of k-means algorithms,” His-
+           vision,” Proc. IEEE, vol. 76, no. 8, pp. 869–889, 1988.                            tory, pp. 161–172, 1979.
+      [24] A. N. Tichonov, “Solution of incorrectly formulated problems and the          [45] A. K. Jain, “Data clustering: 50 years beyond K-means,” Pattern
+           regularization method,” Soviet Math., vol. 4, pp. 1035–1038, 1963.                 Recogn. Lett., vol. 31, pp. 651–666, 2010.
+      [25] V. A. Morozov, “Linear and nonlinear ill-posed problems,” J. Math.
+           Sci., vol. II, no. 6, pp. 706–736, 1975.
+      [26] N. Wiener, Extrapolation, Interpolation, and Smoothing of Stationary
+           Time Series With Engineering Applications. Cambridge, MA, USA:                                        Konstantin Dragomiretskiy received the B.S.
+           Technology Press of Mass. Inst. of Technol., 1949.                                                    (Hons.) degree in mathematics and the B.A. degree
+      [27] R. C. Gonzalez and R. E. Woods, Digital Image Processing. Reading,                                    in economics from the University of California,
+           MA, USA: Addison-Wesley, 1992.                                                                        San Diego, in 2010.
+      [28] M. Unser, D. Sage, and D. Van De Ville, “Multiresolution monogenic                                       He was an Intern Researcher at Sun Microsystems,
+           signal analysis using the Riesz–Laplace wavelet transform,” IEEE                                      Menlo Park, CA, in 2006, and an Undergraduate
+           Trans. Image Process., vol. 18, no. 11, pp. 2402–2418, 2009.                                          Researcher at California State University, Chico,
+      [29] S. L. Hahn, Hilbert Transforms in Signal Processing. Norwood, MA,                                     in 2008. He is currently a Research Assistant at the
+           USA: Artech House, 1996.                                                                              Department of Mathematics at the University of
+      [30] D. Gabor, “Theory of communication,” J. Inst. Elect. Eng.—Part III:                                   California, Los Angeles, working towards the Ph.D.
+           Radio Commun. Eng., vol. 93, no. 26, pp. 429–457, 1946.                                               degree with Prof. Andrea L. Bertozzi. His current
+      [31] E. Bedrosian, “A product theorem for Hilbert transforms,” Proc. IEEE,      research interests include variational and PDE based methods applied to signal
+           vol. 51, no. 5, pp. 868–869, 1963.                                         and image processing problems.
+      [32] D. P. Bertsekas, “Multiplier methods: A survey,” Automatica, vol. 12,
+           no. 2, pp. 133–145, 1976.
+      [33] J. Nocedal and S. J. Wright, Numerical Optimization, 2nd ed. Berlin,
+           Germany: Springer, 2006.                                                                             Dominique Zosso (S’06–M’11) received the M.Sc.
+      [34] M. R. Hestenes, “Multiplier and gradient methods,” J. Optimiz. Theory                                degree in electrical and electronics engineering and
+           Appl., vol. 4, no. 5, pp. 303–320, 1969.                                                             the Ph.D. degree from École Polytechnique Fédérale
+      [35] R. T. Rockafellar, “A dual approach to solving nonlinear programming                                 de Lausanne (EPFL), Lausanne, Switzerland, in 2006
+           problems by unconstrained optimization,” Math. Program., vol. 5, no.                                 and 2011, respectively.
+           1, pp. 354–373, Dec. 1973.                                                                             He was a Researcher with the Structural Bioin-
+      [36] D.P. Bertsekas, “Constrained optimization and Lagrange Multiplier                                    formatics Group at the Swiss Institute of Bioinfor-
+           methods,” in Computer Science and Applied Mathematics. Boston,                                       matics and Biozentrum, University of Basel, Basel,
+           MA, USA: Academic, 1982, vol. 1.                                                                     Switzerland, from 2006 to 2007. He was Research
+      [37] Z. Wu and N. E. Huang, “Ensemble empirical mode decomposition: A                                     and Teaching Assistant at the Signal Processing Lab-
+           noise-assisted data analysis method,” Adv. Adapt. Data Anal., vol. 01,                               oratory, EPFL, from 2007 to 2012. He is currently a
+           no. 01, pp. 1–41, Jan. 2009.                                               Postdoctoral fellow and CAM Assistant Adjunct Professor with the Department
+      [38] S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi, “Optimization by simu-     of Mathematics, University of California, Los Angeles, CA, working with
+           lated annealing,” Science , vol. 220, no. 4598, pp. 671–680, May 1983.     Luminita A. Vese, Andrea L. Bertozzi, and Stanley J. Osher. His research
+      [39] M. W. Trosset, “What is simulated annealing?,” Optimiz. Eng., vol. 2,      interests include PDE and variational models for inverse problems in computer
+           pp. 201–213, 2001.                                                         vision, signal and image processing, and efficient algorithms to solve them.
+

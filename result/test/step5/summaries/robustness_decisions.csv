@@ -1,0 +1,4 @@
+﻿pipeline,channel,representation,decision,evidence
+raw,output_voltage,raw,CONDITION-DEPENDENT,"37/40 complete cells; full-grid effects evaluable for 0/3 features; 0/3 meet ROBUST rule, 0/3 meet NOT ROBUST rule; strict verdict limited by missing/invalid operating cells"
+vmd,output_voltage,oscillatory_sum,CONDITION-DEPENDENT,"37/40 complete cells; full-grid effects evaluable for 0/3 features; 0/3 meet ROBUST rule, 0/3 meet NOT ROBUST rule; strict verdict limited by missing/invalid operating cells"
+emd,output_voltage,oscillatory_sum,CONDITION-DEPENDENT,"36/40 complete cells; full-grid effects evaluable for 0/3 features; 0/3 meet ROBUST rule, 0/3 meet NOT ROBUST rule; strict verdict limited by missing/invalid operating cells"

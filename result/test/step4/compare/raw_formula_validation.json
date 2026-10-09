@@ -1,0 +1,196 @@
+{
+  "checks_run": 27,
+  "all_passed": true,
+  "maximum_relative_error": 1.6302982288806127e-14,
+  "checks": [
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": -5.0,
+      "relative_error": 1.681719657014949e-15
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": 0.0,
+      "relative_error": 9.25206458279116e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": 5.0,
+      "relative_error": 3.548894668444523e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": -5.0,
+      "relative_error": 7.578801395179478e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": 0.0,
+      "relative_error": 4.608480271627157e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": 5.0,
+      "relative_error": 1.7819545217139313e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": -5.0,
+      "relative_error": 0.0
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": 0.0,
+      "relative_error": 1.6548330794807723e-16
+    },
+    {
+      "recording": "helical_1_50hz_High_1",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": 5.0,
+      "relative_error": 1.64860607769836e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": -5.0,
+      "relative_error": 1.2825815535069864e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": 0.0,
+      "relative_error": 0.0
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 64,
+      "q": 5.0,
+      "relative_error": 0.0
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": -5.0,
+      "relative_error": 3.743869982687341e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": 0.0,
+      "relative_error": 1.8357926102264482e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 531,
+      "q": 5.0,
+      "relative_error": 1.4521575581026674e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": -5.0,
+      "relative_error": 1.6620044321977867e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": 0.0,
+      "relative_error": 1.6600735547035826e-16
+    },
+    {
+      "recording": "helical_5_50hz_High_2",
+      "channel": "output_voltage",
+      "scale": 8192,
+      "q": 5.0,
+      "relative_error": 1.6582061602817696e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 64,
+      "q": -5.0,
+      "relative_error": 1.6302982288806127e-14
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 64,
+      "q": 0.0,
+      "relative_error": 0.0
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 64,
+      "q": 5.0,
+      "relative_error": 0.0
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 531,
+      "q": -5.0,
+      "relative_error": 3.263443267492143e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 531,
+      "q": 0.0,
+      "relative_error": 4.663259401804841e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 531,
+      "q": 5.0,
+      "relative_error": 5.25531024571116e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 8192,
+      "q": -5.0,
+      "relative_error": 1.177364097379587e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 8192,
+      "q": 0.0,
+      "relative_error": 3.531232438867467e-16
+    },
+    {
+      "recording": "helical_6_50hz_High_2",
+      "channel": "input_voltage",
+      "scale": 8192,
+      "q": 5.0,
+      "relative_error": 4.70716234205134e-16
+    }
+  ]
+}

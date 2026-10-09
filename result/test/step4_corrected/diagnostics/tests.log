@@ -1,0 +1,14 @@
+test_matches_reference_even_odd_dc_tau_and_random_init (__main__.AcceleratorTests.test_matches_reference_even_odd_dc_tau_and_random_init) ... ok
+test_zero_and_single_admm_step (__main__.AcceleratorTests.test_zero_and_single_admm_step) ... ok
+test_energy_centers_bandwidth_correlation (__main__.ModeMetricTests.test_energy_centers_bandwidth_correlation) ... ok
+test_vmd_selection_ignores_labels_and_matches_frequency_not_index (__main__.ModeMetricTests.test_vmd_selection_ignores_labels_and_matches_frequency_not_index) ... ok
+test_crossover_and_few_points_invalid (__main__.ScalingTests.test_crossover_and_few_points_invalid) ... ok
+test_known_power_law_and_nonpositive_qc (__main__.ScalingTests.test_known_power_law_and_nonpositive_qc) ... ok
+test_matches_unchanged_core_fit (__main__.ScalingTests.test_matches_unchanged_core_fit) ... ok
+test_no_common_valid_range_not_falsely_reported (__main__.ScalingTests.test_no_common_valid_range_not_falsely_reported) ... ok
+test_selection_does_not_use_labels_or_row_order (__main__.ScalingTests.test_selection_does_not_use_labels_or_row_order) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.521s
+
+OK

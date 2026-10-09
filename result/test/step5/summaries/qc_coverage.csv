@@ -1,0 +1,1201 @@
+﻿pipeline,channel,category,state,speed,load,expected_recordings,found_recordings,valid_count,valid_fraction,evaluable,status,source_recordings,reason
+raw,output_voltage,raw,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+raw,output_voltage,raw,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+raw,output_voltage,raw,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+raw,output_voltage,raw,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+raw,output_voltage,raw,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+raw,output_voltage,raw,H1,40,Low,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,
+raw,output_voltage,raw,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+raw,output_voltage,raw,H1,45,Low,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,
+raw,output_voltage,raw,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+raw,output_voltage,raw,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+raw,output_voltage,raw,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+raw,output_voltage,raw,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+raw,output_voltage,raw,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+raw,output_voltage,raw,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+raw,output_voltage,raw,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+raw,output_voltage,raw,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+raw,output_voltage,raw,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+raw,output_voltage,raw,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+raw,output_voltage,raw,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+raw,output_voltage,raw,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+raw,output_voltage,raw,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+raw,output_voltage,raw,H5,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+raw,output_voltage,raw,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+raw,output_voltage,raw,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+raw,output_voltage,raw,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+raw,output_voltage,raw,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+raw,output_voltage,raw,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+raw,output_voltage,raw,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+raw,output_voltage,raw,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+raw,output_voltage,raw,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+raw,output_voltage,raw,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+raw,output_voltage,raw,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+raw,output_voltage,raw,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+raw,output_voltage,raw,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+raw,output_voltage,raw,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+raw,output_voltage,raw,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+raw,output_voltage,raw,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+raw,output_voltage,raw,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+raw,output_voltage,raw,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+raw,output_voltage,raw,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+raw,input_voltage,raw,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+raw,input_voltage,raw,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+raw,input_voltage,raw,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+raw,input_voltage,raw,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+raw,input_voltage,raw,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+raw,input_voltage,raw,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+raw,input_voltage,raw,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+raw,input_voltage,raw,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+raw,input_voltage,raw,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+raw,input_voltage,raw,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+raw,input_voltage,raw,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+raw,input_voltage,raw,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+raw,input_voltage,raw,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+raw,input_voltage,raw,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+raw,input_voltage,raw,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+raw,input_voltage,raw,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+raw,input_voltage,raw,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+raw,input_voltage,raw,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+raw,input_voltage,raw,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+raw,input_voltage,raw,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+raw,input_voltage,raw,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+raw,input_voltage,raw,H5,30,Low,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,
+raw,input_voltage,raw,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+raw,input_voltage,raw,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+raw,input_voltage,raw,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+raw,input_voltage,raw,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+raw,input_voltage,raw,H5,45,High,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,
+raw,input_voltage,raw,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+raw,input_voltage,raw,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+raw,input_voltage,raw,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+raw,input_voltage,raw,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+raw,input_voltage,raw,H6,30,Low,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,
+raw,input_voltage,raw,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+raw,input_voltage,raw,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+raw,input_voltage,raw,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+raw,input_voltage,raw,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+raw,input_voltage,raw,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+raw,input_voltage,raw,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+raw,input_voltage,raw,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+raw,input_voltage,raw,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+vmd,output_voltage,oscillatory_sum,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+vmd,output_voltage,oscillatory_sum,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+vmd,output_voltage,oscillatory_sum,H1,40,Low,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+vmd,output_voltage,oscillatory_sum,H1,45,Low,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+vmd,output_voltage,oscillatory_sum,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+vmd,output_voltage,oscillatory_sum,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+vmd,output_voltage,oscillatory_sum,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+vmd,output_voltage,oscillatory_sum,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+vmd,output_voltage,oscillatory_sum,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+vmd,output_voltage,oscillatory_sum,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+vmd,output_voltage,oscillatory_sum,H5,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,oscillatory_sum,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+vmd,output_voltage,oscillatory_sum,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+vmd,output_voltage,oscillatory_sum,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H5,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,oscillatory_sum,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+vmd,output_voltage,oscillatory_sum,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+vmd,output_voltage,oscillatory_sum,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,oscillatory_sum,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+vmd,output_voltage,oscillatory_sum,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+vmd,output_voltage,oscillatory_sum,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+vmd,output_voltage,oscillatory_sum,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+vmd,output_voltage,oscillatory_sum,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+vmd,output_voltage,oscillatory_sum,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+vmd,output_voltage,residue,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+vmd,output_voltage,residue,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+vmd,output_voltage,residue,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+vmd,output_voltage,residue,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,residue,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H1,45,Low,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H2,30,High,2,2,1,0.5,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H5,45,High,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+vmd,output_voltage,band_0_1000_Hz,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_0_1000_Hz,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+vmd,output_voltage,band_0_1000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+vmd,output_voltage,band_1000_4000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,45,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+vmd,output_voltage,band_1000_4000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_1000_4000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_4000_10000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_10000_20000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,output_voltage,band_20000_33334_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,oscillatory_sum,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+vmd,input_voltage,oscillatory_sum,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+vmd,input_voltage,oscillatory_sum,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+vmd,input_voltage,oscillatory_sum,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,oscillatory_sum,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+vmd,input_voltage,oscillatory_sum,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,oscillatory_sum,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+vmd,input_voltage,oscillatory_sum,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+vmd,input_voltage,oscillatory_sum,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+vmd,input_voltage,oscillatory_sum,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+vmd,input_voltage,oscillatory_sum,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+vmd,input_voltage,oscillatory_sum,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+vmd,input_voltage,oscillatory_sum,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+vmd,input_voltage,oscillatory_sum,H5,30,Low,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+vmd,input_voltage,oscillatory_sum,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+vmd,input_voltage,oscillatory_sum,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H5,45,High,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,
+vmd,input_voltage,oscillatory_sum,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+vmd,input_voltage,oscillatory_sum,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+vmd,input_voltage,oscillatory_sum,H6,30,Low,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+vmd,input_voltage,oscillatory_sum,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+vmd,input_voltage,oscillatory_sum,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+vmd,input_voltage,oscillatory_sum,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+vmd,input_voltage,oscillatory_sum,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+vmd,input_voltage,oscillatory_sum,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+vmd,input_voltage,residue,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H1,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H5,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,residue,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H1,40,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H1,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H5,30,Low,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H5,35,High,2,2,2,1.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H5,45,High,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H6,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,35,High,2,2,1,0.5,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+vmd,input_voltage,band_0_1000_Hz,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+vmd,input_voltage,band_0_1000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,50,High,2,2,2,1.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_0_1000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_1000_4000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_4000_10000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_10000_20000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+vmd,input_voltage,band_20000_33334_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,oscillatory_sum,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+emd,output_voltage,oscillatory_sum,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+emd,output_voltage,oscillatory_sum,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+emd,output_voltage,oscillatory_sum,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+emd,output_voltage,oscillatory_sum,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+emd,output_voltage,oscillatory_sum,H1,40,Low,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,
+emd,output_voltage,oscillatory_sum,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+emd,output_voltage,oscillatory_sum,H1,45,Low,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,
+emd,output_voltage,oscillatory_sum,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+emd,output_voltage,oscillatory_sum,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+emd,output_voltage,oscillatory_sum,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+emd,output_voltage,oscillatory_sum,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+emd,output_voltage,oscillatory_sum,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+emd,output_voltage,oscillatory_sum,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+emd,output_voltage,oscillatory_sum,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+emd,output_voltage,oscillatory_sum,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+emd,output_voltage,oscillatory_sum,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+emd,output_voltage,oscillatory_sum,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+emd,output_voltage,oscillatory_sum,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+emd,output_voltage,oscillatory_sum,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+emd,output_voltage,oscillatory_sum,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+emd,output_voltage,oscillatory_sum,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,oscillatory_sum,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+emd,output_voltage,oscillatory_sum,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+emd,output_voltage,oscillatory_sum,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+emd,output_voltage,oscillatory_sum,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+emd,output_voltage,oscillatory_sum,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,oscillatory_sum,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+emd,output_voltage,oscillatory_sum,H5,50,High,2,2,1,0.5,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,oscillatory_sum,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+emd,output_voltage,oscillatory_sum,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+emd,output_voltage,oscillatory_sum,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,oscillatory_sum,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+emd,output_voltage,oscillatory_sum,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+emd,output_voltage,oscillatory_sum,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+emd,output_voltage,oscillatory_sum,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+emd,output_voltage,oscillatory_sum,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+emd,output_voltage,oscillatory_sum,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+emd,output_voltage,oscillatory_sum,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+emd,output_voltage,oscillatory_sum,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+emd,output_voltage,residue,H1,30,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,40,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,50,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+emd,output_voltage,residue,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+emd,output_voltage,residue,H2,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,50,High,2,2,1,0.5,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,45,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+emd,output_voltage,residue,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,45,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,50,High,2,2,1,0.5,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,residue,H6,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_0_1000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,30,High,2,2,1,0.5,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+emd,output_voltage,band_1000_4000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+emd,output_voltage,band_1000_4000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_1000_4000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H5,50,Low,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,
+emd,output_voltage,band_4000_10000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_4000_10000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,30,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_10000_20000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,output_voltage,band_20000_33334_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,oscillatory_sum,H1,30,High,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,
+emd,input_voltage,oscillatory_sum,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+emd,input_voltage,oscillatory_sum,H1,35,High,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,
+emd,input_voltage,oscillatory_sum,H1,35,Low,2,2,2,1.0,True,EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,
+emd,input_voltage,oscillatory_sum,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+emd,input_voltage,oscillatory_sum,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,oscillatory_sum,H1,45,High,2,2,2,1.0,True,EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,
+emd,input_voltage,oscillatory_sum,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,oscillatory_sum,H1,50,High,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,
+emd,input_voltage,oscillatory_sum,H1,50,Low,2,2,2,1.0,True,EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,
+emd,input_voltage,oscillatory_sum,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+emd,input_voltage,oscillatory_sum,H2,30,Low,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,
+emd,input_voltage,oscillatory_sum,H2,35,High,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,
+emd,input_voltage,oscillatory_sum,H2,35,Low,2,2,2,1.0,True,EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,
+emd,input_voltage,oscillatory_sum,H2,40,High,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,
+emd,input_voltage,oscillatory_sum,H2,40,Low,2,2,2,1.0,True,EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,
+emd,input_voltage,oscillatory_sum,H2,45,High,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,
+emd,input_voltage,oscillatory_sum,H2,45,Low,2,2,2,1.0,True,EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,
+emd,input_voltage,oscillatory_sum,H2,50,High,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,
+emd,input_voltage,oscillatory_sum,H2,50,Low,2,2,2,1.0,True,EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,
+emd,input_voltage,oscillatory_sum,H5,30,High,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,
+emd,input_voltage,oscillatory_sum,H5,30,Low,2,2,2,1.0,True,EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,
+emd,input_voltage,oscillatory_sum,H5,35,High,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,
+emd,input_voltage,oscillatory_sum,H5,35,Low,2,2,2,1.0,True,EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,
+emd,input_voltage,oscillatory_sum,H5,40,High,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,
+emd,input_voltage,oscillatory_sum,H5,40,Low,2,2,2,1.0,True,EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,
+emd,input_voltage,oscillatory_sum,H5,45,High,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,
+emd,input_voltage,oscillatory_sum,H5,45,Low,2,2,2,1.0,True,EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,
+emd,input_voltage,oscillatory_sum,H5,50,High,2,2,2,1.0,True,EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,
+emd,input_voltage,oscillatory_sum,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,oscillatory_sum,H6,30,High,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,
+emd,input_voltage,oscillatory_sum,H6,30,Low,2,2,2,1.0,True,EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,
+emd,input_voltage,oscillatory_sum,H6,35,High,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,
+emd,input_voltage,oscillatory_sum,H6,35,Low,2,2,2,1.0,True,EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,
+emd,input_voltage,oscillatory_sum,H6,40,High,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,
+emd,input_voltage,oscillatory_sum,H6,40,Low,2,2,2,1.0,True,EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,
+emd,input_voltage,oscillatory_sum,H6,45,High,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,
+emd,input_voltage,oscillatory_sum,H6,45,Low,2,2,2,1.0,True,EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,
+emd,input_voltage,oscillatory_sum,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+emd,input_voltage,oscillatory_sum,H6,50,Low,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,
+emd,input_voltage,residue,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,35,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,40,High,2,2,2,1.0,True,EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,
+emd,input_voltage,residue,H1,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,45,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H1,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,30,High,2,2,2,1.0,True,EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,
+emd,input_voltage,residue,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,30,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,45,High,2,2,1,0.5,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,50,High,2,2,1,0.5,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,residue,H6,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,30,Low,2,2,2,1.0,True,EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,
+emd,input_voltage,band_0_1000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,35,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_0_1000_Hz,H6,50,High,2,2,2,1.0,True,EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,
+emd,input_voltage,band_0_1000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H1,50,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,40,High,2,2,1,0.5,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,40,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,45,Low,2,2,1,0.5,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_1000_4000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_4000_10000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_10000_20000_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_High_1;helical_1_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_30hz_Low_1;helical_1_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_High_1;helical_1_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_35hz_Low_1;helical_1_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_High_1;helical_1_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_40hz_Low_1;helical_1_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_High_1;helical_1_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_45hz_Low_1;helical_1_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_High_1;helical_1_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H1,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_1_50hz_Low_1;helical_1_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_High_1;helical_2_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_30hz_Low_1;helical_2_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_High_1;helical_2_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_35hz_Low_1;helical_2_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_High_1;helical_2_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_40hz_Low_1;helical_2_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_High_1;helical_2_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_45hz_Low_1;helical_2_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_High_1;helical_2_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H2,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_2_50hz_Low_1;helical_2_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_High_1;helical_5_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_30hz_Low_1;helical_5_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_High_1;helical_5_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_35hz_Low_1;helical_5_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_High_1;helical_5_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_40hz_Low_1;helical_5_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_High_1;helical_5_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_45hz_Low_1;helical_5_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_High_1;helical_5_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H5,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_5_50hz_Low_1;helical_5_50hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,30,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_High_1;helical_6_30hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,30,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_30hz_Low_1;helical_6_30hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,35,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_High_1;helical_6_35hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,35,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_35hz_Low_1;helical_6_35hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,40,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_High_1;helical_6_40hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,40,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_40hz_Low_1;helical_6_40hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,45,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_High_1;helical_6_45hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,45,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_45hz_Low_1;helical_6_45hz_Low_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,50,High,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_High_1;helical_6_50hz_High_2,missing/invalid or incompatible repeat frequencies
+emd,input_voltage,band_20000_33334_Hz,H6,50,Low,2,2,0,0.0,False,NOT EVALUABLE,helical_6_50hz_Low_1;helical_6_50hz_Low_2,missing/invalid or incompatible repeat frequencies

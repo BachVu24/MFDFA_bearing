@@ -1,0 +1,17 @@
+{
+  "analyses_checked": 288,
+  "all_passed": true,
+  "source_sha256_unchanged": true,
+  "original_fq_arrays_unchanged": 144,
+  "sensitivity_signals_checked": 640,
+  "checks": [
+    "refit/QC recomputation",
+    "tau=q*h-1",
+    "Legendre identity f(alpha(q=0))=1",
+    "raw data SHA256",
+    "raw/EMD Fq unchanged",
+    "modes+residue=mean-removed raw",
+    "complete 40 x 16 sensitivity grid"
+  ],
+  "core_mfdfa_sha256": "0daf602e1a642a13228b368d20c3260a725482ea1bc68a8a4726612302d4ccc4"
+}

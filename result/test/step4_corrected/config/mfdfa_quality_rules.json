@@ -1,0 +1,38 @@
+{
+  "rule": {
+    "min_scale_points": 8,
+    "min_r2_floor": 0.9,
+    "r2_threshold": 0.95,
+    "min_good_r2_fraction": 0.8,
+    "max_local_slope_cv": 0.5,
+    "min_stable_q_fraction": 0.8,
+    "min_hq_exclusive": 0.05
+  },
+  "rationale": "Positive power-law scaling, sufficient regression points, high R2 coverage, stable adjacent slopes; fixed before selection and independent of labels.",
+  "local_slope_cv_definition": "std(adjacent log-log slopes)/abs(mean); median across q is reported, at least 80% q must have CV<=0.5",
+  "alpha0_definition": "alpha(q=0), numerical derivative of tau at zero",
+  "width_definition": "delta_alpha=max(alpha)-min(alpha); delta_h=max(hq)-min(hq); audit-only when scaling_valid=False",
+  "bands_hz": [
+    [
+      0,
+      1000
+    ],
+    [
+      1000,
+      4000
+    ],
+    [
+      4000,
+      10000
+    ],
+    [
+      10000,
+      20000
+    ],
+    [
+      20000,
+      33334
+    ]
+  ],
+  "band_selection": "At most one representative per fixed frequency band: largest mode energy, label-independent; all four repeat centers in a comparison must span a ratio <=1.5. Mode indices are never cross-record matching criteria."
+}
